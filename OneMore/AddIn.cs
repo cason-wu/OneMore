@@ -183,7 +183,8 @@ namespace River.OneMoreAddIn
 
 			var cude = DescribeCustom(custom);
 			logger.WriteLine($"OnConnection(ConnectionMode:{ConnectMode},custom[{cude}])");
-		}
+            //System.Diagnostics.Debugger.Launch();
+        }
 
 
 		public void OnAddInsUpdate(ref Array custom)

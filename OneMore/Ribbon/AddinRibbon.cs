@@ -51,7 +51,7 @@ namespace River.OneMoreAddIn
 		{
 			logger.WriteLine("building ribbon");
 
-			try
+            try
 			{
 				var provider = new SettingsProvider();
 
