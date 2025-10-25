@@ -18,6 +18,7 @@ namespace River.OneMoreAddIn.Commands
 	using Windows.Data.Pdf;
 	using Windows.Storage;
 	using Windows.Storage.Streams;
+	using System.Runtime.InteropServices.WindowsRuntime;
 
 
 	/// <summary>

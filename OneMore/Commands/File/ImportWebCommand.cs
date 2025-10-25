@@ -20,6 +20,7 @@ namespace River.OneMoreAddIn.Commands
 	using Windows.Storage.Streams;
 	using Hap = HtmlAgilityPack;
 	using Resx = Properties.Resources;
+	using System.Runtime.InteropServices.WindowsRuntime;
 
 
 	/// <summary>
