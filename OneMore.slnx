@@ -1,0 +1,98 @@
+<Solution>
+  <Configurations>
+    <Platform Name="ARM64" />
+    <Platform Name="x64" />
+    <Platform Name="x86" />
+  </Configurations>
+  <Folder Name="/Solution Items/">
+    <File Path=".editorconfig" />
+    <File Path=".gitignore" />
+    <File Path="build.ps1" />
+    <File Path="install-vsix.ps1" />
+    <File Path="iq.ps1" />
+    <File Path="LICENSE" />
+    <File Path="README.md" />
+    <File Path="register-onemore.reg" />
+    <File Path="setoffice.ps1" />
+    <File Path="setregistry.ps1" />
+    <File Path="setversion.ps1" />
+    <File Path="stop.ps1" />
+    <File Path="update-sdk.ps1" />
+    <File Path="vdcleaner.ps1" />
+    <File Path="vdparser.ps1" />
+  </Folder>
+  <Folder Name="/Solution Items/.github/">
+    <File Path=".github/FUNDING.yml" />
+    <File Path=".github/pull_request_template.md" />
+  </Folder>
+  <Folder Name="/Solution Items/.github/ISSUE_TEMPLATE/">
+    <File Path=".github/ISSUE_TEMPLATE/bug_report.md" />
+    <File Path=".github/ISSUE_TEMPLATE/feature_request.md" />
+    <File Path=".github/ISSUE_TEMPLATE/question.md" />
+  </Folder>
+  <Folder Name="/Solution Items/.github/workflows/">
+    <File Path=".github/workflows/build.yml" />
+  </Folder>
+  <Folder Name="/Solution Items/packers/">
+    <File Path="packers/prepare.ps1" />
+  </Folder>
+  <Folder Name="/Solution Items/packers/chocolatey/">
+    <File Path="packers/chocolatey/onemore.nuspec" />
+  </Folder>
+  <Folder Name="/Solution Items/packers/chocolatey/tools/">
+    <File Path="packers/chocolatey/tools/chocolateybeforemodify.ps1" />
+    <File Path="packers/chocolatey/tools/chocolateyinstall.ps1" />
+    <File Path="packers/chocolatey/tools/chocolateyuninstall.ps1" />
+    <File Path="packers/chocolatey/tools/LICENSE.txt" />
+    <File Path="packers/chocolatey/tools/VERIFICATION.txt" />
+  </Folder>
+  <Folder Name="/Solution Items/Plugins/">
+    <File Path="Plugins/Export-PageInfo-readme.txt" />
+    <File Path="Plugins/Export-PageInfo.ps1" />
+    <File Path="Plugins/Get-MeetingDate-readme.txt" />
+    <File Path="Plugins/Get-MeetingDate.ps1" />
+    <File Path="Plugins/Set-BlueBackground-readme.txt" />
+    <File Path="Plugins/Set-BlueBackground.ps1" />
+    <File Path="Plugins/Set-RainbowSections-readme.txt" />
+    <File Path="Plugins/Set-RainbowSections.ps1" />
+  </Folder>
+  <Folder Name="/Solution Items/Reference/">
+    <File Path="Reference/0336.OneNoteApplication_2013.xsd" />
+    <File Path="Reference/customui14.xsd" />
+    <File Path="Reference/onenotecontrols-2016.xlsx" />
+  </Folder>
+  <Folder Name="/Solution Items/Templates/">
+    <File Path="Templates/OneNote_Keyboard_Shortcuts.zip" />
+  </Folder>
+  <Folder Name="/Solution Items/Themes/">
+    <File Path="Themes/Confluence6.xml" />
+    <File Path="Themes/Confluence7.xml" />
+    <File Path="Themes/DarkBlue.xml" />
+    <File Path="Themes/DarkGreen.xml" />
+    <File Path="Themes/DarkOrange.xml" />
+    <File Path="Themes/Orange.xml" />
+    <File Path="Themes/Red.xml" />
+    <File Path="Themes/Standard.xml" />
+  </Folder>
+  <Project Path="OneMore/OneMore.csproj" />
+  <Project Path="OneMoreCalendar/OneMoreCalendar.csproj" Id="1f87159c-b663-4464-b272-e0c57be22306">
+    <Platform Solution="*|ARM64" Project="ARM64" />
+    <Platform Solution="Debug|x64" Project="x64" />
+  </Project>
+  <Project Path="OneMoreProtocolHandler/OneMoreProtocolHandler.csproj" Id="bd0fa4fc-8ca9-4056-93dd-14537a758d48">
+    <Platform Solution="*|ARM64" Project="ARM64" />
+    <Platform Solution="Debug|x64" Project="x64" />
+  </Project>
+  <Project Path="OneMoreSetup/OneMoreSetup.vdproj" Type="Installer">
+    <Build Solution="Release|*" />
+  </Project>
+  <Project Path="OneMoreSetupActions/OneMoreSetupActions.csproj" Id="200381e7-37c7-4b30-9f5e-81fa44bf83cc">
+    <Platform Solution="*|ARM64" Project="ARM64" />
+    <Platform Solution="Debug|x64" Project="x64" />
+  </Project>
+  <Project Path="OneMoreTray/OneMoreTray.csproj" Id="383abb76-4f97-4c78-ac59-bc851aa15b5a">
+    <Platform Solution="*|ARM64" Project="ARM64" />
+    <Platform Solution="Debug|x64" Project="x64" />
+    <Platform Solution="Debug|x86" Project="x86" />
+  </Project>
+</Solution>
