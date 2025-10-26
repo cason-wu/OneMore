@@ -13,28 +13,12 @@
     <!-- Windows Desktop Features -->
     <UseWindowsForms>true</UseWindowsForms>
     <UseWPF>true</UseWPF>
-    <ImportWindowsDesktopTargets>true</ImportWindowsDesktopTargets>
     
     <!-- COM Interop Settings -->
-    <RegisterForComInterop>false</RegisterForComInterop>
     <ResolveComReferenceSilent>true</ResolveComReferenceSilent>
     
     <!-- Assembly Generation -->
     <GenerateAssemblyInfo>false</GenerateAssemblyInfo>
-    <AutoGenerateBindingRedirects>false</AutoGenerateBindingRedirects>
-    <AssemblyOriginatorKeyFile></AssemblyOriginatorKeyFile>
-  </PropertyGroup>
-
-  <!-- Debug Configuration -->
-  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|x86'">
-    <RegisterForComInterop>false</RegisterForComInterop>
-    <CodeAnalysisRuleSet></CodeAnalysisRuleSet>
-    <UseVSHostingProcess>false</UseVSHostingProcess>
-  </PropertyGroup>
-
-  <!-- Release Configuration -->
-  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|x86'">
-    <CodeAnalysisRuleSet></CodeAnalysisRuleSet>
   </PropertyGroup>
 
   <!-- ============================================ -->
@@ -59,14 +43,10 @@
     </Reference>
     
     <!-- System References -->
-    <Reference Include="Microsoft.CSharp" />
+	<Reference Include="Microsoft.CSharp" />
     <Reference Include="System.ComponentModel.Composition" />
-    <Reference Include="System.ComponentModel.DataAnnotations" />
-    <Reference Include="System.Configuration" />
-    <Reference Include="System.Data.DataSetExtensions" />
     <Reference Include="System.IO.Compression" />
     <Reference Include="System.Management" />
-    <Reference Include="System.Net" />
     <Reference Include="System.ServiceModel" />
     <Reference Include="System.Speech" />
     <Reference Include="System.Web" />
@@ -78,24 +58,24 @@
   <!-- ============================================ -->
   <ItemGroup>
     <PackageReference Include="Chinese" Version="0.5.0" />
-    <PackageReference Include="HtmlAgilityPack" Version="1.12.2" />
+    <PackageReference Include="HtmlAgilityPack" Version="1.12.4" />
     <PackageReference Include="InputSimulator" Version="1.0.4" />
-    <PackageReference Include="Markdig.Signed" Version="0.41.3" />
-    <PackageReference Include="Microsoft.Bcl.AsyncInterfaces" Version="9.0.9" />
-    <PackageReference Include="Microsoft.Office.Interop.Excel" Version="15.0.4795.1001" />
-    <PackageReference Include="Microsoft.Office.Interop.Outlook" Version="15.0.4797.1003" />
-    <PackageReference Include="Microsoft.Office.Interop.PowerPoint" Version="15.0.4420.1017" />
-    <PackageReference Include="Microsoft.Office.Interop.Word" Version="15.0.4797.1003" />
-    <PackageReference Include="Microsoft.Web.WebView2" Version="1.0.3351.48" />
-    <PackageReference Include="Newtonsoft.Json" Version="13.0.3" />
+    <PackageReference Include="Markdig.Signed" Version="0.43.0" />
+    <PackageReference Include="Microsoft.Bcl.AsyncInterfaces" Version="9.0.10" />
+    <PackageReference Include="Microsoft.Office.Interop.Excel" Version="16.0.18925.20022" />
+    <PackageReference Include="Microsoft.Office.Interop.Outlook" Version="15.0.4797.1004" />
+    <PackageReference Include="Microsoft.Office.Interop.PowerPoint" Version="15.0.4420.1018" />
+    <PackageReference Include="Microsoft.Office.Interop.Word" Version="15.0.4797.1004" />
+    <PackageReference Include="Microsoft.Web.WebView2" Version="1.0.3537.50" />
+    <PackageReference Include="Newtonsoft.Json" Version="13.0.4" />
     <PackageReference Include="System.Buffers" Version="4.6.1" />
-    <PackageReference Include="System.Collections.Immutable" Version="9.0.0" />
+    <PackageReference Include="System.Collections.Immutable" Version="9.0.10" />
     <PackageReference Include="System.Data.SQLite.Core" Version="1.0.119" />
     <PackageReference Include="System.Net.Http" Version="4.3.4" />
-    <PackageReference Include="System.Reflection.Metadata" Version="9.0.0" />
+    <PackageReference Include="System.Reflection.Metadata" Version="9.0.10" />
     <PackageReference Include="System.Runtime.CompilerServices.Unsafe" Version="6.1.2" />
     <PackageReference Include="System.Runtime.WindowsRuntime" Version="4.7.0" />
-    <PackageReference Include="System.Threading.Tasks.Extensions" Version="4.5.4" />
+    <PackageReference Include="System.Threading.Tasks.Extensions" Version="4.6.3" />
   </ItemGroup>
 
   <!-- ============================================ -->
@@ -170,6 +150,11 @@
     <!-- Commands - Tagging -->
     <Compile Update="Commands\Tagging\HashtagContextControl.cs" SubType="UserControl" />
     <Compile Update="Commands\Tagging\HashtagErrorControl.cs" SubType="UserControl" />
+    <Compile Update="Properties\Resources.Designer.cs">
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
     
     <!-- UI Controls - Components -->
     <Compile Update="UI\FontComboBox.cs" SubType="Component" />
@@ -219,9 +204,6 @@
   <!-- Content Files - Commands      -->
   <!-- ============================================ -->
   <ItemGroup>
-    <!-- Navigator Images -->
-    <Content Include="Commands\Navigator\Images\*.png" />
-    
     <!-- Database Scripts -->
     <Content Include="Commands\Tables\Formulas\VariablesDB.sql" />
     <Content Include="Commands\Tagging\HashtagsDB.sql" />
@@ -229,22 +211,27 @@
     <!-- Tools Resources -->
     <Content Include="Commands\Tools\sponsor-light.png" />
     <EmbeddedResource Include="Commands\Tools\sponsor-dark.png" />
+    
   </ItemGroup>
+
+  <!-- ============================================ -->
+  <!-- Disable Code Generation for Form .resx Files -->
+  <!-- ============================================ -->
+  <Target Name="ConfigureFormResxResources" BeforeTargets="AssignTargetPaths">
+    <ItemGroup>
+      <!-- Link form/control .resx files to their .cs files and disable code generation -->
+      <EmbeddedResource Update="Commands\**\*.resx;UI\**\*.resx">
+        <DependentUpon Condition="Exists('%(RelativeDir)%(Filename).cs')">%(Filename).cs</DependentUpon>
+        <Generator Condition="Exists('%(RelativeDir)%(Filename).cs')"></Generator>
+        <LastGenOutput Condition="Exists('%(RelativeDir)%(Filename).cs')"></LastGenOutput>
+      </EmbeddedResource>
+    </ItemGroup>
+  </Target>
 
   <!-- ============================================ -->
   <!-- Content Files - Properties          -->
   <!-- ============================================ -->
   <ItemGroup>
-    <!-- Emoji Icons -->
-    <Content Include="Properties\Emoji\*.png" />
-    
-    <!-- General Images -->
-    <Content Include="Properties\Images\*.png" />
-    <Content Include="Properties\Images\*.ico" />
-    
-    <!-- Menu Icons -->
-    <Content Include="Properties\Menu\*.png" />
-    
     <!-- Localization Resources -->
     <Content Include="Properties\Resources.de-DE-hints.xml" />
     <Content Include="Properties\Resources.fr-FR-hints.xml" />
@@ -255,7 +242,6 @@
   <!-- Content Files - Ribbon       -->
   <!-- ============================================ -->
   <ItemGroup>
-    <Content Include="Ribbon\Images\*.png" />
     <Content Include="Ribbon\Ribbon.xml" SubType="Designer" />
     <Content Include="Ribbon\RibbonTabHome.xml" />
     <Content Include="Ribbon\RibbonTabOneMore.xml" />

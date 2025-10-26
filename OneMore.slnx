@@ -1,9 +1,4 @@
 <Solution>
-  <Configurations>
-    <Platform Name="ARM64" />
-    <Platform Name="x64" />
-    <Platform Name="x86" />
-  </Configurations>
   <Folder Name="/Solution Items/">
     <File Path=".editorconfig" />
     <File Path=".gitignore" />
@@ -75,24 +70,12 @@
     <File Path="Themes/Standard.xml" />
   </Folder>
   <Project Path="OneMore/OneMore.csproj" />
-  <Project Path="OneMoreCalendar/OneMoreCalendar.csproj" Id="1f87159c-b663-4464-b272-e0c57be22306">
-    <Platform Solution="*|ARM64" Project="ARM64" />
-    <Platform Solution="Debug|x64" Project="x64" />
-  </Project>
-  <Project Path="OneMoreProtocolHandler/OneMoreProtocolHandler.csproj" Id="bd0fa4fc-8ca9-4056-93dd-14537a758d48">
-    <Platform Solution="*|ARM64" Project="ARM64" />
-    <Platform Solution="Debug|x64" Project="x64" />
-  </Project>
+  <Project Path="OneMoreCalendar/OneMoreCalendar.csproj" />
+  <Project Path="OneMoreProtocolHandler/OneMoreProtocolHandler.csproj" />
   <Project Path="OneMoreSetup/OneMoreSetup.vdproj" Type="Installer">
+    <Platform Project="ARM64" />
     <Build Solution="Release|*" />
   </Project>
-  <Project Path="OneMoreSetupActions/OneMoreSetupActions.csproj" Id="200381e7-37c7-4b30-9f5e-81fa44bf83cc">
-    <Platform Solution="*|ARM64" Project="ARM64" />
-    <Platform Solution="Debug|x64" Project="x64" />
-  </Project>
-  <Project Path="OneMoreTray/OneMoreTray.csproj" Id="383abb76-4f97-4c78-ac59-bc851aa15b5a">
-    <Platform Solution="*|ARM64" Project="ARM64" />
-    <Platform Solution="Debug|x64" Project="x64" />
-    <Platform Solution="Debug|x86" Project="x86" />
-  </Project>
+  <Project Path="OneMoreSetupActions/OneMoreSetupActions.csproj" />
+  <Project Path="OneMoreTray/OneMoreTray.csproj" />
 </Solution>

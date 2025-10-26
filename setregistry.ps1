@@ -161,16 +161,16 @@ Begin
         {
             $script:root = Get-Location
             #$script:addin = Join-Path $root "OneMore\bin\$Architecture\Debug\River.OneMoreAddIn.dll"
-            $script:addin = Join-Path $root "OneMore\bin\Debug\River.OneMoreAddIn.dll"
+            $script:addin = Join-Path $root "OneMore\bin\Debug\net48\River.OneMoreAddIn.dll"
             if (!(Test-Path $addin))
             {
-                $arc = $Architecture -eq 'x86' ? 'x64' : 'x86'
+                $arc = if ($Architecture -eq 'x86') { 'x64' } else { 'x86' }
                 #$script:addin = Join-Path $root "OneMore\bin\$Architecture\Debug\River.OneMoreAddIn.dll"
-                $script:addin = Join-Path $root "OneMore\bin\Debug\River.OneMoreAddIn.dll"
+                $script:addin = Join-Path $root "OneMore\bin\Debug\net48\River.OneMoreAddIn.dll"
             }
 
             #$script:proto = Join-Path $root 'OneMoreProtocolHandler\bin\Debug\OneMoreProtocolHandler.exe'
-            $script:proto = Join-Path $root 'OneMore\bin\Debug\OneMoreProtocolHandler.exe'
+            $script:proto = Join-Path $root 'OneMore\bin\Debug\net48\OneMoreProtocolHandler.exe'
             if (!(Test-Path $addin))
             {
                 WriteBad "`nCannot find $addin"
