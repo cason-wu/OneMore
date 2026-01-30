@@ -173,11 +173,6 @@ namespace River.OneMoreAddIn.Properties {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Calculated.
-        /// </summary>
-        }
-        
-        /// <summary>
         ///   Looks up a localized string similar to OneMoreAddIn.
         /// </summary>
         internal static string AddInTitle {
@@ -804,61 +799,6 @@ namespace River.OneMoreAddIn.Properties {
             get {
                 return ResourceManager.GetString("BreakingDialog_twoButton.Text", resourceCulture);
             }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized string similar to The countif function requires two parameters.
-        /// </summary>
-        }
-        
-        /// <summary>
-        ///   Looks up a localized string similar to The {0} function must have two parameters.
-        /// </summary>
-        }
-        
-        /// <summary>
-        ///   Looks up a localized string similar to Parameter {0} is not of type {1}.
-        /// </summary>
-        }
-        
-        /// <summary>
-        ///   Looks up a localized string similar to Expected {0} parameters, only given {1}.
-        /// </summary>
-        }
-        
-        /// <summary>
-        ///   Looks up a localized string similar to Invalid parameter at cell {0}.
-        /// </summary>
-        }
-        
-        /// <summary>
-        ///   Looks up a localized string similar to Invalid cell range &quot;{0}&quot;.
-        /// </summary>
-        }
-        
-        /// <summary>
-        ///   Looks up a localized string similar to The {0} function requires the col and row variables.
-        /// </summary>
-        }
-        
-        /// <summary>
-        ///   Looks up a localized string similar to No closing parenthesis found to match token at {0}.
-        /// </summary>
-        }
-        
-        /// <summary>
-        ///   Looks up a localized string similar to Undefined cell reference &quot;{0}&quot;.
-        /// </summary>
-        }
-        
-        /// <summary>
-        ///   Looks up a localized string similar to Undefined operator &quot;{0}&quot;.
-        /// </summary>
-        }
-        
-        /// <summary>
-        ///   Looks up a localized string similar to Undefined variable &quot;{0}&quot;.
-        /// </summary>
         }
         
         /// <summary>
@@ -1538,16 +1478,6 @@ namespace River.OneMoreAddIn.Properties {
             get {
                 return ResourceManager.GetString("DefaultTableThemes", resourceCulture);
             }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized string similar to Deleted formulas from {0} cell(s).
-        /// </summary>
-        }
-        
-        /// <summary>
-        ///   Looks up a localized string similar to Formula not found. Select one or more table cells containing formulas..
-        /// </summary>
         }
         
         /// <summary>
@@ -3781,11 +3711,6 @@ namespace River.OneMoreAddIn.Properties {
             get {
                 return ResourceManager.GetString("HashtagSheet_warningLabel.Text", resourceCulture);
             }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized string similar to No formulas found on this page.
-        /// </summary>
         }
         
         /// <summary>
@@ -6102,48 +6027,6 @@ namespace River.OneMoreAddIn.Properties {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Selected word cannot be empty.
-        /// </summary>
-        }
-        
-        /// <summary>
-        ///   Looks up a localized string similar to Must select a full word.
-        /// </summary>
-        }
-        
-        /// <summary>
-        ///   Looks up a localized string similar to Could not fetch {0} pronunciation of &quot;{1}&quot;. Either word does not exist or there was a temporary network failure..
-        /// </summary>
-        }
-        
-        /// <summary>
-        ///   Looks up a localized string similar to Could not fetch {0} pronunciation of &quot;{1}&quot;.
-        /// </summary>
-        }
-        
-        /// <summary>
-        ///   Looks up a localized string similar to en,English
-        ///hi,Hindi
-        ///es,Spanish
-        ///fr,French
-        ///ja,Japanese
-        ///ru,Russian
-        ///de,German
-        ///it,Italian
-        ///ko,Korean
-        ///pt-BR,Brazilian Portuguese
-        ///ar,Arabic
-        ///tr,Turkish
-        ///zh-CN,Chinese (Simplified).
-        /// </summary>
-        }
-        
-        /// <summary>
-        ///   Looks up a localized string similar to Phonetics.
-        /// </summary>
-        }
-        
-        /// <summary>
         ///   Looks up a localized string similar to Work Week (2023-02-13 W7)
         ///Month (2023-02)
         ///Quarter (2023 Q1)
@@ -6358,11 +6241,6 @@ namespace River.OneMoreAddIn.Properties {
             get {
                 return ResourceManager.GetString("QuickPaletteCommand_Title", resourceCulture);
             }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized string similar to No formula found in the selected table.
-        /// </summary>
         }
         
         /// <summary>
@@ -6967,16 +6845,6 @@ namespace River.OneMoreAddIn.Properties {
             get {
                 return ResourceManager.GetString("ribAddFootnoteButton_Screentip", resourceCulture);
             }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized string similar to Add Formula.
-        /// </summary>
-        }
-        
-        /// <summary>
-        ///   Looks up a localized string similar to Add or edit a formula in selected table cells (F5).
-        /// </summary>
         }
         
         /// <summary>
@@ -7927,16 +7795,6 @@ namespace River.OneMoreAddIn.Properties {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Delete Formula.
-        /// </summary>
-        }
-        
-        /// <summary>
-        ///   Looks up a localized string similar to Delete formula from selected table cell(s).
-        /// </summary>
-        }
-        
-        /// <summary>
         ///   Looks up a localized string similar to Delete Reminder.
         /// </summary>
         internal static string ribDeleteReminderButton_Label {
@@ -8339,16 +8197,6 @@ namespace River.OneMoreAddIn.Properties {
             get {
                 return ResourceManager.GetString("ribHighlightButton_Screentip", resourceCulture);
             }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized string similar to Highlight Formula.
-        /// </summary>
-        }
-        
-        /// <summary>
-        ///   Looks up a localized string similar to Select cells with formula in current table.
-        /// </summary>
         }
         
         /// <summary>
@@ -8773,16 +8621,6 @@ namespace River.OneMoreAddIn.Properties {
             get {
                 return ResourceManager.GetString("ribInsertTextBoxButton_Screentip", resourceCulture);
             }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized string similar to Insert Timer.
-        /// </summary>
-        }
-        
-        /// <summary>
-        ///   Looks up a localized string similar to Insert the current timer value.
-        /// </summary>
         }
         
         /// <summary>
@@ -9553,16 +9391,6 @@ namespace River.OneMoreAddIn.Properties {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Insert Pronunciation.
-        /// </summary>
-        }
-        
-        /// <summary>
-        ///   Looks up a localized string similar to Insert phonetic pronunciation of selected text.
-        /// </summary>
-        }
-        
-        /// <summary>
         ///   Looks up a localized string similar to Proofing Language.
         /// </summary>
         internal static string ribProofingMenu_Label {
@@ -9587,16 +9415,6 @@ namespace River.OneMoreAddIn.Properties {
             get {
                 return ResourceManager.GetString("ribQuickPaletteButton_Screentip", resourceCulture);
             }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized string similar to Recalculate Formula.
-        /// </summary>
-        }
-        
-        /// <summary>
-        ///   Looks up a localized string similar to Recalculate all formula in the current table (Shift + F5).
-        /// </summary>
         }
         
         /// <summary>
@@ -9930,16 +9748,6 @@ namespace River.OneMoreAddIn.Properties {
             get {
                 return ResourceManager.GetString("ribResetTasksButton_Screentip", resourceCulture);
             }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized string similar to Restart Timer.
-        /// </summary>
-        }
-        
-        /// <summary>
-        ///   Looks up a localized string similar to Restart the Timer, setting it back to zero.
-        /// </summary>
         }
         
         /// <summary>
@@ -10286,16 +10094,6 @@ namespace River.OneMoreAddIn.Properties {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Stop Timer.
-        /// </summary>
-        }
-        
-        /// <summary>
-        ///   Looks up a localized string similar to Stop and close the Timer window.
-        /// </summary>
-        }
-        
-        /// <summary>
         ///   Looks up a localized string similar to Snippets.
         /// </summary>
         internal static string ribSnippetsMenu_Label {
@@ -10473,16 +10271,6 @@ namespace River.OneMoreAddIn.Properties {
             get {
                 return ResourceManager.GetString("ribStartBiLinkButton_Screentip", resourceCulture);
             }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized string similar to Start Timer.
-        /// </summary>
-        }
-        
-        /// <summary>
-        ///   Looks up a localized string similar to Open and start the timer window.
-        /// </summary>
         }
         
         /// <summary>
@@ -12452,26 +12240,6 @@ namespace River.OneMoreAddIn.Properties {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Close Timer.
-        /// </summary>
-        }
-        
-        /// <summary>
-        ///   Looks up a localized string similar to Copy Current Time.
-        /// </summary>
-        }
-        
-        /// <summary>
-        ///   Looks up a localized string similar to Restart Timer.
-        /// </summary>
-        }
-        
-        /// <summary>
-        ///   Looks up a localized string similar to OneNote Timer.
-        /// </summary>
-        }
-        
-        /// <summary>
         ///   Looks up a localized string similar to Hide date and time.
         /// </summary>
         internal static string ToggleDttmDialog_hideRadio_Text {
@@ -12633,47 +12401,6 @@ namespace River.OneMoreAddIn.Properties {
             get {
                 return ResourceManager.GetString("UpdateDialog_versionLabel.Text", resourceCulture);
             }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized string similar to CREATE TABLE IF NOT EXISTS variable (name TEXT (50) PRIMARY KEY UNIQUE NOT NULL, value REAL NOT NULL);
-        ///.
-        /// </summary>
-        }
-        
-        /// <summary>
-        ///   Looks up a localized string similar to Delete variable {0}?.
-        /// </summary>
-        }
-        
-        /// <summary>
-        ///   Looks up a localized string similar to Delete selected variables?.
-        /// </summary>
-        }
-        
-        /// <summary>
-        ///   Looks up a localized string similar to Please enter a valid double value.
-        /// </summary>
-        }
-        
-        /// <summary>
-        ///   Looks up a localized string similar to Define your own variables for use in table formulas.
-        /// </summary>
-        }
-        
-        /// <summary>
-        ///   Looks up a localized string similar to Cannot create a variable named tablecols or tablerows.
-        /// </summary>
-        }
-        
-        /// <summary>
-        ///   Looks up a localized string similar to Variables.
-        /// </summary>
-        }
-        
-        /// <summary>
-        ///   Looks up a localized string similar to Variable names must be unique.
-        /// </summary>
         }
         
         /// <summary>
