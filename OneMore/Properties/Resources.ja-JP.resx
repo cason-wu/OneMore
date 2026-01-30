@@ -158,10 +158,6 @@
     <value>画像にはすでにキャプションが付いています。</value>
     <comment>info message</comment>
   </data>
-  <data name="AddFormulaCommand_Calculated" xml:space="preserve">
-    <value>Calculated</value>
-    <comment>tag name</comment>
-  </data>
   <data name="AddInTitle" xml:space="preserve">
     <value>OneMoreAddIn</value>
     <comment>SKIP</comment>
@@ -738,14 +734,6 @@
   <data name="DatabaseFilename" xml:space="preserve">
     <value>OneMore.db</value>
     <comment>SKIP, Sqlite database file name</comment>
-  </data>
-  <data name="DeleteFormulaCommand_Deleted" xml:space="preserve">
-    <value>{0} セルから削除された数式</value>
-    <comment>delete command message</comment>
-  </data>
-  <data name="DeleteFormulaCommand_NoFormulas" xml:space="preserve">
-    <value>数式が見つかりませんでした。数式を含むセルを一つ以上選択してください。</value>
-    <comment>delete command message</comment>
   </data>
   <data name="DeleteReminderCommand_deleteTag" xml:space="preserve">
     <value>リマインダーを削除しようとしています。このリマインダーに関連付けられたタグも削除しますか？</value>
@@ -1477,10 +1465,6 @@ OneNoteファイル (*.one)</value>
   <data name="HashtagSheet_warningLabel.Text" xml:space="preserve">
     <value>1つ以上のノートブックを追加または削除した後に使用する必要があります。アップグレードは、夜間（例: 真夜中など）にスケジュールすることをお勧めします。</value>
     <comment>multiline label</comment>
-  </data>
-  <data name="HighlightFormulaCommand_NoFormulas" xml:space="preserve">
-    <value>このページに数式が見つかりません</value>
-    <comment>highlight command message</comment>
   </data>
   <data name="HighlightsSheet_deepRadio.Text" xml:space="preserve">
     <value>濃い色</value>
@@ -2324,43 +2308,6 @@ OneDriveに保存されているノートブックのフォルダーを開くこ
     <value>OneMore</value>
     <comment>SKIP</comment>
   </data>
-  <data name="Pronunciate_EmptyWord" xml:space="preserve">
-    <value>選択した単語は空であってはなりません</value>
-    <comment>error message box</comment>
-  </data>
-  <data name="Pronunciate_FullWord" xml:space="preserve">
-    <value>完全な単語を選択する必要があります</value>
-    <comment>error message box</comment>
-  </data>
-  <data name="Pronunciate_NetError" xml:space="preserve">
-    <value>Could not fetch {0} pronunciation of "{1}". Either word does not exist or there was a temporary network failure.</value>
-    <comment>error message box</comment>
-  </data>
-  <data name="Pronunciate_NoWord" xml:space="preserve">
-    <value>Could not fetch {0} pronunciation of "{1}"</value>
-    <comment>error message box</comment>
-  </data>
-  <data name="PronunciateDialog.Text" xml:space="preserve">
-    <value>音声</value>
-    <comment>dialog title</comment>
-  </data>
-  <data name="PronunciateDialog_languages" xml:space="preserve">
-    <value>en,英語
-hi,ヒンディー語
-es,スペイン語
-fr,フランス語
-ja,日本語
-ru,ロシア語
-de,ドイツ語
-it,イタリア語
-ko,韓国語
-pt-BR,ブラジルポルトガル語
-ar,アラビア語
-tr,トルコ語
-zh-CN,中国語（簡体字）</value>
-    <comment>Recognized languages, one per line.
-ISO-code then comma then language name</comment>
-  </data>
   <data name="QuickNotesSheet_groupingBox.Text" xml:space="preserve">
     <value>年間週 (2023-02-13 W7)
 月 (2023-02)
@@ -2466,10 +2413,6 @@ ISO-code then comma then language name</comment>
   <data name="QuickPaletteCommand_Title" xml:space="preserve">
     <value>クイックパレット</value>
     <comment>dialog title</comment>
-  </data>
-  <data name="RecalculateFormulaCommand_NoFormula" xml:space="preserve">
-    <value>選択された表に数式が見つかりません</value>
-    <comment>recalculate command message</comment>
   </data>
   <data name="RefreshPageLinksCommand_none" xml:space="preserve">
     <value>このページへの参照が見つかりません</value>
@@ -2746,14 +2689,6 @@ ISO-code then comma then language name</comment>
   <data name="ribAddFootnoteButton_Screentip" xml:space="preserve">
     <value>現在の位置から新しい脚注を追加 (Ctrl + Alt + F)</value>
     <comment>ribbon references NODUP</comment>
-  </data>
-  <data name="ribAddFormulaButton_Label" xml:space="preserve">
-    <value>数式の追加</value>
-    <comment>ribbon table</comment>
-  </data>
-  <data name="ribAddFormulaButton_Screentip" xml:space="preserve">
-    <value>選択したセルに数式を追加または編集 (F5)</value>
-    <comment>ribbon table</comment>
   </data>
   <data name="ribAddTagBankButton_Label" xml:space="preserve">
     <value>タグバンクの追加</value>
@@ -3151,14 +3086,6 @@ ISO-code then comma then language name</comment>
     <value>ページのフォントサイズを小さくする (Ctrl + Alt + Minus)</value>
     <comment>ribbon edit</comment>
   </data>
-  <data name="ribDeleteFormulaButton_Label" xml:space="preserve">
-    <value>数式の削除</value>
-    <comment>ribbon table</comment>
-  </data>
-  <data name="ribDeleteFormulaButton_Screentip" xml:space="preserve">
-    <value>選択したセルから数式を削除する</value>
-    <comment>ribbon table</comment>
-  </data>
   <data name="ribDeleteReminderButton_Label" xml:space="preserve">
     <value>リマインダーの削除</value>
     <comment>ribbon reminders</comment>
@@ -3338,14 +3265,6 @@ ISO-code then comma then language name</comment>
   <data name="ribHighlightButton_Screentip" xml:space="preserve">
     <value>循環するハイライトカラーで選択テキストを色付けする</value>
     <comment>ribbon edit</comment>
-  </data>
-  <data name="ribHighlightFormulaButton_Label" xml:space="preserve">
-    <value>数式のハイライト</value>
-    <comment>ribbon table</comment>
-  </data>
-  <data name="ribHighlightFormulaButton_Screentip" xml:space="preserve">
-    <value>現在のテーブル内の数式が含まれるセルを選択します</value>
-    <comment>ribbon table</comment>
   </data>
   <data name="ribHighlightLastButton_Label" xml:space="preserve">
     <value>循環するハイライトの色を繰り返す</value>
@@ -3530,14 +3449,6 @@ ISO-code then comma then language name</comment>
   <data name="ribInsertTextBoxButton_Screentip" xml:space="preserve">
     <value>単一セルの表を挿入する。テキストを選択している場合はそれをラップする。</value>
     <comment>ribbon snippets</comment>
-  </data>
-  <data name="ribInsertTimerButton_Label" xml:space="preserve">
-    <value>タイマーの時間挿入</value>
-    <comment>ribbon extras</comment>
-  </data>
-  <data name="ribInsertTimerButton_Screentip" xml:space="preserve">
-    <value>現在のタイマー時間を挿入する</value>
-    <comment>ribbon extras</comment>
   </data>
   <data name="ribInsertTocButton_Label" xml:space="preserve">
     <value>目次</value>
@@ -3871,14 +3782,6 @@ ISO-code then comma then language name</comment>
     <value>前の未読ページに移動</value>
     <comment>ribbon search</comment>
   </data>
-  <data name="ribPronunciateButton_Label" xml:space="preserve">
-    <value>発音記号の挿入</value>
-    <comment>ribbon edit</comment>
-  </data>
-  <data name="ribPronunciateButton_Screentip" xml:space="preserve">
-    <value>選択したテキストの発音記号を挿入</value>
-    <comment>ribbon edit</comment>
-  </data>
   <data name="ribProofingMenu_Label" xml:space="preserve">
     <value>校正言語</value>
     <comment>ribbon menu</comment>
@@ -3890,14 +3793,6 @@ ISO-code then comma then language name</comment>
   <data name="ribQuickPaletteButton_Screentip" xml:space="preserve">
     <value>クイックパレットウィンドウを開く</value>
     <comment>ribbon menu</comment>
-  </data>
-  <data name="ribRecalculateFormulaButton_Label" xml:space="preserve">
-    <value>数式の再計算</value>
-    <comment>ribbon table</comment>
-  </data>
-  <data name="ribRecalculateFormulaButton_Screentip" xml:space="preserve">
-    <value>現在の表内のすべての数式を再計算 (Shift + F5)</value>
-    <comment>ribbon table</comment>
   </data>
   <data name="ribReferencesMenu_Label" xml:space="preserve">
     <value>参照</value>
@@ -4047,14 +3942,6 @@ ISO-code then comma then language name</comment>
     <value>このページ上の完了したタスクをすべてオフにしてリセットします</value>
     <comment>ribbon reminders</comment>
   </data>
-  <data name="ribRestartTimerButton_Label" xml:space="preserve">
-    <value>リスタートタイマー</value>
-    <comment>ribbon extras</comment>
-  </data>
-  <data name="ribRestartTimerButton_Screentip" xml:space="preserve">
-    <value>タイマーを再起動してゼロに戻します</value>
-    <comment>ribbon extras</comment>
-  </data>
   <data name="ribRestoreAutosizeButton_Label" xml:space="preserve">
     <value>コンテナ幅を自動調整</value>
     <comment>ribbon clean</comment>
@@ -4203,14 +4090,6 @@ ISO-code then comma then language name</comment>
     <value>階層と現在のページのXMLを表示 (Ctrl + Shift + Alt + X)</value>
     <comment>ribbon extras</comment>
   </data>
-  <data name="ribShutdownTimerButton_Label" xml:space="preserve">
-    <value>タイマーの停止</value>
-    <comment>ribbon extras</comment>
-  </data>
-  <data name="ribShutdownTimerButton_Screentip" xml:space="preserve">
-    <value>タイマーウィンドウを停止して閉じます</value>
-    <comment>ribbon extras</comment>
-  </data>
   <data name="ribSnippetsMenu_Label" xml:space="preserve">
     <value>スニペット</value>
     <comment>ribbon menu NODUP</comment>
@@ -4290,14 +4169,6 @@ ISO-code then comma then language name</comment>
   <data name="ribStartBiLinkButton_Screentip" xml:space="preserve">
     <value>双方向リンクを開始する</value>
     <comment>ribbon references</comment>
-  </data>
-  <data name="ribStartTimerButton_Label" xml:space="preserve">
-    <value>タイマーの開始</value>
-    <comment>ribbon extras</comment>
-  </data>
-  <data name="ribStartTimerButton_Screentip" xml:space="preserve">
-    <value>タイマーウィンドウを開いて開始</value>
-    <comment>ribbon extras</comment>
   </data>
   <data name="ribStatusMenu_Label" xml:space="preserve">
     <value>ステータス</value>
@@ -5157,22 +5028,6 @@ ISO-code then comma then language name</comment>
   <data name="ThemesFolder" xml:space="preserve">
     <value>Themes</value>
     <comment>SKIP</comment>
-  </data>
-  <data name="TimerWindow.Text" xml:space="preserve">
-    <value>OneNoteタイマー</value>
-    <comment>window title</comment>
-  </data>
-  <data name="TimerWindow_closeButton.Text" xml:space="preserve">
-    <value>タイマーを閉じる</value>
-    <comment>button tooltip</comment>
-  </data>
-  <data name="TimerWindow_copyButton.Text" xml:space="preserve">
-    <value>現在の時刻をコピー</value>
-    <comment>button tooltip</comment>
-  </data>
-  <data name="TimerWindow_resetButton.Text" xml:space="preserve">
-    <value>タイマーを再スタート</value>
-    <comment>button tooltip</comment>
   </data>
   <data name="ToggleDttmDialog.Text" xml:space="preserve">
     <value>日付と時刻を表示/非表示</value>

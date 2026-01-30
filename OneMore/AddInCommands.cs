@@ -45,10 +45,6 @@ namespace River.OneMoreAddIn
 			=> await factory.Run<AddFootnoteCommand>();
 
 
-		[Command("ribAddFormulaButton_Label", Keys.F5, "ribTableMenu")]
-		public async Task AddFormulaCmd(IRibbonControl control)
-			=> await factory.Run<AddFormulaCommand>();
-
 
 		[Command("ribAddTagBankButton_Label", Keys.None, "ribSearchMenu")]
 		public async Task AddTagBankCmd(IRibbonControl control)
@@ -279,10 +275,6 @@ namespace River.OneMoreAddIn
 			=> await factory.Run<DecreaseFontSizeCommand>();
 
 
-		[Command("ribDeleteFormulaButton_Label", Keys.None, "ribTableMenu")]
-		public async Task DeleteFormulaCmd(IRibbonControl control)
-			=> await factory.Run<DeleteFormulaCommand>();
-
 
 		[Command("ribDeleteReminderButton_Label", Keys.None, "ribRemindersMenu")]
 		public async Task DeleteReminderCmd(IRibbonControl control)
@@ -404,10 +396,6 @@ namespace River.OneMoreAddIn
 			=> await factory.Run<HighlightCommand>(-1);
 
 
-		[Command("ribHighlightFormulaButton_Label", Keys.None, "ribTableMenu")]
-		public async Task HighlightFormulaCmd(IRibbonControl control)
-			=> await factory.Run<HighlightFormulaCommand>();
-
 
 		[Command("ribImportButton_Label", Keys.None)]
 		public async Task ImportCmd(IRibbonControl control)
@@ -522,10 +510,6 @@ namespace River.OneMoreAddIn
 		public async Task InsertSnippetCmd(IRibbonControl control)
 			=> await factory.Run<InsertSnippetCommand>(control.Tag); // tag=filepath
 
-
-		[Command("ribInsertTimerButton_Label", Keys.F2)]
-		public async Task InsertTimerCmd(IRibbonControl control)
-			=> await factory.Run<TimerWindowCommand>(TimerWindow.CopyCmd);
 
 
 		[Command("ribInsertTocButton_Label", Keys.None, "ribSnippetsMenu")]
@@ -704,20 +688,12 @@ namespace River.OneMoreAddIn
 			=> await factory.Run<PreviousUnreadPageCommand>();
 
 
-		[Command("ribPronunciateButton_Label", Keys.None, "ribEditMenu")]
-		public async Task PronunciateCmd(IRibbonControl control)
-			=> await factory.Run<PronunciateCommand>();
-
 
 		[IgnorePalette]
 		[Command("ribQuickPaletteButton_Label", Keys.Control | Keys.Oemcomma)]
 		public async Task QuickPaletteCmd(IRibbonControl control)
 			=> await factory.Run<QuickPaletteCommand>();
 
-
-		[Command("ribRecalculateFormulaButton_Label", Keys.Shift | Keys.F5, "ribTableMenu")]
-		public async Task RecalculateFormulaCmd(IRibbonControl control)
-			=> await factory.Run<RecalculateFormulaCommand>();
 
 
 		[Command("ribRefreshFootnotesButton_Label", Keys.None, "ribReferencesMenu")]
@@ -809,10 +785,6 @@ namespace River.OneMoreAddIn
 		public async Task ResetTasksCmd(IRibbonControl control)
 			=> await factory.Run<ResetTasksCommand>();
 
-
-		[Command("ribRestartTimerButton_Label", Keys.Shift | Keys.F2)]
-		public async Task RestartTimerCmd(IRibbonControl control)
-			=> await factory.Run<TimerWindowCommand>(TimerWindow.RestartCmd);
 
 
 		[Command("ribRestoreAutosizeButton_Label", Keys.None, "ribCleanMenu")]
@@ -920,10 +892,6 @@ namespace River.OneMoreAddIn
 			=> await factory.Run<ShowXmlCommand>();
 
 
-		[Command("ribShutdownTimerButton_Label", Keys.Control | Keys.Shift | Keys.F2)]
-		public async Task ShutdownTimerCmd(IRibbonControl control)
-			=> await factory.Run<TimerWindowCommand>(TimerWindow.ShutdownCmd);
-
 
 		[Command("ribSortButton_Label", Keys.None)]
 		public async Task SortCmd(IRibbonControl control)
@@ -971,10 +939,6 @@ namespace River.OneMoreAddIn
 		public async Task StartBiLinkCmd(IRibbonControl control)
 			=> await factory.Run<BiLinkCommand>("mark");
 
-
-		[Command("ribStartTimerButton_Label", Keys.Alt | Keys.F2)]
-		public async Task StartTimerCmd(IRibbonControl control)
-			=> await factory.Run<TimerWindowCommand>();
 
 
 		[Command("ribStrikeoutTasksButton_Label", Keys.None, "ribRemindersMenu")]

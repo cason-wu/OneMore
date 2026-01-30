@@ -157,10 +157,6 @@
     <value>图片已有说明</value>
     <comment>info message</comment>
   </data>
-  <data name="AddFormulaCommand_Calculated" xml:space="preserve">
-    <value>已计算</value>
-    <comment>tag name</comment>
-  </data>
   <data name="AddInTitle" xml:space="preserve">
     <value>OneMoreAddIn</value>
   </data>
@@ -734,14 +730,6 @@
   <data name="DatabaseFilename" xml:space="preserve">
     <value>OneMore.db</value>
     <comment>SKIP, Sqlite database file name</comment>
-  </data>
-  <data name="DeleteFormulaCommand_Deleted" xml:space="preserve">
-    <value>已从{0}个单元格中删除了公式</value>
-    <comment>delete command message</comment>
-  </data>
-  <data name="DeleteFormulaCommand_NoFormulas" xml:space="preserve">
-    <value>找不到公式。 选择一个或多个包含公式的表格单元格。</value>
-    <comment>delete command message</comment>
   </data>
   <data name="DeleteReminderCommand_deleteTag" xml:space="preserve">
     <value>即将删除提醒。</value>
@@ -1473,10 +1461,6 @@ OneNote 文件 (*.one)</value>
   <data name="HashtagSheet_warningLabel.Text" xml:space="preserve">
     <value>在添加或删除一个或多个笔记本电脑后应使用此功能。 建议在下班后（例如午夜）安排重建。</value>
     <comment>multiline label</comment>
-  </data>
-  <data name="HighlightFormulaCommand_NoFormulas" xml:space="preserve">
-    <value>在此页面上找不到公式</value>
-    <comment>highlight command message</comment>
   </data>
   <data name="HighlightsSheet_deepRadio.Text" xml:space="preserve">
     <value>深的</value>
@@ -2320,43 +2304,6 @@ OneNote 文件 (*.one)</value>
     <value>多一</value>
     <comment>SKIP</comment>
   </data>
-  <data name="Pronunciate_EmptyWord" xml:space="preserve">
-    <value>所选单词不能为空</value>
-    <comment>error message box</comment>
-  </data>
-  <data name="Pronunciate_FullWord" xml:space="preserve">
-    <value>必须选择完整的单词</value>
-    <comment>error message box</comment>
-  </data>
-  <data name="Pronunciate_NetError" xml:space="preserve">
-    <value>无法获取“{1}”的 {0} 发音。要么单词不存在，要么出现临时网络故障。</value>
-    <comment>error message box</comment>
-  </data>
-  <data name="Pronunciate_NoWord" xml:space="preserve">
-    <value>无法获取“{1}”的 {0} 发音</value>
-    <comment>error message box</comment>
-  </data>
-  <data name="PronunciateDialog.Text" xml:space="preserve">
-    <value>语音学</value>
-    <comment>dialog title</comment>
-  </data>
-  <data name="PronunciateDialog_languages" xml:space="preserve">
-    <value>英语,英语
-嗨，印地语
-es,西班牙语
-法语,法语
-日语,日语
-ru,俄语
-de,德语
-它，意大利语
-ko,韩语
-pt-BR,巴西葡萄牙语
-ar,阿拉伯语
-tr，土耳其语
-zh-CN,中文（简体）</value>
-    <comment>Recognized languages, one per line.
-ISO-code then comma then language name</comment>
-  </data>
   <data name="QuickNotesSheet_groupingBox.Text" xml:space="preserve">
     <value>工作周 (2023-02-13 W7)
 月份 (2023-02)
@@ -2462,10 +2409,6 @@ ISO-code then comma then language name</comment>
   <data name="QuickPaletteCommand_Title" xml:space="preserve">
     <value>快速调色板</value>
     <comment>dialog title</comment>
-  </data>
-  <data name="RecalculateFormulaCommand_NoFormula" xml:space="preserve">
-    <value>在所选表格中找不到公式</value>
-    <comment>recalculate command message</comment>
   </data>
   <data name="RefreshPageLinksCommand_none" xml:space="preserve">
     <value>没有找到对本页的引用</value>
@@ -2738,14 +2681,6 @@ ISO-code then comma then language name</comment>
   <data name="ribAddFootnoteButton_Screentip" xml:space="preserve">
     <value>添加脚注（Ctrl + Alt + F）</value>
     <comment>Ribbon OneMore menu item, Extras...</comment>
-  </data>
-  <data name="ribAddFormulaButton_Label" xml:space="preserve">
-    <value>添加公式</value>
-    <comment>Ribbon OneMore menu item, Formula...</comment>
-  </data>
-  <data name="ribAddFormulaButton_Screentip" xml:space="preserve">
-    <value>在选定的表格单元格中添加/编辑公式（F5）</value>
-    <comment>Ribbon OneMore menu item, Formula...</comment>
   </data>
   <data name="ribAddTagBankButton_Label" xml:space="preserve">
     <value>添加标签库</value>
@@ -3143,14 +3078,6 @@ ISO-code then comma then language name</comment>
     <value>缩小页面字体大小 (Ctrl + Alt + Minus)</value>
     <comment>Ribbon OneMore menu item</comment>
   </data>
-  <data name="ribDeleteFormulaButton_Label" xml:space="preserve">
-    <value>删除公式</value>
-    <comment>Ribbon OneMore menu item, Formula...</comment>
-  </data>
-  <data name="ribDeleteFormulaButton_Screentip" xml:space="preserve">
-    <value>从选定的表格单元格中删除公式</value>
-    <comment>Ribbon OneMore menu item, Formula...</comment>
-  </data>
   <data name="ribDeleteReminderButton_Label" xml:space="preserve">
     <value>删除提醒</value>
     <comment>ribbon button</comment>
@@ -3330,14 +3257,6 @@ ISO-code then comma then language name</comment>
   <data name="ribHighlightButton_Screentip" xml:space="preserve">
     <value>使用旋转荧光笔突出显示文本</value>
     <comment>ribbon edit</comment>
-  </data>
-  <data name="ribHighlightFormulaButton_Label" xml:space="preserve">
-    <value>高亮公式</value>
-    <comment>Ribbon OneMore menu item, Formula...</comment>
-  </data>
-  <data name="ribHighlightFormulaButton_Screentip" xml:space="preserve">
-    <value>选择当前表格中包含公式的单元格</value>
-    <comment>ribbon table</comment>
   </data>
   <data name="ribHighlightLastButton_Label" xml:space="preserve">
     <value>重复旋转荧光笔颜色</value>
@@ -3522,14 +3441,6 @@ ISO-code then comma then language name</comment>
   <data name="ribInsertTextBoxButton_Screentip" xml:space="preserve">
     <value>插入单单元格表格，将选定的文本换行</value>
     <comment>ribbon snippets</comment>
-  </data>
-  <data name="ribInsertTimerButton_Label" xml:space="preserve">
-    <value>插入定时器</value>
-    <comment>ribbon item</comment>
-  </data>
-  <data name="ribInsertTimerButton_Screentip" xml:space="preserve">
-    <value>插入当前定时器值</value>
-    <comment>ribbon extras</comment>
   </data>
   <data name="ribInsertTocButton_Label" xml:space="preserve">
     <value>目录</value>
@@ -3862,14 +3773,6 @@ ISO-code then comma then language name</comment>
     <value>移至上一个未读页面</value>
     <comment>ribbon search</comment>
   </data>
-  <data name="ribPronunciateButton_Label" xml:space="preserve">
-    <value>插入发音</value>
-    <comment>Ribbon OneMore menu item</comment>
-  </data>
-  <data name="ribPronunciateButton_Screentip" xml:space="preserve">
-    <value>插入所选文本的拼音发音</value>
-    <comment>ribbon edit</comment>
-  </data>
   <data name="ribProofingMenu_Label" xml:space="preserve">
     <value>校对语言</value>
     <comment>ribbon menu</comment>
@@ -3881,14 +3784,6 @@ ISO-code then comma then language name</comment>
   <data name="ribQuickPaletteButton_Screentip" xml:space="preserve">
     <value>打开快速调色板窗口</value>
     <comment>ribbon menu</comment>
-  </data>
-  <data name="ribRecalculateFormulaButton_Label" xml:space="preserve">
-    <value>重新计算公式</value>
-    <comment>Ribbon OneMore menu item, Formula...</comment>
-  </data>
-  <data name="ribRecalculateFormulaButton_Screentip" xml:space="preserve">
-    <value>重新计算当前表中的所有公式（Shift + F5）</value>
-    <comment>Ribbon OneMore menu item, Formula...</comment>
   </data>
   <data name="ribReferencesMenu_Label" xml:space="preserve">
     <value>参考文献</value>
@@ -4036,14 +3931,6 @@ ISO-code then comma then language name</comment>
   <data name="ribResetTasksButton_Screentip" xml:space="preserve">
     <value>取消选中并重置此页面上所有已完成的任务</value>
     <comment>ribbon reminders</comment>
-  </data>
-  <data name="ribRestartTimerButton_Label" xml:space="preserve">
-    <value>重启定时器</value>
-    <comment>ribbon extras</comment>
-  </data>
-  <data name="ribRestartTimerButton_Screentip" xml:space="preserve">
-    <value>重新启动计时器，将其设置回零</value>
-    <comment>ribbon extras</comment>
   </data>
   <data name="ribRestoreAutosizeButton_Label" xml:space="preserve">
     <value>还原容器宽度</value>
@@ -4193,14 +4080,6 @@ ISO-code then comma then language name</comment>
     <value>显示层次结构和当前页面的XML (Ctrl + Shift + Alt + X)</value>
     <comment>Ribbon OneMore menu item</comment>
   </data>
-  <data name="ribShutdownTimerButton_Label" xml:space="preserve">
-    <value>停止定时器</value>
-    <comment>ribbon extras</comment>
-  </data>
-  <data name="ribShutdownTimerButton_Screentip" xml:space="preserve">
-    <value>停止并关闭计时器窗口</value>
-    <comment>ribbon extras</comment>
-  </data>
   <data name="ribSnippetsMenu_Label" xml:space="preserve">
     <value>片段</value>
     <comment>Ribbon OneMore menu item, Snippets...</comment>
@@ -4280,14 +4159,6 @@ ISO-code then comma then language name</comment>
   <data name="ribStartBiLinkButton_Screentip" xml:space="preserve">
     <value>开始双向链接</value>
     <comment>ribbon references</comment>
-  </data>
-  <data name="ribStartTimerButton_Label" xml:space="preserve">
-    <value>启动计时器</value>
-    <comment>ribbon item</comment>
-  </data>
-  <data name="ribStartTimerButton_Screentip" xml:space="preserve">
-    <value>打开并启动定时器窗口</value>
-    <comment>ribbon extras</comment>
   </data>
   <data name="ribStatusMenu_Label" xml:space="preserve">
     <value>地位</value>
@@ -5146,22 +5017,6 @@ ISO-code then comma then language name</comment>
   <data name="ThemesFolder" xml:space="preserve">
     <value>主题</value>
     <comment>SKIP</comment>
-  </data>
-  <data name="TimerWindow.Text" xml:space="preserve">
-    <value>OneNote 计时器</value>
-    <comment>window title</comment>
-  </data>
-  <data name="TimerWindow_closeButton.Text" xml:space="preserve">
-    <value>关闭计时器</value>
-    <comment>button tooltip</comment>
-  </data>
-  <data name="TimerWindow_copyButton.Text" xml:space="preserve">
-    <value>复制当前时间</value>
-    <comment>button tooltip</comment>
-  </data>
-  <data name="TimerWindow_resetButton.Text" xml:space="preserve">
-    <value>重启定时器</value>
-    <comment>button tooltip</comment>
   </data>
   <data name="ToggleDttmDialog.Text" xml:space="preserve">
     <value>显示/隐藏日期和时间</value>

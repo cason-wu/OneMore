@@ -158,10 +158,6 @@
     <value>L'image a déjà une légende</value>
     <comment>info message</comment>
   </data>
-  <data name="AddFormulaCommand_Calculated" xml:space="preserve">
-    <value>Calculé</value>
-    <comment>tag name</comment>
-  </data>
   <data name="AddInTitle" xml:space="preserve">
     <value>OneMoreAddIn</value>
   </data>
@@ -735,14 +731,6 @@ Inverser</value>
   <data name="DatabaseFilename" xml:space="preserve">
     <value>OneMore.db</value>
     <comment>SKIP, Sqlite database file name</comment>
-  </data>
-  <data name="DeleteFormulaCommand_Deleted" xml:space="preserve">
-    <value>Formules supprimées de {0} cellule (s)</value>
-    <comment>delete command message</comment>
-  </data>
-  <data name="DeleteFormulaCommand_NoFormulas" xml:space="preserve">
-    <value>Formule introuvable. </value>
-    <comment>delete command message</comment>
   </data>
   <data name="DeleteReminderCommand_deleteTag" xml:space="preserve">
     <value>Sur le point de supprimer le rappel. </value>
@@ -1474,10 +1462,6 @@ Fond jaune</value>
   <data name="HashtagSheet_warningLabel.Text" xml:space="preserve">
     <value>Ceci doit être utilisé après avoir ajouté ou supprimé un ou plusieurs notebooks. Il est recommandé de planifier des reconstructions après les heures d'ouverture, comme minuit.</value>
     <comment>multiline label</comment>
-  </data>
-  <data name="HighlightFormulaCommand_NoFormulas" xml:space="preserve">
-    <value>Aucune formule trouvée sur cette page</value>
-    <comment>highlight command message</comment>
   </data>
   <data name="HighlightsSheet_deepRadio.Text" xml:space="preserve">
     <value>Profond</value>
@@ -2321,43 +2305,6 @@ Tous les notebooks et leurs pages</value>
     <value>OneMore</value>
     <comment>SKIP</comment>
   </data>
-  <data name="Pronunciate_EmptyWord" xml:space="preserve">
-    <value>Le mot sélectionné ne peut pas être vide</value>
-    <comment>error message box</comment>
-  </data>
-  <data name="Pronunciate_FullWord" xml:space="preserve">
-    <value>Il faut sélectionner un mot complet</value>
-    <comment>error message box</comment>
-  </data>
-  <data name="Pronunciate_NetError" xml:space="preserve">
-    <value>Impossible de récupérer la prononciation {0} de "{1}". Soit le mot n'existe pas, soit il y a eu une panne temporaire du réseau.</value>
-    <comment>error message box</comment>
-  </data>
-  <data name="Pronunciate_NoWord" xml:space="preserve">
-    <value>Impossible de récupérer la prononciation {0} de "{1}"</value>
-    <comment>error message box</comment>
-  </data>
-  <data name="PronunciateDialog.Text" xml:space="preserve">
-    <value>Phonétique</value>
-    <comment>dialog title</comment>
-  </data>
-  <data name="PronunciateDialog_languages" xml:space="preserve">
-    <value>en,anglais
-hi,hindi
-es,espagnol
-fr,français
-ja,japonais
-ru,russe
-de,allemand
-ça,italien
-ko,coréen
-pt-BR,portugais brésilien
-ar,arabe
-tr,turc
-zh-CN,chinois (simplifié)</value>
-    <comment>Recognized languages, one per line.
-ISO-code then comma then language name</comment>
-  </data>
   <data name="QuickNotesSheet_groupingBox.Text" xml:space="preserve">
     <value>Semaine de travail (2023-02-13 W7)
 Mois (2023-02)
@@ -2463,10 +2410,6 @@ Surligneur jaune</value>
   <data name="QuickPaletteCommand_Title" xml:space="preserve">
     <value>Palette rapide</value>
     <comment>dialog title</comment>
-  </data>
-  <data name="RecalculateFormulaCommand_NoFormula" xml:space="preserve">
-    <value>Aucune formule trouvée dans le tableau sélectionné</value>
-    <comment>recalculate command message</comment>
   </data>
   <data name="RefreshPageLinksCommand_none" xml:space="preserve">
     <value>Aucune référence trouvée sur cette page</value>
@@ -2739,14 +2682,6 @@ Sélectionnez Non pour conserver une ligne vide entre les paragraphes</value>
   <data name="ribAddFootnoteButton_Screentip" xml:space="preserve">
     <value>Ajouter une note de bas de page (Ctrl + Alt + F)</value>
     <comment>Ribbon OneMore menu item, Extras...</comment>
-  </data>
-  <data name="ribAddFormulaButton_Label" xml:space="preserve">
-    <value>Ajouter une formule</value>
-    <comment>Ribbon OneMore menu item, Formula...</comment>
-  </data>
-  <data name="ribAddFormulaButton_Screentip" xml:space="preserve">
-    <value>Ajouter / modifier une formule dans les cellules sélectionnées du tableau (F5)</value>
-    <comment>Ribbon OneMore menu item, Formula...</comment>
   </data>
   <data name="ribAddTagBankButton_Label" xml:space="preserve">
     <value>Ajouter une banque de balises</value>
@@ -3142,14 +3077,6 @@ Onglet Aide</value>
     <value>Diminuer la taille de la police de la page (Ctrl + Alt + Maj)</value>
     <comment>Ribbon OneMore menu item</comment>
   </data>
-  <data name="ribDeleteFormulaButton_Label" xml:space="preserve">
-    <value>Supprimer la formule</value>
-    <comment>Ribbon OneMore menu item, Formula...</comment>
-  </data>
-  <data name="ribDeleteFormulaButton_Screentip" xml:space="preserve">
-    <value>Supprimer la formule de la ou des cellules sélectionnées du tableau</value>
-    <comment>Ribbon OneMore menu item, Formula...</comment>
-  </data>
   <data name="ribDeleteReminderButton_Label" xml:space="preserve">
     <value>Supprimer le rappel</value>
     <comment>ribbon button</comment>
@@ -3329,14 +3256,6 @@ Onglet Aide</value>
   <data name="ribHighlightButton_Screentip" xml:space="preserve">
     <value>Texte en surbrillance avec un surligneur rotatif</value>
     <comment>ribbon edit</comment>
-  </data>
-  <data name="ribHighlightFormulaButton_Label" xml:space="preserve">
-    <value>Mettre en évidence la formule</value>
-    <comment>Ribbon OneMore menu item, Formula...</comment>
-  </data>
-  <data name="ribHighlightFormulaButton_Screentip" xml:space="preserve">
-    <value>Sélectionnez les cellules avec la formule dans le tableau actuel</value>
-    <comment>ribbon table</comment>
   </data>
   <data name="ribHighlightLastButton_Label" xml:space="preserve">
     <value>Répéter la couleur du surligneur rotatif</value>
@@ -3521,14 +3440,6 @@ Onglet Aide</value>
   <data name="ribInsertTextBoxButton_Screentip" xml:space="preserve">
     <value>Insérer un tableau à une seule cellule, en enveloppant le texte sélectionné</value>
     <comment>ribbon snippets</comment>
-  </data>
-  <data name="ribInsertTimerButton_Label" xml:space="preserve">
-    <value>Insérer une minuterie</value>
-    <comment>ribbon item</comment>
-  </data>
-  <data name="ribInsertTimerButton_Screentip" xml:space="preserve">
-    <value>Insérer la valeur actuelle de la minuterie</value>
-    <comment>ribbon extras</comment>
   </data>
   <data name="ribInsertTocButton_Label" xml:space="preserve">
     <value>Table des matières</value>
@@ -3868,14 +3779,6 @@ Onglet Aide</value>
     <value>Passer à la page précédente non lue</value>
     <comment>ribbon search</comment>
   </data>
-  <data name="ribPronunciateButton_Label" xml:space="preserve">
-    <value>Insérer la prononciation</value>
-    <comment>Ribbon OneMore menu item</comment>
-  </data>
-  <data name="ribPronunciateButton_Screentip" xml:space="preserve">
-    <value>Insérer la prononciation phonétique du texte sélectionné</value>
-    <comment>ribbon edit</comment>
-  </data>
   <data name="ribProofingMenu_Label" xml:space="preserve">
     <value>Langue de vérification</value>
     <comment>ribbon menu</comment>
@@ -3887,14 +3790,6 @@ Onglet Aide</value>
   <data name="ribQuickPaletteButton_Screentip" xml:space="preserve">
     <value>Ouvrez la fenêtre de palette rapide</value>
     <comment>ribbon menu</comment>
-  </data>
-  <data name="ribRecalculateFormulaButton_Label" xml:space="preserve">
-    <value>Recalculer la formule</value>
-    <comment>Ribbon OneMore menu item, Formula...</comment>
-  </data>
-  <data name="ribRecalculateFormulaButton_Screentip" xml:space="preserve">
-    <value>Recalculer toutes les formules du tableau actuel (Maj + F5)</value>
-    <comment>Ribbon OneMore menu item, Formula...</comment>
   </data>
   <data name="ribReferencesMenu_Label" xml:space="preserve">
     <value>Références</value>
@@ -4042,14 +3937,6 @@ Onglet Aide</value>
   <data name="ribResetTasksButton_Screentip" xml:space="preserve">
     <value>Décochez et réinitialisez toutes les tâches terminées sur cette page</value>
     <comment>ribbon reminders</comment>
-  </data>
-  <data name="ribRestartTimerButton_Label" xml:space="preserve">
-    <value>Redémarrer la minuterie</value>
-    <comment>ribbon extras</comment>
-  </data>
-  <data name="ribRestartTimerButton_Screentip" xml:space="preserve">
-    <value>Redémarrez le minuteur en le remettant à zéro</value>
-    <comment>ribbon extras</comment>
   </data>
   <data name="ribRestoreAutosizeButton_Label" xml:space="preserve">
     <value>Restaurer les largeurs de conteneurs</value>
@@ -4199,14 +4086,6 @@ Onglet Aide</value>
     <value>Afficher le XML de la hiérarchie et de la page actuelle (Ctrl + Maj + Alt + X)</value>
     <comment>Ribbon OneMore menu item</comment>
   </data>
-  <data name="ribShutdownTimerButton_Label" xml:space="preserve">
-    <value>Arrêter la minuterie</value>
-    <comment>ribbon extras</comment>
-  </data>
-  <data name="ribShutdownTimerButton_Screentip" xml:space="preserve">
-    <value>Arrêtez et fermez la fenêtre du minuteur</value>
-    <comment>ribbon extras</comment>
-  </data>
   <data name="ribSnippetsMenu_Label" xml:space="preserve">
     <value>Extraits</value>
     <comment>Ribbon OneMore menu item, Snippets...</comment>
@@ -4286,14 +4165,6 @@ Onglet Aide</value>
   <data name="ribStartBiLinkButton_Screentip" xml:space="preserve">
     <value>Démarrer un lien bidirectionnel</value>
     <comment>ribbon references</comment>
-  </data>
-  <data name="ribStartTimerButton_Label" xml:space="preserve">
-    <value>Démarrer la minuterie</value>
-    <comment>ribbon item</comment>
-  </data>
-  <data name="ribStartTimerButton_Screentip" xml:space="preserve">
-    <value>Ouvrir et démarrer la fenêtre de la minuterie</value>
-    <comment>ribbon extras</comment>
   </data>
   <data name="ribStatusMenu_Label" xml:space="preserve">
     <value>Statut</value>
@@ -5151,22 +5022,6 @@ Inverser</value>
   <data name="ThemesFolder" xml:space="preserve">
     <value>Thèmes</value>
     <comment>SKIP</comment>
-  </data>
-  <data name="TimerWindow.Text" xml:space="preserve">
-    <value>Minuteur OneNote</value>
-    <comment>window title</comment>
-  </data>
-  <data name="TimerWindow_closeButton.Text" xml:space="preserve">
-    <value>Minuterie de fermeture</value>
-    <comment>button tooltip</comment>
-  </data>
-  <data name="TimerWindow_copyButton.Text" xml:space="preserve">
-    <value>Copier l'heure actuelle</value>
-    <comment>button tooltip</comment>
-  </data>
-  <data name="TimerWindow_resetButton.Text" xml:space="preserve">
-    <value>Redémarrer la minuterie</value>
-    <comment>button tooltip</comment>
   </data>
   <data name="ToggleDttmDialog.Text" xml:space="preserve">
     <value>Afficher / masquer la date et l'heure</value>
