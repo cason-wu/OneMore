@@ -1052,42 +1052,6 @@ Total Row Font
     <value>החלף רווחים בשם הקובץ בקווים תחתונים</value>
     <comment>checkbox</comment>
   </data>
-  <data name="Favorites_suspect" xml:space="preserve">
-    <value>הדף לא נמצא; ייתכן ששמו שונה או הועבר</value>
-    <comment>tooltip</comment>
-  </data>
-  <data name="Favorites_unknown" xml:space="preserve">
-    <value>הדף כבר לא נמצא; ייתכן שהוא נמחק</value>
-    <comment>tooltip</comment>
-  </data>
-  <data name="FavoritesDialog_addButton.Text" xml:space="preserve">
-    <value>הוסף דף נוכחי</value>
-    <comment>context menu item</comment>
-  </data>
-  <data name="FavoritesDialog_checkButton.Text" xml:space="preserve">
-    <value>סמן מועדפים</value>
-    <comment>context menu item</comment>
-  </data>
-  <data name="FavoritesDialog_manageButton.Text" xml:space="preserve">
-    <value>נהל מועדפים</value>
-    <comment>context menu item</comment>
-  </data>
-  <data name="FavoritesFilename" xml:space="preserve">
-    <value>Favorites.xml</value>
-    <comment>SKIP, filename</comment>
-  </data>
-  <data name="FavoritesSheet_DeleteMessage" xml:space="preserve">
-    <value>למחוק את {0}?</value>
-    <comment>settings</comment>
-  </data>
-  <data name="FavoritesSheet_locationColumn.HeaderText" xml:space="preserve">
-    <value>מקום</value>
-    <comment>settings table column header</comment>
-  </data>
-  <data name="FavoritesSheet_shortcutsBox.Text" xml:space="preserve">
-    <value>כלול הפניה לדף מקשי הקיצור</value>
-    <comment>settings</comment>
-  </data>
   <data name="FileImportSheet_introBox.Text" xml:space="preserve">
     <value>התאם אישית אפשרויות ייבוא ​​של PowerPoint ו-PDF</value>
     <comment>label</comment>
@@ -2620,22 +2584,6 @@ Total Row Font
     <value>הוסף כיתוב לתמונה שנבחרה</value>
     <comment>ribbon images</comment>
   </data>
-  <data name="ribAddFavoritePageButton_Label" xml:space="preserve">
-    <value>הוסף עמוד נוכחי</value>
-    <comment>favorites menu command</comment>
-  </data>
-  <data name="ribAddFavoritePageButton_Screentip" xml:space="preserve">
-    <value>הוסף דף נוכחי למועדפים</value>
-    <comment>ribbon favorites</comment>
-  </data>
-  <data name="ribAddFavoriteSectionButton_Label" xml:space="preserve">
-    <value>הוסף למועדפים</value>
-    <comment>ribbon</comment>
-  </data>
-  <data name="ribAddFavoriteSectionButton_Screentip" xml:space="preserve">
-    <value>הוסף קטע לתפריט המועדפים</value>
-    <comment>section context menu</comment>
-  </data>
   <data name="ribAddFootnoteButton_Label" xml:space="preserve">
     <value>הוסף הערת שוליים</value>
     <comment>Ribbon OneMore menu item, Extras... NODUP</comment>
@@ -2844,9 +2792,6 @@ Total Row Font
   <data name="ribChooseColorizerButton_Label" xml:space="preserve">
     <value>צבע</value>
     <comment>ribbon edit</comment>
-  </data>
-  <data name="ribChooseFavoriteButton_Label" xml:space="preserve">
-    <value>בחר מועדף</value>
   </data>
   <data name="ribCleanMenu_Label" xml:space="preserve">
     <value>לְנַקוֹת</value>
@@ -3143,10 +3088,6 @@ Total Row Font
   <data name="ribExtrasMenu_Label" xml:space="preserve">
     <value>תוספות</value>
     <comment>Ribbon OneMore menu item, Extras...</comment>
-  </data>
-  <data name="ribFavoritesMenu_Label" xml:space="preserve">
-    <value>מועדפים</value>
-    <comment>Ribbon main favorites button NODUP</comment>
   </data>
   <data name="ribFileMenu_Label" xml:space="preserve">
     <value>קוֹבֶץ</value>
@@ -3467,10 +3408,6 @@ Total Row Font
   <data name="ribLowercaseButton_Screentip" xml:space="preserve">
     <value>המרת טקסט לאותיות קטנות (Ctrl + Shift + U)</value>
     <comment>Ribbon OneMore menu item</comment>
-  </data>
-  <data name="ribManageFavoritesButton_Label" xml:space="preserve">
-    <value>נהל מועדפים</value>
-    <comment>favorites menu command</comment>
   </data>
   <data name="ribManagePluginsButton_Label" xml:space="preserve">
     <value>נהל תוספים שמורים</value>
@@ -5124,9 +5061,6 @@ Total Row Font
   </data>
   <data name="word_Extract" xml:space="preserve">
     <value>לחלץ</value>
-  </data>
-  <data name="word_Favorites" xml:space="preserve">
-    <value>מועדפים</value>
   </data>
   <data name="word_Feeder" xml:space="preserve">
     <value>מֵזִין</value>

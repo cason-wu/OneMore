@@ -1051,42 +1051,6 @@ OneNote-Datei (*.one)</value>
     <value>Ersetzen Sie Leerzeichen im Dateinamen durch Unterstriche</value>
     <comment>checkbox</comment>
   </data>
-  <data name="Favorites_suspect" xml:space="preserve">
-    <value>Seite nicht gefunden; es wurde möglicherweise umbenannt oder verschoben</value>
-    <comment>tooltip</comment>
-  </data>
-  <data name="Favorites_unknown" xml:space="preserve">
-    <value>Seite nicht mehr gefunden; es wurde möglicherweise gelöscht</value>
-    <comment>tooltip</comment>
-  </data>
-  <data name="FavoritesDialog_addButton.Text" xml:space="preserve">
-    <value>Aktuelle Seite hinzufügen</value>
-    <comment>context menu item</comment>
-  </data>
-  <data name="FavoritesDialog_checkButton.Text" xml:space="preserve">
-    <value>Überprüfen Sie die Favoriten</value>
-    <comment>context menu item</comment>
-  </data>
-  <data name="FavoritesDialog_manageButton.Text" xml:space="preserve">
-    <value>Favoriten verwalten</value>
-    <comment>context menu item</comment>
-  </data>
-  <data name="FavoritesFilename" xml:space="preserve">
-    <value>Favorites.xml</value>
-    <comment>FILENAME</comment>
-  </data>
-  <data name="FavoritesSheet_DeleteMessage" xml:space="preserve">
-    <value>{0} löschen?</value>
-    <comment>settings</comment>
-  </data>
-  <data name="FavoritesSheet_locationColumn.HeaderText" xml:space="preserve">
-    <value>Ort</value>
-    <comment>settings table column header</comment>
-  </data>
-  <data name="FavoritesSheet_shortcutsBox.Text" xml:space="preserve">
-    <value>Verweis auf Seite mit Tastaturkürzeln einfügen</value>
-    <comment>settings</comment>
-  </data>
   <data name="FileImportSheet_introBox.Text" xml:space="preserve">
     <value>Passen Sie PowerPoint- und PDF-Importoptionen an</value>
     <comment>label</comment>
@@ -2615,22 +2579,6 @@ Wähle Nein, um eine leere Zeile zwischen den Absätzen zu halten</value>
     <value>Bildunterschrift zum ausgewählten Bild hinzufügen</value>
     <comment>ribbon images</comment>
   </data>
-  <data name="ribAddFavoritePageButton_Label" xml:space="preserve">
-    <value>Aktuelle Seite hinzufügen</value>
-    <comment>favorites menu command</comment>
-  </data>
-  <data name="ribAddFavoritePageButton_Screentip" xml:space="preserve">
-    <value>Aktuelle Seite zu Favoriten hinzufügen</value>
-    <comment>ribbon favorites</comment>
-  </data>
-  <data name="ribAddFavoriteSectionButton_Label" xml:space="preserve">
-    <value>Zu den Favoriten hinzufügen</value>
-    <comment>ribbon</comment>
-  </data>
-  <data name="ribAddFavoriteSectionButton_Screentip" xml:space="preserve">
-    <value>Abschnitt zum Favoritenmenü hinzufügen</value>
-    <comment>section context menu</comment>
-  </data>
   <data name="ribAddFootnoteButton_Label" xml:space="preserve">
     <value>Fußnote hinzufügen</value>
     <comment>Ribbon OneMore menu item, Extras...</comment>
@@ -2839,9 +2787,6 @@ Registerkarte „Hilfe“.</value>
   <data name="ribChooseColorizerButton_Label" xml:space="preserve">
     <value>Einfärben</value>
     <comment>ribbon edit</comment>
-  </data>
-  <data name="ribChooseFavoriteButton_Label" xml:space="preserve">
-    <value>Favorit wählen</value>
   </data>
   <data name="ribCleanMenu_Label" xml:space="preserve">
     <value>Säubern</value>
@@ -3138,10 +3083,6 @@ Registerkarte „Hilfe“.</value>
   <data name="ribExtrasMenu_Label" xml:space="preserve">
     <value>Extras</value>
     <comment>Ribbon OneMore menu item, Extras...</comment>
-  </data>
-  <data name="ribFavoritesMenu_Label" xml:space="preserve">
-    <value>Favoriten</value>
-    <comment>Ribbon main favorites button</comment>
   </data>
   <data name="ribFileMenu_Label" xml:space="preserve">
     <value>Datei</value>
@@ -3462,10 +3403,6 @@ Registerkarte „Hilfe“.</value>
   <data name="ribLowercaseButton_Screentip" xml:space="preserve">
     <value>Text in Kleinbuchstaben konvertieren (Strg + Umschalt + U)</value>
     <comment>Ribbon OneMore menu item</comment>
-  </data>
-  <data name="ribManageFavoritesButton_Label" xml:space="preserve">
-    <value>Favoriten verwalten</value>
-    <comment>favorites menu command</comment>
   </data>
   <data name="ribManagePluginsButton_Label" xml:space="preserve">
     <value>Gespeicherte Plugins verwalten</value>
@@ -5120,9 +5057,6 @@ Umkehren</value>
   </data>
   <data name="word_Extract" xml:space="preserve">
     <value>Extrakt</value>
-  </data>
-  <data name="word_Favorites" xml:space="preserve">
-    <value>Favoriten</value>
   </data>
   <data name="word_Feeder" xml:space="preserve">
     <value>Feeder</value>

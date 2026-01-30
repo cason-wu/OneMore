@@ -1052,42 +1052,6 @@ Plik OneNote (* .o)</value>
     <value>Zastąp spacje w nazwie pliku podkreśleniami</value>
     <comment>checkbox</comment>
   </data>
-  <data name="Favorites_suspect" xml:space="preserve">
-    <value>Strona nie znaleziona; mogła zostać zmieniona lub przeniesiona</value>
-    <comment>tooltip</comment>
-  </data>
-  <data name="Favorites_unknown" xml:space="preserve">
-    <value>Strona nie została już znaleziona; mógł zostać usunięty</value>
-    <comment>tooltip</comment>
-  </data>
-  <data name="FavoritesDialog_addButton.Text" xml:space="preserve">
-    <value>Dodaj bieżącą stronę</value>
-    <comment>context menu item</comment>
-  </data>
-  <data name="FavoritesDialog_checkButton.Text" xml:space="preserve">
-    <value>Sprawdź Ulubione</value>
-    <comment>context menu item</comment>
-  </data>
-  <data name="FavoritesDialog_manageButton.Text" xml:space="preserve">
-    <value>Zarządzaj ulubionymi</value>
-    <comment>context menu item</comment>
-  </data>
-  <data name="FavoritesFilename" xml:space="preserve">
-    <value>Favorites.xml</value>
-    <comment>SKIP, filename</comment>
-  </data>
-  <data name="FavoritesSheet_DeleteMessage" xml:space="preserve">
-    <value>Usuń {0}?</value>
-    <comment>settings</comment>
-  </data>
-  <data name="FavoritesSheet_locationColumn.HeaderText" xml:space="preserve">
-    <value>Lokalizacja</value>
-    <comment>settings table column header</comment>
-  </data>
-  <data name="FavoritesSheet_shortcutsBox.Text" xml:space="preserve">
-    <value>Dołącz odwołanie do skrótów klawiaturowych</value>
-    <comment>settings</comment>
-  </data>
   <data name="FileImportSheet_introBox.Text" xml:space="preserve">
     <value>Dostosuj opcje importu PowerPoint i PDF</value>
     <comment>label</comment>
@@ -2616,22 +2580,6 @@ Wybierz Nie, aby zachować jedną pustą linię między akapitami</value>
     <value>Dodaj podpis do wybranego obrazu</value>
     <comment>ribbon images</comment>
   </data>
-  <data name="ribAddFavoritePageButton_Label" xml:space="preserve">
-    <value>Dodaj bieżącą stronę</value>
-    <comment>favorites menu command</comment>
-  </data>
-  <data name="ribAddFavoritePageButton_Screentip" xml:space="preserve">
-    <value>Dodaj bieżącą stronę do Ulubionych</value>
-    <comment>ribbon favorites</comment>
-  </data>
-  <data name="ribAddFavoriteSectionButton_Label" xml:space="preserve">
-    <value>Dodaj do ulubionych</value>
-    <comment>ribbon</comment>
-  </data>
-  <data name="ribAddFavoriteSectionButton_Screentip" xml:space="preserve">
-    <value>Dodaj sekcję do menu Ulubione</value>
-    <comment>section context menu</comment>
-  </data>
   <data name="ribAddFootnoteButton_Label" xml:space="preserve">
     <value>Dodaj przypis</value>
     <comment>Ribbon OneMore menu item, Extras...</comment>
@@ -2840,9 +2788,6 @@ Zakładka Pomoc</value>
   <data name="ribChooseColorizerButton_Label" xml:space="preserve">
     <value>Pokoloruj</value>
     <comment>ribbon edit</comment>
-  </data>
-  <data name="ribChooseFavoriteButton_Label" xml:space="preserve">
-    <value>Wybierz Ulubione</value>
   </data>
   <data name="ribCleanMenu_Label" xml:space="preserve">
     <value>Czysty</value>
@@ -3137,10 +3082,6 @@ Zakładka Pomoc</value>
   <data name="ribExtrasMenu_Label" xml:space="preserve">
     <value>Dodatki</value>
     <comment>Ribbon OneMore menu item, Extras...</comment>
-  </data>
-  <data name="ribFavoritesMenu_Label" xml:space="preserve">
-    <value>Ulubione</value>
-    <comment>Ribbon main favorites button NODUP</comment>
   </data>
   <data name="ribFileMenu_Label" xml:space="preserve">
     <value>Plik</value>
@@ -3461,10 +3402,6 @@ Zakładka Pomoc</value>
   <data name="ribLowercaseButton_Screentip" xml:space="preserve">
     <value>Konwertuj tekst na małe litery (Ctrl + Shift + U)</value>
     <comment>Ribbon OneMore menu item</comment>
-  </data>
-  <data name="ribManageFavoritesButton_Label" xml:space="preserve">
-    <value>Zarządzaj ulubionymi</value>
-    <comment>favorites menu command</comment>
   </data>
   <data name="ribManagePluginsButton_Label" xml:space="preserve">
     <value>Zarządzaj zapisanymi wtyczkami</value>
@@ -5126,9 +5063,6 @@ Odwracać</value>
   </data>
   <data name="word_Extract" xml:space="preserve">
     <value>Wyciąg</value>
-  </data>
-  <data name="word_Favorites" xml:space="preserve">
-    <value>Ulubione</value>
   </data>
   <data name="word_Feeder" xml:space="preserve">
     <value>Podajnik</value>

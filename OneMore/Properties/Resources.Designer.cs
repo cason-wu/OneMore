@@ -1373,16 +1373,6 @@ namespace River.OneMoreAddIn.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap DarkFavorites {
-            get {
-                object obj = ResourceManager.GetObject("DarkFavorites", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized resource of type System.Drawing.Bitmap.
-        /// </summary>
         internal static System.Drawing.Bitmap DarkSnippets {
             get {
                 object obj = ResourceManager.GetObject("DarkSnippets", resourceCulture);
@@ -2845,97 +2835,6 @@ namespace River.OneMoreAddIn.Properties {
         internal static string ExportDialog_underBox_Text {
             get {
                 return ResourceManager.GetString("ExportDialog_underBox.Text", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized resource of type System.Drawing.Bitmap.
-        /// </summary>
-        internal static System.Drawing.Bitmap Favorites {
-            get {
-                object obj = ResourceManager.GetObject("Favorites", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized string similar to Page not found; it may have been renamed or moved.
-        /// </summary>
-        internal static string Favorites_suspect {
-            get {
-                return ResourceManager.GetString("Favorites_suspect", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized string similar to Page no longer found; it may have been deleted.
-        /// </summary>
-        internal static string Favorites_unknown {
-            get {
-                return ResourceManager.GetString("Favorites_unknown", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized string similar to Add Current Page.
-        /// </summary>
-        internal static string FavoritesDialog_addButton_Text {
-            get {
-                return ResourceManager.GetString("FavoritesDialog_addButton.Text", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized string similar to Check Favorites.
-        /// </summary>
-        internal static string FavoritesDialog_checkButton_Text {
-            get {
-                return ResourceManager.GetString("FavoritesDialog_checkButton.Text", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized string similar to Manage Favorites.
-        /// </summary>
-        internal static string FavoritesDialog_manageButton_Text {
-            get {
-                return ResourceManager.GetString("FavoritesDialog_manageButton.Text", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized string similar to Favorites.xml.
-        /// </summary>
-        internal static string FavoritesFilename {
-            get {
-                return ResourceManager.GetString("FavoritesFilename", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized string similar to Delete {0}?.
-        /// </summary>
-        internal static string FavoritesSheet_DeleteMessage {
-            get {
-                return ResourceManager.GetString("FavoritesSheet_DeleteMessage", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized string similar to Location.
-        /// </summary>
-        internal static string FavoritesSheet_locationColumn_HeaderText {
-            get {
-                return ResourceManager.GetString("FavoritesSheet_locationColumn.HeaderText", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized string similar to Include reference to keyboard shortcuts page.
-        /// </summary>
-        internal static string FavoritesSheet_shortcutsBox_Text {
-            get {
-                return ResourceManager.GetString("FavoritesSheet_shortcutsBox.Text", resourceCulture);
             }
         }
         
@@ -6794,42 +6693,6 @@ namespace River.OneMoreAddIn.Properties {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Add current page.
-        /// </summary>
-        internal static string ribAddFavoritePageButton_Label {
-            get {
-                return ResourceManager.GetString("ribAddFavoritePageButton_Label", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized string similar to Add current page to Favorites.
-        /// </summary>
-        internal static string ribAddFavoritePageButton_Screentip {
-            get {
-                return ResourceManager.GetString("ribAddFavoritePageButton_Screentip", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized string similar to Add to Favorites.
-        /// </summary>
-        internal static string ribAddFavoriteSectionButton_Label {
-            get {
-                return ResourceManager.GetString("ribAddFavoriteSectionButton_Label", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized string similar to Add section to Favorites menu.
-        /// </summary>
-        internal static string ribAddFavoriteSectionButton_Screentip {
-            get {
-                return ResourceManager.GetString("ribAddFavoriteSectionButton_Screentip", resourceCulture);
-            }
-        }
-        
-        /// <summary>
         ///   Looks up a localized string similar to Add Footnote.
         /// </summary>
         internal static string ribAddFootnoteButton_Label {
@@ -7350,15 +7213,6 @@ namespace River.OneMoreAddIn.Properties {
         internal static string ribChooseColorizerButton_Label {
             get {
                 return ResourceManager.GetString("ribChooseColorizerButton_Label", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized string similar to Choose Favorite.
-        /// </summary>
-        internal static string ribChooseFavoriteButton_Label {
-            get {
-                return ResourceManager.GetString("ribChooseFavoriteButton_Label", resourceCulture);
             }
         }
         
@@ -8025,15 +7879,6 @@ namespace River.OneMoreAddIn.Properties {
         internal static string ribExtrasMenu_Label {
             get {
                 return ResourceManager.GetString("ribExtrasMenu_Label", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized string similar to Favorites.
-        /// </summary>
-        internal static string ribFavoritesMenu_Label {
-            get {
-                return ResourceManager.GetString("ribFavoritesMenu_Label", resourceCulture);
             }
         }
         
@@ -8774,15 +8619,6 @@ namespace River.OneMoreAddIn.Properties {
         internal static string ribLowercaseButton_Screentip {
             get {
                 return ResourceManager.GetString("ribLowercaseButton_Screentip", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized string similar to Manage Favorites.
-        /// </summary>
-        internal static string ribManageFavoritesButton_Label {
-            get {
-                return ResourceManager.GetString("ribManageFavoritesButton_Label", resourceCulture);
             }
         }
         
@@ -12643,15 +12479,6 @@ namespace River.OneMoreAddIn.Properties {
         internal static string word_Extract {
             get {
                 return ResourceManager.GetString("word_Extract", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized string similar to Favorites.
-        /// </summary>
-        internal static string word_Favorites {
-            get {
-                return ResourceManager.GetString("word_Favorites", resourceCulture);
             }
         }
         

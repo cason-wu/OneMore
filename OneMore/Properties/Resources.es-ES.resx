@@ -1051,42 +1051,6 @@ Archivo de OneNote (* .one)</value>
     <value>Reemplazar espacios en el nombre del archivo con guiones bajos</value>
     <comment>checkbox</comment>
   </data>
-  <data name="Favorites_suspect" xml:space="preserve">
-    <value>Página no encontrada; puede haber sido renombrado o movido</value>
-    <comment>tooltip</comment>
-  </data>
-  <data name="Favorites_unknown" xml:space="preserve">
-    <value>Ya no se encuentra la página; Puede haber sido borrada</value>
-    <comment>tooltip</comment>
-  </data>
-  <data name="FavoritesDialog_addButton.Text" xml:space="preserve">
-    <value>Agregar página actual</value>
-    <comment>context menu item</comment>
-  </data>
-  <data name="FavoritesDialog_checkButton.Text" xml:space="preserve">
-    <value>Ver favoritos</value>
-    <comment>context menu item</comment>
-  </data>
-  <data name="FavoritesDialog_manageButton.Text" xml:space="preserve">
-    <value>Administrar favoritos</value>
-    <comment>context menu item</comment>
-  </data>
-  <data name="FavoritesFilename" xml:space="preserve">
-    <value>Favoritos.xml</value>
-    <comment>FILENAME</comment>
-  </data>
-  <data name="FavoritesSheet_DeleteMessage" xml:space="preserve">
-    <value>¿Eliminar {0}?</value>
-    <comment>settings</comment>
-  </data>
-  <data name="FavoritesSheet_locationColumn.HeaderText" xml:space="preserve">
-    <value>Ubicación</value>
-    <comment>settings table column header</comment>
-  </data>
-  <data name="FavoritesSheet_shortcutsBox.Text" xml:space="preserve">
-    <value>Incluir referencia a la página de métodos abreviados de teclado</value>
-    <comment>settings</comment>
-  </data>
   <data name="FileImportSheet_introBox.Text" xml:space="preserve">
     <value>Personalice las opciones de importación de PowerPoint y PDF</value>
     <comment>label</comment>
@@ -2615,22 +2579,6 @@ Seleccione No para mantener una línea vacía entre los párrafos</value>
     <value>Agregar título a la imagen seleccionada</value>
     <comment>ribbon images</comment>
   </data>
-  <data name="ribAddFavoritePageButton_Label" xml:space="preserve">
-    <value>Añadir página actual</value>
-    <comment>favorites menu command</comment>
-  </data>
-  <data name="ribAddFavoritePageButton_Screentip" xml:space="preserve">
-    <value>Agregar página actual a Favoritos</value>
-    <comment>ribbon favorites</comment>
-  </data>
-  <data name="ribAddFavoriteSectionButton_Label" xml:space="preserve">
-    <value>Agregar a los favoritos</value>
-    <comment>ribbon</comment>
-  </data>
-  <data name="ribAddFavoriteSectionButton_Screentip" xml:space="preserve">
-    <value>Agregar sección al menú Favoritos</value>
-    <comment>section context menu</comment>
-  </data>
   <data name="ribAddFootnoteButton_Label" xml:space="preserve">
     <value>Añadir nota al pie</value>
     <comment>Ribbon OneMore menu item, Extras...</comment>
@@ -2839,9 +2787,6 @@ Pestaña Ayuda</value>
   <data name="ribChooseColorizerButton_Label" xml:space="preserve">
     <value>colorear</value>
     <comment>ribbon edit</comment>
-  </data>
-  <data name="ribChooseFavoriteButton_Label" xml:space="preserve">
-    <value>Elige Favorito</value>
   </data>
   <data name="ribCleanMenu_Label" xml:space="preserve">
     <value>Limpiar</value>
@@ -3136,10 +3081,6 @@ Pestaña Ayuda</value>
   <data name="ribExtrasMenu_Label" xml:space="preserve">
     <value>Extras</value>
     <comment>Ribbon OneMore menu item, Extras...</comment>
-  </data>
-  <data name="ribFavoritesMenu_Label" xml:space="preserve">
-    <value>Favoritos</value>
-    <comment>Ribbon main favorites button</comment>
   </data>
   <data name="ribFileMenu_Label" xml:space="preserve">
     <value>Archivo</value>
@@ -3460,10 +3401,6 @@ Pestaña Ayuda</value>
   <data name="ribLowercaseButton_Screentip" xml:space="preserve">
     <value>Convertir texto a minúsculas (Ctrl + Shift + U)</value>
     <comment>Ribbon OneMore menu item</comment>
-  </data>
-  <data name="ribManageFavoritesButton_Label" xml:space="preserve">
-    <value>Administrar favoritos</value>
-    <comment>favorites menu command</comment>
   </data>
   <data name="ribManagePluginsButton_Label" xml:space="preserve">
     <value>Administrar complementos guardados</value>
@@ -5125,9 +5062,6 @@ Invertir</value>
   </data>
   <data name="word_Extract" xml:space="preserve">
     <value>Extracto</value>
-  </data>
-  <data name="word_Favorites" xml:space="preserve">
-    <value>Favoritos</value>
   </data>
   <data name="word_Feeder" xml:space="preserve">
     <value>Alimentador</value>

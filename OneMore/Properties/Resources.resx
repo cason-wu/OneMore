@@ -1052,42 +1052,6 @@ OneNote File (*.one)</value>
     <value>Replace spaces in the file name with underscores</value>
     <comment>checkbox</comment>
   </data>
-  <data name="Favorites_suspect" xml:space="preserve">
-    <value>Page not found; it may have been renamed or moved</value>
-    <comment>tooltip</comment>
-  </data>
-  <data name="Favorites_unknown" xml:space="preserve">
-    <value>Page no longer found; it may have been deleted</value>
-    <comment>tooltip</comment>
-  </data>
-  <data name="FavoritesDialog_addButton.Text" xml:space="preserve">
-    <value>Add Current Page</value>
-    <comment>context menu item</comment>
-  </data>
-  <data name="FavoritesDialog_checkButton.Text" xml:space="preserve">
-    <value>Check Favorites</value>
-    <comment>context menu item</comment>
-  </data>
-  <data name="FavoritesDialog_manageButton.Text" xml:space="preserve">
-    <value>Manage Favorites</value>
-    <comment>context menu item</comment>
-  </data>
-  <data name="FavoritesFilename" xml:space="preserve">
-    <value>Favorites.xml</value>
-    <comment>SKIP, filename</comment>
-  </data>
-  <data name="FavoritesSheet_DeleteMessage" xml:space="preserve">
-    <value>Delete {0}?</value>
-    <comment>settings</comment>
-  </data>
-  <data name="FavoritesSheet_locationColumn.HeaderText" xml:space="preserve">
-    <value>Location</value>
-    <comment>settings table column header</comment>
-  </data>
-  <data name="FavoritesSheet_shortcutsBox.Text" xml:space="preserve">
-    <value>Include reference to keyboard shortcuts page</value>
-    <comment>settings</comment>
-  </data>
   <data name="FileImportSheet_introBox.Text" xml:space="preserve">
     <value>Customize PowerPoint and PDF import options</value>
     <comment>label</comment>
@@ -2620,22 +2584,6 @@ Select No to keep one empty line between paragraphs</value>
     <value>Add caption to selected image</value>
     <comment>ribbon images</comment>
   </data>
-  <data name="ribAddFavoritePageButton_Label" xml:space="preserve">
-    <value>Add current page</value>
-    <comment>ribbon favorites</comment>
-  </data>
-  <data name="ribAddFavoritePageButton_Screentip" xml:space="preserve">
-    <value>Add current page to Favorites</value>
-    <comment>ribbon favorites</comment>
-  </data>
-  <data name="ribAddFavoriteSectionButton_Label" xml:space="preserve">
-    <value>Add to Favorites</value>
-    <comment>section context menu</comment>
-  </data>
-  <data name="ribAddFavoriteSectionButton_Screentip" xml:space="preserve">
-    <value>Add section to Favorites menu</value>
-    <comment>section context menu</comment>
-  </data>
   <data name="ribAddFootnoteButton_Label" xml:space="preserve">
     <value>Add Footnote</value>
     <comment>ribbon references NODUP</comment>
@@ -2844,9 +2792,6 @@ Help Tab</value>
   <data name="ribChooseColorizerButton_Label" xml:space="preserve">
     <value>Colorize</value>
     <comment>ribbon edit NODUP</comment>
-  </data>
-  <data name="ribChooseFavoriteButton_Label" xml:space="preserve">
-    <value>Choose Favorite</value>
   </data>
   <data name="ribCleanMenu_Label" xml:space="preserve">
     <value>Clean</value>
@@ -3143,10 +3088,6 @@ Help Tab</value>
   <data name="ribExtrasMenu_Label" xml:space="preserve">
     <value>Extras</value>
     <comment>ribbon menu</comment>
-  </data>
-  <data name="ribFavoritesMenu_Label" xml:space="preserve">
-    <value>Favorites</value>
-    <comment>ribbon menu NODUP</comment>
   </data>
   <data name="ribFileMenu_Label" xml:space="preserve">
     <value>File</value>
@@ -3467,10 +3408,6 @@ Help Tab</value>
   <data name="ribLowercaseButton_Screentip" xml:space="preserve">
     <value>Convert text to lowercase (Ctrl + Shift + U)</value>
     <comment>ribbon edit</comment>
-  </data>
-  <data name="ribManageFavoritesButton_Label" xml:space="preserve">
-    <value>Manage Favorites</value>
-    <comment>favorites menu command NODUP</comment>
   </data>
   <data name="ribManagePluginsButton_Label" xml:space="preserve">
     <value>Manage Saved Plugins</value>
@@ -5124,9 +5061,6 @@ Invert</value>
   <data name="word_Extract" xml:space="preserve">
     <value>Extract</value>
   </data>
-  <data name="word_Favorites" xml:space="preserve">
-    <value>Favorites</value>
-  </data>
   <data name="word_Feeder" xml:space="preserve">
     <value>Feeder</value>
   </data>
@@ -5514,9 +5448,6 @@ Invert</value>
   <data name="DarkCustomStyles" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>images\darkcustomstyles.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="DarkFavorites" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>images\darkfavorites.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
   <data name="DarkSnippets" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>images\darksnippets.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
@@ -5534,9 +5465,6 @@ Invert</value>
   </data>
   <data name="ExpandArrow" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>images\expandarrow.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Favorites" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>images\favorites.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="FolderClose" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>images\folderclose.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>

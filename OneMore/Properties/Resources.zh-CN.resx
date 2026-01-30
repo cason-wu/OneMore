@@ -1050,42 +1050,6 @@ OneNote 文件 (*.one)</value>
     <value>将文件名中的空格替换为下划线</value>
     <comment>checkbox</comment>
   </data>
-  <data name="Favorites_suspect" xml:space="preserve">
-    <value>找不到网页;它可能已被重命名或移动</value>
-    <comment>tooltip</comment>
-  </data>
-  <data name="Favorites_unknown" xml:space="preserve">
-    <value>不再找到页面；它可能已被删除</value>
-    <comment>tooltip</comment>
-  </data>
-  <data name="FavoritesDialog_addButton.Text" xml:space="preserve">
-    <value>添加当前页面</value>
-    <comment>context menu item</comment>
-  </data>
-  <data name="FavoritesDialog_checkButton.Text" xml:space="preserve">
-    <value>检查收藏夹</value>
-    <comment>context menu item</comment>
-  </data>
-  <data name="FavoritesDialog_manageButton.Text" xml:space="preserve">
-    <value>管理收藏夹</value>
-    <comment>context menu item</comment>
-  </data>
-  <data name="FavoritesFilename" xml:space="preserve">
-    <value>Favorites.xml</value>
-    <comment>FILENAME</comment>
-  </data>
-  <data name="FavoritesSheet_DeleteMessage" xml:space="preserve">
-    <value>删除{0}？</value>
-    <comment>settings</comment>
-  </data>
-  <data name="FavoritesSheet_locationColumn.HeaderText" xml:space="preserve">
-    <value>位置</value>
-    <comment>settings table column header</comment>
-  </data>
-  <data name="FavoritesSheet_shortcutsBox.Text" xml:space="preserve">
-    <value>包括对键盘快捷键页面的引用</value>
-    <comment>settings</comment>
-  </data>
   <data name="FileImportSheet_introBox.Text" xml:space="preserve">
     <value>自定义 PowerPoint 和 PDF 导入选项</value>
     <comment>label</comment>
@@ -2614,22 +2578,6 @@ OneNote 文件 (*.one)</value>
     <value>为所选图像添加说明</value>
     <comment>ribbon images</comment>
   </data>
-  <data name="ribAddFavoritePageButton_Label" xml:space="preserve">
-    <value>添加当前页面</value>
-    <comment>favorites menu command</comment>
-  </data>
-  <data name="ribAddFavoritePageButton_Screentip" xml:space="preserve">
-    <value>将当前页面添加到收藏夹</value>
-    <comment>ribbon favorites</comment>
-  </data>
-  <data name="ribAddFavoriteSectionButton_Label" xml:space="preserve">
-    <value>添加到收藏夹</value>
-    <comment>ribbon</comment>
-  </data>
-  <data name="ribAddFavoriteSectionButton_Screentip" xml:space="preserve">
-    <value>将部分添加到收藏夹菜单</value>
-    <comment>section context menu</comment>
-  </data>
   <data name="ribAddFootnoteButton_Label" xml:space="preserve">
     <value>添加脚注</value>
     <comment>Ribbon OneMore menu item, Extras...</comment>
@@ -2838,9 +2786,6 @@ OneNote 文件 (*.one)</value>
   <data name="ribChooseColorizerButton_Label" xml:space="preserve">
     <value>着色</value>
     <comment>ribbon edit</comment>
-  </data>
-  <data name="ribChooseFavoriteButton_Label" xml:space="preserve">
-    <value>选择收藏夹</value>
   </data>
   <data name="ribCleanMenu_Label" xml:space="preserve">
     <value>清洁</value>
@@ -3137,10 +3082,6 @@ OneNote 文件 (*.one)</value>
   <data name="ribExtrasMenu_Label" xml:space="preserve">
     <value>额外</value>
     <comment>Ribbon OneMore menu item, Extras...</comment>
-  </data>
-  <data name="ribFavoritesMenu_Label" xml:space="preserve">
-    <value>收藏</value>
-    <comment>Ribbon main favorites button</comment>
   </data>
   <data name="ribFileMenu_Label" xml:space="preserve">
     <value>文件</value>
@@ -3461,10 +3402,6 @@ OneNote 文件 (*.one)</value>
   <data name="ribLowercaseButton_Screentip" xml:space="preserve">
     <value>将文本转换为小写 (Ctrl + Shift + U)</value>
     <comment>Ribbon OneMore menu item</comment>
-  </data>
-  <data name="ribManageFavoritesButton_Label" xml:space="preserve">
-    <value>管理收藏夹</value>
-    <comment>favorites menu command</comment>
   </data>
   <data name="ribManagePluginsButton_Label" xml:space="preserve">
     <value>管理已保存的插件</value>
@@ -5118,9 +5055,6 @@ OneNote 文件 (*.one)</value>
   </data>
   <data name="word_Extract" xml:space="preserve">
     <value>提炼</value>
-  </data>
-  <data name="word_Favorites" xml:space="preserve">
-    <value>收藏夹</value>
   </data>
   <data name="word_Feeder" xml:space="preserve">
     <value>馈线</value>
