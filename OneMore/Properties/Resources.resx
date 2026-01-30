@@ -414,10 +414,6 @@ Invert</value>
     <value>Two spaces between sentences</value>
     <comment>radio</comment>
   </data>
-  <data name="CleanRemindersCommand_count" xml:space="preserve">
-    <value>Cleaned up {0} orphaned reminders</value>
-    <comment>message box</comment>
-  </data>
   <data name="ClearLog_Message" xml:space="preserve">
     <value>Clear the log file now?</value>
     <comment>message box message</comment>
@@ -648,10 +644,6 @@ Invert</value>
   <data name="DatabaseFilename" xml:space="preserve">
     <value>OneMore.db</value>
     <comment>SKIP, Sqlite database file name</comment>
-  </data>
-  <data name="DeleteReminderCommand_deleteTag" xml:space="preserve">
-    <value>About to delete reminder. Would you also like to delete the tag associated with this reminder?</value>
-    <comment>message box</comment>
   </data>
   <data name="DiagnosticsDialog_introLabel.Text" xml:space="preserve">
     <value>Diagnostics written to</value>
@@ -1426,34 +1418,6 @@ Yellow Background</value>
   <data name="ImportDialog_wordGroup.Text" xml:space="preserve">
     <value>Word Options</value>
     <comment>group box</comment>
-  </data>
-  <data name="ImportOutlookTasksDialog.Text" xml:space="preserve">
-    <value>Import Tasks from Outlook</value>
-    <comment>dialog title</comment>
-  </data>
-  <data name="ImportOutlookTasksDialog_introBox.Text" xml:space="preserve">
-    <value>Choose an entire folder or individual tasks to import from Outlook into OneNote. Disabled items indicate tasks already linked to OneNote</value>
-    <comment>text box</comment>
-  </data>
-  <data name="ImportOutlookTasksDialog_listButton.Text" xml:space="preserve">
-    <value>Generate task list</value>
-    <comment>radio</comment>
-  </data>
-  <data name="ImportOutlookTasksDialog_noorphans" xml:space="preserve">
-    <value>No orphaned tasks were found</value>
-    <comment>message box</comment>
-  </data>
-  <data name="ImportOutlookTasksDialog_reset" xml:space="preserve">
-    <value>Reset {0} orphaned task(s)</value>
-    <comment>message box</comment>
-  </data>
-  <data name="ImportOutlookTasksDialog_tableButton.Text" xml:space="preserve">
-    <value>Generate task detail table</value>
-    <comment>radio</comment>
-  </data>
-  <data name="ImportOutlookTasksDialog_warningBox.Text" xml:space="preserve">
-    <value>Note that OneNote does not bind completely to task that are not in the Outlook Tasks folder. Tasks from sub-folders are shown in red to indicate that their status flags will not update automatically after importing.</value>
-    <comment>rich text box</comment>
   </data>
   <data name="ImportWebCommand_BadUrl" xml:space="preserve">
     <value>Web page not found or returned empty content</value>
@@ -2240,122 +2204,6 @@ Yellow Highlight</value>
     <value>Quick Palette</value>
     <comment>dialog title</comment>
   </data>
-  <data name="RemindCommand_nameFormat" xml:space="preserve">
-    <value>Reminder: task due {0}</value>
-    <comment>tagdef name tooltip</comment>
-  </data>
-  <data name="RemindCommand_noContext" xml:space="preserve">
-    <value>Cursor must be positioned on a paragraph</value>
-    <comment>warning message</comment>
-  </data>
-  <data name="RemindCommand_noReminder" xml:space="preserve">
-    <value>There is no reminder on this paragraph</value>
-    <comment>message box</comment>
-  </data>
-  <data name="RemindDialog_dueDateLabel.Text" xml:space="preserve">
-    <value>Due date</value>
-    <comment>label</comment>
-  </data>
-  <data name="RemindDialog_priorityLabel.Text" xml:space="preserve">
-    <value>Priority</value>
-    <comment>label</comment>
-  </data>
-  <data name="RemindDialog_silentBox.Text" xml:space="preserve">
-    <value>Silence this reminder</value>
-    <comment>checkbox</comment>
-  </data>
-  <data name="RemindDialog_snoozeBox.Items" xml:space="preserve">
-    <value>Do not snooze
-5 minutes
-10 minutes
-15 minutes
-30 minutes
-1 hour
-2 hours
-4 hours
-1 day
-2 days
-3 days
-1 week
-2 weeks</value>
-    <comment>combox box</comment>
-  </data>
-  <data name="RemindDialog_snoozeButton.Text" xml:space="preserve">
-    <value>Snooze</value>
-    <comment>button</comment>
-  </data>
-  <data name="RemindDialog_snoozeLabel.Text" xml:space="preserve">
-    <value>Click snooze to be reminded in</value>
-    <comment>label</comment>
-  </data>
-  <data name="RemindDialog_startDateLabel.Text" xml:space="preserve">
-    <value>Start date</value>
-    <comment>label</comment>
-  </data>
-  <data name="RemindDialog_statusBox.Text" xml:space="preserve">
-    <value>Not started
-In progress
-Completed
-Waiting on someone else
-Deferred</value>
-    <comment>combobox</comment>
-  </data>
-  <data name="RemindDialog_subjectLabel.Text" xml:space="preserve">
-    <value>Subject</value>
-    <comment>label</comment>
-  </data>
-  <data name="RemindDialog_tagLabel.Text" xml:space="preserve">
-    <value>Tag</value>
-    <comment>label</comment>
-  </data>
-  <data name="Reminder_PastDue" xml:space="preserve">
-    <value>Task is past its due date of {0}, "{1}". Click here to navigate to this task</value>
-    <comment>toast message</comment>
-  </data>
-  <data name="Reminder_PastStart" xml:space="preserve">
-    <value>Task is past its start date of {0}; due {1}. "{2}". Click here to navigate to this task</value>
-    <comment>toast message</comment>
-  </data>
-  <data name="Reminder_ToastTitle" xml:space="preserve">
-    <value>OneMore Reminder</value>
-    <comment>toast header</comment>
-  </data>
-  <data name="ReminderReport_ActiveReminders" xml:space="preserve">
-    <value>Active Reminders</value>
-    <comment>report</comment>
-  </data>
-  <data name="ReminderReport_ActiveSummary" xml:space="preserve">
-    <value>These are reminders not yet completed or deferred and ordered by due date year, week of year, and priority</value>
-    <comment>report</comment>
-  </data>
-  <data name="ReminderReport_InactiveReminders" xml:space="preserve">
-    <value>Inactive Reminders</value>
-    <comment>report</comment>
-  </data>
-  <data name="ReminderReport_InactiveSummary" xml:space="preserve">
-    <value>These are reminders that have been completed or deferred and ordered by status, completion date, and priority</value>
-    <comment>report</comment>
-  </data>
-  <data name="ReminderReport_LastUpdated" xml:space="preserve">
-    <value>Last updated</value>
-    <comment>text</comment>
-  </data>
-  <data name="ReminderReport_noReminders" xml:space="preserve">
-    <value>No reminders to report</value>
-    <comment>message box</comment>
-  </data>
-  <data name="ReminderReport_SnoozedUntil" xml:space="preserve">
-    <value>Snoozed until {0}</value>
-    <comment>report</comment>
-  </data>
-  <data name="ReminderReport_Title" xml:space="preserve">
-    <value>Reminder Summary Report</value>
-    <comment>report</comment>
-  </data>
-  <data name="ReminderReport_WeekOfYear" xml:space="preserve">
-    <value>Week {0}</value>
-    <comment>report citation</comment>
-  </data>
   <data name="RemoveCitations_Clippings" xml:space="preserve">
     <value>Screen clipping</value>
     <comment>Screen clipping citation</comment>
@@ -2436,29 +2284,6 @@ Select No to keep one empty line between paragraphs</value>
   <data name="ReorderDialog_label.Text" xml:space="preserve">
     <value>Reorder how styles appear in the gallery. Also changes the order of headings in a TOC</value>
     <comment>instructions</comment>
-  </data>
-  <data name="ReportRemindersDialog.Text" xml:space="preserve">
-    <value>Report Scope</value>
-  </data>
-  <data name="ReportRemindersDialog_introLabel.Text" xml:space="preserve">
-    <value>Generate report for reminders in this scope</value>
-    <comment>label</comment>
-  </data>
-  <data name="ReportRemindersDialog_showCompletedBox.Text" xml:space="preserve">
-    <value>Include completed reminders</value>
-    <comment>checkbox</comment>
-  </data>
-  <data name="ReportRemindersReuseDialog_newRadio.Text" xml:space="preserve">
-    <value>Create a new report page</value>
-    <comment>radio</comment>
-  </data>
-  <data name="ReportRemindersReuseDialog_oldRadio.Text" xml:space="preserve">
-    <value>Update this existing report</value>
-    <comment>radio</comment>
-  </data>
-  <data name="ReportRemindersReuseDialog_Text" xml:space="preserve">
-    <value>Old or New</value>
-    <comment>title</comment>
   </data>
   <data name="ribAboutButton_Label" xml:space="preserve">
     <value>About OneMore</value>
@@ -2673,14 +2498,6 @@ Help Tab</value>
     <value>Clean</value>
     <comment>ribbon menu</comment>
   </data>
-  <data name="ribCleanRemindersButton_Label" xml:space="preserve">
-    <value>Clean Reminders</value>
-    <comment>ribbon reminders</comment>
-  </data>
-  <data name="ribCleanRemindersButton_Screentip" xml:space="preserve">
-    <value>Clean broken reminders on this page</value>
-    <comment>ribbon reminders</comment>
-  </data>
   <data name="ribClearBackgroundButton_Label" xml:space="preserve">
     <value>Clear Background Color</value>
     <comment>ribbon clean</comment>
@@ -2728,14 +2545,6 @@ Help Tab</value>
   <data name="ribCommandPaletteButton_Screentip" xml:space="preserve">
     <value>Open the Command Palette window</value>
     <comment>ribbon main</comment>
-  </data>
-  <data name="ribCompleteReminderButton_Label" xml:space="preserve">
-    <value>Complete Reminder</value>
-    <comment>ribbon reminders</comment>
-  </data>
-  <data name="ribCompleteReminderButton_Screentip" xml:space="preserve">
-    <value>Mark the paragraph reminder as complete</value>
-    <comment>ribbon reminders</comment>
   </data>
   <data name="ribCompressImagesButton_Label" xml:space="preserve">
     <value>Compress Images</value>
@@ -2844,14 +2653,6 @@ Help Tab</value>
   <data name="ribDecreaseFontSizeButton_Screentip" xml:space="preserve">
     <value>Decrease page font size (Ctrl + Alt + Minus)</value>
     <comment>ribbon edit</comment>
-  </data>
-  <data name="ribDeleteReminderButton_Label" xml:space="preserve">
-    <value>Delete Reminder</value>
-    <comment>ribbon reminders</comment>
-  </data>
-  <data name="ribDeleteReminderButton_Screentip" xml:space="preserve">
-    <value>Delete reminder from current paragraph</value>
-    <comment>ribbon reminders</comment>
   </data>
   <data name="ribDiagnosticsButton_Label" xml:space="preserve">
     <value>Dump Diagnostics to Log</value>
@@ -3016,14 +2817,6 @@ Help Tab</value>
   <data name="ribImportButton_Screentip" xml:space="preserve">
     <value>Import a file</value>
     <comment>ribbon file NODUP</comment>
-  </data>
-  <data name="ribImportOutlookTasksButton_Label" xml:space="preserve">
-    <value>Import Tasks from Outlook</value>
-    <comment>ribbon reminders NODUP</comment>
-  </data>
-  <data name="ribImportOutlookTasksButton_Screentip" xml:space="preserve">
-    <value>Import task information from Outlook</value>
-    <comment>ribbon reminders NODUP</comment>
   </data>
   <data name="ribImportWebButton_Label" xml:space="preserve">
     <value>Import Web Page</value>
@@ -3505,18 +3298,6 @@ Help Tab</value>
     <value>Open the Quick Palette window</value>
     <comment>ribbon menu</comment>
   </data>
-  <data name="ribRemindButton_Label" xml:space="preserve">
-    <value>Add or Update Reminders</value>
-    <comment>ribbon reminders</comment>
-  </data>
-  <data name="ribRemindButton_Screentip" xml:space="preserve">
-    <value>Add or update a reminder on the current paragraph</value>
-    <comment>ribbon reminders</comment>
-  </data>
-  <data name="ribRemindersMenu_Label" xml:space="preserve">
-    <value>Reminders</value>
-    <comment>ribbon menu NODUP</comment>
-  </data>
   <data name="ribRemoveAuthorsButton_Label" xml:space="preserve">
     <value>Remove Author Information</value>
     <comment>ribbon clean</comment>
@@ -3608,22 +3389,6 @@ Help Tab</value>
   <data name="ribReplayButton_Screentip" xml:space="preserve">
     <value>Replay last command (Alt + Shift + R)</value>
     <comment>ribbon main</comment>
-  </data>
-  <data name="ribReportRemindersButton_Label" xml:space="preserve">
-    <value>Reminder Summary Report</value>
-    <comment>ribbon reminders NODUP</comment>
-  </data>
-  <data name="ribReportRemindersButton_Screentip" xml:space="preserve">
-    <value>Generate a summary report of reminders</value>
-    <comment>ribbon reminders</comment>
-  </data>
-  <data name="ribResetTasksButton_Label" xml:space="preserve">
-    <value>Reset All Completed Tasks</value>
-    <comment>ribbon reminders</comment>
-  </data>
-  <data name="ribResetTasksButton_Screentip" xml:space="preserve">
-    <value>Uncheck and reset all completed tasks on this page</value>
-    <comment>ribbon reminders</comment>
   </data>
   <data name="ribRestoreAutosizeButton_Label" xml:space="preserve">
     <value>Restore Container Widths</value>
@@ -3848,14 +3613,6 @@ Help Tab</value>
   <data name="ribStatusMenu_Label" xml:space="preserve">
     <value>Status</value>
     <comment>ribbon snippets NODUP</comment>
-  </data>
-  <data name="ribStrikeoutTasksButton_Label" xml:space="preserve">
-    <value>Strikethrough Completed To Do Tags</value>
-    <comment>ribbon reminders</comment>
-  </data>
-  <data name="ribStrikeoutTasksButton_Screentip" xml:space="preserve">
-    <value>Toggle strikethough of text marked with complete or incomplete To Do tags</value>
-    <comment>ribbon reminders</comment>
   </data>
   <data name="ribStylizeImagesButton_Label" xml:space="preserve">
     <value>Stylize Images</value>

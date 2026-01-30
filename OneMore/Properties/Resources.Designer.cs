@@ -7040,24 +7040,6 @@ namespace River.OneMoreAddIn.Properties {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Clean Reminders.
-        /// </summary>
-        internal static string ribCleanRemindersButton_Label {
-            get {
-                return ResourceManager.GetString("ribCleanRemindersButton_Label", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized string similar to Clean broken reminders on this page.
-        /// </summary>
-        internal static string ribCleanRemindersButton_Screentip {
-            get {
-                return ResourceManager.GetString("ribCleanRemindersButton_Screentip", resourceCulture);
-            }
-        }
-        
-        /// <summary>
         ///   Looks up a localized string similar to Clear Background Color.
         /// </summary>
         internal static string ribClearBackgroundButton_Label {
@@ -7162,24 +7144,6 @@ namespace River.OneMoreAddIn.Properties {
         internal static string ribCommandPaletteButton_Screentip {
             get {
                 return ResourceManager.GetString("ribCommandPaletteButton_Screentip", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized string similar to Complete Reminder.
-        /// </summary>
-        internal static string ribCompleteReminderButton_Label {
-            get {
-                return ResourceManager.GetString("ribCompleteReminderButton_Label", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized string similar to Mark the paragraph reminder as complete.
-        /// </summary>
-        internal static string ribCompleteReminderButton_Screentip {
-            get {
-                return ResourceManager.GetString("ribCompleteReminderButton_Screentip", resourceCulture);
             }
         }
         
@@ -7435,24 +7399,6 @@ namespace River.OneMoreAddIn.Properties {
         internal static string ribDecreaseFontSizeButton_Screentip {
             get {
                 return ResourceManager.GetString("ribDecreaseFontSizeButton_Screentip", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized string similar to Delete Reminder.
-        /// </summary>
-        internal static string ribDeleteReminderButton_Label {
-            get {
-                return ResourceManager.GetString("ribDeleteReminderButton_Label", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized string similar to Delete reminder from current paragraph.
-        /// </summary>
-        internal static string ribDeleteReminderButton_Screentip {
-            get {
-                return ResourceManager.GetString("ribDeleteReminderButton_Screentip", resourceCulture);
             }
         }
         
@@ -7840,24 +7786,6 @@ namespace River.OneMoreAddIn.Properties {
         internal static string ribImportButton_Screentip {
             get {
                 return ResourceManager.GetString("ribImportButton_Screentip", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized string similar to Import Tasks from Outlook.
-        /// </summary>
-        internal static string ribImportOutlookTasksButton_Label {
-            get {
-                return ResourceManager.GetString("ribImportOutlookTasksButton_Label", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized string similar to Import task information from Outlook.
-        /// </summary>
-        internal static string ribImportOutlookTasksButton_Screentip {
-            get {
-                return ResourceManager.GetString("ribImportOutlookTasksButton_Screentip", resourceCulture);
             }
         }
         
@@ -8999,33 +8927,6 @@ namespace River.OneMoreAddIn.Properties {
         ///   Looks up a localized string similar to Refresh bi-directional link references.
         /// </summary>
         /// <summary>
-        ///   Looks up a localized string similar to Add or Update Reminders.
-        /// </summary>
-        internal static string ribRemindButton_Label {
-            get {
-                return ResourceManager.GetString("ribRemindButton_Label", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized string similar to Add or update a reminder on the current paragraph.
-        /// </summary>
-        internal static string ribRemindButton_Screentip {
-            get {
-                return ResourceManager.GetString("ribRemindButton_Screentip", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized string similar to Reminders.
-        /// </summary>
-        internal static string ribRemindersMenu_Label {
-            get {
-                return ResourceManager.GetString("ribRemindersMenu_Label", resourceCulture);
-            }
-        }
-        
-        /// <summary>
         ///   Looks up a localized string similar to Remove Author Information.
         /// </summary>
         internal static string ribRemoveAuthorsButton_Label {
@@ -9235,42 +9136,6 @@ namespace River.OneMoreAddIn.Properties {
         internal static string ribReplayButton_Screentip {
             get {
                 return ResourceManager.GetString("ribReplayButton_Screentip", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized string similar to Reminder Summary Report.
-        /// </summary>
-        internal static string ribReportRemindersButton_Label {
-            get {
-                return ResourceManager.GetString("ribReportRemindersButton_Label", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized string similar to Generate a summary report of reminders.
-        /// </summary>
-        internal static string ribReportRemindersButton_Screentip {
-            get {
-                return ResourceManager.GetString("ribReportRemindersButton_Screentip", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized string similar to Reset All Completed Tasks.
-        /// </summary>
-        internal static string ribResetTasksButton_Label {
-            get {
-                return ResourceManager.GetString("ribResetTasksButton_Label", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized string similar to Uncheck and reset all completed tasks on this page.
-        /// </summary>
-        internal static string ribResetTasksButton_Screentip {
-            get {
-                return ResourceManager.GetString("ribResetTasksButton_Screentip", resourceCulture);
             }
         }
         
@@ -9791,24 +9656,6 @@ namespace River.OneMoreAddIn.Properties {
         internal static string ribStatusMenu_Label {
             get {
                 return ResourceManager.GetString("ribStatusMenu_Label", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized string similar to Strikethrough Completed To Do Tags.
-        /// </summary>
-        internal static string ribStrikeoutTasksButton_Label {
-            get {
-                return ResourceManager.GetString("ribStrikeoutTasksButton_Label", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized string similar to Toggle strikethough of text marked with complete or incomplete To Do tags.
-        /// </summary>
-        internal static string ribStrikeoutTasksButton_Screentip {
-            get {
-                return ResourceManager.GetString("ribStrikeoutTasksButton_Screentip", resourceCulture);
             }
         }
         

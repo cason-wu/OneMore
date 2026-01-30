@@ -26,12 +26,6 @@ namespace River.OneMoreAddIn.Models
 		// page is a reference map, so don't include it in subsequent maps
 		public static readonly string PageMap = "omPageMap";
 
-		// serialized reminder store for current page
-		public static readonly string Reminder = "omReminder";
-
-		// page is a reminder summary report, content is scope
-		public static readonly string ReminderReport = "omReminderReport";
-
 		// page is a section or notebook TOC
 		public static readonly string TableOfContents = "omTableOfContents";
 

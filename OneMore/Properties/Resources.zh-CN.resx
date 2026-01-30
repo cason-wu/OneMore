@@ -2667,14 +2667,6 @@ OneNote 文件 (*.one)</value>
     <value>清洁</value>
     <comment>Ribbon OneMore menu item</comment>
   </data>
-  <data name="ribCleanRemindersButton_Label" xml:space="preserve">
-    <value>清洁提醒</value>
-    <comment>ribbon reminders</comment>
-  </data>
-  <data name="ribCleanRemindersButton_Screentip" xml:space="preserve">
-    <value>清理此页面上损坏的提醒</value>
-    <comment>ribbon reminders</comment>
-  </data>
   <data name="ribClearBackgroundButton_Label" xml:space="preserve">
     <value>清除背景颜色</value>
     <comment>ribbon menu item</comment>
@@ -2722,14 +2714,6 @@ OneNote 文件 (*.one)</value>
   <data name="ribCommandPaletteButton_Screentip" xml:space="preserve">
     <value>打开命令面板窗口</value>
     <comment>ribbon main</comment>
-  </data>
-  <data name="ribCompleteReminderButton_Label" xml:space="preserve">
-    <value>完成提醒</value>
-    <comment>ribbon button</comment>
-  </data>
-  <data name="ribCompleteReminderButton_Screentip" xml:space="preserve">
-    <value>将段落提醒标记为完成</value>
-    <comment>ribbon reminders</comment>
   </data>
   <data name="ribCompressImagesButton_Label" xml:space="preserve">
     <value>压缩图像</value>
@@ -2838,14 +2822,6 @@ OneNote 文件 (*.one)</value>
   <data name="ribDecreaseFontSizeButton_Screentip" xml:space="preserve">
     <value>缩小页面字体大小 (Ctrl + Alt + Minus)</value>
     <comment>Ribbon OneMore menu item</comment>
-  </data>
-  <data name="ribDeleteReminderButton_Label" xml:space="preserve">
-    <value>删除提醒</value>
-    <comment>ribbon button</comment>
-  </data>
-  <data name="ribDeleteReminderButton_Screentip" xml:space="preserve">
-    <value>从当前段落中删除提醒</value>
-    <comment>ribbon reminders</comment>
   </data>
   <data name="ribDiagnosticsButton_Label" xml:space="preserve">
     <value>将诊断转储到日志</value>
@@ -3010,14 +2986,6 @@ OneNote 文件 (*.one)</value>
   <data name="ribImportButton_Screentip" xml:space="preserve">
     <value>导入文件</value>
     <comment>ribbon file NODUP</comment>
-  </data>
-  <data name="ribImportOutlookTasksButton_Label" xml:space="preserve">
-    <value>从 Outlook 导入任务</value>
-    <comment>ribbon Reminders item</comment>
-  </data>
-  <data name="ribImportOutlookTasksButton_Screentip" xml:space="preserve">
-    <value>从 Outlook 导入任务信息</value>
-    <comment>ribbon reminders NODUP</comment>
   </data>
   <data name="ribImportWebButton_Label" xml:space="preserve">
     <value>导入网页</value>
@@ -3498,18 +3466,6 @@ OneNote 文件 (*.one)</value>
     <value>打开快速调色板窗口</value>
     <comment>ribbon menu</comment>
   </data>
-  <data name="ribRemindButton_Label" xml:space="preserve">
-    <value>添加或更新提醒</value>
-    <comment>ribbon button</comment>
-  </data>
-  <data name="ribRemindButton_Screentip" xml:space="preserve">
-    <value>添加或更新当前段落的提醒</value>
-    <comment>ribbon reminders</comment>
-  </data>
-  <data name="ribRemindersMenu_Label" xml:space="preserve">
-    <value>提醒事项</value>
-    <comment>ribbon menu</comment>
-  </data>
   <data name="ribRemoveAuthorsButton_Label" xml:space="preserve">
     <value>删除作者信息</value>
     <comment>Ribbon OneMore menu item</comment>
@@ -3600,22 +3556,6 @@ OneNote 文件 (*.one)</value>
   <data name="ribReplayButton_Screentip" xml:space="preserve">
     <value>重放上一个命令 (Alt + Shift + R)</value>
     <comment>Ribbon OneMore menu item, trim</comment>
-  </data>
-  <data name="ribReportRemindersButton_Label" xml:space="preserve">
-    <value>提醒汇总报告</value>
-    <comment>ribbon item</comment>
-  </data>
-  <data name="ribReportRemindersButton_Screentip" xml:space="preserve">
-    <value>生成提醒摘要报告</value>
-    <comment>ribbon reminders</comment>
-  </data>
-  <data name="ribResetTasksButton_Label" xml:space="preserve">
-    <value>重置所有已完成的任务</value>
-    <comment>ribbon reminders</comment>
-  </data>
-  <data name="ribResetTasksButton_Screentip" xml:space="preserve">
-    <value>取消选中并重置此页面上所有已完成的任务</value>
-    <comment>ribbon reminders</comment>
   </data>
   <data name="ribRestoreAutosizeButton_Label" xml:space="preserve">
     <value>还原容器宽度</value>
@@ -3840,14 +3780,6 @@ OneNote 文件 (*.one)</value>
   <data name="ribStatusMenu_Label" xml:space="preserve">
     <value>地位</value>
     <comment>ribbon snippets</comment>
-  </data>
-  <data name="ribStrikeoutTasksButton_Label" xml:space="preserve">
-    <value>删除线完成标记</value>
-    <comment>Ribbon OneMore menu item</comment>
-  </data>
-  <data name="ribStrikeoutTasksButton_Screentip" xml:space="preserve">
-    <value>切换标记有完整或不完整的待办事项标签的文本的删除线</value>
-    <comment>Ribbon OneMore menu item</comment>
   </data>
   <data name="ribStylizeImagesButton_Label" xml:space="preserve">
     <value>风格化图像</value>

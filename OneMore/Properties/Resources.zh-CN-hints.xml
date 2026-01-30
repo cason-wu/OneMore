@@ -160,14 +160,6 @@
       删除此分区中所有页面的页码
     </preferred>
   </hint>
-  <hint name="ribCompleteReminderButton_Label">
-    <source>
-      Complete Reminder
-    </source>
-    <preferred>
-      完成提醒
-    </preferred>
-  </hint>
   <hint name="ribCopyAcrossButton_Label">
     <source>
       Copy Across
