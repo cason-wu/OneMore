@@ -5927,23 +5927,6 @@ namespace River.OneMoreAddIn.Properties {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to No references found to this page.
-        /// </summary>
-        /// <summary>
-        ///   Looks up a localized string similar to Updated {0} pages.
-        /// </summary>
-        /// <summary>
-        ///   Looks up a localized string similar to Pages in.
-        /// </summary>
-        /// <summary>
-        ///   Looks up a localized string similar to Refresh Page References.
-        /// </summary>
-        
-        }
-        
-        }
-        
-        /// <summary>
         ///   Looks up a localized string similar to Screen clipping.
         /// </summary>
         internal static string RemoveCitations_Clippings {

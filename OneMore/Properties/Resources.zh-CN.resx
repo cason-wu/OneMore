@@ -2279,9 +2279,6 @@ OneNote 文件 (*.one)</value>
     <value>重新排列样式在图库中的显示顺序。 同时更改目录中标题的顺序</value>
     <comment>instructions</comment>
   </data>
-    <value>旧的或新的</value>
-    <comment>title</comment>
-  </data>
   <data name="ribAboutButton_Label" xml:space="preserve">
     <value>关于OneMore</value>
     <comment>Ribbon OneMore menu item</comment>
