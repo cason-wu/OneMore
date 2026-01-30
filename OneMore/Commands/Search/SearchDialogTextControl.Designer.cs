@@ -13,10 +13,13 @@
 		/// <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
 		protected override void Dispose(bool disposing)
 		{
-			if (disposing && (components != null))
+			if (disposing)
 			{
-				components.Dispose();
+				resultsView?.Dispose();
+				source?.Dispose();
+				components?.Dispose();
 			}
+
 			base.Dispose(disposing);
 		}
 
@@ -121,7 +124,7 @@
 			this.searchButton.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
 			this.searchButton.Image = global::River.OneMoreAddIn.Properties.Resources.m_Search;
 			this.searchButton.ImageOver = null;
-			this.searchButton.Location = new System.Drawing.Point(515, 5);
+			this.searchButton.Location = new System.Drawing.Point(515, 8);
 			this.searchButton.Margin = new System.Windows.Forms.Padding(4, 5, 4, 15);
 			this.searchButton.Name = "searchButton";
 			this.searchButton.ShowBorder = true;
