@@ -23,9 +23,6 @@ namespace River.OneMoreAddIn
 			=> await factory.Run<AddCaptionCommand>();
 
 		[Command("ribAddFootnoteButton_Label", Keys.Control | Keys.Alt | Keys.F, "ribReferencesMenu")]
-		public async Task AddFootnoteCmd(IRibbonControl control)
-			=> await factory.Run<AddFootnoteCommand>();
-
 		[Command("ribAddTagBankButton_Label", Keys.None, "ribSearchMenu")]
 		public async Task AddTagBankCmd(IRibbonControl control)
 			=> await factory.Run<TagBankCommand>(true);
@@ -105,9 +102,6 @@ namespace River.OneMoreAddIn
 			=> await factory.Run<UpdateCommand>(true);
 
 		[Command("ribCheckUrlsButton_Label", Keys.None, "ribReferencesMenu")]
-		public async Task CheckUrlsCmd(IRibbonControl control)
-			=> await factory.Run<CheckUrlsCommand>(true);
-
 		[Command("ribCleanRemindersButton_Label", Keys.None, "ribRemindersMenu")]
 		public async Task CleanRemindersCmd(IRibbonControl control)
 			=> await factory.Run<CleanRemindersCommand>();
@@ -174,13 +168,7 @@ namespace River.OneMoreAddIn
 			=> await factory.Run<CopyFolderCommand>();
 
 		[Command("ribCopyLinkToPageButton_Label", Keys.None, "ribReferencesMenu")]
-		public async Task CopyLinkToPageCmd(IRibbonControl control)
-			=> await factory.Run<CopyLinkToPageCommand>();
-
 		[Command("ribCopyLinkToParagraphButton_Label", Keys.None, "ribReferencesMenu")]
-		public async Task CopyLinkToParagraphCmd(IRibbonControl control)
-			=> await factory.Run<CopyLinkToParagraphCommand>();
-
 		[Command("ribCopyAsMarkdownButton_Label", Keys.None, "ribEditMenu")]
 		public async Task CopyAsMarkdownCmd(IRibbonControl control)
 			=> await factory.Run<CopyAsMarkdownCommand>(true);
@@ -242,9 +230,6 @@ namespace River.OneMoreAddIn
 			=> await factory.Run<EditTableThemesCommand>();
 
 		[Command("ribEmbedSubpageButton_Label", Keys.None, "ribReferencesMenu")]
-		public async Task EmbedSubpageCmd(IRibbonControl control)
-			=> await factory.Run<EmbedSubpageCommand>(false);
-
 		[Command("ribEnableSpellCheckButton_Label", Keys.None, "ribEditMenu")]
 		public async Task EnableSpellCheckCmd(IRibbonControl control)
 			=> await factory.Run<EnableSpellCheckCommand>();
@@ -273,18 +258,9 @@ namespace River.OneMoreAddIn
 		public async Task FillDownCmd(IRibbonControl control)
 			=> await factory.Run<FillDownCommand>();
 
-		[Command("ribFinishBiLinkButton_Label", Keys.None, "ribReferencesMenu")]
-		public async Task FinishBiLinkCmd(IRibbonControl control)
-			=> await factory.Run<BiLinkCommand>("link");
-
 		[Command("ribFitGridToTextButton_Label", Keys.None, "ribPageMenu")]
 		public async Task FitGridToTextCmd(IRibbonControl control)
 			=> await factory.Run<FitGridToTextCommand>();
-
-		[Command("ribGetImagesButton_Label", Keys.None, "ribReferencesMenu")]
-		public async Task GetImagesCmd(IRibbonControl control)
-			=> await factory.Run<GetImagesCommand>(true);
-
 		[Command("ribHashtaggerButton_Label", Keys.Alt | Keys.T, "ribSearchMenu")]
 		public async Task HashtaggerCmd(IRibbonControl control)
 			=> await factory.Run<HashtaggerCommand>(1);
@@ -378,9 +354,6 @@ namespace River.OneMoreAddIn
 			=> await factory.Run<InsertInfoBoxCommand>("note");
 
 		[Command("ribInsertQRButton_Label", Keys.None, "ribReferencesMenu")]
-		public async Task InsertQRCmd(IRibbonControl control)
-			=> await factory.Run<InsertQRCommand>(false);
-
 		[Command("ribInsertRedStatusButton_Label", Keys.None, "ribSnippetsMenu")]
 		public async Task InsertRedStatusCmd(IRibbonControl control)
 			=> await factory.Run<InsertRedStatusCommand>();
@@ -427,9 +400,6 @@ namespace River.OneMoreAddIn
 			=> await factory.Run<ManageSnippetsCommand>(ribbon);
 
 		[Command("ribMapButton_Label", Keys.None, "ribReferencesMenu")]
-		public async Task MapCmd(IRibbonControl control)
-			=> await factory.Run<MapCommand>();
-
 		[Command("ribMergeButton_Label", Keys.None, "ribPageMenu")]
 		public async Task MergeCmd(IRibbonControl control)
 			=> await factory.Run<MergeCommand>();
@@ -451,9 +421,6 @@ namespace River.OneMoreAddIn
 			=> await factory.Run<MovePageCommand>(true);
 
 		[Command("ribNameUrlsButton_Label", Keys.None, "ribReferencesMenu")]
-		public async Task NameUrlsCmd(IRibbonControl control)
-			=> await factory.Run<NameUrlsCommand>();
-
 		[Command("ribNavigatorButton_Label", Keys.Shift | Keys.Alt | Keys.N)]
 		public async Task NavigatorCmd(IRibbonControl control)
 			=> await factory.Run<NavigatorCommand>();
@@ -537,13 +504,7 @@ namespace River.OneMoreAddIn
 			=> await factory.Run<QuickPaletteCommand>();
 
 		[Command("ribRefreshFootnotesButton_Label", Keys.None, "ribReferencesMenu")]
-		public async Task RefreshFootnotesCmd(IRibbonControl control)
-			=> await factory.Run<RefreshFootnotesCommand>();
-
 		[Command("ribRefreshPageLinksButton_Label", Keys.None, "ribReferencesMenu")]
-		public async Task RefreshPageLinksCmd(IRibbonControl control)
-			=> await factory.Run<RefreshPageLinksCommand>();
-
 		[Command("ribRemindButton_Label", Keys.F8, "ribRemindersMenu")]
 		public async Task RemindCmd(IRibbonControl control)
 			=> await factory.Run<RemindCommand>();
@@ -569,9 +530,6 @@ namespace River.OneMoreAddIn
 			=> await factory.Run<RemoveEmptyCommand>();
 
 		[Command("ribRemoveFootnoteButton_Label", Keys.Control | Keys.Shift | Keys.F, "ribReferencesMenu")]
-		public async Task RemoveFootnoteCmd(IRibbonControl control)
-			=> await factory.Run<RemoveFootnoteCommand>();
-
 		[Command("ribRemoveInkButton_Label", Keys.None, "ribCleanMenu")]
 		public async Task RemoveInkCmd(IRibbonControl control)
 			=> await factory.Run<RemoveInkCommand>();
@@ -723,10 +681,6 @@ namespace River.OneMoreAddIn
 		[Command("ribStackBackgroundImagesButton_Label", Keys.None, "ribImagesMenu")]
 		public async Task StackBackgroundImagesCmd(IRibbonControl control)
 			=> await factory.Run<StackBackgroundImagesCommand>();
-
-		[Command("ribStartBiLinkButton_Label", Keys.None, "ribReferencesMenu")]
-		public async Task StartBiLinkCmd(IRibbonControl control)
-			=> await factory.Run<BiLinkCommand>("mark");
 
 		[Command("ribStrikeoutTasksButton_Label", Keys.None, "ribRemindersMenu")]
 		public async Task StrikeoutTasksCmd(IRibbonControl control)
