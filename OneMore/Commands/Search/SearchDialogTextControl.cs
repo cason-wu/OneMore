@@ -21,11 +21,83 @@ namespace River.OneMoreAddIn.Commands
 
 	internal partial class SearchDialogTextControl : MoreUserControl
 	{
+
 		private sealed class SearchHit
 		{
 			public string PlainText { get; set; }
 			public string Hyperlink { get; set; }
 		}
+
+		private sealed class SearchResultBuffer
+		{
+			private readonly List<SearchHit> hits = new();
+			private readonly object gate = new();
+
+			public int Count => hits.Count;
+
+			public SearchHit Get(int index)
+			{
+				lock (gate)
+				{
+					return index < hits.Count ? hits[index] : null;
+				}
+			}
+
+			public void AddRange(IEnumerable<SearchHit> hit)
+			{
+				lock (gate)
+				{
+					hits.AddRange(hit);
+				}
+			}
+		}
+
+		private sealed class SearchEngine
+		{
+			public event Action<List<SearchHit>> PageReady;
+
+			public void StartSearch(string query)
+			{
+				Task.Run(() =>
+				{
+					for (int page = 0; page < 100; page++)
+					{
+						Thread.Sleep(300); // Simulate search delay
+						var results = Enumerable.Range(page * 50, 50)
+							.Select(i => new SearchHit { PlainText = $"Result {i}", Hyperlink = $"https://example.com/{i}" })
+							.ToList();
+
+						PageReady?.Invoke(results);
+					}
+				});
+			}
+		}
+
+		private sealed class SearchCoordinator
+		{
+			private readonly SearchResultBuffer buffer;
+			private readonly ListView listview;
+
+			public SearchCoordinator(SearchResultBuffer buffer, ListView listView)
+			{
+				this.buffer = buffer;
+				this.listview = listView;
+			}
+
+			public void Attach(SearchEngine engine)
+			{
+				engine.PageReady += results =>
+				{
+					buffer.AddRange(results);
+					listview.Invoke(new Action(() =>
+					{
+						listview.VirtualListSize = buffer.Count;
+						listview.Invalidate();
+					}));
+				};
+			}
+		}
+
 
 		//private const int CreatedAfter = 1;
 		private const int CreatedBefore = 2;
@@ -36,6 +108,8 @@ namespace River.OneMoreAddIn.Commands
 		private readonly Regex cleaner;
 		private CancellationTokenSource source;
 		private bool grouping;
+
+		private SearchResultBuffer buffer;
 
 
 		public SearchDialogTextControl()
@@ -245,9 +319,14 @@ namespace River.OneMoreAddIn.Commands
 			}
 			else
 			{
+				logger.StartClock();
 				grouping = false;
+
 				var page = await one.GetPage(one.CurrentPageId, OneNote.PageDetail.Basic);
+				logger.WriteTime("loaded page", keepRunning: true);
+
 				await SearchPage(one, page);
+				logger.WriteTime("search complete");
 			}
 
 			// restore controls...
@@ -266,6 +345,13 @@ namespace River.OneMoreAddIn.Commands
 			searchButton.NotifyDefault(true);
 
 			nextButton.Visible = prevButton.Visible = resultsView.Items.Count > 0;
+		}
+
+
+		private void RetrieveVirtualItem(object sender, RetrieveVirtualItemEventArgs e)
+		{
+			var item = buffer.Get(e.ItemIndex);
+			e.Item = new ListViewItem(item?.PlainText ?? "Loading...");
 		}
 
 
