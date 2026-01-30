@@ -400,34 +400,6 @@
     <value>最近使用</value>
     <comment>listview annotation</comment>
   </data>
-  <data name="BiLinkCommand_BadAnchor" xml:space="preserve">
-    <value>无法标记锚点。</value>
-    <comment>message box</comment>
-  </data>
-  <data name="BiLinkCommand_BadTarget" xml:space="preserve">
-    <value>无法创建双向链接。 </value>
-    <comment>message box</comment>
-  </data>
-  <data name="BiLinkCommand_Circular" xml:space="preserve">
-    <value>无法将短语链接到自身</value>
-    <comment>message box</comment>
-  </data>
-  <data name="BiLinkCommand_LostAnchor" xml:space="preserve">
-    <value>找不到锚点。</value>
-    <comment>message box</comment>
-  </data>
-  <data name="BiLinkCommand_Marked" xml:space="preserve">
-    <value>将“{0}”标记为锚点。</value>
-    <comment>message box</comment>
-  </data>
-  <data name="BiLinkCommand_NoAnchor" xml:space="preserve">
-    <value>起始锚点尚未标记。</value>
-    <comment>message box</comment>
-  </data>
-  <data name="BiLinkCommand_NoTarget" xml:space="preserve">
-    <value>从一个段落中选择一个单词或短语</value>
-    <comment>message box</comment>
-  </data>
   <data name="BreakingDialog_oneButton.Text" xml:space="preserve">
     <value>句子之间有一个空格</value>
     <comment>radio</comment>
@@ -439,18 +411,6 @@
   <data name="BreakingDialog_twoButton.Text" xml:space="preserve">
     <value>句子之间有两个空格</value>
     <comment>radio</comment>
-  </data>
-  <data name="CheckUrlsCommand_checkingMsg" xml:space="preserve">
-    <value>检查 {0} 个网址</value>
-    <comment>message</comment>
-  </data>
-  <data name="CheckUrlsCommand_invaldiMsg" xml:space="preserve">
-    <value>在此页上发现 {0} 个无效网址</value>
-    <comment>message</comment>
-  </data>
-  <data name="CheckUrlsCommand_mappingMsg" xml:space="preserve">
-    <value>映射 {0} 页面引用</value>
-    <comment>message</comment>
   </data>
   <data name="CleanRemindersCommand_count" xml:space="preserve">
     <value>清理了 {0} 个孤立的提醒</value>
@@ -766,26 +726,6 @@
   <data name="EditTableThemesDialog_Text" xml:space="preserve">
     <value>自定义表格样式</value>
     <comment>dialog</comment>
-  </data>
-  <data name="EmbedSubpageCommand_NoContent" xml:space="preserve">
-    <value>源页面不包含任何内容</value>
-    <comment>message box</comment>
-  </data>
-  <data name="EmbedSubpageCommand_NoEmbedded" xml:space="preserve">
-    <value>未找到嵌入内容</value>
-    <comment>message box</comment>
-  </data>
-  <data name="EmbedSubpageCommand_NoSource" xml:space="preserve">
-    <value>找不到源页面</value>
-    <comment>message box</comment>
-  </data>
-  <data name="EmbedSubpageCommand_Select" xml:space="preserve">
-    <value>选择页面</value>
-    <comment>quickdialog title</comment>
-  </data>
-  <data name="EmbedSubpageCommand_SelectIntro" xml:space="preserve">
-    <value>选择要嵌入此页面的页面</value>
-    <comment>quickdialog intro</comment>
   </data>
   <data name="Emoji_Architecture" xml:space="preserve">
     <value>建筑</value>
@@ -1198,10 +1138,6 @@ OneNote 文件 (*.one)</value>
     <value>启用详细日志记录</value>
     <comment>checkbox</comment>
   </data>
-  <data name="GetImagesCommand_Cite" xml:space="preserve">
-    <value>你想用它的 URL 注释图像吗？</value>
-    <comment>message box</comment>
-  </data>
   <data name="HasActiveMedia" xml:space="preserve">
     <value>存在活动记录时无法调用 OneMore 命令。请停止录制并重试。</value>
   </data>
@@ -1601,14 +1537,6 @@ OneNote 文件 (*.one)</value>
     <value>向右移动单元格</value>
     <comment>radio</comment>
   </data>
-  <data name="InsertQRCommand_MaxLength" xml:space="preserve">
-    <value>所选文字不能超过{0}个字符</value>
-    <comment>message</comment>
-  </data>
-  <data name="InsertQRCommand_NoSelection" xml:space="preserve">
-    <value>选择要呈现为新QR码的文本</value>
-    <comment>message</comment>
-  </data>
   <data name="InsertSnippets_CouldNotLoad" xml:space="preserve">
     <value>Cloud 不加载来自“{0}”的代码段</value>
     <comment>error message</comment>
@@ -1728,18 +1656,6 @@ OneNote 文件 (*.one)</value>
     <value>重置所有</value>
     <comment>toolstrip button</comment>
   </data>
-  <data name="LinkDialog_groupBox.Text" xml:space="preserve">
-    <value>页数</value>
-    <comment>group box</comment>
-  </data>
-  <data name="LinkDialog_introLabel.Text" xml:space="preserve">
-    <value>创建指向此页面标题的链接引用</value>
-    <comment>label</comment>
-  </data>
-  <data name="LinkDialog_Text" xml:space="preserve">
-    <value>链接参考</value>
-    <comment>dialog title</comment>
-  </data>
   <data name="LinkedReferencesCommand_Title" xml:space="preserve">
     <value>链接参考</value>
     <comment>title text</comment>
@@ -1758,18 +1674,6 @@ OneNote 文件 (*.one)</value>
   <data name="LoadStyleTheme_Title" xml:space="preserve">
     <value>加载样式主题</value>
     <comment>OpenFileDialog title</comment>
-  </data>
-  <data name="MapDialog_groupBox.Text" xml:space="preserve">
-    <value>内页</value>
-    <comment>group box</comment>
-  </data>
-  <data name="MapDialog_synopsisBox.Text" xml:space="preserve">
-    <value>包括每个页面的概要</value>
-    <comment>checkbox</comment>
-  </data>
-  <data name="MapDialog_Text" xml:space="preserve">
-    <value>为页面创建链接图谱</value>
-    <comment>dialog title</comment>
   </data>
   <data name="MoreMessageBox_hideBox.Text" xml:space="preserve">
     <value>以后隐藏此消息</value>
@@ -2330,22 +2234,6 @@ OneNote 文件 (*.one)</value>
     <value>快速调色板</value>
     <comment>dialog title</comment>
   </data>
-  <data name="RefreshPageLinksCommand_none" xml:space="preserve">
-    <value>没有找到对本页的引用</value>
-    <comment>message</comment>
-  </data>
-  <data name="RefreshPageLinksCommand_updated" xml:space="preserve">
-    <value>更新了 {0} 页</value>
-    <comment>message</comment>
-  </data>
-  <data name="RefreshPageLinksDialog_groupBox.Text" xml:space="preserve">
-    <value>页数</value>
-    <comment>group box</comment>
-  </data>
-  <data name="RefreshPageLinksDialog_Text" xml:space="preserve">
-    <value>刷新页面参考</value>
-    <comment>dialog title</comment>
-  </data>
   <data name="RemindCommand_nameFormat" xml:space="preserve">
     <value>提醒：任务到期 (0)</value>
     <comment>tagdef name tooltip</comment>
@@ -2578,14 +2466,6 @@ OneNote 文件 (*.one)</value>
     <value>为所选图像添加说明</value>
     <comment>ribbon images</comment>
   </data>
-  <data name="ribAddFootnoteButton_Label" xml:space="preserve">
-    <value>添加脚注</value>
-    <comment>Ribbon OneMore menu item, Extras...</comment>
-  </data>
-  <data name="ribAddFootnoteButton_Screentip" xml:space="preserve">
-    <value>添加脚注（Ctrl + Alt + F）</value>
-    <comment>Ribbon OneMore menu item, Extras...</comment>
-  </data>
   <data name="ribAddTagBankButton_Label" xml:space="preserve">
     <value>添加标签库</value>
     <comment>ribbon search</comment>
@@ -2775,14 +2655,6 @@ OneNote 文件 (*.one)</value>
     <value>检查更新</value>
     <comment>command</comment>
   </data>
-  <data name="ribCheckUrlsButton_Label" xml:space="preserve">
-    <value>检查网址</value>
-    <comment>ribbon references</comment>
-  </data>
-  <data name="ribCheckUrlsButton_Screentip" xml:space="preserve">
-    <value>检查并突出显示无效 URL</value>
-    <comment>ribbon references</comment>
-  </data>
   <data name="ribChooseColorizerButton_Label" xml:space="preserve">
     <value>着色</value>
     <comment>ribbon edit</comment>
@@ -2907,22 +2779,6 @@ OneNote 文件 (*.one)</value>
     <value>复制节组</value>
     <comment>context menu item</comment>
   </data>
-  <data name="ribCopyLinkToPageButton_Label" xml:space="preserve">
-    <value>复制链接到页面</value>
-    <comment>ribbon item</comment>
-  </data>
-  <data name="ribCopyLinkToPageButton_Screentip" xml:space="preserve">
-    <value>将超链接复制到当前页面</value>
-    <comment>ribbon references</comment>
-  </data>
-  <data name="ribCopyLinkToParagraphButton_Label" xml:space="preserve">
-    <value>复制链接到段落</value>
-    <comment>ribbon item</comment>
-  </data>
-  <data name="ribCopyLinkToParagraphButton_Screentip" xml:space="preserve">
-    <value>将超链接复制到当前段落</value>
-    <comment>ribbon references</comment>
-  </data>
   <data name="ribCopyPageContentButton_Label" xml:space="preserve">
     <value>复制选定的内容</value>
     <comment>ribbon page</comment>
@@ -3043,14 +2899,6 @@ OneNote 文件 (*.one)</value>
     <value>编辑自定义自定义表格样式</value>
     <comment>ribbon table styles</comment>
   </data>
-  <data name="ribEmbedSubpageButton_Label" xml:space="preserve">
-    <value>嵌入页面</value>
-    <comment>ribbon item</comment>
-  </data>
-  <data name="ribEmbedSubpageButton_Screentip" xml:space="preserve">
-    <value>将另一个页面的内容嵌入到当前页面</value>
-    <comment>ribbon item screentip</comment>
-  </data>
   <data name="ribEnableSpellCheckButton_Label" xml:space="preserve">
     <value>启用拼写检查</value>
     <comment>Ribbon OneMore menu item, no spell check on this page</comment>
@@ -3115,14 +2963,6 @@ OneNote 文件 (*.one)</value>
     <value>搜索标签</value>
     <comment>ribbon references NODUP</comment>
   </data>
-  <data name="ribFinishBiLinkButton_Label" xml:space="preserve">
-    <value>完成双向链接</value>
-    <comment>ribbon item</comment>
-  </data>
-  <data name="ribFinishBiLinkButton_Screentip" xml:space="preserve">
-    <value>完成锚点和当前位置之间的链接</value>
-    <comment>ribbon references </comment>
-  </data>
   <data name="ribFitGridToTextButton_Label" xml:space="preserve">
     <value>使网格适合文本</value>
     <comment>ribbon item</comment>
@@ -3130,14 +2970,6 @@ OneNote 文件 (*.one)</value>
   <data name="ribFitGridToTextButton_Screentip" xml:space="preserve">
     <value>调整背景网格大小以匹配常用字体大小</value>
     <comment>ribbon page NODUP</comment>
-  </data>
-  <data name="ribGetImagesButton_Label" xml:space="preserve">
-    <value>用图像替换 URL</value>
-    <comment>Ribbon OneMore menu item, Extras...</comment>
-  </data>
-  <data name="ribGetImagesButton_Screentip" xml:space="preserve">
-    <value>下载并插入参考图像</value>
-    <comment>ribbon references</comment>
   </data>
   <data name="ribHashtaggerButton_Label" xml:space="preserve">
     <value>插入主题标签</value>
@@ -3307,14 +3139,6 @@ OneNote 文件 (*.one)</value>
     <value>插入备注框</value>
     <comment>ribbon snippets</comment>
   </data>
-  <data name="ribInsertQRButton_Label" xml:space="preserve">
-    <value>插入二维码</value>
-    <comment>ribbon button</comment>
-  </data>
-  <data name="ribInsertQRButton_Screentip" xml:space="preserve">
-    <value>插入代表所选文本的二维码</value>
-    <comment>ribbon references</comment>
-  </data>
   <data name="ribInsertRedStatusButton_Label" xml:space="preserve">
     <value>红色状态</value>
     <comment>Ribbon OneMore menu item, Snippets...</comment>
@@ -3458,14 +3282,6 @@ OneNote 文件 (*.one)</value>
   <data name="ribMovePageTopButton_Screentip" xml:space="preserve">
     <value>将选定的页面移至列表顶部</value>
     <comment>ribbon page</comment>
-  </data>
-  <data name="ribNameUrlsButton_Label" xml:space="preserve">
-    <value>用标题替换URL</value>
-    <comment>ribbon references</comment>
-  </data>
-  <data name="ribNameUrlsButton_Screentip" xml:space="preserve">
-    <value>用网页标题替换 URL</value>
-    <comment>ribbon references</comment>
   </data>
   <data name="ribNavigatorButton_Label" xml:space="preserve">
     <value>导航</value>
@@ -3678,26 +3494,6 @@ OneNote 文件 (*.one)</value>
     <value>打开快速调色板窗口</value>
     <comment>ribbon menu</comment>
   </data>
-  <data name="ribReferencesMenu_Label" xml:space="preserve">
-    <value>参考文献</value>
-    <comment>ribbon references menu</comment>
-  </data>
-  <data name="ribRefreshFootnotesButton_Label" xml:space="preserve">
-    <value>刷新脚注</value>
-    <comment>ribbon button</comment>
-  </data>
-  <data name="ribRefreshFootnotesButton_Screentip" xml:space="preserve">
-    <value>按顺序刷新脚注参考编号</value>
-    <comment>ribbon button</comment>
-  </data>
-  <data name="ribRefreshPageLinksButton_Label" xml:space="preserve">
-    <value>刷新页面参考</value>
-    <comment>ribbon item</comment>
-  </data>
-  <data name="ribRefreshPageLinksButton_Screentip" xml:space="preserve">
-    <value>刷新双向链接引用</value>
-    <comment>ribbon references</comment>
-  </data>
   <data name="ribRemindButton_Label" xml:space="preserve">
     <value>添加或更新提醒</value>
     <comment>ribbon button</comment>
@@ -3745,14 +3541,6 @@ OneNote 文件 (*.one)</value>
   <data name="ribRemoveEmptyButton_Screentip" xml:space="preserve">
     <value>删除段落之间多余的空行并删除空标题</value>
     <comment>Ribbon OneMore menu item</comment>
-  </data>
-  <data name="ribRemoveFootnoteButton_Label" xml:space="preserve">
-    <value>删除脚注</value>
-    <comment>Ribbon OneMore menu item, Extras...</comment>
-  </data>
-  <data name="ribRemoveFootnoteButton_Screentip" xml:space="preserve">
-    <value>删除脚注（Ctrl + Shift + F）</value>
-    <comment>Ribbon OneMore menu item, Extras...</comment>
   </data>
   <data name="ribRemoveInkButton_Label" xml:space="preserve">
     <value>去除墨水</value>
@@ -4044,14 +3832,6 @@ OneNote 文件 (*.one)</value>
   <data name="ribStackBackgroundImagesButton_Screentip" xml:space="preserve">
     <value>从上到下重新定位背景图像</value>
     <comment>ribbon images</comment>
-  </data>
-  <data name="ribStartBiLinkButton_Label" xml:space="preserve">
-    <value>启动双向链接</value>
-    <comment>ribbon item</comment>
-  </data>
-  <data name="ribStartBiLinkButton_Screentip" xml:space="preserve">
-    <value>开始双向链接</value>
-    <comment>ribbon references</comment>
   </data>
   <data name="ribStatusMenu_Label" xml:space="preserve">
     <value>地位</value>

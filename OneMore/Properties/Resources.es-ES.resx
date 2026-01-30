@@ -401,34 +401,6 @@ Invertir</value>
     <value>recientemente usado</value>
     <comment>listview annotation</comment>
   </data>
-  <data name="BiLinkCommand_BadAnchor" xml:space="preserve">
-    <value>No se pudo marcar el punto de anclaje. </value>
-    <comment>message box</comment>
-  </data>
-  <data name="BiLinkCommand_BadTarget" xml:space="preserve">
-    <value>No se pudo crear el enlace bidireccional. </value>
-    <comment>message box</comment>
-  </data>
-  <data name="BiLinkCommand_Circular" xml:space="preserve">
-    <value>No se puede vincular una frase a sí misma</value>
-    <comment>message box</comment>
-  </data>
-  <data name="BiLinkCommand_LostAnchor" xml:space="preserve">
-    <value>No se puede encontrar el ancla. </value>
-    <comment>message box</comment>
-  </data>
-  <data name="BiLinkCommand_Marked" xml:space="preserve">
-    <value>Marcado "{0}" como ancla. </value>
-    <comment>message box</comment>
-  </data>
-  <data name="BiLinkCommand_NoAnchor" xml:space="preserve">
-    <value>Ancla de salida aún no marcada. </value>
-    <comment>message box</comment>
-  </data>
-  <data name="BiLinkCommand_NoTarget" xml:space="preserve">
-    <value>Seleccione una palabra o frase de un párrafo</value>
-    <comment>message box</comment>
-  </data>
   <data name="BreakingDialog_oneButton.Text" xml:space="preserve">
     <value>Un espacio entre oraciones</value>
     <comment>radio</comment>
@@ -440,18 +412,6 @@ Invertir</value>
   <data name="BreakingDialog_twoButton.Text" xml:space="preserve">
     <value>Dos espacios entre oraciones</value>
     <comment>radio</comment>
-  </data>
-  <data name="CheckUrlsCommand_checkingMsg" xml:space="preserve">
-    <value>Comprobando {0} URL</value>
-    <comment>message</comment>
-  </data>
-  <data name="CheckUrlsCommand_invaldiMsg" xml:space="preserve">
-    <value>Se encontraron {0} URL no válidas en esta página</value>
-    <comment>message</comment>
-  </data>
-  <data name="CheckUrlsCommand_mappingMsg" xml:space="preserve">
-    <value>Asignación de {0} referencias de página</value>
-    <comment>message</comment>
   </data>
   <data name="CleanRemindersCommand_count" xml:space="preserve">
     <value>Se limpiaron {0} recordatorios huérfanos</value>
@@ -767,26 +727,6 @@ Fuente de la última columna</value>
   <data name="EditTableThemesDialog_Text" xml:space="preserve">
     <value>Estilos de tabla personalizados</value>
     <comment>dialog</comment>
-  </data>
-  <data name="EmbedSubpageCommand_NoContent" xml:space="preserve">
-    <value>La página de origen no tiene contenido</value>
-    <comment>message box</comment>
-  </data>
-  <data name="EmbedSubpageCommand_NoEmbedded" xml:space="preserve">
-    <value>No se encontró contenido incrustado</value>
-    <comment>message box</comment>
-  </data>
-  <data name="EmbedSubpageCommand_NoSource" xml:space="preserve">
-    <value>Página de origen no encontrada</value>
-    <comment>message box</comment>
-  </data>
-  <data name="EmbedSubpageCommand_Select" xml:space="preserve">
-    <value>Seleccionar página</value>
-    <comment>quickdialog title</comment>
-  </data>
-  <data name="EmbedSubpageCommand_SelectIntro" xml:space="preserve">
-    <value>Seleccione la página para incrustar en esta página</value>
-    <comment>quickdialog intro</comment>
   </data>
   <data name="Emoji_Architecture" xml:space="preserve">
     <value>Arquitectura</value>
@@ -1199,10 +1139,6 @@ Oscuro</value>
     <value>Habilitar registro detallado</value>
     <comment>checkbox</comment>
   </data>
-  <data name="GetImagesCommand_Cite" xml:space="preserve">
-    <value>¿Le gustaría anotar la imagen con su URL?</value>
-    <comment>message box</comment>
-  </data>
   <data name="HasActiveMedia" xml:space="preserve">
     <value>No se pueden invocar los comandos de OneMore mientras hay una grabación activa. Detenga la grabación y vuelva a intentarlo.</value>
   </data>
@@ -1602,14 +1538,6 @@ Fondo amarillo</value>
     <value>Desplazar celdas a la derecha</value>
     <comment>radio</comment>
   </data>
-  <data name="InsertQRCommand_MaxLength" xml:space="preserve">
-    <value>El texto seleccionado no puede superar los {0} caracteres</value>
-    <comment>message</comment>
-  </data>
-  <data name="InsertQRCommand_NoSelection" xml:space="preserve">
-    <value>Seleccionar texto para renderizar como un nuevo código QR</value>
-    <comment>message</comment>
-  </data>
   <data name="InsertSnippets_CouldNotLoad" xml:space="preserve">
     <value>La nube no carga el fragmento de "{0}"</value>
     <comment>error message</comment>
@@ -1729,18 +1657,6 @@ Título personalizado 3</value>
     <value>Resetear todo</value>
     <comment>toolstrip button</comment>
   </data>
-  <data name="LinkDialog_groupBox.Text" xml:space="preserve">
-    <value>Páginas en</value>
-    <comment>group box</comment>
-  </data>
-  <data name="LinkDialog_introLabel.Text" xml:space="preserve">
-    <value>Cree referencias vinculadas al título de esta página</value>
-    <comment>label</comment>
-  </data>
-  <data name="LinkDialog_Text" xml:space="preserve">
-    <value>Referencias de enlaces</value>
-    <comment>dialog title</comment>
-  </data>
   <data name="LinkedReferencesCommand_Title" xml:space="preserve">
     <value>Referencias vinculadas</value>
     <comment>title text</comment>
@@ -1759,18 +1675,6 @@ Título personalizado 3</value>
   <data name="LoadStyleTheme_Title" xml:space="preserve">
     <value>Tema de estilo de carga</value>
     <comment>OpenFileDialog title</comment>
-  </data>
-  <data name="MapDialog_groupBox.Text" xml:space="preserve">
-    <value>Páginas en</value>
-    <comment>group box</comment>
-  </data>
-  <data name="MapDialog_synopsisBox.Text" xml:space="preserve">
-    <value>Incluya una sinopsis de cada página</value>
-    <comment>checkbox</comment>
-  </data>
-  <data name="MapDialog_Text" xml:space="preserve">
-    <value>Crear mapa de página</value>
-    <comment>dialog title</comment>
   </data>
   <data name="MoreMessageBox_hideBox.Text" xml:space="preserve">
     <value>Ocultar este mensaje en el futuro</value>
@@ -2331,22 +2235,6 @@ Resaltado amarillo</value>
     <value>Paleta rápida</value>
     <comment>dialog title</comment>
   </data>
-  <data name="RefreshPageLinksCommand_none" xml:space="preserve">
-    <value>No se encontraron referencias a esta página.</value>
-    <comment>message</comment>
-  </data>
-  <data name="RefreshPageLinksCommand_updated" xml:space="preserve">
-    <value>Páginas {0} actualizadas</value>
-    <comment>message</comment>
-  </data>
-  <data name="RefreshPageLinksDialog_groupBox.Text" xml:space="preserve">
-    <value>Páginas en</value>
-    <comment>group box</comment>
-  </data>
-  <data name="RefreshPageLinksDialog_Text" xml:space="preserve">
-    <value>Actualizar referencias de página</value>
-    <comment>dialog title</comment>
-  </data>
   <data name="RemindCommand_nameFormat" xml:space="preserve">
     <value>Recordatorio: tarea pendiente (0)</value>
     <comment>tagdef name tooltip</comment>
@@ -2579,14 +2467,6 @@ Seleccione No para mantener una línea vacía entre los párrafos</value>
     <value>Agregar título a la imagen seleccionada</value>
     <comment>ribbon images</comment>
   </data>
-  <data name="ribAddFootnoteButton_Label" xml:space="preserve">
-    <value>Añadir nota al pie</value>
-    <comment>Ribbon OneMore menu item, Extras...</comment>
-  </data>
-  <data name="ribAddFootnoteButton_Screentip" xml:space="preserve">
-    <value>Agregar nota al pie (Ctrl + Alt + F)</value>
-    <comment>Ribbon OneMore menu item, Extras...</comment>
-  </data>
   <data name="ribAddTagBankButton_Label" xml:space="preserve">
     <value>Agregar banco de etiquetas</value>
     <comment>ribbon search</comment>
@@ -2776,14 +2656,6 @@ Pestaña Ayuda</value>
     <value>Buscar actualizaciones</value>
     <comment>command</comment>
   </data>
-  <data name="ribCheckUrlsButton_Label" xml:space="preserve">
-    <value>Comprobar URL</value>
-    <comment>ribbon references</comment>
-  </data>
-  <data name="ribCheckUrlsButton_Screentip" xml:space="preserve">
-    <value>Buscar y resaltar URL no válidas</value>
-    <comment>ribbon references</comment>
-  </data>
   <data name="ribChooseColorizerButton_Label" xml:space="preserve">
     <value>colorear</value>
     <comment>ribbon edit</comment>
@@ -2906,22 +2778,6 @@ Pestaña Ayuda</value>
     <value>Copiar grupo de secciones</value>
     <comment>context menu item</comment>
   </data>
-  <data name="ribCopyLinkToPageButton_Label" xml:space="preserve">
-    <value>Copiar enlace a la página</value>
-    <comment>ribbon item</comment>
-  </data>
-  <data name="ribCopyLinkToPageButton_Screentip" xml:space="preserve">
-    <value>Copiar un hipervínculo a la página actual</value>
-    <comment>ribbon references</comment>
-  </data>
-  <data name="ribCopyLinkToParagraphButton_Label" xml:space="preserve">
-    <value>Copiar enlace al párrafo</value>
-    <comment>ribbon item</comment>
-  </data>
-  <data name="ribCopyLinkToParagraphButton_Screentip" xml:space="preserve">
-    <value>Copiar un hipervínculo al párrafo actual</value>
-    <comment>ribbon references</comment>
-  </data>
   <data name="ribCopyPageContentButton_Label" xml:space="preserve">
     <value>Copiar contenido seleccionado</value>
     <comment>ribbon page</comment>
@@ -3042,14 +2898,6 @@ Pestaña Ayuda</value>
     <value>Editar estilos de tabla personalizados personalizados</value>
     <comment>ribbon table styles</comment>
   </data>
-  <data name="ribEmbedSubpageButton_Label" xml:space="preserve">
-    <value>Insertar página</value>
-    <comment>ribbon item</comment>
-  </data>
-  <data name="ribEmbedSubpageButton_Screentip" xml:space="preserve">
-    <value>Insertar contenido de otra página en la página actual</value>
-    <comment>ribbon item screentip</comment>
-  </data>
   <data name="ribEnableSpellCheckButton_Label" xml:space="preserve">
     <value>Habilitar el corrector ortográfico</value>
     <comment>Ribbon OneMore menu item, no spell check on this page</comment>
@@ -3114,14 +2962,6 @@ Pestaña Ayuda</value>
     <value>Buscar hashtags</value>
     <comment>ribbon references NODUP</comment>
   </data>
-  <data name="ribFinishBiLinkButton_Label" xml:space="preserve">
-    <value>Finalizar enlace bidireccional</value>
-    <comment>ribbon item</comment>
-  </data>
-  <data name="ribFinishBiLinkButton_Screentip" xml:space="preserve">
-    <value>Terminar el enlace entre el ancla y la ubicación actual</value>
-    <comment>ribbon references </comment>
-  </data>
   <data name="ribFitGridToTextButton_Label" xml:space="preserve">
     <value>Ajustar cuadrícula al texto</value>
     <comment>ribbon item</comment>
@@ -3129,14 +2969,6 @@ Pestaña Ayuda</value>
   <data name="ribFitGridToTextButton_Screentip" xml:space="preserve">
     <value>Cambiar el tamaño de la cuadrícula de fondo para que coincida con el tamaño de fuente común</value>
     <comment>ribbon page NODUP</comment>
-  </data>
-  <data name="ribGetImagesButton_Label" xml:space="preserve">
-    <value>Reemplazar URL con imágenes</value>
-    <comment>Ribbon OneMore menu item, Extras...</comment>
-  </data>
-  <data name="ribGetImagesButton_Screentip" xml:space="preserve">
-    <value>Descargar e insertar imágenes referenciadas</value>
-    <comment>ribbon references</comment>
   </data>
   <data name="ribHashtaggerButton_Label" xml:space="preserve">
     <value>Insertar hashtags</value>
@@ -3306,14 +3138,6 @@ Pestaña Ayuda</value>
     <value>Insertar un cuadro de notas</value>
     <comment>ribbon snippets</comment>
   </data>
-  <data name="ribInsertQRButton_Label" xml:space="preserve">
-    <value>Insertar código QR</value>
-    <comment>ribbon button</comment>
-  </data>
-  <data name="ribInsertQRButton_Screentip" xml:space="preserve">
-    <value>Inserta un código QR que represente el texto seleccionado</value>
-    <comment>ribbon references</comment>
-  </data>
   <data name="ribInsertRedStatusButton_Label" xml:space="preserve">
     <value>Estado rojo</value>
     <comment>Ribbon OneMore menu item, Snippets...</comment>
@@ -3457,14 +3281,6 @@ Pestaña Ayuda</value>
   <data name="ribMovePageTopButton_Screentip" xml:space="preserve">
     <value>Mover las páginas seleccionadas al principio de la lista</value>
     <comment>ribbon page</comment>
-  </data>
-  <data name="ribNameUrlsButton_Label" xml:space="preserve">
-    <value>Reemplace las URL con títulos</value>
-    <comment>ribbon references</comment>
-  </data>
-  <data name="ribNameUrlsButton_Screentip" xml:space="preserve">
-    <value>Reemplazar URL con títulos de páginas web</value>
-    <comment>ribbon references</comment>
   </data>
   <data name="ribNavigatorButton_Label" xml:space="preserve">
     <value>Navegador</value>
@@ -3685,26 +3501,6 @@ Pestaña Ayuda</value>
     <value>Abra la ventana de paleta rápida</value>
     <comment>ribbon menu</comment>
   </data>
-  <data name="ribReferencesMenu_Label" xml:space="preserve">
-    <value>Referencias</value>
-    <comment>ribbon references menu</comment>
-  </data>
-  <data name="ribRefreshFootnotesButton_Label" xml:space="preserve">
-    <value>Actualizar notas al pie</value>
-    <comment>ribbon button</comment>
-  </data>
-  <data name="ribRefreshFootnotesButton_Screentip" xml:space="preserve">
-    <value>Actualizar secuencialmente los números de referencia de las notas al pie</value>
-    <comment>ribbon button</comment>
-  </data>
-  <data name="ribRefreshPageLinksButton_Label" xml:space="preserve">
-    <value>Actualizar referencias de página</value>
-    <comment>ribbon item</comment>
-  </data>
-  <data name="ribRefreshPageLinksButton_Screentip" xml:space="preserve">
-    <value>Actualizar referencias de enlaces bidireccionales</value>
-    <comment>ribbon references</comment>
-  </data>
   <data name="ribRemindButton_Label" xml:space="preserve">
     <value>Agregar o actualizar recordatorios</value>
     <comment>ribbon button</comment>
@@ -3752,14 +3548,6 @@ Pestaña Ayuda</value>
   <data name="ribRemoveEmptyButton_Screentip" xml:space="preserve">
     <value>Elimina las líneas vacías adicionales entre el párrafo y elimina los encabezados vacíos</value>
     <comment>Ribbon OneMore menu item</comment>
-  </data>
-  <data name="ribRemoveFootnoteButton_Label" xml:space="preserve">
-    <value>Quitar nota al pie</value>
-    <comment>Ribbon OneMore menu item, Extras...</comment>
-  </data>
-  <data name="ribRemoveFootnoteButton_Screentip" xml:space="preserve">
-    <value>Eliminar nota al pie (Ctrl + Shift + F)</value>
-    <comment>Ribbon OneMore menu item, Extras...</comment>
   </data>
   <data name="ribRemoveInkButton_Label" xml:space="preserve">
     <value>Quitar tinta</value>
@@ -4051,14 +3839,6 @@ Pestaña Ayuda</value>
   <data name="ribStackBackgroundImagesButton_Screentip" xml:space="preserve">
     <value>Reposicionar las imágenes de fondo de arriba a abajo</value>
     <comment>ribbon images</comment>
-  </data>
-  <data name="ribStartBiLinkButton_Label" xml:space="preserve">
-    <value>Iniciar enlace bidireccional</value>
-    <comment>ribbon item</comment>
-  </data>
-  <data name="ribStartBiLinkButton_Screentip" xml:space="preserve">
-    <value>Iniciar enlace bidireccional</value>
-    <comment>ribbon references</comment>
   </data>
   <data name="ribStatusMenu_Label" xml:space="preserve">
     <value>Estado</value>

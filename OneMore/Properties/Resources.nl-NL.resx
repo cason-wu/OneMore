@@ -402,34 +402,6 @@ Omkeren</value>
     <value>laatst gebruikt</value>
     <comment>listview annotation</comment>
   </data>
-  <data name="BiLinkCommand_BadAnchor" xml:space="preserve">
-    <value>Kan ankerpunt niet markeren. </value>
-    <comment>message box</comment>
-  </data>
-  <data name="BiLinkCommand_BadTarget" xml:space="preserve">
-    <value>Kan geen bidirectionele link maken. </value>
-    <comment>message box</comment>
-  </data>
-  <data name="BiLinkCommand_Circular" xml:space="preserve">
-    <value>Kan een zin niet aan zichzelf koppelen</value>
-    <comment>message box</comment>
-  </data>
-  <data name="BiLinkCommand_LostAnchor" xml:space="preserve">
-    <value>Anker kan niet worden gevonden. </value>
-    <comment>message box</comment>
-  </data>
-  <data name="BiLinkCommand_Marked" xml:space="preserve">
-    <value>Gemarkeerd met "{0}" als het anker. </value>
-    <comment>message box</comment>
-  </data>
-  <data name="BiLinkCommand_NoAnchor" xml:space="preserve">
-    <value>Startanker nog niet gemarkeerd. </value>
-    <comment>message box</comment>
-  </data>
-  <data name="BiLinkCommand_NoTarget" xml:space="preserve">
-    <value>Selecteer een woord of zin uit één alinea</value>
-    <comment>message box</comment>
-  </data>
   <data name="BreakingDialog_oneButton.Text" xml:space="preserve">
     <value>Een spatie tussen zinnen</value>
     <comment>radio</comment>
@@ -441,18 +413,6 @@ Omkeren</value>
   <data name="BreakingDialog_twoButton.Text" xml:space="preserve">
     <value>Twee spaties tussen zinnen</value>
     <comment>radio</comment>
-  </data>
-  <data name="CheckUrlsCommand_checkingMsg" xml:space="preserve">
-    <value>{0} URL's controleren</value>
-    <comment>message</comment>
-  </data>
-  <data name="CheckUrlsCommand_invaldiMsg" xml:space="preserve">
-    <value>Er zijn {0} ongeldige URL's gevonden op deze pagina</value>
-    <comment>message</comment>
-  </data>
-  <data name="CheckUrlsCommand_mappingMsg" xml:space="preserve">
-    <value>Het in kaart brengen van {0} paginareferenties</value>
-    <comment>message</comment>
   </data>
   <data name="CleanRemindersCommand_count" xml:space="preserve">
     <value>{0} zwevende herinneringen opgeschoond</value>
@@ -768,26 +728,6 @@ Lettertype laatste kolom</value>
   <data name="EditTableThemesDialog_Text" xml:space="preserve">
     <value>Aangepaste tabelstijlen</value>
     <comment>dialog</comment>
-  </data>
-  <data name="EmbedSubpageCommand_NoContent" xml:space="preserve">
-    <value>Bronpagina bevat geen inhoud</value>
-    <comment>message box</comment>
-  </data>
-  <data name="EmbedSubpageCommand_NoEmbedded" xml:space="preserve">
-    <value>Geen ingesloten inhoud gevonden</value>
-    <comment>message box</comment>
-  </data>
-  <data name="EmbedSubpageCommand_NoSource" xml:space="preserve">
-    <value>Bronpagina niet gevonden</value>
-    <comment>message box</comment>
-  </data>
-  <data name="EmbedSubpageCommand_Select" xml:space="preserve">
-    <value>Selecteer pagina</value>
-    <comment>quickdialog title</comment>
-  </data>
-  <data name="EmbedSubpageCommand_SelectIntro" xml:space="preserve">
-    <value>Selecteer de pagina die u op deze pagina wilt insluiten</value>
-    <comment>quickdialog intro</comment>
   </data>
   <data name="Emoji_Architecture" xml:space="preserve">
     <value>Architectuur</value>
@@ -1200,10 +1140,6 @@ Donker</value>
     <value>Schakel uitgebreide logboekregistratie in</value>
     <comment>checkbox</comment>
   </data>
-  <data name="GetImagesCommand_Cite" xml:space="preserve">
-    <value>Wilt u de afbeelding annoteren met de URL?</value>
-    <comment>message box</comment>
-  </data>
   <data name="HasActiveMedia" xml:space="preserve">
     <value>Kan OneMore-opdrachten niet aanroepen terwijl er een actieve opname is. Stop de opname en probeer het opnieuw.</value>
   </data>
@@ -1603,14 +1539,6 @@ Gele achtergrond</value>
     <value>Schuif cellen naar rechts</value>
     <comment>radio</comment>
   </data>
-  <data name="InsertQRCommand_MaxLength" xml:space="preserve">
-    <value>De geselecteerde tekst mag niet langer zijn dan {0} tekens</value>
-    <comment>message</comment>
-  </data>
-  <data name="InsertQRCommand_NoSelection" xml:space="preserve">
-    <value>Selecteer tekst om weer te geven als een nieuwe QR-code</value>
-    <comment>message</comment>
-  </data>
   <data name="InsertSnippets_CouldNotLoad" xml:space="preserve">
     <value>Cloud fragment van "{0}" niet laden</value>
     <comment>error message</comment>
@@ -1730,18 +1658,6 @@ Wilt u de bestaande pagina vernieuwen?</value>
     <value>Alles resetten</value>
     <comment>toolstrip button</comment>
   </data>
-  <data name="LinkDialog_groupBox.Text" xml:space="preserve">
-    <value>Pagina's in</value>
-    <comment>group box</comment>
-  </data>
-  <data name="LinkDialog_introLabel.Text" xml:space="preserve">
-    <value>Maak gelinkte verwijzingen naar de titel van deze pagina</value>
-    <comment>label</comment>
-  </data>
-  <data name="LinkDialog_Text" xml:space="preserve">
-    <value>Linkreferenties</value>
-    <comment>dialog title</comment>
-  </data>
   <data name="LinkedReferencesCommand_Title" xml:space="preserve">
     <value>Gelinkte referenties</value>
     <comment>title text</comment>
@@ -1760,18 +1676,6 @@ Wilt u de bestaande pagina vernieuwen?</value>
   <data name="LoadStyleTheme_Title" xml:space="preserve">
     <value>Laad stijlthema</value>
     <comment>OpenFileDialog title</comment>
-  </data>
-  <data name="MapDialog_groupBox.Text" xml:space="preserve">
-    <value>Pagina's in</value>
-    <comment>group box</comment>
-  </data>
-  <data name="MapDialog_synopsisBox.Text" xml:space="preserve">
-    <value>Voeg een samenvatting van elke pagina toe</value>
-    <comment>checkbox</comment>
-  </data>
-  <data name="MapDialog_Text" xml:space="preserve">
-    <value>Maak een paginakaart</value>
-    <comment>dialog title</comment>
   </data>
   <data name="MoreMessageBox_hideBox.Text" xml:space="preserve">
     <value>Verberg dit bericht in de toekomst</value>
@@ -2332,22 +2236,6 @@ Gele highlight</value>
     <value>Snel palet</value>
     <comment>dialog title</comment>
   </data>
-  <data name="RefreshPageLinksCommand_none" xml:space="preserve">
-    <value>Geen referenties gevonden naar deze pagina</value>
-    <comment>message</comment>
-  </data>
-  <data name="RefreshPageLinksCommand_updated" xml:space="preserve">
-    <value>Bijgewerkt {0} pagina's</value>
-    <comment>message</comment>
-  </data>
-  <data name="RefreshPageLinksDialog_groupBox.Text" xml:space="preserve">
-    <value>Pagina's in</value>
-    <comment>group box</comment>
-  </data>
-  <data name="RefreshPageLinksDialog_Text" xml:space="preserve">
-    <value>Paginaverwijzingen vernieuwen</value>
-    <comment>dialog title</comment>
-  </data>
   <data name="RemindCommand_nameFormat" xml:space="preserve">
     <value>Herinnering: taak af (0)</value>
     <comment>tagdef name tooltip</comment>
@@ -2580,14 +2468,6 @@ Selecteer NO om één lege regel tussen paragrafen te behouden</value>
     <value>Voeg een bijschrift toe aan de geselecteerde afbeelding</value>
     <comment>ribbon images</comment>
   </data>
-  <data name="ribAddFootnoteButton_Label" xml:space="preserve">
-    <value>Voetnoot toevoegen</value>
-    <comment>Ribbon OneMore menu item, Extras...</comment>
-  </data>
-  <data name="ribAddFootnoteButton_Screentip" xml:space="preserve">
-    <value>Voetnoot toevoegen (Ctrl + Alt + F)</value>
-    <comment>Ribbon OneMore menu item, Extras...</comment>
-  </data>
   <data name="ribAddTagBankButton_Label" xml:space="preserve">
     <value>Tagbank toevoegen</value>
     <comment>ribbon search</comment>
@@ -2777,14 +2657,6 @@ Tabblad Help</value>
     <value>Controleren op updates</value>
     <comment>command</comment>
   </data>
-  <data name="ribCheckUrlsButton_Label" xml:space="preserve">
-    <value>Controleer URL's</value>
-    <comment>ribbon references</comment>
-  </data>
-  <data name="ribCheckUrlsButton_Screentip" xml:space="preserve">
-    <value>Controleer op ongeldige URL's en markeer deze</value>
-    <comment>ribbon references</comment>
-  </data>
   <data name="ribChooseColorizerButton_Label" xml:space="preserve">
     <value>Inkleuren</value>
     <comment>ribbon edit</comment>
@@ -2907,22 +2779,6 @@ Tabblad Help</value>
     <value>Sectiegroep kopiëren</value>
     <comment>context menu item</comment>
   </data>
-  <data name="ribCopyLinkToPageButton_Label" xml:space="preserve">
-    <value>Kopieer link naar pagina</value>
-    <comment>ribbon item</comment>
-  </data>
-  <data name="ribCopyLinkToPageButton_Screentip" xml:space="preserve">
-    <value>Kopieer een hyperlink naar de huidige pagina</value>
-    <comment>ribbon references</comment>
-  </data>
-  <data name="ribCopyLinkToParagraphButton_Label" xml:space="preserve">
-    <value>Kopieer link naar paragraaf</value>
-    <comment>ribbon item</comment>
-  </data>
-  <data name="ribCopyLinkToParagraphButton_Screentip" xml:space="preserve">
-    <value>Kopieer een hyperlink naar de huidige alinea</value>
-    <comment>ribbon references</comment>
-  </data>
   <data name="ribCopyPageContentButton_Label" xml:space="preserve">
     <value>Kopieer geselecteerde inhoud</value>
     <comment>ribbon page</comment>
@@ -3043,14 +2899,6 @@ Tabblad Help</value>
     <value>Bewerk aangepaste aangepaste tabelstijlen</value>
     <comment>ribbon table styles</comment>
   </data>
-  <data name="ribEmbedSubpageButton_Label" xml:space="preserve">
-    <value>Pagina insluiten</value>
-    <comment>ribbon item</comment>
-  </data>
-  <data name="ribEmbedSubpageButton_Screentip" xml:space="preserve">
-    <value>Inhoud van een andere pagina insluiten in de huidige pagina</value>
-    <comment>ribbon item screentip</comment>
-  </data>
   <data name="ribEnableSpellCheckButton_Label" xml:space="preserve">
     <value>Spellingcontrole inschakelen</value>
     <comment>Ribbon OneMore menu item, no spell check on this page</comment>
@@ -3115,14 +2963,6 @@ Tabblad Help</value>
     <value>Zoek hashtags</value>
     <comment>ribbon references NODUP</comment>
   </data>
-  <data name="ribFinishBiLinkButton_Label" xml:space="preserve">
-    <value>Bidirectionele link voltooien</value>
-    <comment>ribbon item</comment>
-  </data>
-  <data name="ribFinishBiLinkButton_Screentip" xml:space="preserve">
-    <value>Voltooi de koppeling tussen anker en huidige locatie</value>
-    <comment>ribbon references </comment>
-  </data>
   <data name="ribFitGridToTextButton_Label" xml:space="preserve">
     <value>Raster aanpassen aan tekst</value>
     <comment>ribbon item</comment>
@@ -3130,14 +2970,6 @@ Tabblad Help</value>
   <data name="ribFitGridToTextButton_Screentip" xml:space="preserve">
     <value>Wijzig het formaat van het achtergrondraster zodat het overeenkomt met de algemene lettergrootte</value>
     <comment>ribbon page NODUP</comment>
-  </data>
-  <data name="ribGetImagesButton_Label" xml:space="preserve">
-    <value>Vervang URL's door afbeeldingen</value>
-    <comment>Ribbon OneMore menu item, Extras...</comment>
-  </data>
-  <data name="ribGetImagesButton_Screentip" xml:space="preserve">
-    <value>Afbeeldingen waarnaar wordt verwezen downloaden en invoegen</value>
-    <comment>ribbon references</comment>
   </data>
   <data name="ribHashtaggerButton_Label" xml:space="preserve">
     <value>Voeg hashtags in</value>
@@ -3307,14 +3139,6 @@ Tabblad Help</value>
     <value>Plaats een notitievak</value>
     <comment>ribbon snippets</comment>
   </data>
-  <data name="ribInsertQRButton_Label" xml:space="preserve">
-    <value>QR-code invoegen</value>
-    <comment>ribbon button</comment>
-  </data>
-  <data name="ribInsertQRButton_Screentip" xml:space="preserve">
-    <value>Voeg een QR-code in die de geselecteerde tekst vertegenwoordigt</value>
-    <comment>ribbon references</comment>
-  </data>
   <data name="ribInsertRedStatusButton_Label" xml:space="preserve">
     <value>Rode status</value>
     <comment>Ribbon OneMore menu item, Snippets...</comment>
@@ -3457,14 +3281,6 @@ Tabblad Help</value>
   <data name="ribMovePageTopButton_Screentip" xml:space="preserve">
     <value>Verplaats geselecteerde pagina's naar de bovenkant van de lijst</value>
     <comment>ribbon page</comment>
-  </data>
-  <data name="ribNameUrlsButton_Label" xml:space="preserve">
-    <value>Vervang URL's door titels</value>
-    <comment>ribbon references</comment>
-  </data>
-  <data name="ribNameUrlsButton_Screentip" xml:space="preserve">
-    <value>Vervang URL's door titels van webpagina's</value>
-    <comment>ribbon references</comment>
   </data>
   <data name="ribNavigatorButton_Label" xml:space="preserve">
     <value>Navigator</value>
@@ -3685,26 +3501,6 @@ Tabblad Help</value>
     <value>Open het snelle paletvenster</value>
     <comment>ribbon menu</comment>
   </data>
-  <data name="ribReferencesMenu_Label" xml:space="preserve">
-    <value>Referenties</value>
-    <comment>ribbon references menu</comment>
-  </data>
-  <data name="ribRefreshFootnotesButton_Label" xml:space="preserve">
-    <value>Voetnoten vernieuwen</value>
-    <comment>ribbon button</comment>
-  </data>
-  <data name="ribRefreshFootnotesButton_Screentip" xml:space="preserve">
-    <value>Voetnootreferentienummers opeenvolgend vernieuwen</value>
-    <comment>ribbon button</comment>
-  </data>
-  <data name="ribRefreshPageLinksButton_Label" xml:space="preserve">
-    <value>Paginaverwijzingen vernieuwen</value>
-    <comment>ribbon item</comment>
-  </data>
-  <data name="ribRefreshPageLinksButton_Screentip" xml:space="preserve">
-    <value>Bidirectionele linkreferenties vernieuwen</value>
-    <comment>ribbon references</comment>
-  </data>
   <data name="ribRemindButton_Label" xml:space="preserve">
     <value>Herinneringen toevoegen of bijwerken</value>
     <comment>ribbon button</comment>
@@ -3752,14 +3548,6 @@ Tabblad Help</value>
   <data name="ribRemoveEmptyButton_Screentip" xml:space="preserve">
     <value>Verwijder extra lege regels tussen alinea's en verwijder lege kopteksten</value>
     <comment>Ribbon OneMore menu item</comment>
-  </data>
-  <data name="ribRemoveFootnoteButton_Label" xml:space="preserve">
-    <value>Voetnoot verwijderen</value>
-    <comment>Ribbon OneMore menu item, Extras...</comment>
-  </data>
-  <data name="ribRemoveFootnoteButton_Screentip" xml:space="preserve">
-    <value>Voetnoot verwijderen (Ctrl + Shift + F)</value>
-    <comment>Ribbon OneMore menu item, Extras...</comment>
   </data>
   <data name="ribRemoveInkButton_Label" xml:space="preserve">
     <value>Inkt verwijderen</value>
@@ -4051,14 +3839,6 @@ Tabblad Help</value>
   <data name="ribStackBackgroundImagesButton_Screentip" xml:space="preserve">
     <value>Verplaats achtergrondafbeeldingen van boven naar beneden</value>
     <comment>ribbon images</comment>
-  </data>
-  <data name="ribStartBiLinkButton_Label" xml:space="preserve">
-    <value>Bidirectionele koppeling starten</value>
-    <comment>ribbon item</comment>
-  </data>
-  <data name="ribStartBiLinkButton_Screentip" xml:space="preserve">
-    <value>Bidirectionele koppeling starten</value>
-    <comment>ribbon references</comment>
   </data>
   <data name="ribStatusMenu_Label" xml:space="preserve">
     <value>Toestand</value>

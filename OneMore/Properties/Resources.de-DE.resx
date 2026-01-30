@@ -401,34 +401,6 @@ Umkehren</value>
     <value>kürzlich verwendet</value>
     <comment>listview annotation</comment>
   </data>
-  <data name="BiLinkCommand_BadAnchor" xml:space="preserve">
-    <value>Ankerpunkt konnte nicht markiert werden. </value>
-    <comment>message box</comment>
-  </data>
-  <data name="BiLinkCommand_BadTarget" xml:space="preserve">
-    <value>Bidirektionaler Link konnte nicht erstellt werden. </value>
-    <comment>message box</comment>
-  </data>
-  <data name="BiLinkCommand_Circular" xml:space="preserve">
-    <value>Eine Phrase kann nicht mit sich selbst verknüpft werden</value>
-    <comment>message box</comment>
-  </data>
-  <data name="BiLinkCommand_LostAnchor" xml:space="preserve">
-    <value>Anker kann nicht gefunden werden. </value>
-    <comment>message box</comment>
-  </data>
-  <data name="BiLinkCommand_Marked" xml:space="preserve">
-    <value>Als Anker markiert "{0}". </value>
-    <comment>message box</comment>
-  </data>
-  <data name="BiLinkCommand_NoAnchor" xml:space="preserve">
-    <value>Startanker noch nicht markiert. </value>
-    <comment>message box</comment>
-  </data>
-  <data name="BiLinkCommand_NoTarget" xml:space="preserve">
-    <value>Wähle ein Wort oder einen Satz aus einem Absatz</value>
-    <comment>message box</comment>
-  </data>
   <data name="BreakingDialog_oneButton.Text" xml:space="preserve">
     <value>Ein Leerzeichen zwischen Sätzen</value>
     <comment>radio</comment>
@@ -440,18 +412,6 @@ Umkehren</value>
   <data name="BreakingDialog_twoButton.Text" xml:space="preserve">
     <value>Zwei Leerzeichen zwischen Sätzen</value>
     <comment>radio</comment>
-  </data>
-  <data name="CheckUrlsCommand_checkingMsg" xml:space="preserve">
-    <value>{0} URLs werden überprüft</value>
-    <comment>message</comment>
-  </data>
-  <data name="CheckUrlsCommand_invaldiMsg" xml:space="preserve">
-    <value>Auf dieser Seite wurden {0} ungültige URLs gefunden</value>
-    <comment>message</comment>
-  </data>
-  <data name="CheckUrlsCommand_mappingMsg" xml:space="preserve">
-    <value>Zuordnung von {0} Seitenverweisen</value>
-    <comment>message</comment>
   </data>
   <data name="CleanRemindersCommand_count" xml:space="preserve">
     <value>{0} verwaiste Erinnerungen wurden bereinigt</value>
@@ -767,26 +727,6 @@ Schriftart der letzten Spalte</value>
   <data name="EditTableThemesDialog_Text" xml:space="preserve">
     <value>Benutzerdefinierte Tabellenstile</value>
     <comment>dialog</comment>
-  </data>
-  <data name="EmbedSubpageCommand_NoContent" xml:space="preserve">
-    <value>Quellseite enthält keinen Inhalt</value>
-    <comment>message box</comment>
-  </data>
-  <data name="EmbedSubpageCommand_NoEmbedded" xml:space="preserve">
-    <value>Keine eingebetteten Inhalte gefunden</value>
-    <comment>message box</comment>
-  </data>
-  <data name="EmbedSubpageCommand_NoSource" xml:space="preserve">
-    <value>Quellseite nicht gefunden</value>
-    <comment>message box</comment>
-  </data>
-  <data name="EmbedSubpageCommand_Select" xml:space="preserve">
-    <value>Seite auswählen</value>
-    <comment>quickdialog title</comment>
-  </data>
-  <data name="EmbedSubpageCommand_SelectIntro" xml:space="preserve">
-    <value>Wähle die Seite aus, die in diese Seite eingebettet werden soll</value>
-    <comment>quickdialog intro</comment>
   </data>
   <data name="Emoji_Architecture" xml:space="preserve">
     <value>Architektur</value>
@@ -1199,10 +1139,6 @@ Dunkel</value>
     <value>Aktivieren Sie die ausführliche Protokollierung</value>
     <comment>checkbox</comment>
   </data>
-  <data name="GetImagesCommand_Cite" xml:space="preserve">
-    <value>Soll das Bild mit seiner URL versehen werden?</value>
-    <comment>message box</comment>
-  </data>
   <data name="HasActiveMedia" xml:space="preserve">
     <value>OneMore-Befehle können nicht aufgerufen werden, während eine Aufzeichnung aktiv ist. Bitte stoppen Sie die Aufnahme und versuchen Sie es erneut.</value>
   </data>
@@ -1602,14 +1538,6 @@ Gelber Hintergrund</value>
     <value>Verschiebe die Zellen nach rechts</value>
     <comment>radio</comment>
   </data>
-  <data name="InsertQRCommand_MaxLength" xml:space="preserve">
-    <value>Der ausgewählte Text darf {0} Zeichen nicht überschreiten</value>
-    <comment>message</comment>
-  </data>
-  <data name="InsertQRCommand_NoSelection" xml:space="preserve">
-    <value>Wähle den Text aus, der als neuer QR-Code gerendert werden soll</value>
-    <comment>message</comment>
-  </data>
   <data name="InsertSnippets_CouldNotLoad" xml:space="preserve">
     <value>Snippet konnte nicht aus "{0}" geladen werden</value>
     <comment>error message</comment>
@@ -1729,18 +1657,6 @@ Möchten Sie die bestehende Seite aktualisieren?</value>
     <value>Alles zurücksetzen</value>
     <comment>toolstrip button</comment>
   </data>
-  <data name="LinkDialog_groupBox.Text" xml:space="preserve">
-    <value>Seiten in</value>
-    <comment>group box</comment>
-  </data>
-  <data name="LinkDialog_introLabel.Text" xml:space="preserve">
-    <value>Erstelle verlinkte Verweise auf den Titel dieser Seite</value>
-    <comment>label</comment>
-  </data>
-  <data name="LinkDialog_Text" xml:space="preserve">
-    <value>Link-Referenzen</value>
-    <comment>dialog title</comment>
-  </data>
   <data name="LinkedReferencesCommand_Title" xml:space="preserve">
     <value>Verknüpfte Referenzen</value>
     <comment>title text</comment>
@@ -1759,18 +1675,6 @@ Möchten Sie die bestehende Seite aktualisieren?</value>
   <data name="LoadStyleTheme_Title" xml:space="preserve">
     <value>Style-Design laden</value>
     <comment>OpenFileDialog title</comment>
-  </data>
-  <data name="MapDialog_groupBox.Text" xml:space="preserve">
-    <value>Seiten in</value>
-    <comment>group box</comment>
-  </data>
-  <data name="MapDialog_synopsisBox.Text" xml:space="preserve">
-    <value>Füge eine Zusammenfassung jeder Seite hinzu</value>
-    <comment>checkbox</comment>
-  </data>
-  <data name="MapDialog_Text" xml:space="preserve">
-    <value>Seitenzuordnung erstellen</value>
-    <comment>dialog title</comment>
   </data>
   <data name="MoreMessageBox_hideBox.Text" xml:space="preserve">
     <value>Verstecken Sie diese Nachricht in Zukunft</value>
@@ -2331,22 +2235,6 @@ Gelbe Markierung</value>
     <value>Schnellpalette</value>
     <comment>dialog title</comment>
   </data>
-  <data name="RefreshPageLinksCommand_none" xml:space="preserve">
-    <value>Keine Verweise auf diese Seite gefunden</value>
-    <comment>message</comment>
-  </data>
-  <data name="RefreshPageLinksCommand_updated" xml:space="preserve">
-    <value>{0} Seiten aktualisiert</value>
-    <comment>message</comment>
-  </data>
-  <data name="RefreshPageLinksDialog_groupBox.Text" xml:space="preserve">
-    <value>Seiten in</value>
-    <comment>group box</comment>
-  </data>
-  <data name="RefreshPageLinksDialog_Text" xml:space="preserve">
-    <value>Seitenverweise aktualisieren</value>
-    <comment>dialog title</comment>
-  </data>
   <data name="RemindCommand_nameFormat" xml:space="preserve">
     <value>Erinnerung: Aufgabe fällig (0)</value>
     <comment>tagdef name tooltip</comment>
@@ -2579,14 +2467,6 @@ Wähle Nein, um eine leere Zeile zwischen den Absätzen zu halten</value>
     <value>Bildunterschrift zum ausgewählten Bild hinzufügen</value>
     <comment>ribbon images</comment>
   </data>
-  <data name="ribAddFootnoteButton_Label" xml:space="preserve">
-    <value>Fußnote hinzufügen</value>
-    <comment>Ribbon OneMore menu item, Extras...</comment>
-  </data>
-  <data name="ribAddFootnoteButton_Screentip" xml:space="preserve">
-    <value>Fußnote hinzufügen (Strg + Alt + F)</value>
-    <comment>Ribbon OneMore menu item, Extras...</comment>
-  </data>
   <data name="ribAddTagBankButton_Label" xml:space="preserve">
     <value>Tag-Bank hinzufügen</value>
     <comment>ribbon search</comment>
@@ -2776,14 +2656,6 @@ Registerkarte „Hilfe“.</value>
     <value>Auf Updates prüfen</value>
     <comment>command</comment>
   </data>
-  <data name="ribCheckUrlsButton_Label" xml:space="preserve">
-    <value>Überprüfen Sie URLs</value>
-    <comment>ribbon references</comment>
-  </data>
-  <data name="ribCheckUrlsButton_Screentip" xml:space="preserve">
-    <value>Suchen Sie nach ungültigen URLs und markieren Sie sie</value>
-    <comment>ribbon references</comment>
-  </data>
   <data name="ribChooseColorizerButton_Label" xml:space="preserve">
     <value>Einfärben</value>
     <comment>ribbon edit</comment>
@@ -2908,22 +2780,6 @@ Registerkarte „Hilfe“.</value>
     <value>Abschnittsgruppe kopieren</value>
     <comment>context menu item</comment>
   </data>
-  <data name="ribCopyLinkToPageButton_Label" xml:space="preserve">
-    <value>Link zu Seite kopieren</value>
-    <comment>ribbon item</comment>
-  </data>
-  <data name="ribCopyLinkToPageButton_Screentip" xml:space="preserve">
-    <value>Kopieren Sie einen Hyperlink zur aktuellen Seite</value>
-    <comment>ribbon references</comment>
-  </data>
-  <data name="ribCopyLinkToParagraphButton_Label" xml:space="preserve">
-    <value>Link zu Absatz kopieren</value>
-    <comment>ribbon item</comment>
-  </data>
-  <data name="ribCopyLinkToParagraphButton_Screentip" xml:space="preserve">
-    <value>Kopiert einen Hyperlink zum aktuellen Absatz</value>
-    <comment>ribbon references</comment>
-  </data>
   <data name="ribCopyPageContentButton_Label" xml:space="preserve">
     <value>Ausgewählten Inhalt kopieren</value>
     <comment>ribbon page</comment>
@@ -3044,14 +2900,6 @@ Registerkarte „Hilfe“.</value>
     <value>Bearbeitet benutzerdefinierte benutzerdefinierte Tabellenstile</value>
     <comment>ribbon table styles</comment>
   </data>
-  <data name="ribEmbedSubpageButton_Label" xml:space="preserve">
-    <value>Seite einbetten</value>
-    <comment>ribbon item</comment>
-  </data>
-  <data name="ribEmbedSubpageButton_Screentip" xml:space="preserve">
-    <value>Inhalte einer anderen Seite in die aktuelle Seite einbetten</value>
-    <comment>ribbon item screentip</comment>
-  </data>
   <data name="ribEnableSpellCheckButton_Label" xml:space="preserve">
     <value>Rechtschreibprüfung aktivieren</value>
     <comment>Ribbon OneMore menu item, no spell check on this page</comment>
@@ -3116,14 +2964,6 @@ Registerkarte „Hilfe“.</value>
     <value>Suchen Sie nach Hashtags</value>
     <comment>ribbon references NODUP</comment>
   </data>
-  <data name="ribFinishBiLinkButton_Label" xml:space="preserve">
-    <value>Bidirektionale Verbindung beenden</value>
-    <comment>ribbon item</comment>
-  </data>
-  <data name="ribFinishBiLinkButton_Screentip" xml:space="preserve">
-    <value>Verbindung zwischen Anker und aktuellem Standort beenden</value>
-    <comment>ribbon references </comment>
-  </data>
   <data name="ribFitGridToTextButton_Label" xml:space="preserve">
     <value>Raster an Text anpassen</value>
     <comment>ribbon item</comment>
@@ -3131,14 +2971,6 @@ Registerkarte „Hilfe“.</value>
   <data name="ribFitGridToTextButton_Screentip" xml:space="preserve">
     <value>Passen Sie die Größe des Hintergrundgitters an die übliche Schriftgröße an</value>
     <comment>ribbon page NODUP</comment>
-  </data>
-  <data name="ribGetImagesButton_Label" xml:space="preserve">
-    <value>URLs durch Bilder ersetzen</value>
-    <comment>Ribbon OneMore menu item, Extras...</comment>
-  </data>
-  <data name="ribGetImagesButton_Screentip" xml:space="preserve">
-    <value>Lade referenzierte Bilder herunter und fügen Sie sie ein</value>
-    <comment>ribbon references</comment>
   </data>
   <data name="ribHashtaggerButton_Label" xml:space="preserve">
     <value>Fügen Sie Hashtags ein</value>
@@ -3308,14 +3140,6 @@ Registerkarte „Hilfe“.</value>
     <value>Fügen Sie ein Notizfeld ein</value>
     <comment>ribbon snippets</comment>
   </data>
-  <data name="ribInsertQRButton_Label" xml:space="preserve">
-    <value>QR-Code einfügen</value>
-    <comment>ribbon button</comment>
-  </data>
-  <data name="ribInsertQRButton_Screentip" xml:space="preserve">
-    <value>Fügt einen QR-Code ein, der den ausgewählten Text darstellt</value>
-    <comment>ribbon references</comment>
-  </data>
   <data name="ribInsertRedStatusButton_Label" xml:space="preserve">
     <value>Roter Status</value>
     <comment>Ribbon OneMore menu item, Snippets...</comment>
@@ -3459,14 +3283,6 @@ Registerkarte „Hilfe“.</value>
   <data name="ribMovePageTopButton_Screentip" xml:space="preserve">
     <value>Ausgewählte Seiten an den Anfang der Liste verschieben</value>
     <comment>ribbon page</comment>
-  </data>
-  <data name="ribNameUrlsButton_Label" xml:space="preserve">
-    <value>Ersetze URLs durch Titel</value>
-    <comment>ribbon references</comment>
-  </data>
-  <data name="ribNameUrlsButton_Screentip" xml:space="preserve">
-    <value>Ersetze URLs durch Webseitentitel</value>
-    <comment>ribbon references</comment>
   </data>
   <data name="ribNavigatorButton_Label" xml:space="preserve">
     <value>Navigator</value>
@@ -3679,26 +3495,6 @@ Registerkarte „Hilfe“.</value>
     <value>Öffnen Sie das Schnellpalettenfenster</value>
     <comment>ribbon menu</comment>
   </data>
-  <data name="ribReferencesMenu_Label" xml:space="preserve">
-    <value>Verweise</value>
-    <comment>ribbon references menu</comment>
-  </data>
-  <data name="ribRefreshFootnotesButton_Label" xml:space="preserve">
-    <value>Fußnoten aktualisieren</value>
-    <comment>ribbon button</comment>
-  </data>
-  <data name="ribRefreshFootnotesButton_Screentip" xml:space="preserve">
-    <value>Aktualisiert die Referenznummern der Fußnoten der Reihe nach</value>
-    <comment>ribbon references</comment>
-  </data>
-  <data name="ribRefreshPageLinksButton_Label" xml:space="preserve">
-    <value>Seitenverweise aktualisieren</value>
-    <comment>ribbon item</comment>
-  </data>
-  <data name="ribRefreshPageLinksButton_Screentip" xml:space="preserve">
-    <value>Aktualisiert bidirektionale Linkreferenzen</value>
-    <comment>ribbon references</comment>
-  </data>
   <data name="ribRemindButton_Label" xml:space="preserve">
     <value>Erinnerungen hinzufügen oder aktualisieren</value>
     <comment>ribbon button</comment>
@@ -3746,14 +3542,6 @@ Registerkarte „Hilfe“.</value>
   <data name="ribRemoveEmptyButton_Screentip" xml:space="preserve">
     <value>Entfernt zusätzliche leere Zeilen zwischen Absätzen sowie leere Überschriften</value>
     <comment>ribbon clean</comment>
-  </data>
-  <data name="ribRemoveFootnoteButton_Label" xml:space="preserve">
-    <value>Fußnote entfernen</value>
-    <comment>Ribbon OneMore menu item, Extras...</comment>
-  </data>
-  <data name="ribRemoveFootnoteButton_Screentip" xml:space="preserve">
-    <value>Fußnote entfernen (Strg + Umschalt + F)</value>
-    <comment>Ribbon OneMore menu item, Extras...</comment>
   </data>
   <data name="ribRemoveInkButton_Label" xml:space="preserve">
     <value>Tinte entfernen</value>
@@ -4046,14 +3834,6 @@ Registerkarte „Hilfe“.</value>
   <data name="ribStackBackgroundImagesButton_Screentip" xml:space="preserve">
     <value>Positionieren Sie Hintergrundbilder von oben nach unten neu</value>
     <comment>ribbon images</comment>
-  </data>
-  <data name="ribStartBiLinkButton_Label" xml:space="preserve">
-    <value>Bidirektionale Verbindung starten</value>
-    <comment>ribbon item</comment>
-  </data>
-  <data name="ribStartBiLinkButton_Screentip" xml:space="preserve">
-    <value>Bidirektionale Verbindung starten</value>
-    <comment>ribbon references</comment>
   </data>
   <data name="ribStatusMenu_Label" xml:space="preserve">
     <value>Status</value>

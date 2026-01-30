@@ -402,34 +402,6 @@
     <value>最近使用したもの</value>
     <comment>listview annotation</comment>
   </data>
-  <data name="BiLinkCommand_BadAnchor" xml:space="preserve">
-    <value>アンカーポイントをマークできませんでした。1つの段落から単語やフレーズを選択してください。詳細はログファイルをご確認ください。</value>
-    <comment>message box</comment>
-  </data>
-  <data name="BiLinkCommand_BadTarget" xml:space="preserve">
-    <value>双方向リンクを作成できませんでした。 {0}</value>
-    <comment>message box</comment>
-  </data>
-  <data name="BiLinkCommand_Circular" xml:space="preserve">
-    <value>フレーズをそれ自体にリンクすることはできません。</value>
-    <comment>message box</comment>
-  </data>
-  <data name="BiLinkCommand_LostAnchor" xml:space="preserve">
-    <value>アンカーが見つかりません。ページまたはテキストが変更された可能性があります。</value>
-    <comment>message box</comment>
-  </data>
-  <data name="BiLinkCommand_Marked" xml:space="preserve">
-    <value>「{0}」をアンカーとしてマークしました。次にターゲットテキストを選択し、双方向リンクを完了してください。</value>
-    <comment>message box</comment>
-  </data>
-  <data name="BiLinkCommand_NoAnchor" xml:space="preserve">
-    <value>開始アンカーがまだマークされていません。双方向リンクの開始点を選択してください。</value>
-    <comment>message box</comment>
-  </data>
-  <data name="BiLinkCommand_NoTarget" xml:space="preserve">
-    <value>1つの段落から単語やフレーズを選択してください。</value>
-    <comment>message box</comment>
-  </data>
   <data name="BreakingDialog_oneButton.Text" xml:space="preserve">
     <value>文と文の間に１つのスペースを入れる</value>
     <comment>radio</comment>
@@ -441,18 +413,6 @@
   <data name="BreakingDialog_twoButton.Text" xml:space="preserve">
     <value>文と文の間に２つのスペースを入れる</value>
     <comment>radio</comment>
-  </data>
-  <data name="CheckUrlsCommand_checkingMsg" xml:space="preserve">
-    <value>{0} 個の URL をチェックしています</value>
-    <comment>message</comment>
-  </data>
-  <data name="CheckUrlsCommand_invaldiMsg" xml:space="preserve">
-    <value>このページで無効な URL が {0} 個見つかりました</value>
-    <comment>message</comment>
-  </data>
-  <data name="CheckUrlsCommand_mappingMsg" xml:space="preserve">
-    <value>{0} ページ参照をマッピングしています</value>
-    <comment>message</comment>
   </data>
   <data name="CleanRemindersCommand_count" xml:space="preserve">
     <value>{0} 件の孤立したリマインダーを整理しました。</value>
@@ -770,26 +730,6 @@
   <data name="EditTableThemesDialog_Text" xml:space="preserve">
     <value>カスタム表スタイル</value>
     <comment>dialog</comment>
-  </data>
-  <data name="EmbedSubpageCommand_NoContent" xml:space="preserve">
-    <value>ソースページにはコンテンツがありません</value>
-    <comment>message box</comment>
-  </data>
-  <data name="EmbedSubpageCommand_NoEmbedded" xml:space="preserve">
-    <value>埋め込まれたコンテンツが見つかりませんでした</value>
-    <comment>message box</comment>
-  </data>
-  <data name="EmbedSubpageCommand_NoSource" xml:space="preserve">
-    <value>ソースページが見つかりませんでした</value>
-    <comment>message box</comment>
-  </data>
-  <data name="EmbedSubpageCommand_Select" xml:space="preserve">
-    <value>ページを選択</value>
-    <comment>quickdialog title</comment>
-  </data>
-  <data name="EmbedSubpageCommand_SelectIntro" xml:space="preserve">
-    <value>このページに埋め込むページを選択してください</value>
-    <comment>quickdialog intro</comment>
   </data>
   <data name="Emoji_Architecture" xml:space="preserve">
     <value>建築</value>
@@ -1202,10 +1142,6 @@ OneNoteファイル (*.one)</value>
     <value>詳細ログを有効にする</value>
     <comment>checkbox</comment>
   </data>
-  <data name="GetImagesCommand_Cite" xml:space="preserve">
-    <value>画像の下にURLを表示しますか？</value>
-    <comment>message box</comment>
-  </data>
   <data name="HasActiveMedia" xml:space="preserve">
     <value>アクティブな録画中にOneMoreコマンドを呼び出すことはできません。録画を停止してから再試行してください。</value>
   </data>
@@ -1605,14 +1541,6 @@ OneNoteファイル (*.one)</value>
     <value>セルを右にシフト</value>
     <comment>radio</comment>
   </data>
-  <data name="InsertQRCommand_MaxLength" xml:space="preserve">
-    <value>選択したテキストは {0} 文字を超えてはなりません</value>
-    <comment>message</comment>
-  </data>
-  <data name="InsertQRCommand_NoSelection" xml:space="preserve">
-    <value>新しいQRコードとしてレンダリングするテキストを選択</value>
-    <comment>message</comment>
-  </data>
   <data name="InsertSnippets_CouldNotLoad" xml:space="preserve">
     <value>"{0}" からスニペットを読み込めませんでした</value>
     <comment>error message</comment>
@@ -1732,18 +1660,6 @@ OneNoteファイル (*.one)</value>
     <value>すべてリセット</value>
     <comment>toolstrip button</comment>
   </data>
-  <data name="LinkDialog_groupBox.Text" xml:space="preserve">
-    <value>ページ内</value>
-    <comment>group box</comment>
-  </data>
-  <data name="LinkDialog_introLabel.Text" xml:space="preserve">
-    <value>このページのタイトルにリンク参照を作成</value>
-    <comment>label</comment>
-  </data>
-  <data name="LinkDialog_Text" xml:space="preserve">
-    <value>リンク参照</value>
-    <comment>dialog title</comment>
-  </data>
   <data name="LinkedReferencesCommand_Title" xml:space="preserve">
     <value>リンク参照</value>
     <comment>title text</comment>
@@ -1762,18 +1678,6 @@ OneNoteファイル (*.one)</value>
   <data name="LoadStyleTheme_Title" xml:space="preserve">
     <value>スタイルを読み込む</value>
     <comment>OpenFileDialog title</comment>
-  </data>
-  <data name="MapDialog_groupBox.Text" xml:space="preserve">
-    <value>ページ内</value>
-    <comment>group box</comment>
-  </data>
-  <data name="MapDialog_synopsisBox.Text" xml:space="preserve">
-    <value>各ページの概要を含める</value>
-    <comment>checkbox</comment>
-  </data>
-  <data name="MapDialog_Text" xml:space="preserve">
-    <value>ページマップを作成</value>
-    <comment>dialog title</comment>
   </data>
   <data name="MoreMessageBox_hideBox.Text" xml:space="preserve">
     <value>今後このメッセージを非表示にします</value>
@@ -2334,22 +2238,6 @@ OneDriveに保存されているノートブックのフォルダーを開くこ
     <value>クイックパレット</value>
     <comment>dialog title</comment>
   </data>
-  <data name="RefreshPageLinksCommand_none" xml:space="preserve">
-    <value>このページへの参照が見つかりません</value>
-    <comment>message</comment>
-  </data>
-  <data name="RefreshPageLinksCommand_updated" xml:space="preserve">
-    <value>{0} ページが更新されました</value>
-    <comment>message</comment>
-  </data>
-  <data name="RefreshPageLinksDialog_groupBox.Text" xml:space="preserve">
-    <value>ページ内</value>
-    <comment>group box</comment>
-  </data>
-  <data name="RefreshPageLinksDialog_Text" xml:space="preserve">
-    <value>ページ参照の更新</value>
-    <comment>dialog title</comment>
-  </data>
   <data name="RemindCommand_nameFormat" xml:space="preserve">
     <value>リマインダー: タスクの期日 {0}</value>
     <comment>tagdef name tooltip</comment>
@@ -2586,14 +2474,6 @@ OneDriveに保存されているノートブックのフォルダーを開くこ
     <value>選択した画像にキャプションをつける</value>
     <comment>ribbon images</comment>
   </data>
-  <data name="ribAddFootnoteButton_Label" xml:space="preserve">
-    <value>脚注の追加</value>
-    <comment>ribbon references NODUP</comment>
-  </data>
-  <data name="ribAddFootnoteButton_Screentip" xml:space="preserve">
-    <value>現在の位置から新しい脚注を追加 (Ctrl + Alt + F)</value>
-    <comment>ribbon references NODUP</comment>
-  </data>
   <data name="ribAddTagBankButton_Label" xml:space="preserve">
     <value>タグバンクの追加</value>
     <comment>ribbon search</comment>
@@ -2783,14 +2663,6 @@ OneDriveに保存されているノートブックのフォルダーを開くこ
     <value>更新の確認</value>
     <comment>command NODUP</comment>
   </data>
-  <data name="ribCheckUrlsButton_Label" xml:space="preserve">
-    <value>URLを確認する</value>
-    <comment>ribbon references</comment>
-  </data>
-  <data name="ribCheckUrlsButton_Screentip" xml:space="preserve">
-    <value>無効な URL をチェックして強調表示する</value>
-    <comment>ribbon references</comment>
-  </data>
   <data name="ribChooseColorizerButton_Label" xml:space="preserve">
     <value>コードハイライト</value>
     <comment>ribbon edit NODUP</comment>
@@ -2915,22 +2787,6 @@ OneDriveに保存されているノートブックのフォルダーを開くこ
     <value>セクショングループのコピー</value>
     <comment>section context menu</comment>
   </data>
-  <data name="ribCopyLinkToPageButton_Label" xml:space="preserve">
-    <value>ページへのリンクのコピー</value>
-    <comment>ribbon references</comment>
-  </data>
-  <data name="ribCopyLinkToPageButton_Screentip" xml:space="preserve">
-    <value>現在のページへのハイパーリンクをコピーする</value>
-    <comment>ribbon references</comment>
-  </data>
-  <data name="ribCopyLinkToParagraphButton_Label" xml:space="preserve">
-    <value>段落へのリンクのコピー</value>
-    <comment>ribbon references</comment>
-  </data>
-  <data name="ribCopyLinkToParagraphButton_Screentip" xml:space="preserve">
-    <value>現在の段落へのハイパーリンクをコピーする</value>
-    <comment>ribbon references</comment>
-  </data>
   <data name="ribCopyPageContentButton_Label" xml:space="preserve">
     <value>選択したコンテンツをコピー</value>
     <comment>ribbon page</comment>
@@ -3051,14 +2907,6 @@ OneDriveに保存されているノートブックのフォルダーを開くこ
     <value>カスタム表スタイルを編集する</value>
     <comment>ribbon table styles</comment>
   </data>
-  <data name="ribEmbedSubpageButton_Label" xml:space="preserve">
-    <value>ページの埋め込み</value>
-    <comment>ribbon references</comment>
-  </data>
-  <data name="ribEmbedSubpageButton_Screentip" xml:space="preserve">
-    <value>他のページの内容を現在のページに埋め込む</value>
-    <comment>ribbon references</comment>
-  </data>
   <data name="ribEnableSpellCheckButton_Label" xml:space="preserve">
     <value>スペルチェックの有効化</value>
     <comment>ribbon edit</comment>
@@ -3123,14 +2971,6 @@ OneDriveに保存されているノートブックのフォルダーを開くこ
     <value>ハッシュタグを検索</value>
     <comment>ribbon references NODUP</comment>
   </data>
-  <data name="ribFinishBiLinkButton_Label" xml:space="preserve">
-    <value>双方向リンクの終了</value>
-    <comment>ribbon references </comment>
-  </data>
-  <data name="ribFinishBiLinkButton_Screentip" xml:space="preserve">
-    <value>アンカーと現在の位置の間のリンクを終了する</value>
-    <comment>ribbon references </comment>
-  </data>
   <data name="ribFitGridToTextButton_Label" xml:space="preserve">
     <value>グリッドをテキストに合わせる</value>
     <comment>ribbon page NODUP</comment>
@@ -3138,14 +2978,6 @@ OneDriveに保存されているノートブックのフォルダーを開くこ
   <data name="ribFitGridToTextButton_Screentip" xml:space="preserve">
     <value>背景グリッドを共通のフォントサイズに合わせてサイズ変更する</value>
     <comment>ribbon page NODUP</comment>
-  </data>
-  <data name="ribGetImagesButton_Label" xml:space="preserve">
-    <value>イメージファイルのURLを画像に置換</value>
-    <comment>ribbon references</comment>
-  </data>
-  <data name="ribGetImagesButton_Screentip" xml:space="preserve">
-    <value>URL参照された画像をダウンロードして挿入する</value>
-    <comment>ribbon references</comment>
   </data>
   <data name="ribHashtaggerButton_Label" xml:space="preserve">
     <value>ハッシュタグの挿入</value>
@@ -3315,14 +3147,6 @@ OneDriveに保存されているノートブックのフォルダーを開くこ
     <value>ノートボックスを挿入する</value>
     <comment>ribbon snippets</comment>
   </data>
-  <data name="ribInsertQRButton_Label" xml:space="preserve">
-    <value>QRコードの挿入</value>
-    <comment>ribbon references</comment>
-  </data>
-  <data name="ribInsertQRButton_Screentip" xml:space="preserve">
-    <value>選択したテキストを表すQRコードを挿入する</value>
-    <comment>ribbon references</comment>
-  </data>
   <data name="ribInsertRedStatusButton_Label" xml:space="preserve">
     <value>赤いステータス</value>
     <comment>ribbon snippets</comment>
@@ -3466,14 +3290,6 @@ OneDriveに保存されているノートブックのフォルダーを開くこ
   <data name="ribMovePageTopButton_Screentip" xml:space="preserve">
     <value>選択したページをリストの一番上に移動</value>
     <comment>ribbon page</comment>
-  </data>
-  <data name="ribNameUrlsButton_Label" xml:space="preserve">
-    <value>URLをタイトルに置換</value>
-    <comment>ribbon references</comment>
-  </data>
-  <data name="ribNameUrlsButton_Screentip" xml:space="preserve">
-    <value>URLをウェブページのタイトルに置き換え</value>
-    <comment>ribbon references</comment>
   </data>
   <data name="ribNavigatorButton_Label" xml:space="preserve">
     <value>ナビゲーター</value>
@@ -3687,26 +3503,6 @@ OneDriveに保存されているノートブックのフォルダーを開くこ
     <value>クイックパレットウィンドウを開く</value>
     <comment>ribbon menu</comment>
   </data>
-  <data name="ribReferencesMenu_Label" xml:space="preserve">
-    <value>参照</value>
-    <comment>ribbon menu</comment>
-  </data>
-  <data name="ribRefreshFootnotesButton_Label" xml:space="preserve">
-    <value>脚注の更新</value>
-    <comment>ribbon references</comment>
-  </data>
-  <data name="ribRefreshFootnotesButton_Screentip" xml:space="preserve">
-    <value>脚注の参照番号を振りなおす</value>
-    <comment>ribbon references</comment>
-  </data>
-  <data name="ribRefreshPageLinksButton_Label" xml:space="preserve">
-    <value>ページ参照の更新</value>
-    <comment>ribbon references NODUP</comment>
-  </data>
-  <data name="ribRefreshPageLinksButton_Screentip" xml:space="preserve">
-    <value>双方向リンク参照を更新する</value>
-    <comment>ribbon references</comment>
-  </data>
   <data name="ribRemindButton_Label" xml:space="preserve">
     <value>リマインダーの追加または更新</value>
     <comment>ribbon reminders</comment>
@@ -3754,14 +3550,6 @@ OneDriveに保存されているノートブックのフォルダーを開くこ
   <data name="ribRemoveEmptyButton_Screentip" xml:space="preserve">
     <value>段落間の余分な空行を削除し、空のヘッダーを削除</value>
     <comment>ribbon clean</comment>
-  </data>
-  <data name="ribRemoveFootnoteButton_Label" xml:space="preserve">
-    <value>脚注の削除</value>
-    <comment>ribbon references</comment>
-  </data>
-  <data name="ribRemoveFootnoteButton_Screentip" xml:space="preserve">
-    <value>脚注を削除 (Ctrl + Shift + F)</value>
-    <comment>ribbon references</comment>
   </data>
   <data name="ribRemoveInkButton_Label" xml:space="preserve">
     <value>インクの削除</value>
@@ -4054,14 +3842,6 @@ OneDriveに保存されているノートブックのフォルダーを開くこ
   <data name="ribStackBackgroundImagesButton_Screentip" xml:space="preserve">
     <value>重なった画像を立てに並べる</value>
     <comment>ribbon images</comment>
-  </data>
-  <data name="ribStartBiLinkButton_Label" xml:space="preserve">
-    <value>双方向リンクの開始</value>
-    <comment>ribbon references</comment>
-  </data>
-  <data name="ribStartBiLinkButton_Screentip" xml:space="preserve">
-    <value>双方向リンクを開始する</value>
-    <comment>ribbon references</comment>
   </data>
   <data name="ribStatusMenu_Label" xml:space="preserve">
     <value>ステータス</value>

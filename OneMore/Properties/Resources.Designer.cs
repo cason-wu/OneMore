@@ -714,66 +714,24 @@ namespace River.OneMoreAddIn.Properties {
         /// <summary>
         ///   Looks up a localized string similar to Could not mark anchor point. Select a word or phrase from one paragraph. See log file for details..
         /// </summary>
-        internal static string BiLinkCommand_BadAnchor {
-            get {
-                return ResourceManager.GetString("BiLinkCommand_BadAnchor", resourceCulture);
-            }
-        }
-        
         /// <summary>
         ///   Looks up a localized string similar to Could not create bi-directional link. {0}.
         /// </summary>
-        internal static string BiLinkCommand_BadTarget {
-            get {
-                return ResourceManager.GetString("BiLinkCommand_BadTarget", resourceCulture);
-            }
-        }
-        
         /// <summary>
         ///   Looks up a localized string similar to Cannot link a phrase to itself.
         /// </summary>
-        internal static string BiLinkCommand_Circular {
-            get {
-                return ResourceManager.GetString("BiLinkCommand_Circular", resourceCulture);
-            }
-        }
-        
         /// <summary>
         ///   Looks up a localized string similar to Anchor cannot be found. Page or text has changed..
         /// </summary>
-        internal static string BiLinkCommand_LostAnchor {
-            get {
-                return ResourceManager.GetString("BiLinkCommand_LostAnchor", resourceCulture);
-            }
-        }
-        
         /// <summary>
         ///   Looks up a localized string similar to Marked &quot;{0}&quot; as the anchor. Now select the target text and finish the bi-directional link.
         /// </summary>
-        internal static string BiLinkCommand_Marked {
-            get {
-                return ResourceManager.GetString("BiLinkCommand_Marked", resourceCulture);
-            }
-        }
-        
         /// <summary>
         ///   Looks up a localized string similar to Starting anchor not yet marked. Select the start of the bi-directional link..
         /// </summary>
-        internal static string BiLinkCommand_NoAnchor {
-            get {
-                return ResourceManager.GetString("BiLinkCommand_NoAnchor", resourceCulture);
-            }
-        }
-        
         /// <summary>
         ///   Looks up a localized string similar to Select a word or phrase from one paragraph.
         /// </summary>
-        internal static string BiLinkCommand_NoTarget {
-            get {
-                return ResourceManager.GetString("BiLinkCommand_NoTarget", resourceCulture);
-            }
-        }
-        
         /// <summary>
         ///   Looks up a localized string similar to One space between sentences.
         /// </summary>
@@ -804,30 +762,12 @@ namespace River.OneMoreAddIn.Properties {
         /// <summary>
         ///   Looks up a localized string similar to Checking {0} URLs.
         /// </summary>
-        internal static string CheckUrlsCommand_checkingMsg {
-            get {
-                return ResourceManager.GetString("CheckUrlsCommand_checkingMsg", resourceCulture);
-            }
-        }
-        
         /// <summary>
         ///   Looks up a localized string similar to Found {0} invalid URLs on this page.
         /// </summary>
-        internal static string CheckUrlsCommand_invaldiMsg {
-            get {
-                return ResourceManager.GetString("CheckUrlsCommand_invaldiMsg", resourceCulture);
-            }
-        }
-        
         /// <summary>
         ///   Looks up a localized string similar to Mapping {0} page references.
         /// </summary>
-        internal static string CheckUrlsCommand_mappingMsg {
-            get {
-                return ResourceManager.GetString("CheckUrlsCommand_mappingMsg", resourceCulture);
-            }
-        }
-        
         /// <summary>
         ///   Looks up a localized string similar to Cleaned up {0} orphaned reminders.
         /// </summary>
@@ -2143,48 +2083,18 @@ namespace River.OneMoreAddIn.Properties {
         /// <summary>
         ///   Looks up a localized string similar to Source page contains no content.
         /// </summary>
-        internal static string EmbedSubpageCommand_NoContent {
-            get {
-                return ResourceManager.GetString("EmbedSubpageCommand_NoContent", resourceCulture);
-            }
-        }
-        
         /// <summary>
         ///   Looks up a localized string similar to No embedded content found.
         /// </summary>
-        internal static string EmbedSubpageCommand_NoEmbedded {
-            get {
-                return ResourceManager.GetString("EmbedSubpageCommand_NoEmbedded", resourceCulture);
-            }
-        }
-        
         /// <summary>
         ///   Looks up a localized string similar to Source page not found.
         /// </summary>
-        internal static string EmbedSubpageCommand_NoSource {
-            get {
-                return ResourceManager.GetString("EmbedSubpageCommand_NoSource", resourceCulture);
-            }
-        }
-        
         /// <summary>
         ///   Looks up a localized string similar to Select Page.
         /// </summary>
-        internal static string EmbedSubpageCommand_Select {
-            get {
-                return ResourceManager.GetString("EmbedSubpageCommand_Select", resourceCulture);
-            }
-        }
-        
         /// <summary>
         ///   Looks up a localized string similar to Select the page to embed on this page.
         /// </summary>
-        internal static string EmbedSubpageCommand_SelectIntro {
-            get {
-                return ResourceManager.GetString("EmbedSubpageCommand_SelectIntro", resourceCulture);
-            }
-        }
-        
         /// <summary>
         ///   Looks up a localized string similar to Architecture.
         /// </summary>
@@ -3180,12 +3090,6 @@ namespace River.OneMoreAddIn.Properties {
         /// <summary>
         ///   Looks up a localized string similar to Would you like to annotate the image with its URL?.
         /// </summary>
-        internal static string GetImagesCommand_Cite {
-            get {
-                return ResourceManager.GetString("GetImagesCommand_Cite", resourceCulture);
-            }
-        }
-        
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
@@ -4140,21 +4044,9 @@ namespace River.OneMoreAddIn.Properties {
         /// <summary>
         ///   Looks up a localized string similar to Selected text cannot exceed {0} characters.
         /// </summary>
-        internal static string InsertQRCommand_MaxLength {
-            get {
-                return ResourceManager.GetString("InsertQRCommand_MaxLength", resourceCulture);
-            }
-        }
-        
         /// <summary>
         ///   Looks up a localized string similar to Select text to render as a new QR code.
         /// </summary>
-        internal static string InsertQRCommand_NoSelection {
-            get {
-                return ResourceManager.GetString("InsertQRCommand_NoSelection", resourceCulture);
-            }
-        }
-        
         /// <summary>
         ///   Looks up a localized string similar to Could not load snippet from &quot;{0}&quot;.
         /// </summary>
@@ -4455,30 +4347,12 @@ namespace River.OneMoreAddIn.Properties {
         /// <summary>
         ///   Looks up a localized string similar to Pages in.
         /// </summary>
-        internal static string LinkDialog_groupBox_Text {
-            get {
-                return ResourceManager.GetString("LinkDialog_groupBox.Text", resourceCulture);
-            }
-        }
-        
         /// <summary>
         ///   Looks up a localized string similar to Create linked references to the title of this page.
         /// </summary>
-        internal static string LinkDialog_introLabel_Text {
-            get {
-                return ResourceManager.GetString("LinkDialog_introLabel.Text", resourceCulture);
-            }
-        }
-        
         /// <summary>
         ///   Looks up a localized string similar to Link References.
         /// </summary>
-        internal static string LinkDialog_Text {
-            get {
-                return ResourceManager.GetString("LinkDialog_Text", resourceCulture);
-            }
-        }
-        
         /// <summary>
         ///   Looks up a localized string similar to Linked References.
         /// </summary>
@@ -4827,30 +4701,12 @@ namespace River.OneMoreAddIn.Properties {
         /// <summary>
         ///   Looks up a localized string similar to Pages in.
         /// </summary>
-        internal static string MapDialog_groupBox_Text {
-            get {
-                return ResourceManager.GetString("MapDialog_groupBox.Text", resourceCulture);
-            }
-        }
-        
         /// <summary>
         ///   Looks up a localized string similar to Include a synopsis of each page.
         /// </summary>
-        internal static string MapDialog_synopsisBox_Text {
-            get {
-                return ResourceManager.GetString("MapDialog_synopsisBox.Text", resourceCulture);
-            }
-        }
-        
         /// <summary>
         ///   Looks up a localized string similar to Create Page Map.
         /// </summary>
-        internal static string MapDialog_Text {
-            get {
-                return ResourceManager.GetString("MapDialog_Text", resourceCulture);
-            }
-        }
-        
         /// <summary>
         ///   Looks up a localized string similar to Hide this message in the future.
         /// </summary>
@@ -6145,39 +6001,15 @@ namespace River.OneMoreAddIn.Properties {
         /// <summary>
         ///   Looks up a localized string similar to No references found to this page.
         /// </summary>
-        internal static string RefreshPageLinksCommand_none {
-            get {
-                return ResourceManager.GetString("RefreshPageLinksCommand_none", resourceCulture);
-            }
-        }
-        
         /// <summary>
         ///   Looks up a localized string similar to Updated {0} pages.
         /// </summary>
-        internal static string RefreshPageLinksCommand_updated {
-            get {
-                return ResourceManager.GetString("RefreshPageLinksCommand_updated", resourceCulture);
-            }
-        }
-        
         /// <summary>
         ///   Looks up a localized string similar to Pages in.
         /// </summary>
-        internal static string RefreshPageLinksDialog_groupBox_Text {
-            get {
-                return ResourceManager.GetString("RefreshPageLinksDialog_groupBox.Text", resourceCulture);
-            }
-        }
-        
         /// <summary>
         ///   Looks up a localized string similar to Refresh Page References.
         /// </summary>
-        internal static string RefreshPageLinksDialog_Text {
-            get {
-                return ResourceManager.GetString("RefreshPageLinksDialog_Text", resourceCulture);
-            }
-        }
-        
         /// <summary>
         ///   Looks up a localized string similar to Reminder: task due {0}.
         /// </summary>
@@ -6695,21 +6527,9 @@ namespace River.OneMoreAddIn.Properties {
         /// <summary>
         ///   Looks up a localized string similar to Add Footnote.
         /// </summary>
-        internal static string ribAddFootnoteButton_Label {
-            get {
-                return ResourceManager.GetString("ribAddFootnoteButton_Label", resourceCulture);
-            }
-        }
-        
         /// <summary>
         ///   Looks up a localized string similar to Add new footnote from current position (Ctrl + Alt + F).
         /// </summary>
-        internal static string ribAddFootnoteButton_Screentip {
-            get {
-                return ResourceManager.GetString("ribAddFootnoteButton_Screentip", resourceCulture);
-            }
-        }
-        
         /// <summary>
         ///   Looks up a localized string similar to Add Tag Bank.
         /// </summary>
@@ -7192,21 +7012,9 @@ namespace River.OneMoreAddIn.Properties {
         /// <summary>
         ///   Looks up a localized string similar to Check URLs.
         /// </summary>
-        internal static string ribCheckUrlsButton_Label {
-            get {
-                return ResourceManager.GetString("ribCheckUrlsButton_Label", resourceCulture);
-            }
-        }
-        
         /// <summary>
         ///   Looks up a localized string similar to Check for and highlight invalid URLs.
         /// </summary>
-        internal static string ribCheckUrlsButton_Screentip {
-            get {
-                return ResourceManager.GetString("ribCheckUrlsButton_Screentip", resourceCulture);
-            }
-        }
-        
         /// <summary>
         ///   Looks up a localized string similar to Colorize.
         /// </summary>
@@ -7489,39 +7297,15 @@ namespace River.OneMoreAddIn.Properties {
         /// <summary>
         ///   Looks up a localized string similar to Copy Link to Page.
         /// </summary>
-        internal static string ribCopyLinkToPageButton_Label {
-            get {
-                return ResourceManager.GetString("ribCopyLinkToPageButton_Label", resourceCulture);
-            }
-        }
-        
         /// <summary>
         ///   Looks up a localized string similar to Copy a hyperlink to the current page.
         /// </summary>
-        internal static string ribCopyLinkToPageButton_Screentip {
-            get {
-                return ResourceManager.GetString("ribCopyLinkToPageButton_Screentip", resourceCulture);
-            }
-        }
-        
         /// <summary>
         ///   Looks up a localized string similar to Copy Link to Paragraph.
         /// </summary>
-        internal static string ribCopyLinkToParagraphButton_Label {
-            get {
-                return ResourceManager.GetString("ribCopyLinkToParagraphButton_Label", resourceCulture);
-            }
-        }
-        
         /// <summary>
         ///   Looks up a localized string similar to Copy a hyperlink to the current paragraph.
         /// </summary>
-        internal static string ribCopyLinkToParagraphButton_Screentip {
-            get {
-                return ResourceManager.GetString("ribCopyLinkToParagraphButton_Screentip", resourceCulture);
-            }
-        }
-        
         /// <summary>
         ///   Looks up a localized string similar to Copy Selected Content.
         /// </summary>
@@ -7795,21 +7579,9 @@ namespace River.OneMoreAddIn.Properties {
         /// <summary>
         ///   Looks up a localized string similar to Embed Page.
         /// </summary>
-        internal static string ribEmbedSubpageButton_Label {
-            get {
-                return ResourceManager.GetString("ribEmbedSubpageButton_Label", resourceCulture);
-            }
-        }
-        
         /// <summary>
         ///   Looks up a localized string similar to Embed content of another page into the current page.
         /// </summary>
-        internal static string ribEmbedSubpageButton_Screentip {
-            get {
-                return ResourceManager.GetString("ribEmbedSubpageButton_Screentip", resourceCulture);
-            }
-        }
-        
         /// <summary>
         ///   Looks up a localized string similar to Enable Spell Check.
         /// </summary>
@@ -7957,21 +7729,9 @@ namespace River.OneMoreAddIn.Properties {
         /// <summary>
         ///   Looks up a localized string similar to Finish Bidirectional Link.
         /// </summary>
-        internal static string ribFinishBiLinkButton_Label {
-            get {
-                return ResourceManager.GetString("ribFinishBiLinkButton_Label", resourceCulture);
-            }
-        }
-        
         /// <summary>
         ///   Looks up a localized string similar to Finish link between anchor and current location.
         /// </summary>
-        internal static string ribFinishBiLinkButton_Screentip {
-            get {
-                return ResourceManager.GetString("ribFinishBiLinkButton_Screentip", resourceCulture);
-            }
-        }
-        
         /// <summary>
         ///   Looks up a localized string similar to Fit Grid to Text.
         /// </summary>
@@ -7993,21 +7753,9 @@ namespace River.OneMoreAddIn.Properties {
         /// <summary>
         ///   Looks up a localized string similar to Replace URLs with Images.
         /// </summary>
-        internal static string ribGetImagesButton_Label {
-            get {
-                return ResourceManager.GetString("ribGetImagesButton_Label", resourceCulture);
-            }
-        }
-        
         /// <summary>
         ///   Looks up a localized string similar to Download and insert referenced images.
         /// </summary>
-        internal static string ribGetImagesButton_Screentip {
-            get {
-                return ResourceManager.GetString("ribGetImagesButton_Screentip", resourceCulture);
-            }
-        }
-        
         /// <summary>
         ///   Looks up a localized string similar to Insert Hashtags.
         /// </summary>
@@ -8399,21 +8147,9 @@ namespace River.OneMoreAddIn.Properties {
         /// <summary>
         ///   Looks up a localized string similar to Insert QR Code.
         /// </summary>
-        internal static string ribInsertQRButton_Label {
-            get {
-                return ResourceManager.GetString("ribInsertQRButton_Label", resourceCulture);
-            }
-        }
-        
         /// <summary>
         ///   Looks up a localized string similar to Insert a QR Code represented the selected text.
         /// </summary>
-        internal static string ribInsertQRButton_Screentip {
-            get {
-                return ResourceManager.GetString("ribInsertQRButton_Screentip", resourceCulture);
-            }
-        }
-        
         /// <summary>
         ///   Looks up a localized string similar to Red Status.
         /// </summary>
@@ -8751,21 +8487,9 @@ namespace River.OneMoreAddIn.Properties {
         /// <summary>
         ///   Looks up a localized string similar to Replace URLs with Titles.
         /// </summary>
-        internal static string ribNameUrlsButton_Label {
-            get {
-                return ResourceManager.GetString("ribNameUrlsButton_Label", resourceCulture);
-            }
-        }
-        
         /// <summary>
         ///   Looks up a localized string similar to Replace URLs with Web page titles.
         /// </summary>
-        internal static string ribNameUrlsButton_Screentip {
-            get {
-                return ResourceManager.GetString("ribNameUrlsButton_Screentip", resourceCulture);
-            }
-        }
-        
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
@@ -9256,48 +8980,18 @@ namespace River.OneMoreAddIn.Properties {
         /// <summary>
         ///   Looks up a localized string similar to References.
         /// </summary>
-        internal static string ribReferencesMenu_Label {
-            get {
-                return ResourceManager.GetString("ribReferencesMenu_Label", resourceCulture);
-            }
-        }
-        
         /// <summary>
         ///   Looks up a localized string similar to Refresh Footnotes.
         /// </summary>
-        internal static string ribRefreshFootnotesButton_Label {
-            get {
-                return ResourceManager.GetString("ribRefreshFootnotesButton_Label", resourceCulture);
-            }
-        }
-        
         /// <summary>
         ///   Looks up a localized string similar to Refresh footnote reference numbers sequentially.
         /// </summary>
-        internal static string ribRefreshFootnotesButton_Screentip {
-            get {
-                return ResourceManager.GetString("ribRefreshFootnotesButton_Screentip", resourceCulture);
-            }
-        }
-        
         /// <summary>
         ///   Looks up a localized string similar to Refresh Page References.
         /// </summary>
-        internal static string ribRefreshPageLinksButton_Label {
-            get {
-                return ResourceManager.GetString("ribRefreshPageLinksButton_Label", resourceCulture);
-            }
-        }
-        
         /// <summary>
         ///   Looks up a localized string similar to Refresh bi-directional link references.
         /// </summary>
-        internal static string ribRefreshPageLinksButton_Screentip {
-            get {
-                return ResourceManager.GetString("ribRefreshPageLinksButton_Screentip", resourceCulture);
-            }
-        }
-        
         /// <summary>
         ///   Looks up a localized string similar to Add or Update Reminders.
         /// </summary>
@@ -9409,21 +9103,9 @@ namespace River.OneMoreAddIn.Properties {
         /// <summary>
         ///   Looks up a localized string similar to Remove Footnote.
         /// </summary>
-        internal static string ribRemoveFootnoteButton_Label {
-            get {
-                return ResourceManager.GetString("ribRemoveFootnoteButton_Label", resourceCulture);
-            }
-        }
-        
         /// <summary>
         ///   Looks up a localized string similar to Remove footnote (Ctrl + Shift + F).
         /// </summary>
-        internal static string ribRemoveFootnoteButton_Screentip {
-            get {
-                return ResourceManager.GetString("ribRemoveFootnoteButton_Screentip", resourceCulture);
-            }
-        }
-        
         /// <summary>
         ///   Looks up a localized string similar to Remove Ink.
         /// </summary>
@@ -10094,21 +9776,9 @@ namespace River.OneMoreAddIn.Properties {
         /// <summary>
         ///   Looks up a localized string similar to Start Bidirectional Link.
         /// </summary>
-        internal static string ribStartBiLinkButton_Label {
-            get {
-                return ResourceManager.GetString("ribStartBiLinkButton_Label", resourceCulture);
-            }
-        }
-        
         /// <summary>
         ///   Looks up a localized string similar to Start bi-directional link.
         /// </summary>
-        internal static string ribStartBiLinkButton_Screentip {
-            get {
-                return ResourceManager.GetString("ribStartBiLinkButton_Screentip", resourceCulture);
-            }
-        }
-        
         /// <summary>
         ///   Looks up a localized string similar to Status.
         /// </summary>
