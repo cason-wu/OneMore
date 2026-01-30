@@ -175,10 +175,6 @@ namespace River.OneMoreAddIn.Properties {
         /// <summary>
         ///   Looks up a localized string similar to Calculated.
         /// </summary>
-        internal static string AddFormulaCommand_Calculated {
-            get {
-                return ResourceManager.GetString("AddFormulaCommand_Calculated", resourceCulture);
-            }
         }
         
         /// <summary>
@@ -1591,19 +1587,11 @@ namespace River.OneMoreAddIn.Properties {
         /// <summary>
         ///   Looks up a localized string similar to Deleted formulas from {0} cell(s).
         /// </summary>
-        internal static string DeleteFormulaCommand_Deleted {
-            get {
-                return ResourceManager.GetString("DeleteFormulaCommand_Deleted", resourceCulture);
-            }
         }
         
         /// <summary>
         ///   Looks up a localized string similar to Formula not found. Select one or more table cells containing formulas..
         /// </summary>
-        internal static string DeleteFormulaCommand_NoFormulas {
-            get {
-                return ResourceManager.GetString("DeleteFormulaCommand_NoFormulas", resourceCulture);
-            }
         }
         
         /// <summary>
@@ -3842,10 +3830,6 @@ namespace River.OneMoreAddIn.Properties {
         /// <summary>
         ///   Looks up a localized string similar to No formulas found on this page.
         /// </summary>
-        internal static string HighlightFormulaCommand_NoFormulas {
-            get {
-                return ResourceManager.GetString("HighlightFormulaCommand_NoFormulas", resourceCulture);
-            }
         }
         
         /// <summary>
@@ -4679,7 +4663,8 @@ namespace River.OneMoreAddIn.Properties {
         ///    &quot;ActiveBorder&quot;: &quot;#B4B4B4&quot;,
         ///    &quot;ActiveCaption&quot;: &quot;#C980EE&quot;,
         ///    &quot;ActiveCaptionText&quot;: &quot;#000000&quot;,
-        ///    &quot;AppWorkspace&quot;: &quot;#ABABAB&quot;,        /// [rest of string was truncated]&quot;;.
+        ///    &quot;AppWorkspace&quot;: &quot;#ABABAB&quot;,
+        /// [rest of string was truncated]&quot;;.
         /// </summary>
         internal static string LightTheme {
             get {
@@ -6163,37 +6148,21 @@ namespace River.OneMoreAddIn.Properties {
         /// <summary>
         ///   Looks up a localized string similar to Selected word cannot be empty.
         /// </summary>
-        internal static string Pronunciate_EmptyWord {
-            get {
-                return ResourceManager.GetString("Pronunciate_EmptyWord", resourceCulture);
-            }
         }
         
         /// <summary>
         ///   Looks up a localized string similar to Must select a full word.
         /// </summary>
-        internal static string Pronunciate_FullWord {
-            get {
-                return ResourceManager.GetString("Pronunciate_FullWord", resourceCulture);
-            }
         }
         
         /// <summary>
         ///   Looks up a localized string similar to Could not fetch {0} pronunciation of &quot;{1}&quot;. Either word does not exist or there was a temporary network failure..
         /// </summary>
-        internal static string Pronunciate_NetError {
-            get {
-                return ResourceManager.GetString("Pronunciate_NetError", resourceCulture);
-            }
         }
         
         /// <summary>
         ///   Looks up a localized string similar to Could not fetch {0} pronunciation of &quot;{1}&quot;.
         /// </summary>
-        internal static string Pronunciate_NoWord {
-            get {
-                return ResourceManager.GetString("Pronunciate_NoWord", resourceCulture);
-            }
         }
         
         /// <summary>
@@ -6211,19 +6180,11 @@ namespace River.OneMoreAddIn.Properties {
         ///tr,Turkish
         ///zh-CN,Chinese (Simplified).
         /// </summary>
-        internal static string PronunciateDialog_languages {
-            get {
-                return ResourceManager.GetString("PronunciateDialog_languages", resourceCulture);
-            }
         }
         
         /// <summary>
         ///   Looks up a localized string similar to Phonetics.
         /// </summary>
-        internal static string PronunciateDialog_Text {
-            get {
-                return ResourceManager.GetString("PronunciateDialog.Text", resourceCulture);
-            }
         }
         
         /// <summary>
@@ -6446,10 +6407,6 @@ namespace River.OneMoreAddIn.Properties {
         /// <summary>
         ///   Looks up a localized string similar to No formula found in the selected table.
         /// </summary>
-        internal static string RecalculateFormulaCommand_NoFormula {
-            get {
-                return ResourceManager.GetString("RecalculateFormulaCommand_NoFormula", resourceCulture);
-            }
         }
         
         /// <summary>
@@ -7059,19 +7016,11 @@ namespace River.OneMoreAddIn.Properties {
         /// <summary>
         ///   Looks up a localized string similar to Add Formula.
         /// </summary>
-        internal static string ribAddFormulaButton_Label {
-            get {
-                return ResourceManager.GetString("ribAddFormulaButton_Label", resourceCulture);
-            }
         }
         
         /// <summary>
         ///   Looks up a localized string similar to Add or edit a formula in selected table cells (F5).
         /// </summary>
-        internal static string ribAddFormulaButton_Screentip {
-            get {
-                return ResourceManager.GetString("ribAddFormulaButton_Screentip", resourceCulture);
-            }
         }
         
         /// <summary>
@@ -8024,19 +7973,11 @@ namespace River.OneMoreAddIn.Properties {
         /// <summary>
         ///   Looks up a localized string similar to Delete Formula.
         /// </summary>
-        internal static string ribDeleteFormulaButton_Label {
-            get {
-                return ResourceManager.GetString("ribDeleteFormulaButton_Label", resourceCulture);
-            }
         }
         
         /// <summary>
         ///   Looks up a localized string similar to Delete formula from selected table cell(s).
         /// </summary>
-        internal static string ribDeleteFormulaButton_Screentip {
-            get {
-                return ResourceManager.GetString("ribDeleteFormulaButton_Screentip", resourceCulture);
-            }
         }
         
         /// <summary>
@@ -8447,19 +8388,11 @@ namespace River.OneMoreAddIn.Properties {
         /// <summary>
         ///   Looks up a localized string similar to Highlight Formula.
         /// </summary>
-        internal static string ribHighlightFormulaButton_Label {
-            get {
-                return ResourceManager.GetString("ribHighlightFormulaButton_Label", resourceCulture);
-            }
         }
         
         /// <summary>
         ///   Looks up a localized string similar to Select cells with formula in current table.
         /// </summary>
-        internal static string ribHighlightFormulaButton_Screentip {
-            get {
-                return ResourceManager.GetString("ribHighlightFormulaButton_Screentip", resourceCulture);
-            }
         }
         
         /// <summary>
@@ -8889,19 +8822,11 @@ namespace River.OneMoreAddIn.Properties {
         /// <summary>
         ///   Looks up a localized string similar to Insert Timer.
         /// </summary>
-        internal static string ribInsertTimerButton_Label {
-            get {
-                return ResourceManager.GetString("ribInsertTimerButton_Label", resourceCulture);
-            }
         }
         
         /// <summary>
         ///   Looks up a localized string similar to Insert the current timer value.
         /// </summary>
-        internal static string ribInsertTimerButton_Screentip {
-            get {
-                return ResourceManager.GetString("ribInsertTimerButton_Screentip", resourceCulture);
-            }
         }
         
         /// <summary>
@@ -9674,19 +9599,11 @@ namespace River.OneMoreAddIn.Properties {
         /// <summary>
         ///   Looks up a localized string similar to Insert Pronunciation.
         /// </summary>
-        internal static string ribPronunciateButton_Label {
-            get {
-                return ResourceManager.GetString("ribPronunciateButton_Label", resourceCulture);
-            }
         }
         
         /// <summary>
         ///   Looks up a localized string similar to Insert phonetic pronunciation of selected text.
         /// </summary>
-        internal static string ribPronunciateButton_Screentip {
-            get {
-                return ResourceManager.GetString("ribPronunciateButton_Screentip", resourceCulture);
-            }
         }
         
         /// <summary>
@@ -9719,19 +9636,11 @@ namespace River.OneMoreAddIn.Properties {
         /// <summary>
         ///   Looks up a localized string similar to Recalculate Formula.
         /// </summary>
-        internal static string ribRecalculateFormulaButton_Label {
-            get {
-                return ResourceManager.GetString("ribRecalculateFormulaButton_Label", resourceCulture);
-            }
         }
         
         /// <summary>
         ///   Looks up a localized string similar to Recalculate all formula in the current table (Shift + F5).
         /// </summary>
-        internal static string ribRecalculateFormulaButton_Screentip {
-            get {
-                return ResourceManager.GetString("ribRecalculateFormulaButton_Screentip", resourceCulture);
-            }
         }
         
         /// <summary>
@@ -10070,19 +9979,11 @@ namespace River.OneMoreAddIn.Properties {
         /// <summary>
         ///   Looks up a localized string similar to Restart Timer.
         /// </summary>
-        internal static string ribRestartTimerButton_Label {
-            get {
-                return ResourceManager.GetString("ribRestartTimerButton_Label", resourceCulture);
-            }
         }
         
         /// <summary>
         ///   Looks up a localized string similar to Restart the Timer, setting it back to zero.
         /// </summary>
-        internal static string ribRestartTimerButton_Screentip {
-            get {
-                return ResourceManager.GetString("ribRestartTimerButton_Screentip", resourceCulture);
-            }
         }
         
         /// <summary>
@@ -10431,19 +10332,11 @@ namespace River.OneMoreAddIn.Properties {
         /// <summary>
         ///   Looks up a localized string similar to Stop Timer.
         /// </summary>
-        internal static string ribShutdownTimerButton_Label {
-            get {
-                return ResourceManager.GetString("ribShutdownTimerButton_Label", resourceCulture);
-            }
         }
         
         /// <summary>
         ///   Looks up a localized string similar to Stop and close the Timer window.
         /// </summary>
-        internal static string ribShutdownTimerButton_Screentip {
-            get {
-                return ResourceManager.GetString("ribShutdownTimerButton_Screentip", resourceCulture);
-            }
         }
         
         /// <summary>
@@ -10629,19 +10522,11 @@ namespace River.OneMoreAddIn.Properties {
         /// <summary>
         ///   Looks up a localized string similar to Start Timer.
         /// </summary>
-        internal static string ribStartTimerButton_Label {
-            get {
-                return ResourceManager.GetString("ribStartTimerButton_Label", resourceCulture);
-            }
         }
         
         /// <summary>
         ///   Looks up a localized string similar to Open and start the timer window.
         /// </summary>
-        internal static string ribStartTimerButton_Screentip {
-            get {
-                return ResourceManager.GetString("ribStartTimerButton_Screentip", resourceCulture);
-            }
         }
         
         /// <summary>
@@ -12613,37 +12498,21 @@ namespace River.OneMoreAddIn.Properties {
         /// <summary>
         ///   Looks up a localized string similar to Close Timer.
         /// </summary>
-        internal static string TimerWindow_closeButton_Text {
-            get {
-                return ResourceManager.GetString("TimerWindow_closeButton.Text", resourceCulture);
-            }
         }
         
         /// <summary>
         ///   Looks up a localized string similar to Copy Current Time.
         /// </summary>
-        internal static string TimerWindow_copyButton_Text {
-            get {
-                return ResourceManager.GetString("TimerWindow_copyButton.Text", resourceCulture);
-            }
         }
         
         /// <summary>
         ///   Looks up a localized string similar to Restart Timer.
         /// </summary>
-        internal static string TimerWindow_resetButton_Text {
-            get {
-                return ResourceManager.GetString("TimerWindow_resetButton.Text", resourceCulture);
-            }
         }
         
         /// <summary>
         ///   Looks up a localized string similar to OneNote Timer.
         /// </summary>
-        internal static string TimerWindow_Text {
-            get {
-                return ResourceManager.GetString("TimerWindow.Text", resourceCulture);
-            }
         }
         
         /// <summary>
