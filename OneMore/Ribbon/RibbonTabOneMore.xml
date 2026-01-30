@@ -274,12 +274,6 @@
       enabled="true"
       keytip="TA">
       <button
-        id="ribDeleteFormulaButton"
-        imageMso="SheetDelete"
-        getLabel="GetRibbonLabel"
-        getScreentip="GetRibbonScreentip"
-        onAction="DeleteFormulaCmd"/>
-      <button
         id="ribTextToTableButton"
         imageMso="ConvertTextToTable"
         getLabel="GetRibbonLabel"
@@ -334,33 +328,6 @@
         getScreentip="GetRibbonScreentip"
         onAction="SplitTableCmd"/>
     </menu>
-    <button
-      id="ribAddFormulaButton"
-      imageMso="TableFormulaDialog"
-      getLabel="GetRibbonLabel"
-      getScreentip="GetRibbonScreentip"
-      onAction="AddFormulaCmd"
-      showImage="true"
-      showLabel="false"
-      keytip="AF"/>
-    <button
-      id="ribHighlightFormulaButton"
-      imageMso="PivotTableListFormulas"
-      getLabel="GetRibbonLabel"
-      getScreentip="GetRibbonScreentip"
-      onAction="HighlightFormulaCmd"
-      showImage="true"
-      showLabel="false"
-      keytip="HF"/>
-    <button
-      id="ribRecalculateFormulaButton"
-      imageMso="CalculateSheet"
-      getLabel="GetRibbonLabel"
-      getScreentip="GetRibbonScreentip"
-      onAction="RecalculateFormulaCmd"
-      showImage="true"
-      showLabel="false"
-      keytip="RF"/>
   </group>
 
   <group id="ribOneMoreTagGroup" getLabel="GetRibbonLabel" getImage="GetOneMoreRibbonImage">
@@ -1047,29 +1014,11 @@
         imageMso="DateAndTimeInsert"
         onAction="DateStampCmd"/>
       <button
-        id="ribPronunciateButton"
-        getLabel="GetRibbonLabel"
-        getScreentip="GetRibbonScreentip"
-        imageMso="SpeakOnEnter"
-        onAction="PronunciateCmd"/>
-      <button
         id="ribSortButton"
         imageMso="SortUp"
         getLabel="GetRibbonLabel"
         getScreentip="GetRibbonScreentip"
         onAction="SortCmd"/>
-      <button
-        id="ribStartTimerButton"
-        imageMso="StartTimer"
-        getLabel="GetRibbonLabel"
-        getScreentip="GetRibbonScreentip"
-        onAction="StartTimerCmd"/>
-      <button
-        id="ribInsertTimerButton"
-        imageMso="ShowJournalPage"
-        getLabel="GetRibbonLabel"
-        getScreentip="GetRibbonScreentip"
-        onAction="InsertTimerCmd"/>
       <button
         id="ribShowXmlButton"
         imageMso="XmlSource"
