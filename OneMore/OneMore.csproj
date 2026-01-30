@@ -233,8 +233,6 @@
   <!-- ============================================ -->
   <ItemGroup>
     <!-- Localization Resources -->
-    <Content Include="Properties\Resources.de-DE-hints.xml" />
-    <Content Include="Properties\Resources.fr-FR-hints.xml" />
     <Content Include="Properties\Resources.zh-CN-hints.xml" />
   </ItemGroup>
 
