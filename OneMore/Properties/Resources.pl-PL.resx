@@ -3691,11 +3691,7 @@ Zakładka Pomoc</value>
     <value>Wyłącz czek czaru dla całej strony (F4)</value>
     <comment>Ribbon OneMore menu item, no spell check on this page</comment>
   </data>
-  <data name="ribNotebookWordCountButton_Label" xml:space="preserve">
-    <value>Wszystkich słów w Notatniku</value>
-    <comment>ribbon</comment>
-  </data>
-  <data name="ribNumberingMenu_Label" xml:space="preserve">
+<data name="ribNumberingMenu_Label" xml:space="preserve">
     <value>Numeracja</value>
     <comment>Ribbon OneMore menu item NODUP</comment>
   </data>
@@ -4153,11 +4149,7 @@ Zakładka Pomoc</value>
     <value>Dostosuj kolor sekcji.</value>
     <comment>Context menu</comment>
   </data>
-  <data name="ribSectionWordCountButton_Label" xml:space="preserve">
-    <value>Całkowita liczba słów w sekcji</value>
-    <comment>ribbon</comment>
-  </data>
-  <data name="ribSelectImagesButton_Label" xml:space="preserve">
+<data name="ribSelectImagesButton_Label" xml:space="preserve">
     <value>Wybierz wszystkie obrazy</value>
     <comment>ribbon menu edit item</comment>
   </data>
@@ -4428,11 +4420,7 @@ Zakładka Pomoc</value>
     <value>Wyświetl sekcję w przeglądarce internetowej</value>
     <comment>section context menu</comment>
   </data>
-  <data name="ribWordCountButton_Label" xml:space="preserve">
-    <value>Liczba słów</value>
-    <comment>Ribbon OneMore menu extras</comment>
-  </data>
-  <data name="ribWordCountButton_Screentip" xml:space="preserve">
+<data name="ribWordCountButton_Screentip" xml:space="preserve">
     <value>Zgłoś liczbę słów na tej stronie</value>
     <comment>ribbon page</comment>
   </data>
@@ -5575,32 +5563,16 @@ Odwracać</value>
   <data name="word_Yes" xml:space="preserve">
     <value>TAk</value>
   </data>
-  <data name="WordCountCommand_Count" xml:space="preserve">
-    <value>Całkowite słowa na stronie: {0}</value>
-    <comment>message box</comment>
-  </data>
-  <data name="WordCountCommand_Selected" xml:space="preserve">
+<data name="WordCountCommand_Selected" xml:space="preserve">
     <value>Wybrane słowa: {0}</value>
     <comment>message box</comment>
   </data>
-  <data name="WordCounts_Notebook" xml:space="preserve">
-    <value>{0} Notatnik</value>
-    <comment>page heading</comment>
-  </data>
-  <data name="WordCounts_NotebookTotal" xml:space="preserve">
+<data name="WordCounts_NotebookTotal" xml:space="preserve">
     <value>Łączna liczba słów w notatniku na {0} stronach</value>
     <comment>report</comment>
   </data>
-  <data name="WordCounts_Section" xml:space="preserve">
-    <value>{0} Sekcja</value>
-    <comment>page heading</comment>
-  </data>
-  <data name="WordCounts_SectionTotal" xml:space="preserve">
+<data name="WordCounts_SectionTotal" xml:space="preserve">
     <value>Łączna liczba słów w sekcji na {0} stronach</value>
     <comment>report</comment>
-  </data>
-  <data name="WordCountsCommand_Title" xml:space="preserve">
-    <value>Liczy się słowo</value>
-    <comment>page title</comment>
   </data>
 </root>

@@ -623,11 +623,6 @@ namespace River.OneMoreAddIn
 			=> await factory.Run<NewStyleCommand>();
 
 
-		[Command("ribNotebookWordCountButton_Label", Keys.None)]
-		public async Task NotebookWordCountCmd(IRibbonControl control)
-			=> await factory.Run<WordCountCommand>(OneNote.Scope.Sections);
-
-
 		[Command("ribNumberPagesButton_Label", Keys.None, "ribNumberingMenu")]
 		public async Task NumberPagesCmd(IRibbonControl control)
 			=> await factory.Run<NumberPagesCommand>();
@@ -887,11 +882,6 @@ namespace River.OneMoreAddIn
 			=> await factory.Run<SectionColorCommand>();
 
 
-		[Command("ribSectionWordCountButton_Label", Keys.None)]
-		public async Task SectionWordCountCmd(IRibbonControl control)
-			=> await factory.Run<WordCountCommand>(OneNote.Scope.Pages);
-
-
 		[Command("ribSelectImagesButton_Label", Keys.None, "ribEditMenu")]
 		public async Task SelectImagesCmd(IRibbonControl control)
 			=> await factory.Run<SelectImagesCommand>();
@@ -1060,10 +1050,5 @@ namespace River.OneMoreAddIn
 		[Command("ribViewSectionInBrowserButton_Label", Keys.None)]
 		public async Task ViewSectionInBrowserCmd(IRibbonControl control)
 			=> await factory.Run<ViewSectionInBrowserCommand>();
-
-
-		[Command("ribWordCountButton_Label", Keys.None, "ribPageMenu")]
-		public async Task WordCountCmd(IRibbonControl control)
-			=> await factory.Run<WordCountCommand>();
 	}
 }

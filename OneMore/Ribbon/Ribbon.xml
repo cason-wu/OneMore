@@ -47,13 +47,6 @@
         onAction="SortSectionsCmd"
         insertBeforeMso="ShareThisNotebook"/>
       <button
-        id="ctxNotebookWordCountButton"
-        imageMso="WordCount"
-        getLabel="GetRibbonLabel"
-        getScreentip="GetRibbonScreentip"
-        onAction="NotebookWordCountCmd"
-        insertBeforeMso="ShareThisNotebook"/>
-      <button
         id="ctxViewNotebookInBrowserButton"
         imageMso="OpenInBrowserOutlook"
         getLabel="GetRibbonLabel"
@@ -278,13 +271,6 @@
         getLabel="GetRibbonLabel"
         getScreentip="GetRibbonScreentip"
         onAction="ViewSectionInBrowserCmd"
-        insertBeforeMso="SectionRenameOneNote"/>
-      <button
-        id="ctxSectionWordCountButton"
-        imageMso="WordCount"
-        getLabel="GetRibbonLabel"
-        getScreentip="GetRibbonScreentip"
-        onAction="SectionWordCountCmd"
         insertBeforeMso="SectionRenameOneNote"/>
       <menuSeparator
         id="omSectionContextMenuSeparator"
