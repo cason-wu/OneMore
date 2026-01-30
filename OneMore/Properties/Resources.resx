@@ -4728,9 +4728,6 @@ Invert</value>
   <data name="word_Refresh" xml:space="preserve">
     <value>Refresh</value>
   </data>
-  <data name="word_Reminder" xml:space="preserve">
-    <value>Reminder</value>
-  </data>
   <data name="word_Rename" xml:space="preserve">
     <value>Rename</value>
   </data>
