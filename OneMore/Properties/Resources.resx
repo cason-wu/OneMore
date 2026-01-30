@@ -442,50 +442,6 @@ Invert</value>
     <value>Two spaces between sentences</value>
     <comment>radio</comment>
   </data>
-  <data name="Calculator_ErrInvalidCountifParams" xml:space="preserve">
-    <value>The countif function requires two parameters</value>
-    <comment>error</comment>
-  </data>
-  <data name="Calculator_ErrInvalidFnParamCount" xml:space="preserve">
-    <value>The {0} function must have two parameters</value>
-    <comment>error</comment>
-  </data>
-  <data name="Calculator_ErrInvalidFnParamType" xml:space="preserve">
-    <value>Parameter {0} is not of type {1}</value>
-    <comment>error</comment>
-  </data>
-  <data name="Calculator_ErrInvalidParamCount" xml:space="preserve">
-    <value>Expected {0} parameters, only given {1}</value>
-    <comment>error</comment>
-  </data>
-  <data name="Calculator_ErrInvalidParameter" xml:space="preserve">
-    <value>Invalid parameter at cell {0}</value>
-    <comment>error</comment>
-  </data>
-  <data name="Calculator_ErrInvalidRange" xml:space="preserve">
-    <value>Invalid cell range "{0}"</value>
-    <comment>error</comment>
-  </data>
-  <data name="Calculator_ErrMissingRowColVars" xml:space="preserve">
-    <value>The {0} function requires the col and row variables</value>
-    <comment>error</comment>
-  </data>
-  <data name="Calculator_ErrNoClosingParenthesis" xml:space="preserve">
-    <value>No closing parenthesis found to match token at {0}</value>
-    <comment>error</comment>
-  </data>
-  <data name="Calculator_ErrUndefinedCellRef" xml:space="preserve">
-    <value>Undefined cell reference "{0}"</value>
-    <comment>error</comment>
-  </data>
-  <data name="Calculator_ErrUndefinedOperator" xml:space="preserve">
-    <value>Undefined operator "{0}"</value>
-    <comment>error</comment>
-  </data>
-  <data name="Calculator_ErrUndefinedVariable" xml:space="preserve">
-    <value>Undefined variable "{0}"</value>
-    <comment>error</comment>
-  </data>
   <data name="CheckUrlsCommand_checkingMsg" xml:space="preserve">
     <value>Checking {0} URLs</value>
     <comment>message</comment>
@@ -5087,34 +5043,6 @@ Invert</value>
     <value>Installed version:</value>
     <comment>label</comment>
   </data>
-  <data name="VariablesSheet_deleteVariable" xml:space="preserve">
-    <value>Delete variable {0}?</value>
-    <comment>messagebox</comment>
-  </data>
-  <data name="VariablesSheet_deleteVariables" xml:space="preserve">
-    <value>Delete selected variables?</value>
-    <comment>messagebox</comment>
-  </data>
-  <data name="VariablesSheet_doubleWarning" xml:space="preserve">
-    <value>Please enter a valid double value</value>
-    <comment>messagebox</comment>
-  </data>
-  <data name="VariablesSheet_introBox.Text" xml:space="preserve">
-    <value>Define your own variables for use in table formulas</value>
-    <comment>text</comment>
-  </data>
-  <data name="VariablesSheet_reserved" xml:space="preserve">
-    <value>Cannot create a variable named tablecols or tablerows</value>
-    <comment>message</comment>
-  </data>
-  <data name="VariablesSheet_Title" xml:space="preserve">
-    <value>Variables</value>
-    <comment>settings sheet</comment>
-  </data>
-  <data name="VariablesSheet_uniqueError" xml:space="preserve">
-    <value>Variable names must be unique</value>
-    <comment>messagebox</comment>
-  </data>
   <data name="word_Actual" xml:space="preserve">
     <value>Actual</value>
   </data>
@@ -5756,9 +5684,6 @@ Invert</value>
   </data>
   <data name="InfoBoxThemes" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\commands\snippets\infoboxthemes.json;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
-  </data>
-  <data name="VariablesDB" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Commands\Tables\Formulas\VariablesDB.sql;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
   </data>
   <data name="HashtagsDB" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Commands\Tagging\HashtagsDB.sql;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>

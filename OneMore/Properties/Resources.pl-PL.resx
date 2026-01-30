@@ -442,50 +442,6 @@ Odwracać</value>
     <value>Dwie przestrzenie między zdaniami</value>
     <comment>radio</comment>
   </data>
-  <data name="Calculator_ErrInvalidCountifParams" xml:space="preserve">
-    <value>Funkcja countif wymaga dwóch parametrów</value>
-    <comment>error</comment>
-  </data>
-  <data name="Calculator_ErrInvalidFnParamCount" xml:space="preserve">
-    <value>Funkcja {0} musi mieć dwa parametry</value>
-    <comment>error</comment>
-  </data>
-  <data name="Calculator_ErrInvalidFnParamType" xml:space="preserve">
-    <value>Parametr {0} nie jest typu {1}</value>
-    <comment>error</comment>
-  </data>
-  <data name="Calculator_ErrInvalidParamCount" xml:space="preserve">
-    <value>Oczekiwane parametry {0}, tylko podane {1}</value>
-    <comment>error</comment>
-  </data>
-  <data name="Calculator_ErrInvalidParameter" xml:space="preserve">
-    <value>Nieprawidłowy parametr w komórce {0}</value>
-    <comment>error</comment>
-  </data>
-  <data name="Calculator_ErrInvalidRange" xml:space="preserve">
-    <value>Nieprawidłowy zakres komórek „{0}”</value>
-    <comment>error</comment>
-  </data>
-  <data name="Calculator_ErrMissingRowColVars" xml:space="preserve">
-    <value>Funkcja {0} wymaga zmiennych col i row</value>
-    <comment>error</comment>
-  </data>
-  <data name="Calculator_ErrNoClosingParenthesis" xml:space="preserve">
-    <value>Nie znaleziono nawiasu zamykającego pasującego do tokena w {0}</value>
-    <comment>error</comment>
-  </data>
-  <data name="Calculator_ErrUndefinedCellRef" xml:space="preserve">
-    <value>Niezdefiniowane odwołanie do komórki „{0}”</value>
-    <comment>error</comment>
-  </data>
-  <data name="Calculator_ErrUndefinedOperator" xml:space="preserve">
-    <value>Niezdefiniowany operator „{0}”</value>
-    <comment>error</comment>
-  </data>
-  <data name="Calculator_ErrUndefinedVariable" xml:space="preserve">
-    <value>Niezdefiniowana zmienna „{0}”</value>
-    <comment>error</comment>
-  </data>
   <data name="CheckUrlsCommand_checkingMsg" xml:space="preserve">
     <value>Sprawdzanie adresów URL: {0}</value>
     <comment>message</comment>
@@ -5089,34 +5045,6 @@ Odwracać</value>
   <data name="UpdateDialog_versionLabel.Text" xml:space="preserve">
     <value>Zainstalowana wersja:</value>
     <comment>label</comment>
-  </data>
-  <data name="VariablesSheet_deleteVariable" xml:space="preserve">
-    <value>Usuń zmienną {0}?</value>
-    <comment>messagebox</comment>
-  </data>
-  <data name="VariablesSheet_deleteVariables" xml:space="preserve">
-    <value>Usuń wybrane zmienne?</value>
-    <comment>messagebox</comment>
-  </data>
-  <data name="VariablesSheet_doubleWarning" xml:space="preserve">
-    <value>Wprowadź ważną podwójną wartość</value>
-    <comment>messagebox</comment>
-  </data>
-  <data name="VariablesSheet_introBox.Text" xml:space="preserve">
-    <value>Zdefiniuj własne zmienne do użytku w formułach tabeli</value>
-    <comment>text</comment>
-  </data>
-  <data name="VariablesSheet_reserved" xml:space="preserve">
-    <value>Nie może utworzyć zmiennej o nazwie TableCols lub Tablerows</value>
-    <comment>message</comment>
-  </data>
-  <data name="VariablesSheet_Title" xml:space="preserve">
-    <value>Zmienne</value>
-    <comment>settings sheet</comment>
-  </data>
-  <data name="VariablesSheet_uniqueError" xml:space="preserve">
-    <value>Nazwy zmiennych muszą być unikalne</value>
-    <comment>messagebox</comment>
   </data>
   <data name="word_Actual" xml:space="preserve">
     <value>Rzeczywisty</value>

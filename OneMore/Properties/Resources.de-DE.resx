@@ -441,50 +441,6 @@ Umkehren</value>
     <value>Zwei Leerzeichen zwischen Sätzen</value>
     <comment>radio</comment>
   </data>
-  <data name="Calculator_ErrInvalidCountifParams" xml:space="preserve">
-    <value>Die countif-Funktion erfordert zwei Parameter</value>
-    <comment>error</comment>
-  </data>
-  <data name="Calculator_ErrInvalidFnParamCount" xml:space="preserve">
-    <value>Die Funktion {0} muss zwei Parameter haben</value>
-    <comment>error</comment>
-  </data>
-  <data name="Calculator_ErrInvalidFnParamType" xml:space="preserve">
-    <value>Parameter {0} ist nicht vom Typ {1}</value>
-    <comment>error</comment>
-  </data>
-  <data name="Calculator_ErrInvalidParamCount" xml:space="preserve">
-    <value>Erwartete {0} Parameter, nur angegeben {1}</value>
-    <comment>error</comment>
-  </data>
-  <data name="Calculator_ErrInvalidParameter" xml:space="preserve">
-    <value>Ungültiger Parameter in Zelle {0}</value>
-    <comment>error</comment>
-  </data>
-  <data name="Calculator_ErrInvalidRange" xml:space="preserve">
-    <value>Ungültiger Zellbereich „{0}“</value>
-    <comment>error</comment>
-  </data>
-  <data name="Calculator_ErrMissingRowColVars" xml:space="preserve">
-    <value>Die Funktion {0} erfordert die Variablen col und row</value>
-    <comment>error</comment>
-  </data>
-  <data name="Calculator_ErrNoClosingParenthesis" xml:space="preserve">
-    <value>Keine schließende Klammer gefunden, die mit dem Token bei {0} übereinstimmt</value>
-    <comment>error</comment>
-  </data>
-  <data name="Calculator_ErrUndefinedCellRef" xml:space="preserve">
-    <value>Undefinierter Zellbezug „{0}“</value>
-    <comment>error</comment>
-  </data>
-  <data name="Calculator_ErrUndefinedOperator" xml:space="preserve">
-    <value>Undefinierter Operator „{0}“</value>
-    <comment>error</comment>
-  </data>
-  <data name="Calculator_ErrUndefinedVariable" xml:space="preserve">
-    <value>Undefinierte Variable „{0}“</value>
-    <comment>error</comment>
-  </data>
   <data name="CheckUrlsCommand_checkingMsg" xml:space="preserve">
     <value>{0} URLs werden überprüft</value>
     <comment>message</comment>
@@ -5083,34 +5039,6 @@ Umkehren</value>
   <data name="UpdateDialog_versionLabel.Text" xml:space="preserve">
     <value>Installierte Version:</value>
     <comment>label</comment>
-  </data>
-  <data name="VariablesSheet_deleteVariable" xml:space="preserve">
-    <value>Variable löschen {0}?</value>
-    <comment>messagebox</comment>
-  </data>
-  <data name="VariablesSheet_deleteVariables" xml:space="preserve">
-    <value>Ausgewählte Variablen löschen?</value>
-    <comment>messagebox</comment>
-  </data>
-  <data name="VariablesSheet_doubleWarning" xml:space="preserve">
-    <value>Bitte geben Sie einen gültigen Doppelwert ein</value>
-    <comment>messagebox</comment>
-  </data>
-  <data name="VariablesSheet_introBox.Text" xml:space="preserve">
-    <value>Definieren Sie Ihre eigenen Variablen für die Verwendung in Tabellenformeln</value>
-    <comment>text</comment>
-  </data>
-  <data name="VariablesSheet_reserved" xml:space="preserve">
-    <value>Eine Variable namens TableCols oder Tablerows kann nicht erstellt werden</value>
-    <comment>message</comment>
-  </data>
-  <data name="VariablesSheet_Title" xml:space="preserve">
-    <value>Variablen</value>
-    <comment>settings sheet</comment>
-  </data>
-  <data name="VariablesSheet_uniqueError" xml:space="preserve">
-    <value>Variablennamen müssen eindeutig sein</value>
-    <comment>messagebox</comment>
   </data>
   <data name="word_Actual" xml:space="preserve">
     <value>Tatsächlich</value>

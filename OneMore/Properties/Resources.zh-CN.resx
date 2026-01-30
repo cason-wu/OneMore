@@ -440,50 +440,6 @@
     <value>句子之间有两个空格</value>
     <comment>radio</comment>
   </data>
-  <data name="Calculator_ErrInvalidCountifParams" xml:space="preserve">
-    <value>countif函数需要两个参数</value>
-    <comment>error</comment>
-  </data>
-  <data name="Calculator_ErrInvalidFnParamCount" xml:space="preserve">
-    <value>{0} 函数必须有两个参数</value>
-    <comment>error</comment>
-  </data>
-  <data name="Calculator_ErrInvalidFnParamType" xml:space="preserve">
-    <value>参数{0}不是类型{1}</value>
-    <comment>error</comment>
-  </data>
-  <data name="Calculator_ErrInvalidParamCount" xml:space="preserve">
-    <value>预期{0}参数，仅给定{1}</value>
-    <comment>error</comment>
-  </data>
-  <data name="Calculator_ErrInvalidParameter" xml:space="preserve">
-    <value>单元格 {0} 处的参数无效</value>
-    <comment>error</comment>
-  </data>
-  <data name="Calculator_ErrInvalidRange" xml:space="preserve">
-    <value>单元格范围“{0}”无效</value>
-    <comment>error</comment>
-  </data>
-  <data name="Calculator_ErrMissingRowColVars" xml:space="preserve">
-    <value>{0} 函数需要 col 和 row 变量</value>
-    <comment>error</comment>
-  </data>
-  <data name="Calculator_ErrNoClosingParenthesis" xml:space="preserve">
-    <value>未找到与 {0} 处的标记匹配的右括号</value>
-    <comment>error</comment>
-  </data>
-  <data name="Calculator_ErrUndefinedCellRef" xml:space="preserve">
-    <value>未定义的单元格引用“{0}”</value>
-    <comment>error</comment>
-  </data>
-  <data name="Calculator_ErrUndefinedOperator" xml:space="preserve">
-    <value>未定义的运算符“{0}”</value>
-    <comment>error</comment>
-  </data>
-  <data name="Calculator_ErrUndefinedVariable" xml:space="preserve">
-    <value>未定义的变量“{0}”</value>
-    <comment>error</comment>
-  </data>
   <data name="CheckUrlsCommand_checkingMsg" xml:space="preserve">
     <value>检查 {0} 个网址</value>
     <comment>message</comment>
@@ -5081,34 +5037,6 @@ OneNote 文件 (*.one)</value>
   <data name="UpdateDialog_versionLabel.Text" xml:space="preserve">
     <value>已安装版本：</value>
     <comment>label</comment>
-  </data>
-  <data name="VariablesSheet_deleteVariable" xml:space="preserve">
-    <value>删除变量{0}？</value>
-    <comment>messagebox</comment>
-  </data>
-  <data name="VariablesSheet_deleteVariables" xml:space="preserve">
-    <value>删除选定的变量？</value>
-    <comment>messagebox</comment>
-  </data>
-  <data name="VariablesSheet_doubleWarning" xml:space="preserve">
-    <value>请输入有效的双重值</value>
-    <comment>messagebox</comment>
-  </data>
-  <data name="VariablesSheet_introBox.Text" xml:space="preserve">
-    <value>定义您自己的变量以用于表公式</value>
-    <comment>text</comment>
-  </data>
-  <data name="VariablesSheet_reserved" xml:space="preserve">
-    <value>无法创建名为TableCols或Tablerows的变量</value>
-    <comment>message</comment>
-  </data>
-  <data name="VariablesSheet_Title" xml:space="preserve">
-    <value>变量</value>
-    <comment>settings sheet</comment>
-  </data>
-  <data name="VariablesSheet_uniqueError" xml:space="preserve">
-    <value>可变名称必须是唯一的</value>
-    <comment>messagebox</comment>
   </data>
   <data name="word_Actual" xml:space="preserve">
     <value>实际的</value>

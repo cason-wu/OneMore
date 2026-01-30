@@ -441,50 +441,6 @@ Invertir</value>
     <value>Dos espacios entre oraciones</value>
     <comment>radio</comment>
   </data>
-  <data name="Calculator_ErrInvalidCountifParams" xml:space="preserve">
-    <value>La función countif requiere dos parámetros</value>
-    <comment>error</comment>
-  </data>
-  <data name="Calculator_ErrInvalidFnParamCount" xml:space="preserve">
-    <value>La función {0} debe tener dos parámetros</value>
-    <comment>error</comment>
-  </data>
-  <data name="Calculator_ErrInvalidFnParamType" xml:space="preserve">
-    <value>El parámetro {0} no es de tipo {1}</value>
-    <comment>error</comment>
-  </data>
-  <data name="Calculator_ErrInvalidParamCount" xml:space="preserve">
-    <value>Parámetros esperados {0}, solo dado {1}</value>
-    <comment>error</comment>
-  </data>
-  <data name="Calculator_ErrInvalidParameter" xml:space="preserve">
-    <value>Parámetro no válido en la celda {0}</value>
-    <comment>error</comment>
-  </data>
-  <data name="Calculator_ErrInvalidRange" xml:space="preserve">
-    <value>Rango de celdas no válido "{0}"</value>
-    <comment>error</comment>
-  </data>
-  <data name="Calculator_ErrMissingRowColVars" xml:space="preserve">
-    <value>La función {0} requiere las variables columna y fila</value>
-    <comment>error</comment>
-  </data>
-  <data name="Calculator_ErrNoClosingParenthesis" xml:space="preserve">
-    <value>No se encontró ningún paréntesis de cierre que coincida con el token en {0}</value>
-    <comment>error</comment>
-  </data>
-  <data name="Calculator_ErrUndefinedCellRef" xml:space="preserve">
-    <value>Referencia de celda no definida "{0}"</value>
-    <comment>error</comment>
-  </data>
-  <data name="Calculator_ErrUndefinedOperator" xml:space="preserve">
-    <value>Operador no definido "{0}"</value>
-    <comment>error</comment>
-  </data>
-  <data name="Calculator_ErrUndefinedVariable" xml:space="preserve">
-    <value>Variable no definida "{0}"</value>
-    <comment>error</comment>
-  </data>
   <data name="CheckUrlsCommand_checkingMsg" xml:space="preserve">
     <value>Comprobando {0} URL</value>
     <comment>message</comment>
@@ -5088,34 +5044,6 @@ Invertir</value>
   <data name="UpdateDialog_versionLabel.Text" xml:space="preserve">
     <value>Versión instalada:</value>
     <comment>label</comment>
-  </data>
-  <data name="VariablesSheet_deleteVariable" xml:space="preserve">
-    <value>Eliminar variable {0}?</value>
-    <comment>messagebox</comment>
-  </data>
-  <data name="VariablesSheet_deleteVariables" xml:space="preserve">
-    <value>Eliminar variables seleccionadas?</value>
-    <comment>messagebox</comment>
-  </data>
-  <data name="VariablesSheet_doubleWarning" xml:space="preserve">
-    <value>Ingrese un valor doble válido</value>
-    <comment>messagebox</comment>
-  </data>
-  <data name="VariablesSheet_introBox.Text" xml:space="preserve">
-    <value>Defina sus propias variables para su uso en fórmulas de tabla</value>
-    <comment>text</comment>
-  </data>
-  <data name="VariablesSheet_reserved" xml:space="preserve">
-    <value>No se puede crear una variable llamada TableCols o Tablerows</value>
-    <comment>message</comment>
-  </data>
-  <data name="VariablesSheet_Title" xml:space="preserve">
-    <value>Variables</value>
-    <comment>settings sheet</comment>
-  </data>
-  <data name="VariablesSheet_uniqueError" xml:space="preserve">
-    <value>Los nombres variables deben ser únicos</value>
-    <comment>messagebox</comment>
   </data>
   <data name="word_Actual" xml:space="preserve">
     <value>Real</value>

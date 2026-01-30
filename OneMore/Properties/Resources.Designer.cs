@@ -809,100 +809,56 @@ namespace River.OneMoreAddIn.Properties {
         /// <summary>
         ///   Looks up a localized string similar to The countif function requires two parameters.
         /// </summary>
-        internal static string Calculator_ErrInvalidCountifParams {
-            get {
-                return ResourceManager.GetString("Calculator_ErrInvalidCountifParams", resourceCulture);
-            }
         }
         
         /// <summary>
         ///   Looks up a localized string similar to The {0} function must have two parameters.
         /// </summary>
-        internal static string Calculator_ErrInvalidFnParamCount {
-            get {
-                return ResourceManager.GetString("Calculator_ErrInvalidFnParamCount", resourceCulture);
-            }
         }
         
         /// <summary>
         ///   Looks up a localized string similar to Parameter {0} is not of type {1}.
         /// </summary>
-        internal static string Calculator_ErrInvalidFnParamType {
-            get {
-                return ResourceManager.GetString("Calculator_ErrInvalidFnParamType", resourceCulture);
-            }
         }
         
         /// <summary>
         ///   Looks up a localized string similar to Expected {0} parameters, only given {1}.
         /// </summary>
-        internal static string Calculator_ErrInvalidParamCount {
-            get {
-                return ResourceManager.GetString("Calculator_ErrInvalidParamCount", resourceCulture);
-            }
         }
         
         /// <summary>
         ///   Looks up a localized string similar to Invalid parameter at cell {0}.
         /// </summary>
-        internal static string Calculator_ErrInvalidParameter {
-            get {
-                return ResourceManager.GetString("Calculator_ErrInvalidParameter", resourceCulture);
-            }
         }
         
         /// <summary>
         ///   Looks up a localized string similar to Invalid cell range &quot;{0}&quot;.
         /// </summary>
-        internal static string Calculator_ErrInvalidRange {
-            get {
-                return ResourceManager.GetString("Calculator_ErrInvalidRange", resourceCulture);
-            }
         }
         
         /// <summary>
         ///   Looks up a localized string similar to The {0} function requires the col and row variables.
         /// </summary>
-        internal static string Calculator_ErrMissingRowColVars {
-            get {
-                return ResourceManager.GetString("Calculator_ErrMissingRowColVars", resourceCulture);
-            }
         }
         
         /// <summary>
         ///   Looks up a localized string similar to No closing parenthesis found to match token at {0}.
         /// </summary>
-        internal static string Calculator_ErrNoClosingParenthesis {
-            get {
-                return ResourceManager.GetString("Calculator_ErrNoClosingParenthesis", resourceCulture);
-            }
         }
         
         /// <summary>
         ///   Looks up a localized string similar to Undefined cell reference &quot;{0}&quot;.
         /// </summary>
-        internal static string Calculator_ErrUndefinedCellRef {
-            get {
-                return ResourceManager.GetString("Calculator_ErrUndefinedCellRef", resourceCulture);
-            }
         }
         
         /// <summary>
         ///   Looks up a localized string similar to Undefined operator &quot;{0}&quot;.
         /// </summary>
-        internal static string Calculator_ErrUndefinedOperator {
-            get {
-                return ResourceManager.GetString("Calculator_ErrUndefinedOperator", resourceCulture);
-            }
         }
         
         /// <summary>
         ///   Looks up a localized string similar to Undefined variable &quot;{0}&quot;.
         /// </summary>
-        internal static string Calculator_ErrUndefinedVariable {
-            get {
-                return ResourceManager.GetString("Calculator_ErrUndefinedVariable", resourceCulture);
-            }
         }
         
         /// <summary>
@@ -12683,73 +12639,41 @@ namespace River.OneMoreAddIn.Properties {
         ///   Looks up a localized string similar to CREATE TABLE IF NOT EXISTS variable (name TEXT (50) PRIMARY KEY UNIQUE NOT NULL, value REAL NOT NULL);
         ///.
         /// </summary>
-        internal static string VariablesDB {
-            get {
-                return ResourceManager.GetString("VariablesDB", resourceCulture);
-            }
         }
         
         /// <summary>
         ///   Looks up a localized string similar to Delete variable {0}?.
         /// </summary>
-        internal static string VariablesSheet_deleteVariable {
-            get {
-                return ResourceManager.GetString("VariablesSheet_deleteVariable", resourceCulture);
-            }
         }
         
         /// <summary>
         ///   Looks up a localized string similar to Delete selected variables?.
         /// </summary>
-        internal static string VariablesSheet_deleteVariables {
-            get {
-                return ResourceManager.GetString("VariablesSheet_deleteVariables", resourceCulture);
-            }
         }
         
         /// <summary>
         ///   Looks up a localized string similar to Please enter a valid double value.
         /// </summary>
-        internal static string VariablesSheet_doubleWarning {
-            get {
-                return ResourceManager.GetString("VariablesSheet_doubleWarning", resourceCulture);
-            }
         }
         
         /// <summary>
         ///   Looks up a localized string similar to Define your own variables for use in table formulas.
         /// </summary>
-        internal static string VariablesSheet_introBox_Text {
-            get {
-                return ResourceManager.GetString("VariablesSheet_introBox.Text", resourceCulture);
-            }
         }
         
         /// <summary>
         ///   Looks up a localized string similar to Cannot create a variable named tablecols or tablerows.
         /// </summary>
-        internal static string VariablesSheet_reserved {
-            get {
-                return ResourceManager.GetString("VariablesSheet_reserved", resourceCulture);
-            }
         }
         
         /// <summary>
         ///   Looks up a localized string similar to Variables.
         /// </summary>
-        internal static string VariablesSheet_Title {
-            get {
-                return ResourceManager.GetString("VariablesSheet_Title", resourceCulture);
-            }
         }
         
         /// <summary>
         ///   Looks up a localized string similar to Variable names must be unique.
         /// </summary>
-        internal static string VariablesSheet_uniqueError {
-            get {
-                return ResourceManager.GetString("VariablesSheet_uniqueError", resourceCulture);
-            }
         }
         
         /// <summary>
