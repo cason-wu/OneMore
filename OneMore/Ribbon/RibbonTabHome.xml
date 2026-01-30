@@ -67,14 +67,6 @@
         onAction="ClearTableShadingCmd"/>
     </gallery>
 
-    <dynamicMenu
-      id="ribFavoritesMenu"
-      getLabel="GetRibbonLabel"
-      size="normal"
-      image="Favorites"
-      getContent="GetFavoritesContent"
-      keytip="SF"/>
-
     <menu id="ribSnippetsMenu" getLabel="GetRibbonLabel"
           image="Snippets" showImage="true" size="large" keytip="SS">
       <dynamicMenu
@@ -660,110 +652,6 @@
           getScreentip="GetRibbonScreentip"
           onAction="ViewPageInBrowserCmd"/>
       </menu>
-      <menu id="ribReferencesMenu" getLabel="GetRibbonLabel" imageMso="CrossReferenceInsert" showImage="true">
-        <button
-        id="ribAddFootnoteButton"
-        imageMso="FootnoteInsert"
-        getLabel="GetRibbonLabel"
-        getScreentip="GetRibbonScreentip"
-        onAction="AddFootnoteCmd"/>
-        <button
-          id="ribRemoveFootnoteButton"
-          imageMso="RemoveCitation"
-          getLabel="GetRibbonLabel"
-          getScreentip="GetRibbonScreentip"
-          onAction="RemoveFootnoteCmd"/>
-        <button
-          id="ribRefreshFootnotesButton"
-          imageMso="EditCitationButton"
-          getLabel="GetRibbonLabel"
-          getScreentip="GetRibbonScreentip"
-          onAction="RefreshFootnotesCmd"/>
-        <button
-          id="ribCopyLinkToPageButton"
-          imageMso="EditLinks"
-          getLabel="GetRibbonLabel"
-          getScreentip="GetRibbonScreentip"
-          onAction="CopyLinkToPageCmd"/>
-        <button
-          id="ribCopyLinkToParagraphButton"
-          imageMso="TextBoxPreviousLinked"
-          getLabel="GetRibbonLabel"
-          getScreentip="GetRibbonScreentip"
-          onAction="CopyLinkToParagraphCmd"/>
-        <button
-          id="ribStartBiLinkButton"
-          imageMso="PositionAbsoluteMarks"
-          getLabel="GetRibbonLabel"
-          getScreentip="GetRibbonScreentip"
-          onAction="StartBiLinkCmd"/>
-        <button
-          id="ribFinishBiLinkButton"
-          imageMso="CircularReferences"
-          getLabel="GetRibbonLabel"
-          getScreentip="GetRibbonScreentip"
-          onAction="FinishBiLinkCmd"/>
-        <button
-          id="ribEmbedSubpageButton"
-          imageMso="MasterDocumentCreateSubdocument"
-          getLabel="GetRibbonLabel"
-          getScreentip="GetRibbonScreentip"
-          onAction="EmbedSubpageCmd"/>
-        <button
-          id="ribUpdateSubpageButton"
-          imageMso="MasterDocumentInsertSubdocument"
-          getLabel="GetRibbonLabel"
-          getScreentip="GetRibbonScreentip"
-          onAction="UpdateSubpageCmd"/>
-        <button
-          id="ribInsertQRButton"
-          getLabel="GetRibbonLabel"
-          getScreentip="GetRibbonScreentip"
-          imageMso="BarcodeInsert"
-          onAction="InsertQRCmd"/>
-        <button
-          id="ribMapButton"
-          getLabel="GetRibbonLabel"
-          getScreentip="GetRibbonScreentip"
-          imageMso="CreateMap"
-          onAction="MapCmd"/>
-        <button
-          id="ribLinkReferencesButton"
-          getLabel="GetRibbonLabel"
-          getScreentip="GetRibbonScreentip"
-          imageMso="TextBoxPreviousLinked"
-          onAction="LinkReferencesCmd"/>
-        <button
-          id="ribRefreshPageLinksButton"
-          imageMso="SourceControlRefreshStatus"
-          getLabel="GetRibbonLabel"
-          getScreentip="GetRibbonScreentip"
-          onAction="RefreshPageLinksCmd"/>
-        <button
-          id="ribCheckUrlsButton"
-          imageMso="HyperlinksVerify"
-          getLabel="GetRibbonLabel"
-          getScreentip="GetRibbonScreentip"
-          onAction="CheckUrlsCmd"/>
-        <button
-          id="ribNameUrlsButton"
-          imageMso="AutoSigWebInsertHyperlink"
-          getLabel="GetRibbonLabel"
-          getScreentip="GetRibbonScreentip"
-          onAction="NameUrlsCmd"/>
-        <button
-          id="ribUnnameUrlsButton"
-          imageMso="HyperlinkEdit"
-          getLabel="GetRibbonLabel"
-          getScreentip="GetRibbonScreentip"
-          onAction="UnnameUrlsCmd"/>
-        <button
-          id="ribGetImagesButton"
-          imageMso="PictureReset"
-          getLabel="GetRibbonLabel"
-          getScreentip="GetRibbonScreentip"
-          onAction="GetImagesCmd"/>
-      </menu>
       <menu id="ribRemindersMenu" getLabel="GetRibbonLabel" imageMso="ReminderGallery" showImage="true">
         <button
           id="ribRemindButton"
@@ -866,30 +754,6 @@
       </menu>
       <menu id="ribTableMenu" getLabel="GetRibbonLabel" imageMso="TableInsert" showImage="true" enabled="true">
         <button
-          id="ribAddFormulaButton"
-          imageMso="TableFormulaDialog"
-          getLabel="GetRibbonLabel"
-          getScreentip="GetRibbonScreentip"
-          onAction="AddFormulaCmd"/>
-        <button
-          id="ribDeleteFormulaButton"
-          imageMso="SheetDelete"
-          getLabel="GetRibbonLabel"
-          getScreentip="GetRibbonScreentip"
-          onAction="DeleteFormulaCmd"/>
-        <button
-          id="ribHighlightFormulaButton"
-          imageMso="PivotTableListFormulas"
-          getLabel="GetRibbonLabel"
-          getScreentip="GetRibbonScreentip"
-          onAction="HighlightFormulaCmd"/>
-        <button
-          id="ribRecalculateFormulaButton"
-          imageMso="CalculateSheet"
-          getLabel="GetRibbonLabel"
-          getScreentip="GetRibbonScreentip"
-          onAction="RecalculateFormulaCmd"/>
-        <button
           id="ribTextToTableButton"
           imageMso="ConvertTextToTable"
           getLabel="GetRibbonLabel"
@@ -958,29 +822,11 @@
           imageMso="DateAndTimeInsert"
           onAction="DateStampCmd"/>
         <button
-          id="ribPronunciateButton"
-          getLabel="GetRibbonLabel"
-          getScreentip="GetRibbonScreentip"
-          imageMso="SpeakOnEnter"
-          onAction="PronunciateCmd"/>
-        <button
           id="ribSortButton"
           imageMso="SortUp"
           getLabel="GetRibbonLabel"
           getScreentip="GetRibbonScreentip"
           onAction="SortCmd"/>
-        <button
-          id="ribStartTimerButton"
-          imageMso="StartTimer"
-          getLabel="GetRibbonLabel"
-          getScreentip="GetRibbonScreentip"
-          onAction="StartTimerCmd"/>
-        <button
-          id="ribInsertTimerButton"
-          imageMso="ShowJournalPage"
-          getLabel="GetRibbonLabel"
-          getScreentip="GetRibbonScreentip"
-          onAction="InsertTimerCmd"/>
         <button
           id="ribShowXmlButton"
           imageMso="XmlSource"

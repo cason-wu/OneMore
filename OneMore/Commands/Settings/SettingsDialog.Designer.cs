@@ -33,7 +33,6 @@
 			System.Windows.Forms.TreeNode treeNode3 = new System.Windows.Forms.TreeNode("Colors");
 			System.Windows.Forms.TreeNode treeNode4 = new System.Windows.Forms.TreeNode("Command Aliases");
 			System.Windows.Forms.TreeNode treeNode5 = new System.Windows.Forms.TreeNode("Context Menu");
-			System.Windows.Forms.TreeNode treeNode6 = new System.Windows.Forms.TreeNode("Favorites");
 			System.Windows.Forms.TreeNode treeNode7 = new System.Windows.Forms.TreeNode("File Import");
 			System.Windows.Forms.TreeNode treeNode8 = new System.Windows.Forms.TreeNode("Hashtags");
 			System.Windows.Forms.TreeNode treeNode9 = new System.Windows.Forms.TreeNode("Highlighter Themes");
@@ -45,7 +44,6 @@
 			System.Windows.Forms.TreeNode treeNode15 = new System.Windows.Forms.TreeNode("Ribbon Bar");
 			System.Windows.Forms.TreeNode treeNode16 = new System.Windows.Forms.TreeNode("Search Engines");
 			System.Windows.Forms.TreeNode treeNode17 = new System.Windows.Forms.TreeNode("Snippets");
-			System.Windows.Forms.TreeNode treeNode18 = new System.Windows.Forms.TreeNode("Variables");
 			System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(SettingsDialog));
 			this.buttonPanel = new System.Windows.Forms.Panel();
 			this.okButton = new River.OneMoreAddIn.UI.MoreButton();
@@ -163,8 +161,6 @@
 			treeNode4.Text = "Command Aliases";
 			treeNode5.Name = "contextNode";
 			treeNode5.Text = "Context Menu";
-			treeNode6.Name = "favoritesNode";
-			treeNode6.Text = "Favorites";
 			treeNode7.Name = "fileImportNode";
 			treeNode7.Text = "File Import";
 			treeNode8.Name = "hashtagsNode";
@@ -187,15 +183,12 @@
 			treeNode16.Text = "Search Engines";
 			treeNode17.Name = "snippetsNode";
 			treeNode17.Text = "Snippets";
-			treeNode18.Name = "variablesNode";
-			treeNode18.Text = "Variables";
 			this.navTree.Nodes.AddRange(new System.Windows.Forms.TreeNode[] {
             treeNode1,
             treeNode2,
             treeNode3,
             treeNode4,
             treeNode5,
-            treeNode6,
             treeNode7,
             treeNode8,
             treeNode9,
@@ -206,8 +199,7 @@
             treeNode14,
             treeNode15,
             treeNode16,
-            treeNode17,
-			treeNode18});
+            treeNode17});
 			this.navTree.Size = new System.Drawing.Size(300, 657);
 			this.navTree.TabIndex = 2;
 			this.navTree.AfterSelect += new System.Windows.Forms.TreeViewEventHandler(this.Navigate);
@@ -237,7 +229,6 @@
 			this.buttonPanel.ResumeLayout(false);
 			this.editorPanel.ResumeLayout(false);
 			this.ResumeLayout(false);
-
 		}
 
 		#endregion

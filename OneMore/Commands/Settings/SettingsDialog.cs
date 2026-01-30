@@ -22,7 +22,6 @@ namespace River.OneMoreAddIn.Settings
 			Colorizer,
 			Colors,
 			Context,
-			Favorites,
 			FileImport,
 			Hashtags,
 			Highlight,
@@ -33,8 +32,7 @@ namespace River.OneMoreAddIn.Settings
 			QuickNotes,
 			Ribbon,
 			Search,
-			Snippets,
-			Variables
+			Snippets
 		}
 
 		private readonly Dictionary<int, SheetBase> sheets;
@@ -62,7 +60,6 @@ namespace River.OneMoreAddIn.Settings
 				navTree.Nodes["colorsNode"].Text = Resx.ColorsSheet_Title;
 				navTree.Nodes["aliasNode"].Text = Resx.AliasSheet_Title;
 				navTree.Nodes["contextNode"].Text = Resx.ContextMenuSheet_Title;
-				navTree.Nodes["favoritesNode"].Text = Resx.word_Favorites;
 				navTree.Nodes["fileImportNode"].Text = Resx.FileImportSheet_Title;
 				navTree.Nodes["hashtagsNode"].Text = Resx.word_Hashtags;
 				navTree.Nodes["highlightNode"].Text = Resx.HighlightsSheet_Title;
@@ -74,7 +71,6 @@ namespace River.OneMoreAddIn.Settings
 				navTree.Nodes["ribbonNode"].Text = Resx.RibbonBarSheet_Title;
 				navTree.Nodes["searchNode"].Text = Resx.SearchEngineDialog_Text;
 				navTree.Nodes["snippetsNode"].Text = Resx.word_Snippets;
-				navTree.Nodes["variablesNode"].Text = Resx.VariablesSheet_Title;
 			}
 
 			this.ribbon = ribbon;
@@ -127,19 +123,17 @@ namespace River.OneMoreAddIn.Settings
 					2 => new ColorsSheet(provider),
 					3 => new AliasSheet(provider),
 					4 => new ContextMenuSheet(provider),
-					5 => new FavoritesSheet(provider, ribbon),
-					6 => new FileImportSheet(provider),
-					7 => new HashtagSheet(provider),
-					8 => new HighlightsSheet(provider),
-					9 => new ImagesSheet(provider),
-					10 => new KeyboardSheet(provider, ribbon),
-					11 => new NavigatorSheet(provider),
-					12 => await PluginsSheet.Create(provider, ribbon),
-					13 => new QuickNotesSheet(provider),
-					14 => new RibbonBarSheet(provider),
-					15 => new SearchEngineSheet(provider),
-					16 => new SnippetsSheet(provider, ribbon),
-					_ => new VariablesSheet(provider)
+					5 => new FileImportSheet(provider),
+					6 => new HashtagSheet(provider),
+					7 => new HighlightsSheet(provider),
+					8 => new ImagesSheet(provider),
+					9 => new KeyboardSheet(provider, ribbon),
+					10 => new NavigatorSheet(provider),
+					11 => await PluginsSheet.Create(provider, ribbon),
+					12 => new QuickNotesSheet(provider),
+					13 => new RibbonBarSheet(provider),
+					14 => new SearchEngineSheet(provider),
+					_ => new SnippetsSheet(provider, ribbon)
 				};
 
 				sheets.Add(e.Node.Index, sheet);

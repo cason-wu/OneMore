@@ -158,10 +158,6 @@
     <value>Image already has a caption</value>
     <comment>info message</comment>
   </data>
-  <data name="AddFormulaCommand_Calculated" xml:space="preserve">
-    <value>Calculated</value>
-    <comment>tag name</comment>
-  </data>
   <data name="AddInTitle" xml:space="preserve">
     <value>OneMoreAddIn</value>
     <comment>SKIP</comment>
@@ -406,34 +402,6 @@ Invert</value>
     <value>recently used</value>
     <comment>listview annotation</comment>
   </data>
-  <data name="BiLinkCommand_BadAnchor" xml:space="preserve">
-    <value>Could not mark anchor point. Select a word or phrase from one paragraph. See log file for details.</value>
-    <comment>message box</comment>
-  </data>
-  <data name="BiLinkCommand_BadTarget" xml:space="preserve">
-    <value>Could not create bi-directional link. {0}</value>
-    <comment>message box</comment>
-  </data>
-  <data name="BiLinkCommand_Circular" xml:space="preserve">
-    <value>Cannot link a phrase to itself</value>
-    <comment>message box</comment>
-  </data>
-  <data name="BiLinkCommand_LostAnchor" xml:space="preserve">
-    <value>Anchor cannot be found. Page or text has changed.</value>
-    <comment>message box</comment>
-  </data>
-  <data name="BiLinkCommand_Marked" xml:space="preserve">
-    <value>Marked "{0}" as the anchor. Now select the target text and finish the bi-directional link</value>
-    <comment>message box</comment>
-  </data>
-  <data name="BiLinkCommand_NoAnchor" xml:space="preserve">
-    <value>Starting anchor not yet marked. Select the start of the bi-directional link.</value>
-    <comment>message box</comment>
-  </data>
-  <data name="BiLinkCommand_NoTarget" xml:space="preserve">
-    <value>Select a word or phrase from one paragraph</value>
-    <comment>message box</comment>
-  </data>
   <data name="BreakingDialog_oneButton.Text" xml:space="preserve">
     <value>One space between sentences</value>
     <comment>radio</comment>
@@ -445,62 +413,6 @@ Invert</value>
   <data name="BreakingDialog_twoButton.Text" xml:space="preserve">
     <value>Two spaces between sentences</value>
     <comment>radio</comment>
-  </data>
-  <data name="Calculator_ErrInvalidCountifParams" xml:space="preserve">
-    <value>The countif function requires two parameters</value>
-    <comment>error</comment>
-  </data>
-  <data name="Calculator_ErrInvalidFnParamCount" xml:space="preserve">
-    <value>The {0} function must have two parameters</value>
-    <comment>error</comment>
-  </data>
-  <data name="Calculator_ErrInvalidFnParamType" xml:space="preserve">
-    <value>Parameter {0} is not of type {1}</value>
-    <comment>error</comment>
-  </data>
-  <data name="Calculator_ErrInvalidParamCount" xml:space="preserve">
-    <value>Expected {0} parameters, only given {1}</value>
-    <comment>error</comment>
-  </data>
-  <data name="Calculator_ErrInvalidParameter" xml:space="preserve">
-    <value>Invalid parameter at cell {0}</value>
-    <comment>error</comment>
-  </data>
-  <data name="Calculator_ErrInvalidRange" xml:space="preserve">
-    <value>Invalid cell range "{0}"</value>
-    <comment>error</comment>
-  </data>
-  <data name="Calculator_ErrMissingRowColVars" xml:space="preserve">
-    <value>The {0} function requires the col and row variables</value>
-    <comment>error</comment>
-  </data>
-  <data name="Calculator_ErrNoClosingParenthesis" xml:space="preserve">
-    <value>No closing parenthesis found to match token at {0}</value>
-    <comment>error</comment>
-  </data>
-  <data name="Calculator_ErrUndefinedCellRef" xml:space="preserve">
-    <value>Undefined cell reference "{0}"</value>
-    <comment>error</comment>
-  </data>
-  <data name="Calculator_ErrUndefinedOperator" xml:space="preserve">
-    <value>Undefined operator "{0}"</value>
-    <comment>error</comment>
-  </data>
-  <data name="Calculator_ErrUndefinedVariable" xml:space="preserve">
-    <value>Undefined variable "{0}"</value>
-    <comment>error</comment>
-  </data>
-  <data name="CheckUrlsCommand_checkingMsg" xml:space="preserve">
-    <value>Checking {0} URLs</value>
-    <comment>message</comment>
-  </data>
-  <data name="CheckUrlsCommand_invaldiMsg" xml:space="preserve">
-    <value>Found {0} invalid URLs on this page</value>
-    <comment>message</comment>
-  </data>
-  <data name="CheckUrlsCommand_mappingMsg" xml:space="preserve">
-    <value>Mapping {0} page references</value>
-    <comment>message</comment>
   </data>
   <data name="CleanRemindersCommand_count" xml:space="preserve">
     <value>Cleaned up {0} orphaned reminders</value>
@@ -737,14 +649,6 @@ Invert</value>
     <value>OneMore.db</value>
     <comment>SKIP, Sqlite database file name</comment>
   </data>
-  <data name="DeleteFormulaCommand_Deleted" xml:space="preserve">
-    <value>Deleted formulas from {0} cell(s)</value>
-    <comment>delete command message</comment>
-  </data>
-  <data name="DeleteFormulaCommand_NoFormulas" xml:space="preserve">
-    <value>Formula not found. Select one or more table cells containing formulas.</value>
-    <comment>delete command message</comment>
-  </data>
   <data name="DeleteReminderCommand_deleteTag" xml:space="preserve">
     <value>About to delete reminder. Would you also like to delete the tag associated with this reminder?</value>
     <comment>message box</comment>
@@ -824,26 +728,6 @@ Last Column Font</value>
   <data name="EditTableThemesDialog_Text" xml:space="preserve">
     <value>Custom Table Styles</value>
     <comment>dialog</comment>
-  </data>
-  <data name="EmbedSubpageCommand_NoContent" xml:space="preserve">
-    <value>Source page contains no content</value>
-    <comment>message box</comment>
-  </data>
-  <data name="EmbedSubpageCommand_NoEmbedded" xml:space="preserve">
-    <value>No embedded content found</value>
-    <comment>message box</comment>
-  </data>
-  <data name="EmbedSubpageCommand_NoSource" xml:space="preserve">
-    <value>Source page not found</value>
-    <comment>message box</comment>
-  </data>
-  <data name="EmbedSubpageCommand_Select" xml:space="preserve">
-    <value>Select Page</value>
-    <comment>quickdialog title</comment>
-  </data>
-  <data name="EmbedSubpageCommand_SelectIntro" xml:space="preserve">
-    <value>Select the page to embed on this page</value>
-    <comment>quickdialog intro</comment>
   </data>
   <data name="Emoji_Architecture" xml:space="preserve">
     <value>Architecture</value>
@@ -1107,42 +991,6 @@ OneNote File (*.one)</value>
   <data name="ExportDialog_underBox.Text" xml:space="preserve">
     <value>Replace spaces in the file name with underscores</value>
     <comment>checkbox</comment>
-  </data>
-  <data name="Favorites_suspect" xml:space="preserve">
-    <value>Page not found; it may have been renamed or moved</value>
-    <comment>tooltip</comment>
-  </data>
-  <data name="Favorites_unknown" xml:space="preserve">
-    <value>Page no longer found; it may have been deleted</value>
-    <comment>tooltip</comment>
-  </data>
-  <data name="FavoritesDialog_addButton.Text" xml:space="preserve">
-    <value>Add Current Page</value>
-    <comment>context menu item</comment>
-  </data>
-  <data name="FavoritesDialog_checkButton.Text" xml:space="preserve">
-    <value>Check Favorites</value>
-    <comment>context menu item</comment>
-  </data>
-  <data name="FavoritesDialog_manageButton.Text" xml:space="preserve">
-    <value>Manage Favorites</value>
-    <comment>context menu item</comment>
-  </data>
-  <data name="FavoritesFilename" xml:space="preserve">
-    <value>Favorites.xml</value>
-    <comment>SKIP, filename</comment>
-  </data>
-  <data name="FavoritesSheet_DeleteMessage" xml:space="preserve">
-    <value>Delete {0}?</value>
-    <comment>settings</comment>
-  </data>
-  <data name="FavoritesSheet_locationColumn.HeaderText" xml:space="preserve">
-    <value>Location</value>
-    <comment>settings table column header</comment>
-  </data>
-  <data name="FavoritesSheet_shortcutsBox.Text" xml:space="preserve">
-    <value>Include reference to keyboard shortcuts page</value>
-    <comment>settings</comment>
   </data>
   <data name="FileImportSheet_introBox.Text" xml:space="preserve">
     <value>Customize PowerPoint and PDF import options</value>
@@ -1476,10 +1324,6 @@ Yellow Background</value>
     <value>This should be used after adding or removing one or more notebooks. It is recommended to schedule rebuilds after-hours, such as midnight.</value>
     <comment>multiline label</comment>
   </data>
-  <data name="HighlightFormulaCommand_NoFormulas" xml:space="preserve">
-    <value>No formulas found on this page</value>
-    <comment>highlight command message</comment>
-  </data>
   <data name="HighlightsSheet_deepRadio.Text" xml:space="preserve">
     <value>Deep</value>
     <comment>radio</comment>
@@ -1699,14 +1543,6 @@ Yellow Background</value>
     <value>Shift cells right</value>
     <comment>radio</comment>
   </data>
-  <data name="InsertQRCommand_MaxLength" xml:space="preserve">
-    <value>Selected text cannot exceed {0} characters</value>
-    <comment>message</comment>
-  </data>
-  <data name="InsertQRCommand_NoSelection" xml:space="preserve">
-    <value>Select text to render as a new QR code</value>
-    <comment>message</comment>
-  </data>
   <data name="InsertSnippets_CouldNotLoad" xml:space="preserve">
     <value>Could not load snippet from "{0}"</value>
     <comment>error message</comment>
@@ -1826,18 +1662,6 @@ Do you want to refresh the existing page?</value>
     <value>Reset all</value>
     <comment>toolstrip button</comment>
   </data>
-  <data name="LinkDialog_groupBox.Text" xml:space="preserve">
-    <value>Pages in</value>
-    <comment>group box</comment>
-  </data>
-  <data name="LinkDialog_introLabel.Text" xml:space="preserve">
-    <value>Create linked references to the title of this page</value>
-    <comment>label</comment>
-  </data>
-  <data name="LinkDialog_Text" xml:space="preserve">
-    <value>Link References</value>
-    <comment>dialog title</comment>
-  </data>
   <data name="LinkedReferencesCommand_Title" xml:space="preserve">
     <value>Linked References</value>
     <comment>title text</comment>
@@ -1856,18 +1680,6 @@ Do you want to refresh the existing page?</value>
   <data name="LoadStyleTheme_Title" xml:space="preserve">
     <value>Load Styles</value>
     <comment>OpenFileDialog title</comment>
-  </data>
-  <data name="MapDialog_groupBox.Text" xml:space="preserve">
-    <value>Pages in</value>
-    <comment>group box</comment>
-  </data>
-  <data name="MapDialog_synopsisBox.Text" xml:space="preserve">
-    <value>Include a synopsis of each page</value>
-    <comment>checkbox</comment>
-  </data>
-  <data name="MapDialog_Text" xml:space="preserve">
-    <value>Create Page Map</value>
-    <comment>dialog title</comment>
   </data>
   <data name="MoreMessageBox_hideBox.Text" xml:space="preserve">
     <value>Hide this message in the future</value>
@@ -2322,43 +2134,6 @@ All notebooks and their pages</value>
     <value>OneMore</value>
     <comment>SKIP</comment>
   </data>
-  <data name="Pronunciate_EmptyWord" xml:space="preserve">
-    <value>Selected word cannot be empty</value>
-    <comment>error message box</comment>
-  </data>
-  <data name="Pronunciate_FullWord" xml:space="preserve">
-    <value>Must select a full word</value>
-    <comment>error message box</comment>
-  </data>
-  <data name="Pronunciate_NetError" xml:space="preserve">
-    <value>Could not fetch {0} pronunciation of "{1}". Either word does not exist or there was a temporary network failure.</value>
-    <comment>error message box</comment>
-  </data>
-  <data name="Pronunciate_NoWord" xml:space="preserve">
-    <value>Could not fetch {0} pronunciation of "{1}"</value>
-    <comment>error message box</comment>
-  </data>
-  <data name="PronunciateDialog.Text" xml:space="preserve">
-    <value>Phonetics</value>
-    <comment>dialog title</comment>
-  </data>
-  <data name="PronunciateDialog_languages" xml:space="preserve">
-    <value>en,English
-hi,Hindi
-es,Spanish
-fr,French
-ja,Japanese
-ru,Russian
-de,German
-it,Italian
-ko,Korean
-pt-BR,Brazilian Portuguese
-ar,Arabic
-tr,Turkish
-zh-CN,Chinese (Simplified)</value>
-    <comment>Recognized languages, one per line.
-ISO-code then comma then language name</comment>
-  </data>
   <data name="QuickNotesSheet_groupingBox.Text" xml:space="preserve">
     <value>Work Week (2023-02-13 W7)
 Month (2023-02)
@@ -2463,26 +2238,6 @@ Yellow Highlight</value>
   </data>
   <data name="QuickPaletteCommand_Title" xml:space="preserve">
     <value>Quick Palette</value>
-    <comment>dialog title</comment>
-  </data>
-  <data name="RecalculateFormulaCommand_NoFormula" xml:space="preserve">
-    <value>No formula found in the selected table</value>
-    <comment>recalculate command message</comment>
-  </data>
-  <data name="RefreshPageLinksCommand_none" xml:space="preserve">
-    <value>No references found to this page</value>
-    <comment>message</comment>
-  </data>
-  <data name="RefreshPageLinksCommand_updated" xml:space="preserve">
-    <value>Updated {0} pages</value>
-    <comment>message</comment>
-  </data>
-  <data name="RefreshPageLinksDialog_groupBox.Text" xml:space="preserve">
-    <value>Pages in</value>
-    <comment>group box</comment>
-  </data>
-  <data name="RefreshPageLinksDialog_Text" xml:space="preserve">
-    <value>Refresh Page References</value>
     <comment>dialog title</comment>
   </data>
   <data name="RemindCommand_nameFormat" xml:space="preserve">
@@ -2721,38 +2476,6 @@ Select No to keep one empty line between paragraphs</value>
     <value>Add caption to selected image</value>
     <comment>ribbon images</comment>
   </data>
-  <data name="ribAddFavoritePageButton_Label" xml:space="preserve">
-    <value>Add current page</value>
-    <comment>ribbon favorites</comment>
-  </data>
-  <data name="ribAddFavoritePageButton_Screentip" xml:space="preserve">
-    <value>Add current page to Favorites</value>
-    <comment>ribbon favorites</comment>
-  </data>
-  <data name="ribAddFavoriteSectionButton_Label" xml:space="preserve">
-    <value>Add to Favorites</value>
-    <comment>section context menu</comment>
-  </data>
-  <data name="ribAddFavoriteSectionButton_Screentip" xml:space="preserve">
-    <value>Add section to Favorites menu</value>
-    <comment>section context menu</comment>
-  </data>
-  <data name="ribAddFootnoteButton_Label" xml:space="preserve">
-    <value>Add Footnote</value>
-    <comment>ribbon references NODUP</comment>
-  </data>
-  <data name="ribAddFootnoteButton_Screentip" xml:space="preserve">
-    <value>Add new footnote from current position (Ctrl + Alt + F)</value>
-    <comment>ribbon references NODUP</comment>
-  </data>
-  <data name="ribAddFormulaButton_Label" xml:space="preserve">
-    <value>Add Formula</value>
-    <comment>ribbon table</comment>
-  </data>
-  <data name="ribAddFormulaButton_Screentip" xml:space="preserve">
-    <value>Add or edit a formula in selected table cells (F5)</value>
-    <comment>ribbon table</comment>
-  </data>
   <data name="ribAddTagBankButton_Label" xml:space="preserve">
     <value>Add Tag Bank</value>
     <comment>ribbon search</comment>
@@ -2942,20 +2665,9 @@ Help Tab</value>
     <value>Check for Updates</value>
     <comment>command NODUP</comment>
   </data>
-  <data name="ribCheckUrlsButton_Label" xml:space="preserve">
-    <value>Check URLs</value>
-    <comment>ribbon references</comment>
-  </data>
-  <data name="ribCheckUrlsButton_Screentip" xml:space="preserve">
-    <value>Check for and highlight invalid URLs</value>
-    <comment>ribbon references</comment>
-  </data>
   <data name="ribChooseColorizerButton_Label" xml:space="preserve">
     <value>Colorize</value>
     <comment>ribbon edit NODUP</comment>
-  </data>
-  <data name="ribChooseFavoriteButton_Label" xml:space="preserve">
-    <value>Choose Favorite</value>
   </data>
   <data name="ribCleanMenu_Label" xml:space="preserve">
     <value>Clean</value>
@@ -3077,22 +2789,6 @@ Help Tab</value>
     <value>Copy Section Group</value>
     <comment>section context menu</comment>
   </data>
-  <data name="ribCopyLinkToPageButton_Label" xml:space="preserve">
-    <value>Copy Link to Page</value>
-    <comment>ribbon references</comment>
-  </data>
-  <data name="ribCopyLinkToPageButton_Screentip" xml:space="preserve">
-    <value>Copy a hyperlink to the current page</value>
-    <comment>ribbon references</comment>
-  </data>
-  <data name="ribCopyLinkToParagraphButton_Label" xml:space="preserve">
-    <value>Copy Link to Paragraph</value>
-    <comment>ribbon references</comment>
-  </data>
-  <data name="ribCopyLinkToParagraphButton_Screentip" xml:space="preserve">
-    <value>Copy a hyperlink to the current paragraph</value>
-    <comment>ribbon references</comment>
-  </data>
   <data name="ribCopyPageContentButton_Label" xml:space="preserve">
     <value>Copy Selected Content</value>
     <comment>ribbon page</comment>
@@ -3148,14 +2844,6 @@ Help Tab</value>
   <data name="ribDecreaseFontSizeButton_Screentip" xml:space="preserve">
     <value>Decrease page font size (Ctrl + Alt + Minus)</value>
     <comment>ribbon edit</comment>
-  </data>
-  <data name="ribDeleteFormulaButton_Label" xml:space="preserve">
-    <value>Delete Formula</value>
-    <comment>ribbon table</comment>
-  </data>
-  <data name="ribDeleteFormulaButton_Screentip" xml:space="preserve">
-    <value>Delete formula from selected table cell(s)</value>
-    <comment>ribbon table</comment>
   </data>
   <data name="ribDeleteReminderButton_Label" xml:space="preserve">
     <value>Delete Reminder</value>
@@ -3221,14 +2909,6 @@ Help Tab</value>
     <value>Edit custom custom table styles</value>
     <comment>ribbon table styles</comment>
   </data>
-  <data name="ribEmbedSubpageButton_Label" xml:space="preserve">
-    <value>Embed Page</value>
-    <comment>ribbon references</comment>
-  </data>
-  <data name="ribEmbedSubpageButton_Screentip" xml:space="preserve">
-    <value>Embed content of another page into the current page</value>
-    <comment>ribbon references</comment>
-  </data>
   <data name="ribEnableSpellCheckButton_Label" xml:space="preserve">
     <value>Enable Spell Check</value>
     <comment>ribbon edit</comment>
@@ -3260,10 +2940,6 @@ Help Tab</value>
   <data name="ribExtrasMenu_Label" xml:space="preserve">
     <value>Extras</value>
     <comment>ribbon menu</comment>
-  </data>
-  <data name="ribFavoritesMenu_Label" xml:space="preserve">
-    <value>Favorites</value>
-    <comment>ribbon menu NODUP</comment>
   </data>
   <data name="ribFileMenu_Label" xml:space="preserve">
     <value>File</value>
@@ -3297,14 +2973,6 @@ Help Tab</value>
     <value>Search Hashtags</value>
     <comment>ribbon references NODUP</comment>
   </data>
-  <data name="ribFinishBiLinkButton_Label" xml:space="preserve">
-    <value>Finish Bidirectional Link</value>
-    <comment>ribbon references </comment>
-  </data>
-  <data name="ribFinishBiLinkButton_Screentip" xml:space="preserve">
-    <value>Finish link between anchor and current location</value>
-    <comment>ribbon references </comment>
-  </data>
   <data name="ribFitGridToTextButton_Label" xml:space="preserve">
     <value>Fit Grid to Text</value>
     <comment>ribbon page NODUP</comment>
@@ -3312,14 +2980,6 @@ Help Tab</value>
   <data name="ribFitGridToTextButton_Screentip" xml:space="preserve">
     <value>Resize background grid to match common font size</value>
     <comment>ribbon page NODUP</comment>
-  </data>
-  <data name="ribGetImagesButton_Label" xml:space="preserve">
-    <value>Replace URLs with Images</value>
-    <comment>ribbon references</comment>
-  </data>
-  <data name="ribGetImagesButton_Screentip" xml:space="preserve">
-    <value>Download and insert referenced images</value>
-    <comment>ribbon references</comment>
   </data>
   <data name="ribHashtaggerButton_Label" xml:space="preserve">
     <value>Insert Hashtags</value>
@@ -3336,14 +2996,6 @@ Help Tab</value>
   <data name="ribHighlightButton_Screentip" xml:space="preserve">
     <value>Highligt text with a rotating highlighter</value>
     <comment>ribbon edit</comment>
-  </data>
-  <data name="ribHighlightFormulaButton_Label" xml:space="preserve">
-    <value>Highlight Formula</value>
-    <comment>ribbon table</comment>
-  </data>
-  <data name="ribHighlightFormulaButton_Screentip" xml:space="preserve">
-    <value>Select cells with formula in current table</value>
-    <comment>ribbon table</comment>
   </data>
   <data name="ribHighlightLastButton_Label" xml:space="preserve">
     <value>Repeat Rotating Highlighter Color</value>
@@ -3497,14 +3149,6 @@ Help Tab</value>
     <value>Insert a notes box</value>
     <comment>ribbon snippets</comment>
   </data>
-  <data name="ribInsertQRButton_Label" xml:space="preserve">
-    <value>Insert QR Code</value>
-    <comment>ribbon references</comment>
-  </data>
-  <data name="ribInsertQRButton_Screentip" xml:space="preserve">
-    <value>Insert a QR Code represented the selected text</value>
-    <comment>ribbon references</comment>
-  </data>
   <data name="ribInsertRedStatusButton_Label" xml:space="preserve">
     <value>Red Status</value>
     <comment>ribbon snippets</comment>
@@ -3528,14 +3172,6 @@ Help Tab</value>
   <data name="ribInsertTextBoxButton_Screentip" xml:space="preserve">
     <value>Insert a single-cell table, wrapping selected text</value>
     <comment>ribbon snippets</comment>
-  </data>
-  <data name="ribInsertTimerButton_Label" xml:space="preserve">
-    <value>Insert Timer</value>
-    <comment>ribbon extras</comment>
-  </data>
-  <data name="ribInsertTimerButton_Screentip" xml:space="preserve">
-    <value>Insert the current timer value</value>
-    <comment>ribbon extras</comment>
   </data>
   <data name="ribInsertTocButton_Label" xml:space="preserve">
     <value>Table of Contents</value>
@@ -3601,10 +3237,6 @@ Help Tab</value>
     <value>Convert text to lowercase (Ctrl + Shift + U)</value>
     <comment>ribbon edit</comment>
   </data>
-  <data name="ribManageFavoritesButton_Label" xml:space="preserve">
-    <value>Manage Favorites</value>
-    <comment>favorites menu command NODUP</comment>
-  </data>
   <data name="ribManagePluginsButton_Label" xml:space="preserve">
     <value>Manage Saved Plugins</value>
     <comment>ribbon favorites</comment>
@@ -3660,14 +3292,6 @@ Help Tab</value>
   <data name="ribMovePageTopButton_Screentip" xml:space="preserve">
     <value>Move selected pages to top of list</value>
     <comment>ribbon page</comment>
-  </data>
-  <data name="ribNameUrlsButton_Label" xml:space="preserve">
-    <value>Replace URLs with Titles</value>
-    <comment>ribbon references</comment>
-  </data>
-  <data name="ribNameUrlsButton_Screentip" xml:space="preserve">
-    <value>Replace URLs with Web page titles</value>
-    <comment>ribbon references</comment>
   </data>
   <data name="ribNavigatorButton_Label" xml:space="preserve">
     <value>Navigator</value>
@@ -3869,14 +3493,6 @@ Help Tab</value>
     <value>Move to the previous unread page</value>
     <comment>ribbon search</comment>
   </data>
-  <data name="ribPronunciateButton_Label" xml:space="preserve">
-    <value>Insert Pronunciation</value>
-    <comment>ribbon edit</comment>
-  </data>
-  <data name="ribPronunciateButton_Screentip" xml:space="preserve">
-    <value>Insert phonetic pronunciation of selected text</value>
-    <comment>ribbon edit</comment>
-  </data>
   <data name="ribProofingMenu_Label" xml:space="preserve">
     <value>Proofing Language</value>
     <comment>ribbon menu</comment>
@@ -3888,34 +3504,6 @@ Help Tab</value>
   <data name="ribQuickPaletteButton_Screentip" xml:space="preserve">
     <value>Open the Quick Palette window</value>
     <comment>ribbon menu</comment>
-  </data>
-  <data name="ribRecalculateFormulaButton_Label" xml:space="preserve">
-    <value>Recalculate Formula</value>
-    <comment>ribbon table</comment>
-  </data>
-  <data name="ribRecalculateFormulaButton_Screentip" xml:space="preserve">
-    <value>Recalculate all formula in the current table (Shift + F5)</value>
-    <comment>ribbon table</comment>
-  </data>
-  <data name="ribReferencesMenu_Label" xml:space="preserve">
-    <value>References</value>
-    <comment>ribbon menu</comment>
-  </data>
-  <data name="ribRefreshFootnotesButton_Label" xml:space="preserve">
-    <value>Refresh Footnotes</value>
-    <comment>ribbon references</comment>
-  </data>
-  <data name="ribRefreshFootnotesButton_Screentip" xml:space="preserve">
-    <value>Refresh footnote reference numbers sequentially</value>
-    <comment>ribbon references</comment>
-  </data>
-  <data name="ribRefreshPageLinksButton_Label" xml:space="preserve">
-    <value>Refresh Page References</value>
-    <comment>ribbon references NODUP</comment>
-  </data>
-  <data name="ribRefreshPageLinksButton_Screentip" xml:space="preserve">
-    <value>Refresh bi-directional link references</value>
-    <comment>ribbon references</comment>
   </data>
   <data name="ribRemindButton_Label" xml:space="preserve">
     <value>Add or Update Reminders</value>
@@ -3964,14 +3552,6 @@ Help Tab</value>
   <data name="ribRemoveEmptyButton_Screentip" xml:space="preserve">
     <value>Remove extra empty lines between paragraph and remove empty headers</value>
     <comment>ribbon clean</comment>
-  </data>
-  <data name="ribRemoveFootnoteButton_Label" xml:space="preserve">
-    <value>Remove Footnote</value>
-    <comment>ribbon references</comment>
-  </data>
-  <data name="ribRemoveFootnoteButton_Screentip" xml:space="preserve">
-    <value>Remove footnote (Ctrl + Shift + F)</value>
-    <comment>ribbon references</comment>
   </data>
   <data name="ribRemoveInkButton_Label" xml:space="preserve">
     <value>Remove Ink</value>
@@ -4044,14 +3624,6 @@ Help Tab</value>
   <data name="ribResetTasksButton_Screentip" xml:space="preserve">
     <value>Uncheck and reset all completed tasks on this page</value>
     <comment>ribbon reminders</comment>
-  </data>
-  <data name="ribRestartTimerButton_Label" xml:space="preserve">
-    <value>Restart Timer</value>
-    <comment>ribbon extras</comment>
-  </data>
-  <data name="ribRestartTimerButton_Screentip" xml:space="preserve">
-    <value>Restart the Timer, setting it back to zero</value>
-    <comment>ribbon extras</comment>
   </data>
   <data name="ribRestoreAutosizeButton_Label" xml:space="preserve">
     <value>Restore Container Widths</value>
@@ -4201,14 +3773,6 @@ Help Tab</value>
     <value>Show XML of hierarchy and current page (Ctrl + Shift + Alt + X)</value>
     <comment>ribbon extras</comment>
   </data>
-  <data name="ribShutdownTimerButton_Label" xml:space="preserve">
-    <value>Stop Timer</value>
-    <comment>ribbon extras</comment>
-  </data>
-  <data name="ribShutdownTimerButton_Screentip" xml:space="preserve">
-    <value>Stop and close the Timer window</value>
-    <comment>ribbon extras</comment>
-  </data>
   <data name="ribSnippetsMenu_Label" xml:space="preserve">
     <value>Snippets</value>
     <comment>ribbon menu NODUP</comment>
@@ -4280,22 +3844,6 @@ Help Tab</value>
   <data name="ribStackBackgroundImagesButton_Screentip" xml:space="preserve">
     <value>Reposition background images top to bottom</value>
     <comment>ribbon images</comment>
-  </data>
-  <data name="ribStartBiLinkButton_Label" xml:space="preserve">
-    <value>Start Bidirectional Link</value>
-    <comment>ribbon references</comment>
-  </data>
-  <data name="ribStartBiLinkButton_Screentip" xml:space="preserve">
-    <value>Start bi-directional link</value>
-    <comment>ribbon references</comment>
-  </data>
-  <data name="ribStartTimerButton_Label" xml:space="preserve">
-    <value>Start Timer</value>
-    <comment>ribbon extras</comment>
-  </data>
-  <data name="ribStartTimerButton_Screentip" xml:space="preserve">
-    <value>Open and start the timer window</value>
-    <comment>ribbon extras</comment>
   </data>
   <data name="ribStatusMenu_Label" xml:space="preserve">
     <value>Status</value>
@@ -5152,22 +4700,6 @@ Invert</value>
     <value>Themes</value>
     <comment>SKIP</comment>
   </data>
-  <data name="TimerWindow.Text" xml:space="preserve">
-    <value>OneNote Timer</value>
-    <comment>window title</comment>
-  </data>
-  <data name="TimerWindow_closeButton.Text" xml:space="preserve">
-    <value>Close Timer</value>
-    <comment>button tooltip</comment>
-  </data>
-  <data name="TimerWindow_copyButton.Text" xml:space="preserve">
-    <value>Copy Current Time</value>
-    <comment>button tooltip</comment>
-  </data>
-  <data name="TimerWindow_resetButton.Text" xml:space="preserve">
-    <value>Restart Timer</value>
-    <comment>button tooltip</comment>
-  </data>
   <data name="ToggleDttmDialog.Text" xml:space="preserve">
     <value>Show/Hide Date and Time</value>
     <comment>dialog title</comment>
@@ -5231,34 +4763,6 @@ Invert</value>
   <data name="UpdateDialog_versionLabel.Text" xml:space="preserve">
     <value>Installed version:</value>
     <comment>label</comment>
-  </data>
-  <data name="VariablesSheet_deleteVariable" xml:space="preserve">
-    <value>Delete variable {0}?</value>
-    <comment>messagebox</comment>
-  </data>
-  <data name="VariablesSheet_deleteVariables" xml:space="preserve">
-    <value>Delete selected variables?</value>
-    <comment>messagebox</comment>
-  </data>
-  <data name="VariablesSheet_doubleWarning" xml:space="preserve">
-    <value>Please enter a valid double value</value>
-    <comment>messagebox</comment>
-  </data>
-  <data name="VariablesSheet_introBox.Text" xml:space="preserve">
-    <value>Define your own variables for use in table formulas</value>
-    <comment>text</comment>
-  </data>
-  <data name="VariablesSheet_reserved" xml:space="preserve">
-    <value>Cannot create a variable named tablecols or tablerows</value>
-    <comment>message</comment>
-  </data>
-  <data name="VariablesSheet_Title" xml:space="preserve">
-    <value>Variables</value>
-    <comment>settings sheet</comment>
-  </data>
-  <data name="VariablesSheet_uniqueError" xml:space="preserve">
-    <value>Variable names must be unique</value>
-    <comment>messagebox</comment>
   </data>
   <data name="word_Actual" xml:space="preserve">
     <value>Actual</value>
@@ -5340,9 +4844,6 @@ Invert</value>
   </data>
   <data name="word_Extract" xml:space="preserve">
     <value>Extract</value>
-  </data>
-  <data name="word_Favorites" xml:space="preserve">
-    <value>Favorites</value>
   </data>
   <data name="word_Feeder" xml:space="preserve">
     <value>Feeder</value>
@@ -5731,9 +5232,6 @@ Invert</value>
   <data name="DarkCustomStyles" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>images\darkcustomstyles.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="DarkFavorites" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>images\darkfavorites.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
   <data name="DarkSnippets" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>images\darksnippets.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
@@ -5751,9 +5249,6 @@ Invert</value>
   </data>
   <data name="ExpandArrow" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>images\expandarrow.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Favorites" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>images\favorites.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="FolderClose" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>images\folderclose.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -5901,9 +5396,6 @@ Invert</value>
   </data>
   <data name="InfoBoxThemes" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\commands\snippets\infoboxthemes.json;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
-  </data>
-  <data name="VariablesDB" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Commands\Tables\Formulas\VariablesDB.sql;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
   </data>
   <data name="HashtagsDB" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Commands\Tagging\HashtagsDB.sql;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>

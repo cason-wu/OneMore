@@ -490,29 +490,6 @@ namespace River.OneMoreAddIn
 
 		// = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = =
 
-		/// <summary>
-		/// Populates the Favorites dynamic menu
-		/// </summary>
-		/// <param name="control"></param>
-		/// <returns></returns>
-		public string GetFavoritesContent(IRibbonControl control)
-		{
-			DebugRibbon($"GetFavoritesContent({control.Id}) culture:{AddIn.Culture.Name}");
-
-			// TODO: this doesn't seem to work!
-			System.Threading.Thread.CurrentThread.CurrentCulture = AddIn.Culture;
-			System.Threading.Thread.CurrentThread.CurrentUICulture = AddIn.Culture;
-
-			return Task.Run(async () =>
-			{
-				await using var provider = new FavoritesProvider(ribbon);
-				var favorites = provider.LoadFavoritesMenu();
-				return favorites.ToString(SaveOptions.DisableFormatting);
-
-			}).Result;
-		}
-
-
 		public string GetMyPluginsContent(IRibbonControl control)
 		{
 			return new PluginsProvider().MakePluginsMenu(ns).ToString(SaveOptions.DisableFormatting);
