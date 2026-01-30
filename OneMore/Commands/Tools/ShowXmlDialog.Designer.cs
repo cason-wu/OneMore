@@ -134,7 +134,7 @@
 			this.pageBox.AcceptsTab = true;
 			this.pageBox.BorderStyle = System.Windows.Forms.BorderStyle.None;
 			this.pageBox.Dock = System.Windows.Forms.DockStyle.Fill;
-			this.pageBox.Font = new System.Drawing.Font("Lucida Console", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+			this.pageBox.Font = new System.Drawing.Font("Microsoft YaHei Mono", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
 			this.pageBox.Location = new System.Drawing.Point(2, 2);
 			this.pageBox.Margin = new System.Windows.Forms.Padding(2);
 			this.pageBox.Name = "pageBox";
@@ -164,7 +164,7 @@
 			// 
 			this.sectionBox.BorderStyle = System.Windows.Forms.BorderStyle.None;
 			this.sectionBox.Dock = System.Windows.Forms.DockStyle.Fill;
-			this.sectionBox.Font = new System.Drawing.Font("Lucida Console", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+			this.sectionBox.Font = new System.Drawing.Font("Microsoft YaHei Mono", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
 			this.sectionBox.Location = new System.Drawing.Point(2, 2);
 			this.sectionBox.Margin = new System.Windows.Forms.Padding(2);
 			this.sectionBox.Name = "sectionBox";
@@ -192,7 +192,7 @@
 			// 
 			this.notebookBox.BorderStyle = System.Windows.Forms.BorderStyle.None;
 			this.notebookBox.Dock = System.Windows.Forms.DockStyle.Fill;
-			this.notebookBox.Font = new System.Drawing.Font("Lucida Console", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+			this.notebookBox.Font = new System.Drawing.Font("Microsoft YaHei Mono", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
 			this.notebookBox.Location = new System.Drawing.Point(2, 2);
 			this.notebookBox.Margin = new System.Windows.Forms.Padding(2);
 			this.notebookBox.Name = "notebookBox";
@@ -220,7 +220,7 @@
 			// 
 			this.nbSectionBox.BorderStyle = System.Windows.Forms.BorderStyle.None;
 			this.nbSectionBox.Dock = System.Windows.Forms.DockStyle.Fill;
-			this.nbSectionBox.Font = new System.Drawing.Font("Lucida Console", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+			this.nbSectionBox.Font = new System.Drawing.Font("Microsoft YaHei Mono", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
 			this.nbSectionBox.Location = new System.Drawing.Point(2, 2);
 			this.nbSectionBox.Margin = new System.Windows.Forms.Padding(2);
 			this.nbSectionBox.Name = "nbSectionBox";
@@ -248,7 +248,7 @@
 			// 
 			this.nbPagesBox.BorderStyle = System.Windows.Forms.BorderStyle.None;
 			this.nbPagesBox.Dock = System.Windows.Forms.DockStyle.Fill;
-			this.nbPagesBox.Font = new System.Drawing.Font("Lucida Console", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+			this.nbPagesBox.Font = new System.Drawing.Font("Microsoft YaHei Mono", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
 			this.nbPagesBox.Location = new System.Drawing.Point(2, 2);
 			this.nbPagesBox.Margin = new System.Windows.Forms.Padding(2);
 			this.nbPagesBox.Name = "nbPagesBox";
@@ -276,7 +276,7 @@
 			// 
 			this.manualBox.BorderStyle = System.Windows.Forms.BorderStyle.None;
 			this.manualBox.Dock = System.Windows.Forms.DockStyle.Fill;
-			this.manualBox.Font = new System.Drawing.Font("Lucida Console", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+			this.manualBox.Font = new System.Drawing.Font("Microsoft YaHei Mono", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
 			this.manualBox.Location = new System.Drawing.Point(2, 2);
 			this.manualBox.Margin = new System.Windows.Forms.Padding(2);
 			this.manualBox.Name = "manualBox";
