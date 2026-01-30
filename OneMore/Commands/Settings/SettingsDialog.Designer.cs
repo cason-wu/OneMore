@@ -33,7 +33,6 @@
 			System.Windows.Forms.TreeNode treeNode3 = new System.Windows.Forms.TreeNode("Colors");
 			System.Windows.Forms.TreeNode treeNode4 = new System.Windows.Forms.TreeNode("Command Aliases");
 			System.Windows.Forms.TreeNode treeNode5 = new System.Windows.Forms.TreeNode("Context Menu");
-			System.Windows.Forms.TreeNode treeNode6 = new System.Windows.Forms.TreeNode("Favorites");
 			System.Windows.Forms.TreeNode treeNode7 = new System.Windows.Forms.TreeNode("File Import");
 			System.Windows.Forms.TreeNode treeNode8 = new System.Windows.Forms.TreeNode("Hashtags");
 			System.Windows.Forms.TreeNode treeNode9 = new System.Windows.Forms.TreeNode("Highlighter Themes");
@@ -162,8 +161,6 @@
 			treeNode4.Text = "Command Aliases";
 			treeNode5.Name = "contextNode";
 			treeNode5.Text = "Context Menu";
-			treeNode6.Name = "favoritesNode";
-			treeNode6.Text = "Favorites";
 			treeNode7.Name = "fileImportNode";
 			treeNode7.Text = "File Import";
 			treeNode8.Name = "hashtagsNode";
@@ -192,7 +189,6 @@
             treeNode3,
             treeNode4,
             treeNode5,
-            treeNode6,
             treeNode7,
             treeNode8,
             treeNode9,
@@ -233,7 +229,6 @@
 			this.buttonPanel.ResumeLayout(false);
 			this.editorPanel.ResumeLayout(false);
 			this.ResumeLayout(false);
-
 		}
 
 		#endregion

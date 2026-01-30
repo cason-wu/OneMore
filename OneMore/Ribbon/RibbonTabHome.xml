@@ -67,14 +67,6 @@
         onAction="ClearTableShadingCmd"/>
     </gallery>
 
-    <dynamicMenu
-      id="ribFavoritesMenu"
-      getLabel="GetRibbonLabel"
-      size="normal"
-      image="Favorites"
-      getContent="GetFavoritesContent"
-      keytip="SF"/>
-
     <menu id="ribSnippetsMenu" getLabel="GetRibbonLabel"
           image="Snippets" showImage="true" size="large" keytip="SS">
       <dynamicMenu

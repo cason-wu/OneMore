@@ -22,20 +22,6 @@ namespace River.OneMoreAddIn
 		public async Task AddCaptionCmd(IRibbonControl control)
 			=> await factory.Run<AddCaptionCommand>();
 
-		[IgnorePalette]
-		public async Task AddFavoritePageCmd(IRibbonControl control)
-		{
-			await using var provider = new FavoritesProvider(ribbon);
-			await provider.AddFavorite();
-		}
-
-		[IgnorePalette]
-		public async Task AddFavoriteSectionCmd(IRibbonControl control)
-		{
-			await using var provider = new FavoritesProvider(ribbon);
-			await provider.AddFavorite(true);
-		}
-
 		[Command("ribAddFootnoteButton_Label", Keys.Control | Keys.Alt | Keys.F, "ribReferencesMenu")]
 		public async Task AddFootnoteCmd(IRibbonControl control)
 			=> await factory.Run<AddFootnoteCommand>();
@@ -121,10 +107,6 @@ namespace River.OneMoreAddIn
 		[Command("ribCheckUrlsButton_Label", Keys.None, "ribReferencesMenu")]
 		public async Task CheckUrlsCmd(IRibbonControl control)
 			=> await factory.Run<CheckUrlsCommand>(true);
-
-		[Command("ribChooseFavoriteButton_Label", Keys.Alt | Keys.F)]
-		public async Task ChooseFavoriteCmd(IRibbonControl control)
-			=> await factory.Run<GotoFavoriteCommand>(null);
 
 		[Command("ribCleanRemindersButton_Label", Keys.None, "ribRemindersMenu")]
 		public async Task CleanRemindersCmd(IRibbonControl control)
@@ -303,9 +285,6 @@ namespace River.OneMoreAddIn
 		public async Task GetImagesCmd(IRibbonControl control)
 			=> await factory.Run<GetImagesCommand>(true);
 
-		public async Task GotoFavoriteCmd(IRibbonControl control)
-			=> await factory.Run<GotoFavoriteCommand>(control.Tag); //tag=pageid
-
 		[Command("ribHashtaggerButton_Label", Keys.Alt | Keys.T, "ribSearchMenu")]
 		public async Task HashtaggerCmd(IRibbonControl control)
 			=> await factory.Run<HashtaggerCommand>(1);
@@ -440,9 +419,6 @@ namespace River.OneMoreAddIn
 		[Command("ribLoadStylesButton_Label", Keys.None)]
 		public async Task LoadStylesCmd(IRibbonControl control)
 			=> await factory.Run<LoadStylesCommand>();
-
-		public async Task ManageFavoritesCmd(IRibbonControl control)
-			=> await factory.Run<ManageFavoritesCommand>(ribbon);
 
 		public async Task ManagePluginsCmd(IRibbonControl control)
 			=> await factory.Run<ManagePluginsCommand>(ribbon);
@@ -708,9 +684,6 @@ namespace River.OneMoreAddIn
 		[Command("ribSettingsButton_Label", Keys.None)]
 		public async Task SettingsCmd(IRibbonControl control)
 			=> await factory.Run<SettingsCommand>(ribbon);
-
-		public async Task ShowKeyboardShortcutsCmd(IRibbonControl control)
-			=> await factory.Run<ShowKeyboardShortcutsCommand>();
 
 		[Command("ribShowXmlButton_Label", Keys.Control | Keys.Alt | Keys.Shift | Keys.X)]
 		public async Task ShowXmlCmd(IRibbonControl control)

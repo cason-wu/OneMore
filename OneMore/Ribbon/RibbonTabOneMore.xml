@@ -39,13 +39,6 @@
       onAction="CalendarCmd"
       size="large"
       keytip="D"/>
-    <dynamicMenu
-      id="ribFavoritesMenu"
-      getLabel="GetRibbonLabel"
-      image="Favorites"
-      getContent="GetFavoritesContent"
-      size="large"
-      keytip="F"/>
     <menu
       id="ribColorizeMenu"
       imageMso="SmartArtChangeColorsGallery"
