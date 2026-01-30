@@ -9285,15 +9285,6 @@ namespace River.OneMoreAddIn.Properties {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Total Words in Notebook.
-        /// </summary>
-        internal static string ribNotebookWordCountButton_Label {
-            get {
-                return ResourceManager.GetString("ribNotebookWordCountButton_Label", resourceCulture);
-            }
-        }
-        
-        /// <summary>
         ///   Looks up a localized string similar to Numbering.
         /// </summary>
         internal static string ribNumberingMenu_Label {
@@ -10321,15 +10312,6 @@ namespace River.OneMoreAddIn.Properties {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Total Words in Section.
-        /// </summary>
-        internal static string ribSectionWordCountButton_Label {
-            get {
-                return ResourceManager.GetString("ribSectionWordCountButton_Label", resourceCulture);
-            }
-        }
-        
-        /// <summary>
         ///   Looks up a localized string similar to Select All Images.
         /// </summary>
         internal static string ribSelectImagesButton_Label {
@@ -10938,24 +10920,6 @@ namespace River.OneMoreAddIn.Properties {
         internal static string ribViewSectionInBrowserButton_Screentip {
             get {
                 return ResourceManager.GetString("ribViewSectionInBrowserButton_Screentip", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized string similar to Word Count.
-        /// </summary>
-        internal static string ribWordCountButton_Label {
-            get {
-                return ResourceManager.GetString("ribWordCountButton_Label", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized string similar to Report the number of words on this page.
-        /// </summary>
-        internal static string ribWordCountButton_Screentip {
-            get {
-                return ResourceManager.GetString("ribWordCountButton_Screentip", resourceCulture);
             }
         }
         
@@ -13816,69 +13780,6 @@ namespace River.OneMoreAddIn.Properties {
         internal static string word_Yes {
             get {
                 return ResourceManager.GetString("word_Yes", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized string similar to Total words on page: {0}.
-        /// </summary>
-        internal static string WordCountCommand_Count {
-            get {
-                return ResourceManager.GetString("WordCountCommand_Count", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized string similar to Total words selected: {0}.
-        /// </summary>
-        internal static string WordCountCommand_Selected {
-            get {
-                return ResourceManager.GetString("WordCountCommand_Selected", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized string similar to {0} Notebook.
-        /// </summary>
-        internal static string WordCounts_Notebook {
-            get {
-                return ResourceManager.GetString("WordCounts_Notebook", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized string similar to Total words in notebook across {0} pages.
-        /// </summary>
-        internal static string WordCounts_NotebookTotal {
-            get {
-                return ResourceManager.GetString("WordCounts_NotebookTotal", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized string similar to {0} Section.
-        /// </summary>
-        internal static string WordCounts_Section {
-            get {
-                return ResourceManager.GetString("WordCounts_Section", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized string similar to Total words in section across {0} pages.
-        /// </summary>
-        internal static string WordCounts_SectionTotal {
-            get {
-                return ResourceManager.GetString("WordCounts_SectionTotal", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized string similar to Word Counts.
-        /// </summary>
-        internal static string WordCountsCommand_Title {
-            get {
-                return ResourceManager.GetString("WordCountsCommand_Title", resourceCulture);
             }
         }
     }

@@ -3691,11 +3691,7 @@ ISO-code then comma then language name</comment>
     <value>禁用整个页面的拼写检查 (F4)</value>
     <comment>Ribbon OneMore menu item, no spell check on this page</comment>
   </data>
-  <data name="ribNotebookWordCountButton_Label" xml:space="preserve">
-    <value>笔记本总字数</value>
-    <comment>ribbon</comment>
-  </data>
-  <data name="ribNumberingMenu_Label" xml:space="preserve">
+<data name="ribNumberingMenu_Label" xml:space="preserve">
     <value>编号</value>
     <comment>Ribbon OneMore menu item</comment>
   </data>
@@ -4145,11 +4141,7 @@ ISO-code then comma then language name</comment>
     <value>自定义部分颜色</value>
     <comment>Context menu</comment>
   </data>
-  <data name="ribSectionWordCountButton_Label" xml:space="preserve">
-    <value>本节总字数</value>
-    <comment>ribbon</comment>
-  </data>
-  <data name="ribSelectImagesButton_Label" xml:space="preserve">
+<data name="ribSelectImagesButton_Label" xml:space="preserve">
     <value>选择所有图像</value>
     <comment>ribbon menu edit item</comment>
   </data>
@@ -4420,11 +4412,7 @@ ISO-code then comma then language name</comment>
     <value>在网络浏览器中查看部分</value>
     <comment>section context menu</comment>
   </data>
-  <data name="ribWordCountButton_Label" xml:space="preserve">
-    <value>字数</value>
-    <comment>Ribbon OneMore menu extras</comment>
-  </data>
-  <data name="ribWordCountButton_Screentip" xml:space="preserve">
+<data name="ribWordCountButton_Screentip" xml:space="preserve">
     <value>报告本页的字数</value>
     <comment>ribbon page</comment>
   </data>
@@ -5567,32 +5555,16 @@ ISO-code then comma then language name</comment>
   <data name="word_Yes" xml:space="preserve">
     <value>是</value>
   </data>
-  <data name="WordCountCommand_Count" xml:space="preserve">
-    <value>页面总字数：{0}</value>
-    <comment>message box</comment>
-  </data>
-  <data name="WordCountCommand_Selected" xml:space="preserve">
+<data name="WordCountCommand_Selected" xml:space="preserve">
     <value>选择的总字数：{0}</value>
     <comment>message box</comment>
   </data>
-  <data name="WordCounts_Notebook" xml:space="preserve">
-    <value>{0} 笔记本</value>
-    <comment>page heading</comment>
-  </data>
-  <data name="WordCounts_NotebookTotal" xml:space="preserve">
+<data name="WordCounts_NotebookTotal" xml:space="preserve">
     <value>{0} 页笔记本中的总字数</value>
     <comment>report</comment>
   </data>
-  <data name="WordCounts_Section" xml:space="preserve">
-    <value>{0} 部分</value>
-    <comment>page heading</comment>
-  </data>
-  <data name="WordCounts_SectionTotal" xml:space="preserve">
+<data name="WordCounts_SectionTotal" xml:space="preserve">
     <value>{0} 页部分的总字数</value>
     <comment>report</comment>
-  </data>
-  <data name="WordCountsCommand_Title" xml:space="preserve">
-    <value>字数统计</value>
-    <comment>page title</comment>
   </data>
 </root>

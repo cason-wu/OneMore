@@ -3697,10 +3697,6 @@ Help Tab</value>
     <value>Disable spell check for entire page (F4)</value>
     <comment>OBSOLETE?</comment>
   </data>
-  <data name="ribNotebookWordCountButton_Label" xml:space="preserve">
-    <value>Total Words in Notebook</value>
-    <comment>notebook context menu</comment>
-  </data>
   <data name="ribNumberingMenu_Label" xml:space="preserve">
     <value>Numbering</value>
     <comment>ribbon menu NODUP</comment>
@@ -4153,10 +4149,6 @@ Help Tab</value>
     <value>Customize Section Color</value>
     <comment>section Context menu</comment>
   </data>
-  <data name="ribSectionWordCountButton_Label" xml:space="preserve">
-    <value>Total Words in Section</value>
-    <comment>section context menu</comment>
-  </data>
   <data name="ribSelectImagesButton_Label" xml:space="preserve">
     <value>Select All Images</value>
     <comment>ribbon images</comment>
@@ -4428,14 +4420,6 @@ Help Tab</value>
   <data name="ribViewSectionInBrowserButton_Screentip" xml:space="preserve">
     <value>View section in web browser</value>
     <comment>section context menu</comment>
-  </data>
-  <data name="ribWordCountButton_Label" xml:space="preserve">
-    <value>Word Count</value>
-    <comment>ribbon page</comment>
-  </data>
-  <data name="ribWordCountButton_Screentip" xml:space="preserve">
-    <value>Report the number of words on this page</value>
-    <comment>ribbon page</comment>
   </data>
   <data name="SaveAs_Error" xml:space="preserve">
     <value>Error saving page as {0}</value>
@@ -5575,34 +5559,6 @@ Invert</value>
   </data>
   <data name="word_Yes" xml:space="preserve">
     <value>Yes</value>
-  </data>
-  <data name="WordCountCommand_Count" xml:space="preserve">
-    <value>Total words on page: {0}</value>
-    <comment>message box</comment>
-  </data>
-  <data name="WordCountCommand_Selected" xml:space="preserve">
-    <value>Total words selected: {0}</value>
-    <comment>message box</comment>
-  </data>
-  <data name="WordCounts_Notebook" xml:space="preserve">
-    <value>{0} Notebook</value>
-    <comment>page heading</comment>
-  </data>
-  <data name="WordCounts_NotebookTotal" xml:space="preserve">
-    <value>Total words in notebook across {0} pages</value>
-    <comment>report</comment>
-  </data>
-  <data name="WordCounts_Section" xml:space="preserve">
-    <value>{0} Section</value>
-    <comment>page heading</comment>
-  </data>
-  <data name="WordCounts_SectionTotal" xml:space="preserve">
-    <value>Total words in section across {0} pages</value>
-    <comment>report</comment>
-  </data>
-  <data name="WordCountsCommand_Title" xml:space="preserve">
-    <value>Word Counts</value>
-    <comment>page title</comment>
   </data>
   <data name="sponsor_dark" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Commands\Tools\sponsor-dark.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>

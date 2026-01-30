@@ -3699,11 +3699,7 @@ ISO-code then comma then language name</comment>
     <value>ページ全体のスペルチェックを無効にする (F4)</value>
     <comment>OBSOLETE?</comment>
   </data>
-  <data name="ribNotebookWordCountButton_Label" xml:space="preserve">
-    <value>ノートブック内の総単語数</value>
-    <comment>notebook context menu</comment>
-  </data>
-  <data name="ribNumberingMenu_Label" xml:space="preserve">
+<data name="ribNumberingMenu_Label" xml:space="preserve">
     <value>番号付け</value>
     <comment>ribbon menu NODUP</comment>
   </data>
@@ -4155,11 +4151,7 @@ ISO-code then comma then language name</comment>
     <value>セクションカラーのカスタマイズ</value>
     <comment>section Context menu</comment>
   </data>
-  <data name="ribSectionWordCountButton_Label" xml:space="preserve">
-    <value>セクション内の総単語数</value>
-    <comment>section context menu</comment>
-  </data>
-  <data name="ribSelectImagesButton_Label" xml:space="preserve">
+<data name="ribSelectImagesButton_Label" xml:space="preserve">
     <value>すべての画像の選択</value>
     <comment>ribbon images</comment>
   </data>
@@ -4431,11 +4423,7 @@ ISO-code then comma then language name</comment>
     <value>Webブラウザでセクションを表示</value>
     <comment>section context menu</comment>
   </data>
-  <data name="ribWordCountButton_Label" xml:space="preserve">
-    <value>単語数(日本語は文字数)カウント</value>
-    <comment>ribbon page</comment>
-  </data>
-  <data name="ribWordCountButton_Screentip" xml:space="preserve">
+<data name="ribWordCountButton_Screentip" xml:space="preserve">
     <value>このページの単語数（日本語の場合は文字数）をカウントする</value>
     <comment>ribbon page</comment>
   </data>
@@ -5578,35 +5566,19 @@ ISO-code then comma then language name</comment>
   <data name="word_Yes" xml:space="preserve">
     <value>はい</value>
   </data>
-  <data name="WordCountCommand_Count" xml:space="preserve">
-    <value>ページの合計単語数: {0}</value>
-    <comment>message box</comment>
-  </data>
-  <data name="WordCountCommand_Selected" xml:space="preserve">
+<data name="WordCountCommand_Selected" xml:space="preserve">
     <value>選択した単語の合計: {0}</value>
     <comment>message box</comment>
   </data>
-  <data name="WordCounts_Notebook" xml:space="preserve">
-    <value>{0} ノートブック</value>
-    <comment>page heading</comment>
-  </data>
-  <data name="WordCounts_NotebookTotal" xml:space="preserve">
+<data name="WordCounts_NotebookTotal" xml:space="preserve">
     <value>ノートブック内の合計単語数 ({0} ページ)</value>
     <comment>report</comment>
   </data>
-  <data name="WordCounts_Section" xml:space="preserve">
-    <value>{0} セクション</value>
-    <comment>page heading</comment>
-  </data>
-  <data name="WordCounts_SectionTotal" xml:space="preserve">
+<data name="WordCounts_SectionTotal" xml:space="preserve">
     <value>セクション内の合計単語数 ({0} ページ)</value>
     <comment>report</comment>
   </data>
-  <data name="WordCountsCommand_Title" xml:space="preserve">
-    <value>単語数</value>
-    <comment>page title</comment>
-  </data>
-  <data name="sponsor_dark" type="System.Resources.ResXFileRef, System.Windows.Forms">
+<data name="sponsor_dark" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Commands\Tools\sponsor-dark.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="sponsor_light" type="System.Resources.ResXFileRef, System.Windows.Forms">

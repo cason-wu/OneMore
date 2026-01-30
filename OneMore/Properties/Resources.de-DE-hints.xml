@@ -586,11 +586,7 @@ Vergrößere kleinere Bilder nicht</preferred>
     <source>Convert text to uppercase (Ctrl + Shift + Alt + U)</source>
     <preferred>Konvertiert Text in Großbuchstaben (Strg + Umschalt + Alt + U)</preferred>
   </hint>
-  <hint name="ribWordCountButton_Screentip">
-    <source>Report the number of words on this page</source>
-    <preferred>Gibt die Anzahl der Wörter auf dieser Seite an</preferred>
-  </hint>
-  <hint name="SaveSnippet_NeedSelection">
+<hint name="SaveSnippet_NeedSelection">
     <source>Select content to save as a new snippet</source>
     <preferred>Wähle den Inhalt aus, der als neues Snippet gespeichert werden soll</preferred>
   </hint>

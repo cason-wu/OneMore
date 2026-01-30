@@ -3690,11 +3690,7 @@ Tabblad Help</value>
     <value>Spellingcontrole voor hele pagina uitschakelen (F4)</value>
     <comment>Ribbon OneMore menu item, no spell check on this page</comment>
   </data>
-  <data name="ribNotebookWordCountButton_Label" xml:space="preserve">
-    <value>Totaal aantal woorden in notitieblok</value>
-    <comment>ribbon</comment>
-  </data>
-  <data name="ribNumberingMenu_Label" xml:space="preserve">
+<data name="ribNumberingMenu_Label" xml:space="preserve">
     <value>Nummering</value>
     <comment>Ribbon OneMore menu item</comment>
   </data>
@@ -4152,11 +4148,7 @@ Tabblad Help</value>
     <value>Sectiekleur aanpassen</value>
     <comment>Context menu</comment>
   </data>
-  <data name="ribSectionWordCountButton_Label" xml:space="preserve">
-    <value>Totaal aantal woorden in sectie</value>
-    <comment>ribbon</comment>
-  </data>
-  <data name="ribSelectImagesButton_Label" xml:space="preserve">
+<data name="ribSelectImagesButton_Label" xml:space="preserve">
     <value>Selecteer alle afbeeldingen</value>
     <comment>ribbon menu edit item</comment>
   </data>
@@ -4427,11 +4419,7 @@ Tabblad Help</value>
     <value>Bekijk sectie in webbrowser</value>
     <comment>section context menu</comment>
   </data>
-  <data name="ribWordCountButton_Label" xml:space="preserve">
-    <value>Aantal woorden</value>
-    <comment>Ribbon OneMore menu extras</comment>
-  </data>
-  <data name="ribWordCountButton_Screentip" xml:space="preserve">
+<data name="ribWordCountButton_Screentip" xml:space="preserve">
     <value>Vermeld het aantal woorden op deze pagina</value>
     <comment>ribbon page</comment>
   </data>
@@ -5574,32 +5562,16 @@ Omkeren</value>
   <data name="word_Yes" xml:space="preserve">
     <value>Ja</value>
   </data>
-  <data name="WordCountCommand_Count" xml:space="preserve">
-    <value>Totaal aantal woorden op pagina: {0}</value>
-    <comment>message box</comment>
-  </data>
-  <data name="WordCountCommand_Selected" xml:space="preserve">
+<data name="WordCountCommand_Selected" xml:space="preserve">
     <value>Totaal aantal geselecteerde woorden: {0}</value>
     <comment>message box</comment>
   </data>
-  <data name="WordCounts_Notebook" xml:space="preserve">
-    <value>{0} Notitieboekje</value>
-    <comment>page heading</comment>
-  </data>
-  <data name="WordCounts_NotebookTotal" xml:space="preserve">
+<data name="WordCounts_NotebookTotal" xml:space="preserve">
     <value>Totaal aantal woorden in notitieboek over {0} pagina's</value>
     <comment>report</comment>
   </data>
-  <data name="WordCounts_Section" xml:space="preserve">
-    <value>{0} Sectie</value>
-    <comment>page heading</comment>
-  </data>
-  <data name="WordCounts_SectionTotal" xml:space="preserve">
+<data name="WordCounts_SectionTotal" xml:space="preserve">
     <value>Totaal aantal woorden in sectie over {0} pagina's</value>
     <comment>report</comment>
-  </data>
-  <data name="WordCountsCommand_Title" xml:space="preserve">
-    <value>Woorden tellen</value>
-    <comment>page title</comment>
   </data>
 </root>

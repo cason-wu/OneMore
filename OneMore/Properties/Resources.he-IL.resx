@@ -3697,11 +3697,7 @@ ISO-code then comma then language name</comment>
     <value>השבת את בדיקת האיות עבור כל העמוד (F4)</value>
     <comment>Ribbon OneMore menu item, no spell check on this page</comment>
   </data>
-  <data name="ribNotebookWordCountButton_Label" xml:space="preserve">
-    <value>סה"כ המילים במחברת</value>
-    <comment>notebook context menu</comment>
-  </data>
-  <data name="ribNumberingMenu_Label" xml:space="preserve">
+<data name="ribNumberingMenu_Label" xml:space="preserve">
     <value>סִפְרוּר</value>
     <comment>Ribbon OneMore menu item NODUP</comment>
   </data>
@@ -4151,11 +4147,7 @@ ISO-code then comma then language name</comment>
     <value>התאם אישית את צבע המדור</value>
     <comment>Context menu</comment>
   </data>
-  <data name="ribSectionWordCountButton_Label" xml:space="preserve">
-    <value>סה"כ מילים בסעיף</value>
-    <comment>section context menu</comment>
-  </data>
-  <data name="ribSelectImagesButton_Label" xml:space="preserve">
+<data name="ribSelectImagesButton_Label" xml:space="preserve">
     <value>בחר כל התמונות</value>
     <comment>ribbon menu edit item</comment>
   </data>
@@ -4426,11 +4418,7 @@ ISO-code then comma then language name</comment>
     <value>צפה בקטע בדפדפן אינטרנט</value>
     <comment>section context menu</comment>
   </data>
-  <data name="ribWordCountButton_Label" xml:space="preserve">
-    <value>ספירת מילים</value>
-    <comment>Ribbon OneMore menu extras</comment>
-  </data>
-  <data name="ribWordCountButton_Screentip" xml:space="preserve">
+<data name="ribWordCountButton_Screentip" xml:space="preserve">
     <value>דווח על מספר המילים בדף זה</value>
     <comment>ribbon page</comment>
   </data>
@@ -5573,32 +5561,16 @@ ISO-code then comma then language name</comment>
   <data name="word_Yes" xml:space="preserve">
     <value>כן</value>
   </data>
-  <data name="WordCountCommand_Count" xml:space="preserve">
-    <value>סה"כ מילים בעמוד: {0}</value>
-    <comment>message box</comment>
-  </data>
-  <data name="WordCountCommand_Selected" xml:space="preserve">
+<data name="WordCountCommand_Selected" xml:space="preserve">
     <value>סה"כ מילים שנבחרו: {0}</value>
     <comment>message box</comment>
   </data>
-  <data name="WordCounts_Notebook" xml:space="preserve">
-    <value>{0} מחברת</value>
-    <comment>page heading</comment>
-  </data>
-  <data name="WordCounts_NotebookTotal" xml:space="preserve">
+<data name="WordCounts_NotebookTotal" xml:space="preserve">
     <value>סך המילים במחברת על פני {0} דפים</value>
     <comment>report</comment>
   </data>
-  <data name="WordCounts_Section" xml:space="preserve">
-    <value>{0} קטע</value>
-    <comment>page heading</comment>
-  </data>
-  <data name="WordCounts_SectionTotal" xml:space="preserve">
+<data name="WordCounts_SectionTotal" xml:space="preserve">
     <value>סך המילים בקטע על פני {0} דפים</value>
     <comment>report</comment>
-  </data>
-  <data name="WordCountsCommand_Title" xml:space="preserve">
-    <value>ספירת מילים</value>
-    <comment>page title</comment>
   </data>
 </root>

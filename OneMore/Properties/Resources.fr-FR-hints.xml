@@ -448,11 +448,7 @@ Après le dernier groupe</preferred>
     <source>Convert text to lowercase (Ctrl + Shift + U)</source>
     <preferred>Convertir le texte en minuscules (Ctrl + Maj + U)</preferred>
   </data>
-  <data name="ribNotebookWordCountButton_Label">
-    <source>Total Words in Notebook</source>
-    <preferred>Total de mots dans le notebook</preferred>
-  </data>
-  <data name="ribNumberSectionsButton_Screentip">
+<data name="ribNumberSectionsButton_Screentip">
     <source>Add or update numbering of all sections in this notebook</source>
     <preferred>Ajouter ou mettre à jour la numérotation de toutes les sections de ce notebook</preferred>
   </data>
@@ -686,19 +682,11 @@ Des notebooks</preferred>
     <source>XML</source>
     <preferred>XML</preferred>
   </data>
-  <data name="WordCountCommand_Count">
-    <source>Total words on page: {0}</source>
-    <preferred>Nombre total de mots sur la page : {0}</preferred>
-  </data>
-  <data name="WordCounts_Notebook">
+<data name="WordCounts_Notebook">
     <source>{0} Notebook</source>
     <preferred>{0} Notebooks</preferred>
   </data>
-  <data name="WordCounts_NotebookTotal">
-    <source>Total words in notebook across {0} pages</source>
-    <preferred>Nombre total de mots dans le notebook sur {0} pages</preferred>
-  </data>
-  <data name="WordCounts_Section">
+<data name="WordCounts_Section">
     <source>{0} Section</source>
     <preferred>{0} Sections</preferred>
   </data>
