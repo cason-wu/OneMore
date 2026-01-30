@@ -1140,6 +1140,10 @@ Donker</value>
     <value>Schakel uitgebreide logboekregistratie in</value>
     <comment>checkbox</comment>
   </data>
+  <data name="GetImagesCommand_Cite" xml:space="preserve">
+    <value>Wilt u de afbeelding annoteren met de URL?</value>
+    <comment>message box</comment>
+  </data>
   <data name="HasActiveMedia" xml:space="preserve">
     <value>Kan OneMore-opdrachten niet aanroepen terwijl er een actieve opname is. Stop de opname en probeer het opnieuw.</value>
   </data>

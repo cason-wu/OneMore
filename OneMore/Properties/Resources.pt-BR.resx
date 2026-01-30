@@ -1140,6 +1140,10 @@ Escuro</value>
     <value>Ativar registro detalhado</value>
     <comment>checkbox</comment>
   </data>
+  <data name="GetImagesCommand_Cite" xml:space="preserve">
+    <value>Você gostaria de anotar a imagem com seu URL?</value>
+    <comment>message box</comment>
+  </data>
   <data name="HasActiveMedia" xml:space="preserve">
     <value>Não é possível invocar comandos OneMore enquanto houver uma gravação ativa. Pare a gravação e tente novamente.</value>
   </data>

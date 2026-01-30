@@ -1138,6 +1138,10 @@ OneNote 文件 (*.one)</value>
     <value>启用详细日志记录</value>
     <comment>checkbox</comment>
   </data>
+  <data name="GetImagesCommand_Cite" xml:space="preserve">
+    <value>你想用它的 URL 注释图像吗？</value>
+    <comment>message box</comment>
+  </data>
   <data name="HasActiveMedia" xml:space="preserve">
     <value>存在活动记录时无法调用 OneMore 命令。请停止录制并重试。</value>
   </data>

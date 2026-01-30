@@ -1140,6 +1140,10 @@ Total Row Font
     <value>אפשר רישום מילולי</value>
     <comment>checkbox</comment>
   </data>
+  <data name="GetImagesCommand_Cite" xml:space="preserve">
+    <value>האם תרצה להוסיף הערה לתמונה בכתובת האתר שלה?</value>
+    <comment>message box</comment>
+  </data>
   <data name="HasActiveMedia" xml:space="preserve">
     <value>לא יכול להפעיל פקודות של OneMore בזמן שיש הקלטה פעילה. אנא הפסק את ההקלטה ונסה שוב.</value>
   </data>
