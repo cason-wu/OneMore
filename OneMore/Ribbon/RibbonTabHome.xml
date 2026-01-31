@@ -665,18 +665,6 @@
           getLabel="GetRibbonLabel"
           getScreentip="GetRibbonScreentip"
           onAction="SearchCmd"/>
-        <button
-          id="ribNextUnreadPageButton"
-          imageMso="PageNext"
-          getLabel="GetRibbonLabel"
-          getScreentip="GetRibbonScreentip"
-          onAction="NextUnreadPageCmd"/>
-        <button
-          id="ribPreviousUnreadPageButton"
-          imageMso="PagePrevious"
-          getLabel="GetRibbonLabel"
-          getScreentip="GetRibbonScreentip"
-          onAction="PreviousUnreadPageCmd"/>
       </menu>
       <menu id="ribTableMenu" getLabel="GetRibbonLabel" imageMso="TableInsert" showImage="true" enabled="true">
         <button
@@ -773,12 +761,6 @@
         getLabel="GetRibbonLabel"
         getScreentip="GetRibbonScreentip"
         onAction="QuickPaletteCmd"/>
-      <button
-        id="ribNavigatorButton"
-        getImage="GetRibbonImageByID"
-        getLabel="GetRibbonLabel"
-        getScreentip="GetRibbonScreentip"
-        onAction="NavigatorCmd"/>
       <button
         id="ribSettingsButton"
         imageMso="ReadingViewToolsMenu"

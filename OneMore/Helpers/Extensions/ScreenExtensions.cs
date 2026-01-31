@@ -14,7 +14,7 @@ namespace River.OneMoreAddIn.Helpers.Extensions
 
 
 		/// <summary>
-		/// Given a form on a screen (e.g. NavigatorWindow), calculate the maximum Left/Top 
+		/// Given a form on a screen, calculate the maximum Left/Top 
 		/// coordinate for that form on the screen as if it were corralled the screen's workarea
 		/// with a reasonable margin.
 		/// </summary>

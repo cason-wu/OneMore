@@ -102,13 +102,9 @@ namespace River.OneMoreAddIn.Commands
 				return;
 			}
 
-			// let user cherrypick duplicate pages to delete...
-			var navigator = new RemoveDuplicatesNavigator(hashes);
-			navigator.RunModeless((sender, e) =>
-			{
-				var d = sender as RemoveDuplicatesNavigator;
-				d.Dispose();
-			}, 20);
+			// Navigator functionality has been removed
+			// TODO: Implement alternative UI for showing duplicates
+			ShowInfo($"Found {hashes.Count} duplicate or similar pages. Navigator UI removed - manual cleanup required.");
 
 			await Task.Yield();
 		}

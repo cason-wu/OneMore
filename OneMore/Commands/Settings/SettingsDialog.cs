@@ -26,7 +26,6 @@ namespace River.OneMoreAddIn.Settings
 			Highlight,
 			Images,
 			Keyboard,
-			Navigator,
 			Plugins,
 			QuickNotes,
 			Ribbon,
@@ -125,11 +124,10 @@ namespace River.OneMoreAddIn.Settings
 					6 => new HighlightsSheet(provider),
 					7 => new ImagesSheet(provider),
 					8 => new KeyboardSheet(provider, ribbon),
-					9 => new NavigatorSheet(provider),
-					10 => await PluginsSheet.Create(provider, ribbon),
-					11 => new QuickNotesSheet(provider),
-					12 => new RibbonBarSheet(provider),
-					13 => new SearchEngineSheet(provider),
+					9 => await PluginsSheet.Create(provider, ribbon),
+					10 => new QuickNotesSheet(provider),
+					11 => new RibbonBarSheet(provider),
+					12 => new SearchEngineSheet(provider),
 					_ => new SnippetsSheet(provider, ribbon)
 				};
 
