@@ -88,10 +88,6 @@ namespace River.OneMoreAddIn
 		public async Task BreakingCmd(IRibbonControl control)
 			=> await factory.Run<BreakingCommand>();
 
-		[Command("ribCalendarButton_Label", Keys.None)]
-		public async Task CalendarCmd(IRibbonControl control)
-			=> await factory.Run<CalendarCommand>();
-
 		[Command("ribCaptionAttachmentsButton_Label", Keys.None, "ribPageMenu")]
 		public async Task CaptionAttachmentsCmd(IRibbonControl control)
 			=> await factory.Run<CaptionAttachmentsCommand>();

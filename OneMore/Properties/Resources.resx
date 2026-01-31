@@ -2470,14 +2470,6 @@ Help Tab</value>
     <value>Toggle between one and two spaces between sentences</value>
     <comment>ribbon clean NODUP</comment>
   </data>
-  <data name="ribCalendarButton_Label" xml:space="preserve">
-    <value>OneMore Calendar</value>
-    <comment>ribbon main NODUP</comment>
-  </data>
-  <data name="ribCalendarButton_Screentip" xml:space="preserve">
-    <value>Open the OneMore Calendar app</value>
-    <comment>ribbon main NODUP</comment>
-  </data>
   <data name="ribCaptionAttachmentsButton_Label" xml:space="preserve">
     <value>Caption Attachments</value>
     <comment>ribbon page</comment>

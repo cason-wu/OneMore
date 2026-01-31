@@ -6586,25 +6586,7 @@ namespace River.OneMoreAddIn.Properties {
                 return ResourceManager.GetString("ribBreakingButton_Screentip", resourceCulture);
             }
         }
-        
-        /// <summary>
-        ///   Looks up a localized string similar to OneMore Calendar.
-        /// </summary>
-        internal static string ribCalendarButton_Label {
-            get {
-                return ResourceManager.GetString("ribCalendarButton_Label", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized string similar to Open the OneMore Calendar app.
-        /// </summary>
-        internal static string ribCalendarButton_Screentip {
-            get {
-                return ResourceManager.GetString("ribCalendarButton_Screentip", resourceCulture);
-            }
-        }
-        
+                
         /// <summary>
         ///   Looks up a localized string similar to Caption Attachments.
         /// </summary>

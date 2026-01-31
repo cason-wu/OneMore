@@ -70,12 +70,10 @@
     <File Path="Themes/Standard.xml" />
   </Folder>
   <Project Path="OneMore/OneMore.csproj" />
-  <Project Path="OneMoreCalendar/OneMoreCalendar.csproj" />
   <Project Path="OneMoreProtocolHandler/OneMoreProtocolHandler.csproj" />
   <Project Path="OneMoreSetup/OneMoreSetup.vdproj" Type="Installer">
     <Platform Project="ARM64" />
     <Build Solution="Release|*" />
   </Project>
   <Project Path="OneMoreSetupActions/OneMoreSetupActions.csproj" />
-  <Project Path="OneMoreTray/OneMoreTray.csproj" />
 </Solution>

@@ -804,12 +804,6 @@
         getScreentip="GetRibbonScreentip"
         onAction="NavigatorCmd"/>
       <button
-        id="ribCalendarButton"
-        imageMso="OpenAttachedCalendar"
-        getLabel="GetRibbonLabel"
-        getScreentip="GetRibbonScreentip"
-        onAction="CalendarCmd"/>
-      <button
         id="ribSettingsButton"
         imageMso="ReadingViewToolsMenu"
         getLabel="GetRibbonLabel"

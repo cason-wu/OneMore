@@ -2464,14 +2464,6 @@ OneNote 文件 (*.one)</value>
     <value>在句子之间切换一两个空格</value>
     <comment>ribbon clean NODUP</comment>
   </data>
-  <data name="ribCalendarButton_Label" xml:space="preserve">
-    <value>OneMore 日历</value>
-    <comment>Ribbon OneMore-Calendar command NODUP</comment>
-  </data>
-  <data name="ribCalendarButton_Screentip" xml:space="preserve">
-    <value>打开 OneMore 日历应用程序</value>
-    <comment>ribbon main NODUP</comment>
-  </data>
   <data name="ribCaptionAttachmentsButton_Label" xml:space="preserve">
     <value>为附件添加说明</value>
     <comment>ribbon item</comment>
