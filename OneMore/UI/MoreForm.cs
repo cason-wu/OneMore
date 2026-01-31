@@ -340,7 +340,7 @@ namespace River.OneMoreAddIn.UI
 
 		/// <summary>
 		/// Uses Windows Automation to track when a main ONENOTE window is focused or elevated
-		/// on top of other windows, and elevates this form. Typically used for NavigatorWindow.
+		/// on top of other windows, and elevates this form.
 		/// </summary>
 		/// <param name="sender"></param>
 		/// <param name="e"></param>

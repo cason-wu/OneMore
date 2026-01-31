@@ -382,14 +382,6 @@ namespace River.OneMoreAddIn
 		public async Task MovePageTopCmd(IRibbonControl control)
 			=> await factory.Run<MovePageCommand>(true);
 
-		[Command("ribNavigatorButton_Label", Keys.Shift | Keys.Alt | Keys.N)]
-		public async Task NavigatorCmd(IRibbonControl control)
-			=> await factory.Run<NavigatorCommand>();
-
-		[Command("ribNextUnreadPageButton_Label", Keys.None, "ribSearchMenu")]
-		public async Task NextUnreadPageCmd(IRibbonControl control)
-			=> await factory.Run<NextUnreadPageCommand>();
-
 		[Command("ribNewStyleButton_Label", Keys.None)]
 		public async Task NewStyleCmd(IRibbonControl control)
 			=> await factory.Run<NewStyleCommand>();
@@ -442,11 +434,6 @@ namespace River.OneMoreAddIn
 		public async Task PasteTextCmd(IRibbonControl control)
 			=> await factory.Run<PasteTextCommand>();
 
-		[IgnorePalette]
-		[Command("ribPinPageButton_Label", Keys.Control | Keys.Shift | Keys.B)]
-		public async Task PinpageCmd(IRibbonControl control)
-			=> await factory.Run<PinPageCommand>();
-
 		[Command("ribPlantUmlButton_Label", Keys.None, "ribImagesMenu")]
 		public async Task PlantUmlCmd(IRibbonControl control)
 			=> await factory.Run<PlantUmlCommand>();
@@ -454,10 +441,6 @@ namespace River.OneMoreAddIn
 		[Command("ribPreviewMarkdownButton_Label", Keys.Control | Keys.Alt | Keys.Shift | Keys.M, "ribEditMenu")]
 		public async Task PreviewMarkdownCmd(IRibbonControl control)
 			=> await factory.Run<PreviewMarkdownCommand>();
-
-		[Command("ribPreviousUnreadPageButton_Label", Keys.None, "ribSearchMenu")]
-		public async Task PreviousUnreadPageCmd(IRibbonControl control)
-			=> await factory.Run<PreviousUnreadPageCommand>();
 
 		[IgnorePalette]
 		[Command("ribQuickPaletteButton_Label", Keys.Control | Keys.Oemcomma)]

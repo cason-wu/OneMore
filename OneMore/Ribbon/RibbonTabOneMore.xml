@@ -23,14 +23,6 @@
       onAction="QuickPaletteCmd"
       size="large"
       keytip="Q"/>
-    <button
-      id="ribNavigatorButton"
-      getImage="GetRibbonImageByID"
-      getLabel="GetRibbonLabel"
-      getScreentip="GetRibbonScreentip"
-      onAction="NavigatorCmd"
-      size="large"
-      keytip="N"/>
     <menu
       id="ribColorizeMenu"
       imageMso="SmartArtChangeColorsGallery"
@@ -328,18 +320,6 @@
         getLabel="GetRibbonLabel"
         getScreentip="GetRibbonScreentip"
         onAction="SearchCmd"/>
-	  <button
-        id="ribNextUnreadPageButton"
-        imageMso="PageNext"
-        getLabel="GetRibbonLabel"
-        getScreentip="GetRibbonScreentip"
-        onAction="NextUnreadPageCmd"/>
-	  <button
-        id="ribPreviousUnreadPageButton"
-        imageMso="PagePrevious"
-        getLabel="GetRibbonLabel"
-        getScreentip="GetRibbonScreentip"
-        onAction="PreviousUnreadPageCmd"/>
   </group>
 
   <group id="ribOneMoreEvenMoreGroup" getLabel="GetRibbonLabel" getImage="GetOneMoreRibbonImage">

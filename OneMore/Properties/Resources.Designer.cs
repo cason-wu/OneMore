@@ -4681,200 +4681,11 @@ namespace River.OneMoreAddIn.Properties {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Not available.
-        /// </summary>
-        internal static string NavigatorSheet_corrallBox_disabled {
-            get {
-                return ResourceManager.GetString("NavigatorSheet_corrallBox_disabled", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized string similar to Restrict the Navigator window to the active screen.
-        /// </summary>
-        internal static string NavigatorSheet_corrallBox_Text {
-            get {
-                return ResourceManager.GetString("NavigatorSheet_corrallBox.Text", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized string similar to Max length of stored history.
-        /// </summary>
-        internal static string NavigatorSheet_depthLabel_Text {
-            get {
-                return ResourceManager.GetString("NavigatorSheet_depthLabel.Text", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized string similar to Disable the navigation service. This will render the Navigator window inoperaable..
-        /// </summary>
-        internal static string NavigatorSheet_disabledBox_Text {
-            get {
-                return ResourceManager.GetString("NavigatorSheet_disabledBox.Text", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized string similar to Elevate Navigator when OneNote is elevated.
-        /// </summary>
-        internal static string NavigatorSheet_elevateBox_Text {
-            get {
-                return ResourceManager.GetString("NavigatorSheet_elevateBox.Text", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized string similar to Hide the My Reading List panel.
-        /// </summary>
-        internal static string NavigatorSheet_hidePinnedBox_Text {
-            get {
-                return ResourceManager.GetString("NavigatorSheet_hidePinnedBox.Text", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized string similar to Min read time before adding to history.
-        /// </summary>
-        internal static string NavigatorSheet_intervalLabel_Text {
-            get {
-                return ResourceManager.GetString("NavigatorSheet_intervalLabel.Text", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized string similar to Customize advanced options for the Navigator Service.
-        /// </summary>
-        internal static string NavigatorSheet_introBox_Text {
-            get {
-                return ResourceManager.GetString("NavigatorSheet_introBox.Text", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized string similar to Track Quick Notes.
-        /// </summary>
-        internal static string NavigatorSheet_quickBox_Text {
-            get {
-                return ResourceManager.GetString("NavigatorSheet_quickBox.Text", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized string similar to Are you sure you want to delete the {0} selected records?.
-        /// </summary>
-        internal static string NavigatorWindow_confirmDelete {
-            get {
-                return ResourceManager.GetString("NavigatorWindow_confirmDelete", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized string similar to Copy selected items to the clipboard.
-        /// </summary>
-        internal static string NavigatorWindow_copyTooltip {
-            get {
-                return ResourceManager.GetString("NavigatorWindow_copyTooltip", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized string similar to Delete selected items from the History list.
-        /// </summary>
-        internal static string NavigatorWindow_deleteHistoryButton_Tooltip {
-            get {
-                return ResourceManager.GetString("NavigatorWindow_deleteHistoryButton_Tooltip", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized string similar to The navigation service is disabled. Open Settings to enable the service..
-        /// </summary>
-        internal static string NavigatorWindow_disabled {
-            get {
-                return ResourceManager.GetString("NavigatorWindow_disabled", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized string similar to Move selected items down.
-        /// </summary>
-        internal static string NavigatorWindow_downButton_Tooltip {
-            get {
-                return ResourceManager.GetString("NavigatorWindow_downButton_Tooltip", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized string similar to Add selected items to My Reading List.
-        /// </summary>
-        internal static string NavigatorWindow_pinButton_Tooltip {
-            get {
-                return ResourceManager.GetString("NavigatorWindow_pinButton_Tooltip", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized string similar to My Reading List.
-        /// </summary>
-        internal static string NavigatorWindow_pinnedHeadLabel_Text {
-            get {
-                return ResourceManager.GetString("NavigatorWindow_pinnedHeadLabel.Text", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized string similar to Refresh headings from current page (F5).
-        /// </summary>
-        internal static string NavigatorWindow_refreshButton_Tooltip {
-            get {
-                return ResourceManager.GetString("NavigatorWindow_refreshButton_Tooltip", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized string similar to Navigator Window.
-        /// </summary>
-        internal static string NavigatorWindow_Text {
-            get {
-                return ResourceManager.GetString("NavigatorWindow_Text", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized string similar to Remove selected items from My Reading List.
-        /// </summary>
-        internal static string NavigatorWindow_unpinButton_Tooltip {
-            get {
-                return ResourceManager.GetString("NavigatorWindow_unpinButton_Tooltip", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized string similar to Move selected items up.
-        /// </summary>
-        internal static string NavigatorWindow_upButton_Tooltip {
-            get {
-                return ResourceManager.GetString("NavigatorWindow_upButton_Tooltip", resourceCulture);
-            }
-        }
-        
-        /// <summary>
         ///   Looks up a localized string similar to Network connection is not available.
         /// </summary>
         internal static string NetwordConnectionUnavailable {
             get {
                 return ResourceManager.GetString("NetwordConnectionUnavailable", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized string similar to No unread pages found in that direction.
-        /// </summary>
-        internal static string NextUnreadPageCommand_nomore {
-            get {
-                return ResourceManager.GetString("NextUnreadPageCommand_nomore", resourceCulture);
             }
         }
         
@@ -5995,33 +5806,6 @@ namespace River.OneMoreAddIn.Properties {
         internal static string RemoveDuplicatesDialog_Text {
             get {
                 return ResourceManager.GetString("RemoveDuplicatesDialog.Text", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized string similar to Are you sure you want to delete the selected page?.
-        /// </summary>
-        internal static string RemoveDuplicatesNavigator_confirm1 {
-            get {
-                return ResourceManager.GetString("RemoveDuplicatesNavigator_confirm1", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized string similar to Are you sure you want to delete the {0} selected pages?.
-        /// </summary>
-        internal static string RemoveDuplicatesNavigator_confirmAll {
-            get {
-                return ResourceManager.GetString("RemoveDuplicatesNavigator_confirmAll", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized string similar to Pages similar to {0}.
-        /// </summary>
-        internal static string RemoveDuplicatesNavigator_pagesSimilarTo {
-            get {
-                return ResourceManager.GetString("RemoveDuplicatesNavigator_pagesSimilarTo", resourceCulture);
             }
         }
         
@@ -7999,39 +7783,6 @@ namespace River.OneMoreAddIn.Properties {
             }
         }
         
-        /// <summary>
-        ///   Looks up a localized string similar to Replace URLs with Titles.
-        /// </summary>
-        /// <summary>
-        ///   Looks up a localized string similar to Replace URLs with Web page titles.
-        /// </summary>
-        /// <summary>
-        ///   Looks up a localized resource of type System.Drawing.Bitmap.
-        /// </summary>
-        internal static System.Drawing.Bitmap ribNavigatorButton {
-            get {
-                object obj = ResourceManager.GetObject("ribNavigatorButton", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized string similar to Navigator.
-        /// </summary>
-        internal static string ribNavigatorButton_Label {
-            get {
-                return ResourceManager.GetString("ribNavigatorButton_Label", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized string similar to Open the OneMore Navigator window.
-        /// </summary>
-        internal static string ribNavigatorButton_Screentip {
-            get {
-                return ResourceManager.GetString("ribNavigatorButton_Screentip", resourceCulture);
-            }
-        }
         
         /// <summary>
         ///   Looks up a localized string similar to Create New Style from Text.
@@ -8048,24 +7799,6 @@ namespace River.OneMoreAddIn.Properties {
         internal static string ribNewStyleButton_Screentip {
             get {
                 return ResourceManager.GetString("ribNewStyleButton_Screentip", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized string similar to Next Unread Page.
-        /// </summary>
-        internal static string ribNextUnreadPageButton_Label {
-            get {
-                return ResourceManager.GetString("ribNextUnreadPageButton_Label", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized string similar to Move to the next unread page.
-        /// </summary>
-        internal static string ribNextUnreadPageButton_Screentip {
-            get {
-                return ResourceManager.GetString("ribNextUnreadPageButton_Screentip", resourceCulture);
             }
         }
         
@@ -8376,15 +8109,6 @@ namespace River.OneMoreAddIn.Properties {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Add Page To My Reading List.
-        /// </summary>
-        internal static string ribPinPageButton_Label {
-            get {
-                return ResourceManager.GetString("ribPinPageButton_Label", resourceCulture);
-            }
-        }
-        
-        /// <summary>
         ///   Looks up a localized string similar to Draw PlantUML.
         /// </summary>
         internal static string ribPlantUmlButton_Label {
@@ -8444,24 +8168,6 @@ namespace River.OneMoreAddIn.Properties {
         internal static string ribPreviewMarkdownButton_Screentip {
             get {
                 return ResourceManager.GetString("ribPreviewMarkdownButton_Screentip", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized string similar to Previous Unread Page.
-        /// </summary>
-        internal static string ribPreviousUnreadPageButton_Label {
-            get {
-                return ResourceManager.GetString("ribPreviousUnreadPageButton_Label", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized string similar to Move to the previous unread page.
-        /// </summary>
-        internal static string ribPreviousUnreadPageButton_Screentip {
-            get {
-                return ResourceManager.GetString("ribPreviousUnreadPageButton_Screentip", resourceCulture);
             }
         }
         
@@ -11763,15 +11469,6 @@ namespace River.OneMoreAddIn.Properties {
         internal static string word_Name {
             get {
                 return ResourceManager.GetString("word_Name", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized string similar to Navigator.
-        /// </summary>
-        internal static string word_Navigator {
-            get {
-                return ResourceManager.GetString("word_Navigator", resourceCulture);
             }
         }
         

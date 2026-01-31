@@ -35,7 +35,7 @@ namespace River.OneMoreAddIn.Models
 		/// <param name="one"></param>
 		/// <param name="linked">
 		/// True to lookup hyperlinks and set the Link property for each heading.
-		/// Use false when deferring the lookup for performance, such as Navigator
+		/// Use false when deferring the lookup for performance.
 		/// </param>
 		/// <returns></returns>
 		public List<Heading> GetHeadings(OneNote one, bool linked = true)
