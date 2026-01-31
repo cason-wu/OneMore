@@ -29,13 +29,6 @@ namespace River.OneMoreAddIn.Models
 		// page is a section or notebook TOC
 		public static readonly string TableOfContents = "omTableOfContents";
 
-		// Outline meta to mark visible word bank
-		public static readonly string TaggingBank = "omTaggingBank";
-
-		// page tag list
-		// TODO: temporary page tagging
-		public static readonly string TaggingLabels = "omTaggingLabels";
-
 		// page is a hashtag index page
 		public static readonly string TagIndex = "omTagIndex";
 	}
