@@ -217,7 +217,7 @@ namespace River.OneMoreAddIn
 			try
 			{
 				var anchor = root.Descendants(ns + "menu")
-					.FirstOrDefault(e => e.Attribute("id").Value == "ribEditMenu");
+					.FirstOrDefault(e => e.Attribute("id").Value == "ribExtrasMenu");
 
 				if (anchor == null)
 				{
