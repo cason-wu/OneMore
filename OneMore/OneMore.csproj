@@ -117,9 +117,6 @@
   <!-- Source File Customizations             -->
   <!-- ============================================ -->
   <ItemGroup>
-    <!-- Commands - Navigator -->
-    <Compile Update="Commands\Navigator\HistoryControl.cs" SubType="UserControl" />
-    
     <!-- Commands - Search -->
     <Compile Update="Commands\Search\SearchDialogActionControl.cs" SubType="UserControl" />
     <Compile Update="Commands\Search\SearchDialogTextControl.cs" SubType="UserControl" />
@@ -137,7 +134,6 @@
     <Compile Update="Commands\Settings\HighlightsSheet.cs" SubType="UserControl" />
     <Compile Update="Commands\Settings\ImagesSheet.cs" SubType="UserControl" />
     <Compile Update="Commands\Settings\KeyboardSheet.cs" SubType="UserControl" />
-    <Compile Update="Commands\Settings\NavigatorSheet.cs" SubType="UserControl" />
     <Compile Update="Commands\Settings\PluginsSheet.cs" SubType="UserControl" />
     <Compile Update="Commands\Settings\QuickNotesSheet.cs" SubType="UserControl" />
     <Compile Update="Commands\Settings\RibbonBarSheet.cs" SubType="UserControl" />
