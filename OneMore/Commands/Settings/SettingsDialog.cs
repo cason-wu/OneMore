@@ -62,7 +62,6 @@ namespace River.OneMoreAddIn.Settings
 				navTree.Nodes["highlightNode"].Text = Resx.HighlightsSheet_Title;
 				navTree.Nodes["imagesNode"].Text = Resx.word_Images;
 				navTree.Nodes["keyboardNode"].Text = Resx.SettingsDialog_keyboardNode_Text;
-				navTree.Nodes["navigatorNode"].Text = Resx.word_Navigator;
 				navTree.Nodes["pluginsNode"].Text = Resx.word_Plugins;
 				navTree.Nodes["quickNotesNode"].Text = Resx.QuickNotesSheet_Title;
 				navTree.Nodes["ribbonNode"].Text = Resx.RibbonBarSheet_Title;
