@@ -49,8 +49,7 @@ namespace River.OneMoreAddIn.Commands
 
 
 		/// <summary>
-		/// Exposed publicly so that HashtaggerCommand can add a bank to a page and then
-		/// insert tags into it.
+		/// Creates a word bank outline on the page.
 		/// </summary>
 		/// <param name="page"></param>
 		/// <param name="ns"></param>

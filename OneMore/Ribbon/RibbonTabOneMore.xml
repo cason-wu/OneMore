@@ -324,22 +324,6 @@
   </group>
 
   <group id="ribOneMoreTagGroup" getLabel="GetRibbonLabel" getImage="GetOneMoreRibbonImage">
-    <button
-      id="ribSearchHashtagsButton"
-      getImage="GetRibbonImageByID"
-      getLabel="GetRibbonLabel"
-      getScreentip="GetRibbonScreentip"
-      onAction="SearchHashtagsCmd"
-      size="normal"
-      keytip="FH"/>
-    <button
-      id="ribHashtaggerButton"
-      image="Label"
-      getLabel="GetRibbonLabel"
-      getScreentip="GetRibbonScreentip"
-      onAction="HashtaggerCmd"
-      size="normal"
-      keytip="HA"/>
     <menu id="ribSearchMenu" getLabel="GetRibbonLabel" imageMso="SearchUI" showImage="true" keytip="SE">
       <button
         id="ribSearchAndReplaceButton"

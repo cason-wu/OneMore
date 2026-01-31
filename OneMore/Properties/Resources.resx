@@ -1139,183 +1139,6 @@ Dark</value>
   <data name="HasActiveMedia" xml:space="preserve">
     <value>Cannot invoke OneMore commands while there is an active recording. Please stop the recording and try again.</value>
   </data>
-  <data name="HashtagCommand_indexTitle" xml:space="preserve">
-    <value>Tagged Pages</value>
-    <comment>page title</comment>
-  </data>
-  <data name="HashtagCommand_scanning" xml:space="preserve">
-    <value>OneMore is currently creating your hashtag catalog.
-
-Searching for hashtags is unavailable until this is completed.</value>
-  </data>
-  <data name="HashtagCommand_waiting" xml:space="preserve">
-    <value>Your hashtag catalog is scheduled to be created on {0}. You can change this schedule from the OneMore Tray application.
-
-Searching for hashtags is unavailable until this is completed.</value>
-  </data>
-  <data name="HashtagContext_jumpParaTip" xml:space="preserve">
-    <value>Jump to this paragraph; last updated {0}</value>
-    <comment>tooltip</comment>
-  </data>
-  <data name="HashtagContext_jumpTip" xml:space="preserve">
-    <value>Jump to this page</value>
-    <comment>tooltip</comment>
-  </data>
-  <data name="HashtagDialog.Title" xml:space="preserve">
-    <value>Search Hashtags</value>
-    <comment>dialog title</comment>
-  </data>
-  <data name="HashtagDialog_allTags" xml:space="preserve">
-    <value>all tags</value>
-    <comment>text</comment>
-  </data>
-  <data name="HashtagDialog_badLink" xml:space="preserve">
-    <value>Cannot navigate to this page. It may have been deleted</value>
-    <comment>info message</comment>
-  </data>
-  <data name="HashtagDialog_checkAllLink.Text" xml:space="preserve">
-    <value>Check all</value>
-    <comment>link label</comment>
-  </data>
-  <data name="HashtagDialog_hideOfflineMenuItem" xml:space="preserve">
-    <value>Hide Offline Notebooks</value>
-    <comment>context menu item</comment>
-  </data>
-  <data name="HashtagDialog_introLabel.Text" xml:space="preserve">
-    <value>Type any part of one or more hashtags. Wildcards are implied unless a tag is ended with a period. Parenthesis and logical operators are allowed.</value>
-    <comment>label</comment>
-  </data>
-  <data name="HashtagDialog_lastScanLabel" xml:space="preserve">
-    <value>Last scan: {0}, Next scan: {1}</value>
-    <comment>label</comment>
-  </data>
-  <data name="HashtagDialog_noResults" xml:space="preserve">
-    <value>No results found</value>
-    <comment>message</comment>
-  </data>
-  <data name="HashtagDialog_recentTags" xml:space="preserve">
-    <value>recent tags</value>
-    <comment>text</comment>
-  </data>
-  <data name="HashtagDialog_scanButton.Text" xml:space="preserve">
-    <value>Scan Now</value>
-    <comment>menu button</comment>
-  </data>
-  <data name="HashtagDialog_scanLink.Text" xml:space="preserve">
-    <value>New notebooks discovered. Click here to scan.</value>
-    <comment>link label</comment>
-  </data>
-  <data name="HashtagDialog_scheduleButton.Text" xml:space="preserve">
-    <value>Schedule Scan</value>
-    <comment>menu item</comment>
-  </data>
-  <data name="HashtagDialog_scopeBox.Text" xml:space="preserve">
-    <value>All notebooks
-This notebook
-This section
-This page</value>
-    <comment>combobox</comment>
-  </data>
-  <data name="HashtagDialog_sensitiveTip" xml:space="preserve">
-    <value>Case-sensitive search</value>
-    <comment>tooltip</comment>
-  </data>
-  <data name="HashtagDialog_showOfflineMenuItem" xml:space="preserve">
-    <value>Show Offline Notebooks</value>
-    <comment>context menu item</comment>
-  </data>
-  <data name="HashtagDialog_uncheckAllLink.Text" xml:space="preserve">
-    <value>Uncheck all</value>
-    <comment>link label</comment>
-  </data>
-  <data name="HashtaggerDialog.Text" xml:space="preserve">
-    <value>Hashtags</value>
-    <comment>dialog title</comment>
-  </data>
-  <data name="HashtaggerDialog_bankBox.Text" xml:space="preserve">
-    <value>Add to tag bank at top of page</value>
-    <comment>checkbox</comment>
-  </data>
-  <data name="HashtaggerDialog_cloudGroup.Text" xml:space="preserve">
-    <value>All hashtags</value>
-    <comment>groupbox</comment>
-  </data>
-  <data name="HashtaggerDialog_commonGroup.Text" xml:space="preserve">
-    <value>Common words on this page</value>
-    <comment>groupbox</comment>
-  </data>
-  <data name="HashtaggerDialog_hideCommonMenuItem" xml:space="preserve">
-    <value>Hide common words</value>
-    <comment>context menu item text</comment>
-  </data>
-  <data name="HashtaggerDialog_hideRecentMenuItem" xml:space="preserve">
-    <value>Hide recently used</value>
-    <comment>context menu item text</comment>
-  </data>
-  <data name="HashtaggerDialog_recentGroup.Text" xml:space="preserve">
-    <value>Recently used tags</value>
-    <comment>groupbox</comment>
-  </data>
-  <data name="HashtaggerDialog_showCommonMenuItem" xml:space="preserve">
-    <value>Show common words</value>
-    <comment>context menu item text</comment>
-  </data>
-  <data name="HashtaggerDialog_showRecentMenuItem" xml:space="preserve">
-    <value>Show recently used</value>
-    <comment>context menu item text</comment>
-  </data>
-  <data name="HashtaggerDialog_tagsLabel.Text" xml:space="preserve">
-    <value>Tags</value>
-    <comment>label</comment>
-  </data>
-  <data name="HashtagSheet_disabledBox.Text" xml:space="preserve">
-    <value>Disable the hashtag service. This will also disable hashtag searching.</value>
-    <comment>checkbox</comment>
-  </data>
-  <data name="HashtagSheet_filterBox.Text" xml:space="preserve">
-    <value>Treat HTML Hex colors and C# and C++ directives as hashtags</value>
-    <comment>checkbox</comment>
-  </data>
-  <data name="HashtagSheet_intervalLabel.Text" xml:space="preserve">
-    <value>Scan for hashtags every</value>
-    <comment>label</comment>
-  </data>
-  <data name="HashtagSheet_introBox.Text" xml:space="preserve">
-    <value>Customize advanced options for the Hashtag Scanner Service</value>
-    <comment>label</comment>
-  </data>
-  <data name="HashtagSheet_prescheduled" xml:space="preserve">
-    <value>A scan is scheduled for {0}. Use the options below to change this or press Cancel to keep the current schedule.</value>
-  </data>
-  <data name="HashtagSheet_resetTooltip" xml:space="preserve">
-    <value>Advanced: Reset the upgrade flag</value>
-    <comment>tooltip</comment>
-  </data>
-  <data name="HashtagSheet_scanNotebooks" xml:space="preserve">
-    <value>Schedule an incremental scan of your newly added notebooks</value>
-  </data>
-  <data name="HashtagSheet_scheduleLink.Text" xml:space="preserve">
-    <value>Schedule Hashtag Scanning or Scan Now</value>
-    <comment>link label</comment>
-  </data>
-  <data name="HashtagSheet_styleBox.Text" xml:space="preserve">
-    <value>None
-Red Foreground
-Yellow Background</value>
-    <comment>combobox</comment>
-  </data>
-  <data name="HashtagSheet_styleLabel.Text" xml:space="preserve">
-    <value>Apply custom style</value>
-    <comment>label</comment>
-  </data>
-  <data name="HashtagSheet_upgradeLink.Text" xml:space="preserve">
-    <value>Upgrade page tags to inline hashtags</value>
-    <comment>link</comment>
-  </data>
-  <data name="HashtagSheet_warningLabel.Text" xml:space="preserve">
-    <value>This should be used after adding or removing one or more notebooks. It is recommended to schedule rebuilds after-hours, such as midnight.</value>
-    <comment>multiline label</comment>
-  </data>
   <data name="HighlightsSheet_deepRadio.Text" xml:space="preserve">
     <value>Deep</value>
     <comment>radio</comment>
@@ -2401,14 +2224,6 @@ Select No to keep one empty line between paragraphs</value>
     <value>Formula Commands</value>
     <comment>checkbox</comment>
   </data>
-  <data name="RibbonBarSheet_hashtagsIconBox.Text" xml:space="preserve">
-    <value>Show only icons for hashtag commands</value>
-    <comment>settings dialog, ribbon bar options</comment>
-  </data>
-  <data name="RibbonBarSheet_hashtagsRibbonBox.Text" xml:space="preserve">
-    <value>Hashtag Commands</value>
-    <comment>checkbox</comment>
-  </data>
   <data name="RibbonBarSheet_introBox.Text" xml:space="preserve">
     <value>Choose optional preset grouping to add to the ribbon bar</value>
     <comment>settings dialog, ribbon bar options</comment>
@@ -2770,10 +2585,6 @@ Help Tab</value>
     <value>Fill sequence down selected columns (Ctrl + D)</value>
     <comment>ribbon table</comment>
   </data>
-  <data name="ribFindHashtagsButton_Label" xml:space="preserve">
-    <value>Search Hashtags</value>
-    <comment>ribbon references NODUP</comment>
-  </data>
   <data name="ribFitGridToTextButton_Label" xml:space="preserve">
     <value>Fit Grid to Text</value>
     <comment>ribbon page NODUP</comment>
@@ -2781,14 +2592,6 @@ Help Tab</value>
   <data name="ribFitGridToTextButton_Screentip" xml:space="preserve">
     <value>Resize background grid to match common font size</value>
     <comment>ribbon page NODUP</comment>
-  </data>
-  <data name="ribHashtaggerButton_Label" xml:space="preserve">
-    <value>Insert Hashtags</value>
-    <comment>ribbon search</comment>
-  </data>
-  <data name="ribHashtaggerButton_Screentip" xml:space="preserve">
-    <value>Pick from a smart list of words and tags to insert hashtags</value>
-    <comment>ribbon search</comment>
   </data>
   <data name="ribHighlightButton_Label" xml:space="preserve">
     <value>Rotating Highlighter</value>
@@ -3438,22 +3241,6 @@ Help Tab</value>
     <value>Import from scanner</value>
     <comment>file ribbon</comment>
   </data>
-  <data name="ribScanHashtagsButton_Label" xml:space="preserve">
-    <value>Scan Hashtags</value>
-    <comment>ribbon search</comment>
-  </data>
-  <data name="ribScanHashtagsButton_Screentip" xml:space="preserve">
-    <value>Scan hashtags immediately</value>
-    <comment>ribbon search</comment>
-  </data>
-  <data name="ribScanHashtagsOnPageButton_Label" xml:space="preserve">
-    <value>Scan Hashtags On This Page</value>
-    <comment>search menu</comment>
-  </data>
-  <data name="ribScheduleHashtagScanButton_Label" xml:space="preserve">
-    <value>Schedule Hashtag Scan</value>
-    <comment>palette command</comment>
-  </data>
   <data name="ribSearchAndReplaceButton_Label" xml:space="preserve">
     <value>Search and Replace</value>
     <comment>ribbon search NODUP</comment>
@@ -3468,14 +3255,6 @@ Help Tab</value>
   </data>
   <data name="ribSearchButton_Screentip" xml:space="preserve">
     <value>Search pages for keywords and copy/move to another section (Alt + F)</value>
-    <comment>ribbon search</comment>
-  </data>
-  <data name="ribSearchHashtagsButton_Label" xml:space="preserve">
-    <value>Search Hashtags</value>
-    <comment>ribbon search</comment>
-  </data>
-  <data name="ribSearchHashtagsButton_Screentip" xml:space="preserve">
-    <value>Search for hashtags</value>
     <comment>ribbon search</comment>
   </data>
   <data name="ribSearchMenu_Label" xml:space="preserve">
@@ -3787,48 +3566,6 @@ Black and White</value>
   <data name="ScanDialog_sizeLabel.Text" xml:space="preserve">
     <value>Size</value>
     <comment>label</comment>
-  </data>
-  <data name="ScanningCueFile" xml:space="preserve">
-    <value>HashtagScanner.json</value>
-    <comment>SKIP</comment>
-  </data>
-  <data name="ScheduleScanDialog_booksInfoLabel.Text" xml:space="preserve">
-    <value>Select notebooks to schedule for a full rescan</value>
-    <comment>label</comment>
-  </data>
-  <data name="ScheduleScanDialog_hintLabel.Text" xml:space="preserve">
-    <value>It is best to schedule the scan during off-hours, such as midnight</value>
-    <comment>label</comment>
-  </data>
-  <data name="ScheduleScanDialog_introBox.Text" xml:space="preserve">
-    <value>The hashtag catalog has not yet been created. Choose below when OneMore should build the catalog.</value>
-    <comment>multilinelabel</comment>
-  </data>
-  <data name="ScheduleScanDialog_laterRadio.Text" xml:space="preserve">
-    <value>Schedule the scan at a later time</value>
-    <comment>radio</comment>
-  </data>
-  <data name="ScheduleScanDialog_neverScanned" xml:space="preserve">
-    <value>never scanned or no tags</value>
-    <comment>label</comment>
-  </data>
-  <data name="ScheduleScanDialog_nowRadio.Text" xml:space="preserve">
-    <value>Run the scan now</value>
-    <comment>radio</comment>
-  </data>
-  <data name="ScheduleScanDialog_nowWarning" xml:space="preserve">
-    <value>Hashtag scanning can result in slower responsiveness while using OneNote or the inability to restart OneNote until the scan completes.
-
-Are you sure you want to run the scan now</value>
-    <comment>message box</comment>
-  </data>
-  <data name="ScheduleScanDialog_Title" xml:space="preserve">
-    <value>Schedule Hashtag Scanning</value>
-    <comment>dialog title</comment>
-  </data>
-  <data name="ScheduleScanDialog_warningLabel.Text" xml:space="preserve">
-    <value>OneNote may appear sluggish while scanning. If OneNote is closed during the scan, it cannot be opened until the scan completes.</value>
-    <comment>multiline label</comment>
   </data>
   <data name="ScopeSelector_pageButton.Text" xml:space="preserve">
     <value>This page</value>
@@ -4632,9 +4369,6 @@ Invert</value>
   <data name="word_Grayscale" xml:space="preserve">
     <value>Grayscale</value>
   </data>
-  <data name="word_Hashtags" xml:space="preserve">
-    <value>Hashtags</value>
-  </data>
   <data name="word_History" xml:space="preserve">
     <value>History</value>
   </data>
@@ -4829,9 +4563,6 @@ Invert</value>
   </data>
   <data name="ribNavigatorButton" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\ribbon\images\ribnavigatorbutton.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="ribSearchHashtagsButton" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Ribbon\Images\ribSearchHashtagsButton.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="e_Architecture" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>Emoji\e_Architecture.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -5150,9 +4881,6 @@ Invert</value>
   </data>
   <data name="InfoBoxThemes" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\commands\snippets\infoboxthemes.json;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
-  </data>
-  <data name="HashtagsDB" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Commands\Tagging\HashtagsDB.sql;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
   </data>
   <data name="DefaultTableThemes" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\ribbon\defaulttablethemes.json;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
