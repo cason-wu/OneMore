@@ -3080,14 +3080,6 @@ OneNote 文件 (*.one)</value>
     <value>从所选内容中保存新的自定义片段</value>
     <comment>ribbon snippets</comment>
   </data>
-  <data name="ribScanButton_Label" xml:space="preserve">
-    <value>扫描</value>
-    <comment>file ribbon</comment>
-  </data>
-  <data name="ribScanButton_Screentip" xml:space="preserve">
-    <value>从扫描仪进口</value>
-    <comment>file ribbon</comment>
-  </data>
   <data name="ribSearchAndReplaceButton_Label" xml:space="preserve">
     <value>搜索和替换</value>
     <comment>Ribbon OneMore menu item, search and replace</comment>
@@ -3385,36 +3377,6 @@ OneNote 文件 (*.one)</value>
   </data>
   <data name="SaveSnippetDialog_nameLabel.Text" xml:space="preserve">
     <value>片段名称：</value>
-    <comment>label</comment>
-  </data>
-  <data name="ScanDialog.Text" xml:space="preserve">
-    <value>扫描</value>
-    <comment>dialog title</comment>
-  </data>
-  <data name="ScanDialog_colorBox" xml:space="preserve">
-    <value>颜色
-灰度
-黑白</value>
-    <comment>combobox</comment>
-  </data>
-  <data name="ScanDialog_colorLabel.Text" xml:space="preserve">
-    <value>颜色格式</value>
-    <comment>label</comment>
-  </data>
-  <data name="ScanDialog_profileLabel.Text" xml:space="preserve">
-    <value>轮廓</value>
-    <comment>label</comment>
-  </data>
-  <data name="ScanDialog_resolutionLabel.Text" xml:space="preserve">
-    <value>解决</value>
-    <comment>label</comment>
-  </data>
-  <data name="ScanDialog_scannLabel.Text" xml:space="preserve">
-    <value>扫描器</value>
-    <comment>label</comment>
-  </data>
-  <data name="ScanDialog_sizeLabel.Text" xml:space="preserve">
-    <value>尺寸</value>
     <comment>label</comment>
   </data>
   <data name="ScopeSelector_pageButton.Text" xml:space="preserve">

@@ -416,12 +416,6 @@
           getLabel="GetRibbonLabel"
           getScreentip="GetRibbonScreentip"
           onAction="OpenLocationCmd"/>
-        <button
-          id="ribScanButton"
-          imageMso="ImagerScan"
-          getLabel="GetRibbonLabel"
-          getScreentip="GetRibbonScreentip"
-          onAction="ScanCmd"/>
         <menuSeparator id="sepFile" />
         <button
           id="ribAnalyzeButton"

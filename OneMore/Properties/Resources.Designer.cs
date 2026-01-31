@@ -8499,24 +8499,6 @@ namespace River.OneMoreAddIn.Properties {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Scan.
-        /// </summary>
-        internal static string ribScanButton_Label {
-            get {
-                return ResourceManager.GetString("ribScanButton_Label", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized string similar to Import from scanner.
-        /// </summary>
-        internal static string ribScanButton_Screentip {
-            get {
-                return ResourceManager.GetString("ribScanButton_Screentip", resourceCulture);
-            }
-        }
-        
-        /// <summary>
         ///   Looks up a localized string similar to Scan Hashtags.
         /// </summary>
         internal static string ribScanHashtagsButton_Label {
@@ -9249,71 +9231,6 @@ namespace River.OneMoreAddIn.Properties {
         internal static string SaveSnippetDialog_Text {
             get {
                 return ResourceManager.GetString("SaveSnippetDialog.Text", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized string similar to Color
-        ///Grayscale
-        ///Black and White.
-        /// </summary>
-        internal static string ScanDialog_colorBox {
-            get {
-                return ResourceManager.GetString("ScanDialog_colorBox", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized string similar to Color format.
-        /// </summary>
-        internal static string ScanDialog_colorLabel_Text {
-            get {
-                return ResourceManager.GetString("ScanDialog_colorLabel.Text", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized string similar to Profile.
-        /// </summary>
-        internal static string ScanDialog_profileLabel_Text {
-            get {
-                return ResourceManager.GetString("ScanDialog_profileLabel.Text", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized string similar to Resolution.
-        /// </summary>
-        internal static string ScanDialog_resolutionLabel_Text {
-            get {
-                return ResourceManager.GetString("ScanDialog_resolutionLabel.Text", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized string similar to Scanner.
-        /// </summary>
-        internal static string ScanDialog_scannLabel_Text {
-            get {
-                return ResourceManager.GetString("ScanDialog_scannLabel.Text", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized string similar to Size.
-        /// </summary>
-        internal static string ScanDialog_sizeLabel_Text {
-            get {
-                return ResourceManager.GetString("ScanDialog_sizeLabel.Text", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized string similar to Scan.
-        /// </summary>
-        internal static string ScanDialog_Text {
-            get {
-                return ResourceManager.GetString("ScanDialog.Text", resourceCulture);
             }
         }
         
