@@ -57,7 +57,6 @@
   <!-- NuGet Package References     -->
   <!-- ============================================ -->
   <ItemGroup>
-    <PackageReference Include="Chinese" Version="0.5.0" />
     <PackageReference Include="HtmlAgilityPack" Version="1.12.4" />
     <PackageReference Include="InputSimulator" Version="1.0.4" />
     <PackageReference Include="Markdig.Signed" Version="0.43.0" />

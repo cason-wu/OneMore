@@ -5,7 +5,6 @@
 namespace River.OneMoreAddIn.Commands
 {
 	using Microsoft.Win32;
-	using NStandard;
 	using River.OneMoreAddIn.Models;
 	using River.OneMoreAddIn.Settings;
 	using System;
@@ -286,7 +285,7 @@ namespace River.OneMoreAddIn.Commands
 
 			// get user-specified Quick Notes section
 			var path = (string)key.GetValue(UnfiledNotesKey);
-			if (path.IsNullOrWhiteSpace() || path.Length < 3)
+			if (string.IsNullOrWhiteSpace(path) || path.Length < 3)
 			{
 				ShowInfo(Resx.FileQuickNotesCommand_noQuickNotes);
 				return null;
