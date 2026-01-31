@@ -23,7 +23,6 @@ namespace River.OneMoreAddIn.Settings
 			Colors,
 			Context,
 			FileImport,
-			Hashtags,
 			Highlight,
 			Images,
 			Keyboard,
@@ -61,7 +60,6 @@ namespace River.OneMoreAddIn.Settings
 				navTree.Nodes["aliasNode"].Text = Resx.AliasSheet_Title;
 				navTree.Nodes["contextNode"].Text = Resx.ContextMenuSheet_Title;
 				navTree.Nodes["fileImportNode"].Text = Resx.FileImportSheet_Title;
-				navTree.Nodes["hashtagsNode"].Text = Resx.word_Hashtags;
 				navTree.Nodes["highlightNode"].Text = Resx.HighlightsSheet_Title;
 				navTree.Nodes["imagesNode"].Text = Resx.word_Images;
 				navTree.Nodes["keyboardNode"].Text = Resx.SettingsDialog_keyboardNode_Text;
@@ -124,15 +122,14 @@ namespace River.OneMoreAddIn.Settings
 					3 => new AliasSheet(provider),
 					4 => new ContextMenuSheet(provider),
 					5 => new FileImportSheet(provider),
-					6 => new HashtagSheet(provider),
-					7 => new HighlightsSheet(provider),
-					8 => new ImagesSheet(provider),
-					9 => new KeyboardSheet(provider, ribbon),
-					10 => new NavigatorSheet(provider),
-					11 => await PluginsSheet.Create(provider, ribbon),
-					12 => new QuickNotesSheet(provider),
-					13 => new RibbonBarSheet(provider),
-					14 => new SearchEngineSheet(provider),
+					6 => new HighlightsSheet(provider),
+					7 => new ImagesSheet(provider),
+					8 => new KeyboardSheet(provider, ribbon),
+					9 => new NavigatorSheet(provider),
+					10 => await PluginsSheet.Create(provider, ribbon),
+					11 => new QuickNotesSheet(provider),
+					12 => new RibbonBarSheet(provider),
+					13 => new SearchEngineSheet(provider),
 					_ => new SnippetsSheet(provider, ribbon)
 				};
 
