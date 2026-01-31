@@ -2124,14 +2124,6 @@ Select No to keep one empty line between paragraphs</value>
     <value>Add caption to selected image</value>
     <comment>ribbon images</comment>
   </data>
-  <data name="ribAddTagBankButton_Label" xml:space="preserve">
-    <value>Add Tag Bank</value>
-    <comment>ribbon search</comment>
-  </data>
-  <data name="ribAddTagBankButton_Screentip" xml:space="preserve">
-    <value>Add top-of-page tag outline</value>
-    <comment>ribbon search</comment>
-  </data>
   <data name="ribAdjustImagesButton_Label" xml:space="preserve">
     <value>Resize and Adjust</value>
     <comment>ribbon images</comment>
@@ -3169,14 +3161,6 @@ Help Tab</value>
     <value>Remove paragraph, heading, and line spacing</value>
     <comment>ribbon clean</comment>
   </data>
-  <data name="ribRemoveTagBankButton_Label" xml:space="preserve">
-    <value>Remove Tag Bank</value>
-    <comment>ribbon search</comment>
-  </data>
-  <data name="ribRemoveTagBankButton_Screentip" xml:space="preserve">
-    <value>Remove top-of-page tag outline</value>
-    <comment>ribbon search</comment>
-  </data>
   <data name="ribRemoveTagsButton_Label" xml:space="preserve">
     <value>Remove Tags</value>
     <comment>ribbon clean</comment>
@@ -4137,10 +4121,6 @@ Invert</value>
   <data name="TabOneMore_Label" xml:space="preserve">
     <value>OneMore</value>
     <comment>ribbon</comment>
-  </data>
-  <data name="TagBankCommand_confirm" xml:space="preserve">
-    <value>The tag bank contains text. Are you sure you want to remove it?</value>
-    <comment>messagebox</comment>
   </data>
   <data name="TextToTable_NoText" xml:space="preserve">
     <value>No text is selected</value>
