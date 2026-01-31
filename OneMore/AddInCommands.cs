@@ -100,10 +100,6 @@ namespace River.OneMoreAddIn
 		public async Task CheckForUpdatesCmd(IRibbonControl control)
 			=> await factory.Run<UpdateCommand>(true);
 
-		[Command("ribCleanRemindersButton_Label", Keys.None, "ribRemindersMenu")]
-		public async Task CleanRemindersCmd(IRibbonControl control)
-			=> await factory.Run<CleanRemindersCommand>();
-
 		[Command("ribClearBackgroundButton_Label", Keys.None, "ribCleanMenu")]
 		public async Task ClearBackgroundCmd(IRibbonControl control)
 			=> await factory.Run<ClearBackgroundCommand>();
@@ -136,10 +132,6 @@ namespace River.OneMoreAddIn
 		[Command("ribCommandPaletteButton_Label", Keys.Control | Keys.Shift | Keys.P)]
 		public async Task CommandPaletteCmd(IRibbonControl control)
 			=> await factory.Run<CommandPaletteCommand>();
-
-		[Command("ribCompleteReminderButton_Label", Keys.None, "ribRemindersMenu")]
-		public async Task CompleteReminderCmd(IRibbonControl control)
-			=> await factory.Run<CompleteReminderCommand>();
 
 		[Command("ribCompressImagesButton_Label", Keys.None, "ribImagesMenu")]
 		public async Task CompressImagesCmd(IRibbonControl control)
@@ -192,10 +184,6 @@ namespace River.OneMoreAddIn
 		[Command("ribDecreaseFontSizeButton_Label", Keys.Control | Keys.Alt | Keys.OemMinus, "ribEditMenu")]
 		public async Task DecreaseFontSizeCmd(IRibbonControl control)
 			=> await factory.Run<DecreaseFontSizeCommand>();
-
-		[Command("ribDeleteReminderButton_Label", Keys.None, "ribRemindersMenu")]
-		public async Task DeleteReminderCmd(IRibbonControl control)
-			=> await factory.Run<DeleteReminderCommand>();
 
 		[Command("ribDiagnosticsButton_Label", Keys.Shift | Keys.F8)]
 		public async Task DiagnosticsCmd(IRibbonControl control)
@@ -279,10 +267,6 @@ namespace River.OneMoreAddIn
 		[Command("ribImportWebButton_Label", Keys.None)]
 		public async Task ImportWebCmd(IRibbonControl control)
 			=> await factory.Run<ImportWebCommand>();
-
-		[Command("ribImportOutlookTasksButton_Label", Keys.None, "ribRemindersMenu")]
-		public async Task ImportOutlookTasksCmd(IRibbonControl control)
-			=> await factory.Run<ImportOutlookTasksCommand>();
 
 		[Command("ribIncreaseFontSizeButton_Label", Keys.Control | Keys.Alt | Keys.Oemplus, "ribEditMenu")]
 		public async Task IncreaseFontSizeCmd(IRibbonControl control)
@@ -491,10 +475,6 @@ namespace River.OneMoreAddIn
 		public async Task QuickPaletteCmd(IRibbonControl control)
 			=> await factory.Run<QuickPaletteCommand>();
 
-		[Command("ribRemindButton_Label", Keys.F8, "ribRemindersMenu")]
-		public async Task RemindCmd(IRibbonControl control)
-			=> await factory.Run<RemindCommand>();
-
 		[Command("ribRemoveAuthorsButton_Label", Keys.None, "ribCleanMenu")]
 		public async Task RemoveAuthorsCmd(IRibbonControl control)
 			=> await factory.Run<RemoveAuthorsCommand>();
@@ -542,14 +522,6 @@ namespace River.OneMoreAddIn
 		[Command("ribReplayButton_Label", Keys.Alt | Keys.Shift | Keys.R)]
 		public async Task ReplayCmd(IRibbonControl control)
 			=> await factory.ReplayLastAction();
-
-		[Command("ribReportRemindersButton_Label", Keys.None, "ribRemindersMenu")]
-		public async Task ReportRemindersCmd(IRibbonControl control)
-			=> await factory.Run<ReportRemindersCommand>();
-
-		[Command("ribResetTasksButton_Label", Keys.None, "ribRemindersMenu")]
-		public async Task ResetTasksCmd(IRibbonControl control)
-			=> await factory.Run<ResetTasksCommand>();
 
 		[Command("ribRestoreAutosizeButton_Label", Keys.None, "ribCleanMenu")]
 		public async Task RestoreAutosizeCmd(IRibbonControl control)
@@ -666,10 +638,6 @@ namespace River.OneMoreAddIn
 		[Command("ribStackBackgroundImagesButton_Label", Keys.None, "ribImagesMenu")]
 		public async Task StackBackgroundImagesCmd(IRibbonControl control)
 			=> await factory.Run<StackBackgroundImagesCommand>();
-
-		[Command("ribStrikeoutTasksButton_Label", Keys.None, "ribRemindersMenu")]
-		public async Task StrikeoutTasksCmd(IRibbonControl control)
-			=> await factory.Run<StrikeoutTasksCommand>();
 
 		[Command("ribStylizeImagesButton_Label", Keys.None, "ribImagesMenu")]
 		public async Task StylizeImagesCmd(IRibbonControl control)

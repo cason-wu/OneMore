@@ -652,56 +652,6 @@
           getScreentip="GetRibbonScreentip"
           onAction="ViewPageInBrowserCmd"/>
       </menu>
-      <menu id="ribRemindersMenu" getLabel="GetRibbonLabel" imageMso="ReminderGallery" showImage="true">
-        <button
-          id="ribRemindButton"
-          imageMso="NewTask"
-          getLabel="GetRibbonLabel"
-          getScreentip="GetRibbonScreentip"
-          onAction="RemindCmd"/>
-        <button
-          id="ribCleanRemindersButton"
-          imageMso="FileWorkflowTasks"
-          getLabel="GetRibbonLabel"
-          getScreentip="GetRibbonScreentip"
-          onAction="CleanRemindersCmd"/>
-        <button
-          id="ribCompleteReminderButton"
-          imageMso="AcceptTask"
-          getLabel="GetRibbonLabel"
-          getScreentip="GetRibbonScreentip"
-          onAction="CompleteReminderCmd"/>
-        <button
-          id="ribDeleteReminderButton"
-          imageMso="CancelTaskAssignment"
-          getLabel="GetRibbonLabel"
-          getScreentip="GetRibbonScreentip"
-          onAction="DeleteReminderCmd"/>
-        <button
-          id="ribReportRemindersButton"
-          imageMso="ShowTaskDetailsPage"
-          getLabel="GetRibbonLabel"
-          getScreentip="GetRibbonScreentip"
-          onAction="ReportRemindersCmd"/>
-        <button
-          id="ribImportOutlookTasksButton"
-          imageMso="ImportOutlook"
-          getLabel="GetRibbonLabel"
-          getScreentip="GetRibbonScreentip"
-          onAction="ImportOutlookTasksCmd"/>
-        <button
-          id="ribResetTasksButton"
-          imageMso="FormFieldClear"
-          getLabel="GetRibbonLabel"
-          getScreentip="GetRibbonScreentip"
-          onAction="ResetTasksCmd"/>
-        <button
-          id="ribStrikeoutTasksButton"
-          imageMso="Strikethrough"
-          getLabel="GetRibbonLabel"
-          getScreentip="GetRibbonScreentip"
-          onAction="StrikeoutTasksCmd"/>
-      </menu>
       <menu id="ribSearchMenu" getLabel="GetRibbonLabel" imageMso="SearchUI" showImage="true">
         <button
           id="ribSearchAndReplaceButton"

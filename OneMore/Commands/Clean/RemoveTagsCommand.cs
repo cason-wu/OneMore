@@ -31,7 +31,6 @@ namespace River.OneMoreAddIn.Commands
 			}
 
 			var updated = false;
-			var reminders = new ReminderSerializer().LoadReminders(page);
 			var tagdefs = TagMapper.GetTagDefs(page);
 
 			foreach (var tag in tags)
@@ -44,13 +43,8 @@ namespace River.OneMoreAddIn.Commands
 				{
 					var objectId = tag.Parent.Attribute("objectID").Value;
 
-					// ensure tag is not a reminder for its paragraph
-					if (!reminders.Exists(r =>
-						r.Symbol == tagdef.Symbol && r.ObjectId == objectId))
-					{
-						tag.Remove();
-						updated = true;
-					}
+					tag.Remove();
+					updated = true;
 				}
 			}
 

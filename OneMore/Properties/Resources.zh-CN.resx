@@ -412,10 +412,6 @@
     <value>句子之间有两个空格</value>
     <comment>radio</comment>
   </data>
-  <data name="CleanRemindersCommand_count" xml:space="preserve">
-    <value>清理了 {0} 个孤立的提醒</value>
-    <comment>message box</comment>
-  </data>
   <data name="ClearLog_Message" xml:space="preserve">
     <value>是否现在清除日志文件？</value>
     <comment>message box message</comment>
@@ -646,10 +642,6 @@
   <data name="DatabaseFilename" xml:space="preserve">
     <value>OneMore.db</value>
     <comment>SKIP, Sqlite database file name</comment>
-  </data>
-  <data name="DeleteReminderCommand_deleteTag" xml:space="preserve">
-    <value>即将删除提醒。</value>
-    <comment>message box</comment>
   </data>
   <data name="DiagnosticsDialog_introLabel.Text" xml:space="preserve">
     <value>诊断写入</value>
@@ -1424,34 +1416,6 @@ OneNote 文件 (*.one)</value>
   <data name="ImportDialog_wordGroup.Text" xml:space="preserve">
     <value>Word选项</value>
     <comment>group box</comment>
-  </data>
-  <data name="ImportOutlookTasksDialog.Text" xml:space="preserve">
-    <value>从 Outlook 导入任务</value>
-    <comment>dialog title</comment>
-  </data>
-  <data name="ImportOutlookTasksDialog_introBox.Text" xml:space="preserve">
-    <value>选择要从 Outlook 导入 OneNote 的整个文件夹或单个任务。</value>
-    <comment>text box</comment>
-  </data>
-  <data name="ImportOutlookTasksDialog_listButton.Text" xml:space="preserve">
-    <value>生成任务列表</value>
-    <comment>radio</comment>
-  </data>
-  <data name="ImportOutlookTasksDialog_noorphans" xml:space="preserve">
-    <value>未找到孤立任务</value>
-    <comment>message box</comment>
-  </data>
-  <data name="ImportOutlookTasksDialog_reset" xml:space="preserve">
-    <value>重置 {0} 个孤立任务</value>
-    <comment>message box</comment>
-  </data>
-  <data name="ImportOutlookTasksDialog_tableButton.Text" xml:space="preserve">
-    <value>生成任务明细表</value>
-    <comment>radio</comment>
-  </data>
-  <data name="ImportOutlookTasksDialog_warningBox.Text" xml:space="preserve">
-    <value>请注意，OneNote 不会完全绑定到不在 Outlook 任务文件夹中的任务。</value>
-    <comment>rich text box</comment>
   </data>
   <data name="ImportWebCommand_BadUrl" xml:space="preserve">
     <value>未找到网页或返回空内容</value>
@@ -2238,122 +2202,6 @@ OneNote 文件 (*.one)</value>
     <value>快速调色板</value>
     <comment>dialog title</comment>
   </data>
-  <data name="RemindCommand_nameFormat" xml:space="preserve">
-    <value>提醒：任务到期 (0)</value>
-    <comment>tagdef name tooltip</comment>
-  </data>
-  <data name="RemindCommand_noContext" xml:space="preserve">
-    <value>光标必须位于段落上</value>
-    <comment>warning message</comment>
-  </data>
-  <data name="RemindCommand_noReminder" xml:space="preserve">
-    <value>这一段没有提醒</value>
-    <comment>message box</comment>
-  </data>
-  <data name="RemindDialog_dueDateLabel.Text" xml:space="preserve">
-    <value>到期日</value>
-    <comment>label</comment>
-  </data>
-  <data name="RemindDialog_priorityLabel.Text" xml:space="preserve">
-    <value>优先事项</value>
-    <comment>label</comment>
-  </data>
-  <data name="RemindDialog_silentBox.Text" xml:space="preserve">
-    <value>将此提醒静音</value>
-    <comment>checkbox</comment>
-  </data>
-  <data name="RemindDialog_snoozeBox.Items" xml:space="preserve">
-    <value>不要打盹
-5分钟
-10分钟
-15分钟
-30分钟
-1小时
-2小时
-4个小时
-1天
-2天
-3天
-1周
-2周</value>
-    <comment>combox box</comment>
-  </data>
-  <data name="RemindDialog_snoozeButton.Text" xml:space="preserve">
-    <value>打盹</value>
-    <comment>button</comment>
-  </data>
-  <data name="RemindDialog_snoozeLabel.Text" xml:space="preserve">
-    <value>点击暂停提醒</value>
-    <comment>label</comment>
-  </data>
-  <data name="RemindDialog_startDateLabel.Text" xml:space="preserve">
-    <value>开始日期</value>
-    <comment>label</comment>
-  </data>
-  <data name="RemindDialog_statusBox.Text" xml:space="preserve">
-    <value>没有开始
-进行中
-完全的
-等着别人
-延期</value>
-    <comment>combobox</comment>
-  </data>
-  <data name="RemindDialog_subjectLabel.Text" xml:space="preserve">
-    <value>主题</value>
-    <comment>label</comment>
-  </data>
-  <data name="RemindDialog_tagLabel.Text" xml:space="preserve">
-    <value>标签</value>
-    <comment>label</comment>
-  </data>
-  <data name="Reminder_PastDue" xml:space="preserve">
-    <value>任务已超过其截止日期 {0}，“{1}”。</value>
-    <comment>toast message</comment>
-  </data>
-  <data name="Reminder_PastStart" xml:space="preserve">
-    <value>任务已超过其开始日期 {0}；截止日期为{1}。 “{2}”。单击此处导航至此任务</value>
-    <comment>toast message</comment>
-  </data>
-  <data name="Reminder_ToastTitle" xml:space="preserve">
-    <value>一个提醒</value>
-    <comment>toast header</comment>
-  </data>
-  <data name="ReminderReport_ActiveReminders" xml:space="preserve">
-    <value>主动提醒</value>
-    <comment>report</comment>
-  </data>
-  <data name="ReminderReport_ActiveSummary" xml:space="preserve">
-    <value>这些是尚未完成或推迟的提醒，并按截止日期年、年中的一周和优先级排序</value>
-    <comment>report</comment>
-  </data>
-  <data name="ReminderReport_InactiveReminders" xml:space="preserve">
-    <value>闲置提醒</value>
-    <comment>report</comment>
-  </data>
-  <data name="ReminderReport_InactiveSummary" xml:space="preserve">
-    <value>这些是已完成或推迟并按状态、完成日期和优先级排序的提醒</value>
-    <comment>report</comment>
-  </data>
-  <data name="ReminderReport_LastUpdated" xml:space="preserve">
-    <value>最近更新时间</value>
-    <comment>text</comment>
-  </data>
-  <data name="ReminderReport_noReminders" xml:space="preserve">
-    <value>没有提醒报告</value>
-    <comment>message box</comment>
-  </data>
-  <data name="ReminderReport_SnoozedUntil" xml:space="preserve">
-    <value>延后至 {0}</value>
-    <comment>report</comment>
-  </data>
-  <data name="ReminderReport_Title" xml:space="preserve">
-    <value>提醒汇总报告</value>
-    <comment>report</comment>
-  </data>
-  <data name="ReminderReport_WeekOfYear" xml:space="preserve">
-    <value>{0} 周</value>
-    <comment>report citation</comment>
-  </data>
   <data name="RemoveCitations_Clippings" xml:space="preserve">
     <value>屏幕剪辑</value>
     <comment>Screen clipping citation</comment>
@@ -2430,29 +2278,6 @@ OneNote 文件 (*.one)</value>
   <data name="ReorderDialog_label.Text" xml:space="preserve">
     <value>重新排列样式在图库中的显示顺序。 同时更改目录中标题的顺序</value>
     <comment>instructions</comment>
-  </data>
-  <data name="ReportRemindersDialog.Text" xml:space="preserve">
-    <value>报告范围</value>
-  </data>
-  <data name="ReportRemindersDialog_introLabel.Text" xml:space="preserve">
-    <value>在此范围中生成提醒的报告</value>
-    <comment>label</comment>
-  </data>
-  <data name="ReportRemindersDialog_showCompletedBox.Text" xml:space="preserve">
-    <value>包括已完成的提醒</value>
-    <comment>checkbox</comment>
-  </data>
-  <data name="ReportRemindersReuseDialog_newRadio.Text" xml:space="preserve">
-    <value>创建一个新的报告页面</value>
-    <comment>radio</comment>
-  </data>
-  <data name="ReportRemindersReuseDialog_oldRadio.Text" xml:space="preserve">
-    <value>更新此现有报告</value>
-    <comment>radio</comment>
-  </data>
-  <data name="ReportRemindersReuseDialog_Text" xml:space="preserve">
-    <value>旧的或新的</value>
-    <comment>title</comment>
   </data>
   <data name="ribAboutButton_Label" xml:space="preserve">
     <value>关于OneMore</value>
@@ -2667,14 +2492,6 @@ OneNote 文件 (*.one)</value>
     <value>清洁</value>
     <comment>Ribbon OneMore menu item</comment>
   </data>
-  <data name="ribCleanRemindersButton_Label" xml:space="preserve">
-    <value>清洁提醒</value>
-    <comment>ribbon reminders</comment>
-  </data>
-  <data name="ribCleanRemindersButton_Screentip" xml:space="preserve">
-    <value>清理此页面上损坏的提醒</value>
-    <comment>ribbon reminders</comment>
-  </data>
   <data name="ribClearBackgroundButton_Label" xml:space="preserve">
     <value>清除背景颜色</value>
     <comment>ribbon menu item</comment>
@@ -2722,14 +2539,6 @@ OneNote 文件 (*.one)</value>
   <data name="ribCommandPaletteButton_Screentip" xml:space="preserve">
     <value>打开命令面板窗口</value>
     <comment>ribbon main</comment>
-  </data>
-  <data name="ribCompleteReminderButton_Label" xml:space="preserve">
-    <value>完成提醒</value>
-    <comment>ribbon button</comment>
-  </data>
-  <data name="ribCompleteReminderButton_Screentip" xml:space="preserve">
-    <value>将段落提醒标记为完成</value>
-    <comment>ribbon reminders</comment>
   </data>
   <data name="ribCompressImagesButton_Label" xml:space="preserve">
     <value>压缩图像</value>
@@ -2838,14 +2647,6 @@ OneNote 文件 (*.one)</value>
   <data name="ribDecreaseFontSizeButton_Screentip" xml:space="preserve">
     <value>缩小页面字体大小 (Ctrl + Alt + Minus)</value>
     <comment>Ribbon OneMore menu item</comment>
-  </data>
-  <data name="ribDeleteReminderButton_Label" xml:space="preserve">
-    <value>删除提醒</value>
-    <comment>ribbon button</comment>
-  </data>
-  <data name="ribDeleteReminderButton_Screentip" xml:space="preserve">
-    <value>从当前段落中删除提醒</value>
-    <comment>ribbon reminders</comment>
   </data>
   <data name="ribDiagnosticsButton_Label" xml:space="preserve">
     <value>将诊断转储到日志</value>
@@ -3010,14 +2811,6 @@ OneNote 文件 (*.one)</value>
   <data name="ribImportButton_Screentip" xml:space="preserve">
     <value>导入文件</value>
     <comment>ribbon file NODUP</comment>
-  </data>
-  <data name="ribImportOutlookTasksButton_Label" xml:space="preserve">
-    <value>从 Outlook 导入任务</value>
-    <comment>ribbon Reminders item</comment>
-  </data>
-  <data name="ribImportOutlookTasksButton_Screentip" xml:space="preserve">
-    <value>从 Outlook 导入任务信息</value>
-    <comment>ribbon reminders NODUP</comment>
   </data>
   <data name="ribImportWebButton_Label" xml:space="preserve">
     <value>导入网页</value>
@@ -3498,18 +3291,6 @@ OneNote 文件 (*.one)</value>
     <value>打开快速调色板窗口</value>
     <comment>ribbon menu</comment>
   </data>
-  <data name="ribRemindButton_Label" xml:space="preserve">
-    <value>添加或更新提醒</value>
-    <comment>ribbon button</comment>
-  </data>
-  <data name="ribRemindButton_Screentip" xml:space="preserve">
-    <value>添加或更新当前段落的提醒</value>
-    <comment>ribbon reminders</comment>
-  </data>
-  <data name="ribRemindersMenu_Label" xml:space="preserve">
-    <value>提醒事项</value>
-    <comment>ribbon menu</comment>
-  </data>
   <data name="ribRemoveAuthorsButton_Label" xml:space="preserve">
     <value>删除作者信息</value>
     <comment>Ribbon OneMore menu item</comment>
@@ -3600,22 +3381,6 @@ OneNote 文件 (*.one)</value>
   <data name="ribReplayButton_Screentip" xml:space="preserve">
     <value>重放上一个命令 (Alt + Shift + R)</value>
     <comment>Ribbon OneMore menu item, trim</comment>
-  </data>
-  <data name="ribReportRemindersButton_Label" xml:space="preserve">
-    <value>提醒汇总报告</value>
-    <comment>ribbon item</comment>
-  </data>
-  <data name="ribReportRemindersButton_Screentip" xml:space="preserve">
-    <value>生成提醒摘要报告</value>
-    <comment>ribbon reminders</comment>
-  </data>
-  <data name="ribResetTasksButton_Label" xml:space="preserve">
-    <value>重置所有已完成的任务</value>
-    <comment>ribbon reminders</comment>
-  </data>
-  <data name="ribResetTasksButton_Screentip" xml:space="preserve">
-    <value>取消选中并重置此页面上所有已完成的任务</value>
-    <comment>ribbon reminders</comment>
   </data>
   <data name="ribRestoreAutosizeButton_Label" xml:space="preserve">
     <value>还原容器宽度</value>
@@ -3840,14 +3605,6 @@ OneNote 文件 (*.one)</value>
   <data name="ribStatusMenu_Label" xml:space="preserve">
     <value>地位</value>
     <comment>ribbon snippets</comment>
-  </data>
-  <data name="ribStrikeoutTasksButton_Label" xml:space="preserve">
-    <value>删除线完成标记</value>
-    <comment>Ribbon OneMore menu item</comment>
-  </data>
-  <data name="ribStrikeoutTasksButton_Screentip" xml:space="preserve">
-    <value>切换标记有完整或不完整的待办事项标签的文本的删除线</value>
-    <comment>Ribbon OneMore menu item</comment>
   </data>
   <data name="ribStylizeImagesButton_Label" xml:space="preserve">
     <value>风格化图像</value>
@@ -4965,9 +4722,6 @@ OneNote 文件 (*.one)</value>
   </data>
   <data name="word_Refresh" xml:space="preserve">
     <value>刷新</value>
-  </data>
-  <data name="word_Reminder" xml:space="preserve">
-    <value>提醒</value>
   </data>
   <data name="word_Rename" xml:space="preserve">
     <value>改名</value>

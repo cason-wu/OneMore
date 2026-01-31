@@ -209,9 +209,6 @@ namespace River.OneMoreAddIn
 				// command listener for Refresh links
 				new CommandService(factory).Startup();
 
-				// reminder task scanner
-				new Commands.ReminderService().Startup();
-
 				// navigation listener
 				new Commands.NavigationService().Startup();
 

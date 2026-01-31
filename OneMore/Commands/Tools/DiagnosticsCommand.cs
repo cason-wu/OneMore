@@ -103,9 +103,6 @@ namespace River.OneMoreAddIn.Commands
 			var magic = new UI.Scaling(100f, 100f);
 			logger.WriteLine($"Magic scaling..: ScalingX:{magic.ScalingX} ScalingY:{magic.ScalingY}");
 
-			await RemindCommand.ReportDiagnostics(logger);
-			RemindScheduler.ReportDiagnostics(logger);
-
 			logger.WriteLine(new string('-', 80));
 
 			using var dialog = new DiagnosticsDialog(logger.LogPath);
