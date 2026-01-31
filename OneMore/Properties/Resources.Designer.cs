@@ -4681,117 +4681,12 @@ namespace River.OneMoreAddIn.Properties {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Not available.
-        /// </summary>
-        }
-        
-        /// <summary>
-        ///   Looks up a localized string similar to Restrict the Navigator window to the active screen.
-        /// </summary>
-        }
-        
-        /// <summary>
-        ///   Looks up a localized string similar to Max length of stored history.
-        /// </summary>
-        }
-        
-        /// <summary>
-        ///   Looks up a localized string similar to Disable the navigation service. This will render the Navigator window inoperaable..
-        /// </summary>
-        }
-        
-        /// <summary>
-        ///   Looks up a localized string similar to Elevate Navigator when OneNote is elevated.
-        /// </summary>
-        }
-        
-        /// <summary>
-        ///   Looks up a localized string similar to Hide the My Reading List panel.
-        /// </summary>
-        }
-        
-        /// <summary>
-        ///   Looks up a localized string similar to Min read time before adding to history.
-        /// </summary>
-        }
-        
-        /// <summary>
-        ///   Looks up a localized string similar to Customize advanced options for the Navigator Service.
-        /// </summary>
-        }
-        
-        /// <summary>
-        ///   Looks up a localized string similar to Track Quick Notes.
-        /// </summary>
-        }
-        
-        /// <summary>
-        ///   Looks up a localized string similar to Are you sure you want to delete the {0} selected records?.
-        /// </summary>
-        }
-        
-        /// <summary>
-        ///   Looks up a localized string similar to Copy selected items to the clipboard.
-        /// </summary>
-        }
-        
-        /// <summary>
-        ///   Looks up a localized string similar to Delete selected items from the History list.
-        /// </summary>
-        }
-        
-        /// <summary>
-        ///   Looks up a localized string similar to The navigation service is disabled. Open Settings to enable the service..
-        /// </summary>
-        }
-        
-        /// <summary>
-        ///   Looks up a localized string similar to Move selected items down.
-        /// </summary>
-        }
-        
-        /// <summary>
-        ///   Looks up a localized string similar to Add selected items to My Reading List.
-        /// </summary>
-        }
-        
-        /// <summary>
-        ///   Looks up a localized string similar to My Reading List.
-        /// </summary>
-        }
-        
-        /// <summary>
-        ///   Looks up a localized string similar to Refresh headings from current page (F5).
-        /// </summary>
-        }
-        
-        /// <summary>
-        ///   Looks up a localized string similar to Navigator Window.
-        /// </summary>
-        }
-        
-        /// <summary>
-        ///   Looks up a localized string similar to Remove selected items from My Reading List.
-        /// </summary>
-        }
-        
-        /// <summary>
-        ///   Looks up a localized string similar to Move selected items up.
-        /// </summary>
-        }
-        
-        /// <summary>
         ///   Looks up a localized string similar to Network connection is not available.
         /// </summary>
         internal static string NetwordConnectionUnavailable {
             get {
                 return ResourceManager.GetString("NetwordConnectionUnavailable", resourceCulture);
             }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized string similar to No unread pages found in that direction.
-        /// </summary>
         }
         
         /// <summary>
@@ -5912,21 +5807,6 @@ namespace River.OneMoreAddIn.Properties {
             get {
                 return ResourceManager.GetString("RemoveDuplicatesDialog.Text", resourceCulture);
             }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized string similar to Are you sure you want to delete the selected page?.
-        /// </summary>
-        }
-        
-        /// <summary>
-        ///   Looks up a localized string similar to Are you sure you want to delete the {0} selected pages?.
-        /// </summary>
-        }
-        
-        /// <summary>
-        ///   Looks up a localized string similar to Pages similar to {0}.
-        /// </summary>
         }
         
         /// <summary>
@@ -7903,26 +7783,6 @@ namespace River.OneMoreAddIn.Properties {
             }
         }
         
-        /// <summary>
-        ///   Looks up a localized string similar to Replace URLs with Titles.
-        /// </summary>
-        /// <summary>
-        ///   Looks up a localized string similar to Replace URLs with Web page titles.
-        /// </summary>
-        /// <summary>
-        ///   Looks up a localized resource of type System.Drawing.Bitmap.
-        /// </summary>
-        }
-        
-        /// <summary>
-        ///   Looks up a localized string similar to Navigator.
-        /// </summary>
-        }
-        
-        /// <summary>
-        ///   Looks up a localized string similar to Open the OneMore Navigator window.
-        /// </summary>
-        }
         
         /// <summary>
         ///   Looks up a localized string similar to Create New Style from Text.
@@ -7940,16 +7800,6 @@ namespace River.OneMoreAddIn.Properties {
             get {
                 return ResourceManager.GetString("ribNewStyleButton_Screentip", resourceCulture);
             }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized string similar to Next Unread Page.
-        /// </summary>
-        }
-        
-        /// <summary>
-        ///   Looks up a localized string similar to Move to the next unread page.
-        /// </summary>
         }
         
         /// <summary>
@@ -8259,11 +8109,6 @@ namespace River.OneMoreAddIn.Properties {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Add Page To My Reading List.
-        /// </summary>
-        }
-        
-        /// <summary>
         ///   Looks up a localized string similar to Draw PlantUML.
         /// </summary>
         internal static string ribPlantUmlButton_Label {
@@ -8324,16 +8169,6 @@ namespace River.OneMoreAddIn.Properties {
             get {
                 return ResourceManager.GetString("ribPreviewMarkdownButton_Screentip", resourceCulture);
             }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized string similar to Previous Unread Page.
-        /// </summary>
-        }
-        
-        /// <summary>
-        ///   Looks up a localized string similar to Move to the previous unread page.
-        /// </summary>
         }
         
         /// <summary>
@@ -11635,11 +11470,6 @@ namespace River.OneMoreAddIn.Properties {
             get {
                 return ResourceManager.GetString("word_Name", resourceCulture);
             }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized string similar to Navigator.
-        /// </summary>
         }
         
         /// <summary>
