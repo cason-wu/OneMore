@@ -286,20 +286,12 @@ namespace River.OneMoreAddIn
 				return;
 			}
 
-			var hashtagCommands = ribbonbar.Get<bool>("hashtagCommands");
 			var editCommands = ribbonbar.Get<bool>("editCommands");
 			var formulaCommands = ribbonbar.Get<bool>("formulaCommands");
 
-			if (hashtagCommands || editCommands || formulaCommands)
+			if (editCommands || formulaCommands)
 			{
 				group.Add(new XElement(ns + "separator", new XAttribute("id", "omRibbonExtensions")));
-
-				if (hashtagCommands)
-				{
-					var showLabel = !ribbonbar.Get<bool>("hashtagIconsOnly");
-					AddUsingTemplate(group, "ribSearchHashtagsButton", showLabel);
-					AddUsingTemplate(group, "ribHashtaggerButton", showLabel);
-				}
 
 				if (editCommands)
 				{

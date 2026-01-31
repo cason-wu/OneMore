@@ -22,10 +22,6 @@ namespace River.OneMoreAddIn
 		public async Task AddCaptionCmd(IRibbonControl control)
 			=> await factory.Run<AddCaptionCommand>();
 
-		[Command("ribAddTagBankButton_Label", Keys.None, "ribSearchMenu")]
-		public async Task AddTagBankCmd(IRibbonControl control)
-			=> await factory.Run<TagBankCommand>(true);
-
 		[Command("ribAdjustImagesButton_Label", Keys.None, "ribImagesMenu")]
 		public async Task AdjustImagesCmd(IRibbonControl control)
 			=> await factory.Run<AdjustImagesOnPageCommand>();
@@ -240,9 +236,6 @@ namespace River.OneMoreAddIn
 		[Command("ribFitGridToTextButton_Label", Keys.None, "ribPageMenu")]
 		public async Task FitGridToTextCmd(IRibbonControl control)
 			=> await factory.Run<FitGridToTextCommand>();
-		[Command("ribHashtaggerButton_Label", Keys.Alt | Keys.T, "ribSearchMenu")]
-		public async Task HashtaggerCmd(IRibbonControl control)
-			=> await factory.Run<HashtaggerCommand>(1);
 
 		[Command("ribHighlightButton_Label", Keys.Control | Keys.Shift | Keys.H, "ribEditMenu")]
 		public async Task HighlightCmd(IRibbonControl control)
@@ -507,10 +500,6 @@ namespace River.OneMoreAddIn
 		public async Task RemoveSpacingCmd(IRibbonControl control)
 			=> await factory.Run<RemoveSpacingCommand>();
 
-		[Command("ribRemoveTagBankButton_Label", Keys.None, "ribSearchMenu")]
-		public async Task RemoveTagBankCmd(IRibbonControl control)
-			=> await factory.Run<TagBankCommand>(false);
-
 		[Command("ribRemoveTagsButton_Label", Keys.None, "ribCleanMenu")]
 		public async Task RemoveTagsCmd(IRibbonControl control)
 			=> await factory.Run<RemoveTagsCommand>();
@@ -542,25 +531,9 @@ namespace River.OneMoreAddIn
 		public async Task ScanCmd(IRibbonControl control)
 			=> await factory.Run<ScanCommand>();
 
-		[Command("ribScanHashtagsButton_Label", Keys.Control | Keys.Alt | Keys.F9, "ribSearchMenu")]
-		public async Task ScanHashtagsCmd(IRibbonControl control)
-			=> await factory.Run<ScanHashtagsCommand>();
-
-		[Command("ribScanHashtagsOnPageButton_Label", Keys.Control | Keys.Alt | Keys.F10, "ribSearchMenu")]
-		public async Task ScanHashtagsOnPageCmd(IRibbonControl control)
-			=> await factory.Run<ScanHashtagsOnPageCommand>();
-
-		[Command("ribScheduleHashtagScanButton_Label", Keys.None, "ribSearchMenu")]
-		public async Task ScheduleHashtagScanCmd(IRibbonControl control)
-			=> await factory.Run<HashtagScanCommand>();
-
 		[Command("ribSearchAndReplaceButton_Label", Keys.Control | Keys.H, "ribSearchMenu")]
 		public async Task SearchAndReplaceCmd(IRibbonControl control)
 			=> await factory.Run<SearchAndReplaceCommand>();
-
-		[Command("ribSearchHashtagsButton_Label", Keys.Alt | Keys.F9, "ribSearchMenu")]
-		public async Task SearchHashtagsCmd(IRibbonControl control)
-			=> await factory.Run<HashtagCommand>();
 
 		[Command("ribSearchButton_Label", Keys.Shift | Keys.Alt | Keys.G, "ribSearchMenu")]
 		public async Task SearchCmd(IRibbonControl control)

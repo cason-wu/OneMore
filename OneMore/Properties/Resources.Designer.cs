@@ -6154,24 +6154,6 @@ namespace River.OneMoreAddIn.Properties {
         ///   Looks up a localized string similar to Add new footnote from current position (Ctrl + Alt + F).
         /// </summary>
         /// <summary>
-        ///   Looks up a localized string similar to Add Tag Bank.
-        /// </summary>
-        internal static string ribAddTagBankButton_Label {
-            get {
-                return ResourceManager.GetString("ribAddTagBankButton_Label", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized string similar to Add top-of-page tag outline.
-        /// </summary>
-        internal static string ribAddTagBankButton_Screentip {
-            get {
-                return ResourceManager.GetString("ribAddTagBankButton_Screentip", resourceCulture);
-            }
-        }
-        
-        /// <summary>
         ///   Looks up a localized string similar to Resize and Adjust.
         /// </summary>
         internal static string ribAdjustImagesButton_Label {
@@ -8685,24 +8667,6 @@ namespace River.OneMoreAddIn.Properties {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Remove Tag Bank.
-        /// </summary>
-        internal static string ribRemoveTagBankButton_Label {
-            get {
-                return ResourceManager.GetString("ribRemoveTagBankButton_Label", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized string similar to Remove top-of-page tag outline.
-        /// </summary>
-        internal static string ribRemoveTagBankButton_Screentip {
-            get {
-                return ResourceManager.GetString("ribRemoveTagBankButton_Screentip", resourceCulture);
-            }
-        }
-        
-        /// <summary>
         ///   Looks up a localized string similar to Remove Tags.
         /// </summary>
         internal static string ribRemoveTagsButton_Label {
@@ -11048,15 +11012,6 @@ namespace River.OneMoreAddIn.Properties {
         internal static string TabOneMore_Label {
             get {
                 return ResourceManager.GetString("TabOneMore_Label", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized string similar to The tag bank contains text. Are you sure you want to remove it?.
-        /// </summary>
-        internal static string TagBankCommand_confirm {
-            get {
-                return ResourceManager.GetString("TagBankCommand_confirm", resourceCulture);
             }
         }
         

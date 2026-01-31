@@ -439,7 +439,7 @@ namespace River.OneMoreAddIn.Styles
 
 
 		/// <summary>
-		/// Required for HashtagSheet combobox to display style name
+		/// Display style name for combobox display
 		/// </summary>
 		/// <returns></returns>
 		public override string ToString()

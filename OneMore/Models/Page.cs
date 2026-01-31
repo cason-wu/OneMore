@@ -112,12 +112,9 @@ namespace River.OneMoreAddIn.Models
 
 
 		/// <summary>
-		/// Gets all Outlines, skipping the reserved tag bank.
+		/// Gets all Outlines.
 		/// </summary>
-		public IEnumerable<XElement> BodyOutlines => Root
-			.Elements(Namespace + "Outline")
-			.Where(e => !e.Elements(Namespace + "Meta")
-				.Any(m => m.Attribute("name").Value.Equals(MetaNames.TaggingBank)));
+		public IEnumerable<XElement> BodyOutlines => Root.Elements(Namespace + "Outline");
 
 
 		public bool IsValid => Root is not null;

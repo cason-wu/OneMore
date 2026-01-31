@@ -32,8 +32,6 @@ namespace River.OneMoreAddIn.Settings
 					"positionBox",
 					"introBox",
 					"quickGroup",
-					"hashtagsRibbonBox",
-					"hashtagsIconBox",
 					"editRibbonBox",
 					"editIconBox",
 					"formulaRibbonBox",
@@ -51,9 +49,6 @@ namespace River.OneMoreAddIn.Settings
 				position -= (int)RibbonPosiition.TabHome;
 
 			positionBox.SelectedIndex = Math.Min(position, positionBox.Items.Count - 1);
-
-			hashtagsRibbonBox.Checked = settings.Get<bool>("hashtagCommands");
-			hashtagsIconBox.Checked = hashtagsRibbonBox.Checked && settings.Get<bool>("hashtagIconsOnly");
 
 			editRibbonBox.Checked = settings.Get<bool>("editCommands");
 			editIconBox.Checked = editRibbonBox.Checked && settings.Get<bool>("editIconsOnly");
@@ -78,9 +73,6 @@ namespace River.OneMoreAddIn.Settings
 				: positionBox.Items.Count - 2;
 
 			grouped = layoutBox.SelectedIndex == 0;
-			hashtagsPicture.Enabled = grouped;
-			hashtagsRibbonBox.Enabled = grouped;
-			hashtagsIconBox.Enabled = grouped && hashtagsRibbonBox.Checked;
 			editPicture.Enabled = grouped;
 			editRibbonBox.Enabled = grouped;
 			editIconBox.Enabled = grouped && editRibbonBox.Checked;
@@ -92,11 +84,7 @@ namespace River.OneMoreAddIn.Settings
 
 		private void CheckedChanged(object sender, System.EventArgs e)
 		{
-			if (sender == hashtagsRibbonBox)
-			{
-				hashtagsIconBox.Enabled = grouped && hashtagsRibbonBox.Checked;
-			}
-			else if (sender == editRibbonBox)
+			if (sender == editRibbonBox)
 			{
 				editIconBox.Enabled = grouped && editRibbonBox.Checked;
 			}
@@ -109,11 +97,7 @@ namespace River.OneMoreAddIn.Settings
 
 		private void ClickPicture(object sender, System.EventArgs e)
 		{
-			if (sender == hashtagsPicture)
-			{
-				hashtagsRibbonBox.Checked = !hashtagsRibbonBox.Checked;
-			}
-			else if (sender == editPicture)
+			if (sender == editPicture)
 			{
 				editRibbonBox.Checked = !editRibbonBox.Checked;
 			}
@@ -126,8 +110,7 @@ namespace River.OneMoreAddIn.Settings
 
 		public override bool CollectSettings()
 		{
-			if (!hashtagsRibbonBox.Checked &&
-				!editRibbonBox.Checked &&
+			if (!editRibbonBox.Checked &&
 				!formulaRibbonBox.Checked &&
 				positionBox.SelectedIndex == positionBox.Items.Count)
 			{
@@ -154,8 +137,6 @@ namespace River.OneMoreAddIn.Settings
 			{
 				// only update these if layout is 'group'; otherwise leave them as-is...
 
-				if (settings.Add("hashtagCommands", hashtagsRibbonBox.Checked)) updated = true;
-				if (settings.Add("hashtagIconsOnly", hashtagsIconBox.Checked)) updated = true;
 				if (settings.Add("editCommands", editRibbonBox.Checked)) updated = true;
 				if (settings.Add("editIconsOnly", editIconBox.Checked)) updated = true;
 				if (settings.Add("formulaCommands", formulaRibbonBox.Checked)) updated = true;

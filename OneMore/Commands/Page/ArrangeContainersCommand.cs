@@ -72,22 +72,7 @@ namespace River.OneMoreAddIn.Commands
 
 		private void FindTopMargin()
 		{
-			// consider tagging bank
-			var bank = page.Root.Elements(ns + "Outline").Elements(ns + "Meta")
-				.Where(e => e.Attribute("name").Value.Equals(MetaNames.TaggingBank))
-				.Select(e => e.Parent)
-				.FirstOrDefault();
-
-			if (bank is null)
-			{
-				topMargin = TopMargin;
-			}
-			else
-			{
-				bank.Element(ns + "Position").GetAttributeValue("y", out var y, 0.0);
-				bank.Element(ns + "Size").GetAttributeValue("height", out var h, 0.0);
-				topMargin = Math.Max(y + h + 10, TopMargin);
-			}
+			topMargin = TopMargin;
 		}
 
 
