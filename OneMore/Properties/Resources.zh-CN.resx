@@ -1137,183 +1137,6 @@ OneNote 文件 (*.one)</value>
   <data name="HasActiveMedia" xml:space="preserve">
     <value>存在活动记录时无法调用 OneMore 命令。请停止录制并重试。</value>
   </data>
-  <data name="HashtagCommand_indexTitle" xml:space="preserve">
-    <value>标记页面</value>
-    <comment>page title</comment>
-  </data>
-  <data name="HashtagCommand_scanning" xml:space="preserve">
-    <value>OneMore 当前正在创建您的主题标签目录。
-
-在完成此操作之前，无法搜索主题标签。</value>
-  </data>
-  <data name="HashtagCommand_waiting" xml:space="preserve">
-    <value>您的主题标签目录计划于 {0} 创建。您可以从 OneMore Tray 应用程序更改此计划。
-
-在完成此操作之前，无法搜索主题标签。</value>
-  </data>
-  <data name="HashtagContext_jumpParaTip" xml:space="preserve">
-    <value>跳到本段； 最后更新{0}</value>
-    <comment>tooltip</comment>
-  </data>
-  <data name="HashtagContext_jumpTip" xml:space="preserve">
-    <value>跳到此页面</value>
-    <comment>tooltip</comment>
-  </data>
-  <data name="HashtagDialog.Title" xml:space="preserve">
-    <value>搜索标签</value>
-    <comment>dialog title</comment>
-  </data>
-  <data name="HashtagDialog_allTags" xml:space="preserve">
-    <value>所有标签</value>
-    <comment>text</comment>
-  </data>
-  <data name="HashtagDialog_badLink" xml:space="preserve">
-    <value>无法导航到此页面。可能已被删除</value>
-    <comment>info message</comment>
-  </data>
-  <data name="HashtagDialog_checkAllLink.Text" xml:space="preserve">
-    <value>选择所有</value>
-    <comment>link label</comment>
-  </data>
-  <data name="HashtagDialog_hideOfflineMenuItem" xml:space="preserve">
-    <value>隐藏离线笔记本</value>
-    <comment>context menu item</comment>
-  </data>
-  <data name="HashtagDialog_introLabel.Text" xml:space="preserve">
-    <value>输入一个或多个主题标签的任意部分。除非标签以句点结束，否则隐含通配符。允许使用括号和逻辑运算符。</value>
-    <comment>label</comment>
-  </data>
-  <data name="HashtagDialog_lastScanLabel" xml:space="preserve">
-    <value>上次扫描：{0}，下次扫描：{1}</value>
-    <comment>label</comment>
-  </data>
-  <data name="HashtagDialog_noResults" xml:space="preserve">
-    <value>未找到结果</value>
-    <comment>message</comment>
-  </data>
-  <data name="HashtagDialog_recentTags" xml:space="preserve">
-    <value>最近的标签</value>
-    <comment>text</comment>
-  </data>
-  <data name="HashtagDialog_scanButton.Text" xml:space="preserve">
-    <value>现在扫描</value>
-    <comment>menu button</comment>
-  </data>
-  <data name="HashtagDialog_scanLink.Text" xml:space="preserve">
-    <value>发现新笔记本。点击这里扫描。</value>
-    <comment>link label</comment>
-  </data>
-  <data name="HashtagDialog_scheduleButton.Text" xml:space="preserve">
-    <value>安排扫描</value>
-    <comment>menu item</comment>
-  </data>
-  <data name="HashtagDialog_scopeBox.Text" xml:space="preserve">
-    <value>所有笔记本
-这个笔记本
-本节
-本页</value>
-    <comment>combobox</comment>
-  </data>
-  <data name="HashtagDialog_sensitiveTip" xml:space="preserve">
-    <value>区分大小写的搜索</value>
-    <comment>tooltip</comment>
-  </data>
-  <data name="HashtagDialog_showOfflineMenuItem" xml:space="preserve">
-    <value>显示离线笔记本</value>
-    <comment>context menu item</comment>
-  </data>
-  <data name="HashtagDialog_uncheckAllLink.Text" xml:space="preserve">
-    <value>取消所有</value>
-    <comment>link label</comment>
-  </data>
-  <data name="HashtaggerDialog.Text" xml:space="preserve">
-    <value>标签</value>
-    <comment>dialog title</comment>
-  </data>
-  <data name="HashtaggerDialog_bankBox.Text" xml:space="preserve">
-    <value>添加到页面顶部的标签库</value>
-    <comment>checkbox</comment>
-  </data>
-  <data name="HashtaggerDialog_cloudGroup.Text" xml:space="preserve">
-    <value>所有主题标签</value>
-    <comment>groupbox</comment>
-  </data>
-  <data name="HashtaggerDialog_commonGroup.Text" xml:space="preserve">
-    <value>本页常用词</value>
-    <comment>groupbox</comment>
-  </data>
-  <data name="HashtaggerDialog_hideCommonMenuItem" xml:space="preserve">
-    <value>隐藏常用词</value>
-    <comment>context menu item text</comment>
-  </data>
-  <data name="HashtaggerDialog_hideRecentMenuItem" xml:space="preserve">
-    <value>隐藏最近使用过的</value>
-    <comment>context menu item text</comment>
-  </data>
-  <data name="HashtaggerDialog_recentGroup.Text" xml:space="preserve">
-    <value>最近使用的标签</value>
-    <comment>groupbox</comment>
-  </data>
-  <data name="HashtaggerDialog_showCommonMenuItem" xml:space="preserve">
-    <value>显示常用词</value>
-    <comment>context menu item text</comment>
-  </data>
-  <data name="HashtaggerDialog_showRecentMenuItem" xml:space="preserve">
-    <value>显示最近使用过的</value>
-    <comment>context menu item text</comment>
-  </data>
-  <data name="HashtaggerDialog_tagsLabel.Text" xml:space="preserve">
-    <value>标签</value>
-    <comment>label</comment>
-  </data>
-  <data name="HashtagSheet_disabledBox.Text" xml:space="preserve">
-    <value>禁用主题标签服务。这也将禁用主题标签搜索。</value>
-    <comment>checkbox</comment>
-  </data>
-  <data name="HashtagSheet_filterBox.Text" xml:space="preserve">
-    <value>将 HTML Hex 颜色以及 C# 和 C++ 指令视为主题标签</value>
-    <comment>checkbox</comment>
-  </data>
-  <data name="HashtagSheet_intervalLabel.Text" xml:space="preserve">
-    <value>扫描主题标签的时间间隔</value>
-    <comment>label</comment>
-  </data>
-  <data name="HashtagSheet_introBox.Text" xml:space="preserve">
-    <value>自定义标签扫描仪服务的高级选项</value>
-    <comment>label</comment>
-  </data>
-  <data name="HashtagSheet_prescheduled" xml:space="preserve">
-    <value>计划于 {0} 进行扫描。使用以下选项更改此设置或按“取消”保留当前计划。</value>
-  </data>
-  <data name="HashtagSheet_resetTooltip" xml:space="preserve">
-    <value>高级：重置升级标志</value>
-    <comment>tooltip</comment>
-  </data>
-  <data name="HashtagSheet_scanNotebooks" xml:space="preserve">
-    <value>安排对新添加的笔记本进行增量扫描</value>
-  </data>
-  <data name="HashtagSheet_scheduleLink.Text" xml:space="preserve">
-    <value>立即安排标签扫描或扫描</value>
-    <comment>link label</comment>
-  </data>
-  <data name="HashtagSheet_styleBox.Text" xml:space="preserve">
-    <value>没有任何
-红色前景
-黄色背景</value>
-    <comment>combobox</comment>
-  </data>
-  <data name="HashtagSheet_styleLabel.Text" xml:space="preserve">
-    <value>应用自定义样式</value>
-    <comment>label</comment>
-  </data>
-  <data name="HashtagSheet_upgradeLink.Text" xml:space="preserve">
-    <value>将页面标签升级为内联主题标签</value>
-    <comment>link</comment>
-  </data>
-  <data name="HashtagSheet_warningLabel.Text" xml:space="preserve">
-    <value>在添加或删除一个或多个笔记本电脑后应使用此功能。 建议在下班后（例如午夜）安排重建。</value>
-    <comment>multiline label</comment>
-  </data>
   <data name="HighlightsSheet_deepRadio.Text" xml:space="preserve">
     <value>深的</value>
     <comment>radio</comment>
@@ -2395,14 +2218,6 @@ OneNote 文件 (*.one)</value>
     <value>公式命令</value>
     <comment>checkbox</comment>
   </data>
-  <data name="RibbonBarSheet_hashtagsIconBox.Text" xml:space="preserve">
-    <value>仅显示主题标签命令的图标</value>
-    <comment>settings dialog, ribbon bar options</comment>
-  </data>
-  <data name="RibbonBarSheet_hashtagsRibbonBox.Text" xml:space="preserve">
-    <value>标签命令</value>
-    <comment>checkbox</comment>
-  </data>
   <data name="RibbonBarSheet_introBox.Text" xml:space="preserve">
     <value>选择可选的预设分组以添加到功能区栏</value>
     <comment>settings dialog, ribbon bar options</comment>
@@ -2764,10 +2579,6 @@ OneNote 文件 (*.one)</value>
     <value>向下填充所选列的序列（Ctrl + D）</value>
     <comment>ribbon</comment>
   </data>
-  <data name="ribFindHashtagsButton_Label" xml:space="preserve">
-    <value>搜索标签</value>
-    <comment>ribbon references NODUP</comment>
-  </data>
   <data name="ribFitGridToTextButton_Label" xml:space="preserve">
     <value>使网格适合文本</value>
     <comment>ribbon item</comment>
@@ -2775,14 +2586,6 @@ OneNote 文件 (*.one)</value>
   <data name="ribFitGridToTextButton_Screentip" xml:space="preserve">
     <value>调整背景网格大小以匹配常用字体大小</value>
     <comment>ribbon page NODUP</comment>
-  </data>
-  <data name="ribHashtaggerButton_Label" xml:space="preserve">
-    <value>插入主题标签</value>
-    <comment>ribbon search</comment>
-  </data>
-  <data name="ribHashtaggerButton_Screentip" xml:space="preserve">
-    <value>从智能单词和标签列表中进行选择以插入主题标签</value>
-    <comment>ribbon search</comment>
   </data>
   <data name="ribHighlightButton_Label" xml:space="preserve">
     <value>旋转荧光笔</value>
@@ -3430,22 +3233,6 @@ OneNote 文件 (*.one)</value>
     <value>从扫描仪进口</value>
     <comment>file ribbon</comment>
   </data>
-  <data name="ribScanHashtagsButton_Label" xml:space="preserve">
-    <value>扫描标签</value>
-    <comment>ribbon search</comment>
-  </data>
-  <data name="ribScanHashtagsButton_Screentip" xml:space="preserve">
-    <value>立即扫描主题标签</value>
-    <comment>ribbon search</comment>
-  </data>
-  <data name="ribScanHashtagsOnPageButton_Label" xml:space="preserve">
-    <value>扫描此页面上的标签</value>
-    <comment>search menu</comment>
-  </data>
-  <data name="ribScheduleHashtagScanButton_Label" xml:space="preserve">
-    <value>安排标签扫描</value>
-    <comment>palette command</comment>
-  </data>
   <data name="ribSearchAndReplaceButton_Label" xml:space="preserve">
     <value>搜索和替换</value>
     <comment>Ribbon OneMore menu item, search and replace</comment>
@@ -3461,14 +3248,6 @@ OneNote 文件 (*.one)</value>
   <data name="ribSearchButton_Screentip" xml:space="preserve">
     <value>在页面上搜索关键字，然后将其复制/移动到另一部分（Alt + F）</value>
     <comment>ribbon item</comment>
-  </data>
-  <data name="ribSearchHashtagsButton_Label" xml:space="preserve">
-    <value>搜索标签</value>
-    <comment>ribbon search</comment>
-  </data>
-  <data name="ribSearchHashtagsButton_Screentip" xml:space="preserve">
-    <value>搜索主题标签</value>
-    <comment>ribbon search</comment>
   </data>
   <data name="ribSearchMenu_Label" xml:space="preserve">
     <value>搜索和标签</value>
@@ -3782,48 +3561,6 @@ OneNote 文件 (*.one)</value>
   <data name="ScanDialog_sizeLabel.Text" xml:space="preserve">
     <value>尺寸</value>
     <comment>label</comment>
-  </data>
-  <data name="ScanningCueFile" xml:space="preserve">
-    <value>HashtagScanner.json</value>
-    <comment>SKIP</comment>
-  </data>
-  <data name="ScheduleScanDialog_booksInfoLabel.Text" xml:space="preserve">
-    <value>选择笔记本以安排完整的恢复</value>
-    <comment>label</comment>
-  </data>
-  <data name="ScheduleScanDialog_hintLabel.Text" xml:space="preserve">
-    <value>最好将扫描安排在非工作时间，例如午夜</value>
-    <comment>label</comment>
-  </data>
-  <data name="ScheduleScanDialog_introBox.Text" xml:space="preserve">
-    <value>主题标签目录尚未创建。在下面选择 OneMore 何时应构建目录。</value>
-    <comment>multilinelabel</comment>
-  </data>
-  <data name="ScheduleScanDialog_laterRadio.Text" xml:space="preserve">
-    <value>安排稍后扫描</value>
-    <comment>radio</comment>
-  </data>
-  <data name="ScheduleScanDialog_neverScanned" xml:space="preserve">
-    <value>从不扫描或没有标签</value>
-    <comment>label</comment>
-  </data>
-  <data name="ScheduleScanDialog_nowRadio.Text" xml:space="preserve">
-    <value>立即运行扫描</value>
-    <comment>radio</comment>
-  </data>
-  <data name="ScheduleScanDialog_nowWarning" xml:space="preserve">
-    <value>主题标签扫描可能会导致使用 OneNote 时响应速度变慢，或者在扫描完成之前无法重新启动 OneNote。
-
-您确定要立即运行扫描吗</value>
-    <comment>message box</comment>
-  </data>
-  <data name="ScheduleScanDialog_Title" xml:space="preserve">
-    <value>安排标签扫描</value>
-    <comment>dialog title</comment>
-  </data>
-  <data name="ScheduleScanDialog_warningLabel.Text" xml:space="preserve">
-    <value>扫描时 OneNote 可能会显得缓慢。如果在扫描过程中 OneNote 关闭，则在扫描完成之前无法打开它。</value>
-    <comment>multiline label</comment>
   </data>
   <data name="ScopeSelector_pageButton.Text" xml:space="preserve">
     <value>这一页</value>
@@ -4626,9 +4363,6 @@ OneNote 文件 (*.one)</value>
   </data>
   <data name="word_Grayscale" xml:space="preserve">
     <value>灰度</value>
-  </data>
-  <data name="word_Hashtags" xml:space="preserve">
-    <value>标签</value>
   </data>
   <data name="word_History" xml:space="preserve">
     <value>历史</value>
