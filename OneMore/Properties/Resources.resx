@@ -1488,92 +1488,9 @@ Do you want to refresh the existing page?</value>
     <value>Rename Style</value>
     <comment>dialog title</comment>
   </data>
-  <data name="NavigatorSheet_corrallBox.Text" xml:space="preserve">
-    <value>Restrict the Navigator window to the active screen</value>
-    <comment>checkbox</comment>
-  </data>
-  <data name="NavigatorSheet_corrallBox_disabled" xml:space="preserve">
-    <value>Not available</value>
-    <comment>tooltip</comment>
-  </data>
-  <data name="NavigatorSheet_depthLabel.Text" xml:space="preserve">
-    <value>Max length of stored history</value>
-    <comment>label</comment>
-  </data>
-  <data name="NavigatorSheet_disabledBox.Text" xml:space="preserve">
-    <value>Disable the navigation service. This will render the Navigator window inoperaable.</value>
-    <comment>checkbox</comment>
-  </data>
-  <data name="NavigatorSheet_elevateBox.Text" xml:space="preserve">
-    <value>Elevate Navigator when OneNote is elevated</value>
-    <comment>checkbox</comment>
-  </data>
-  <data name="NavigatorSheet_hidePinnedBox.Text" xml:space="preserve">
-    <value>Hide the My Reading List panel</value>
-    <comment>checkbox</comment>
-  </data>
-  <data name="NavigatorSheet_intervalLabel.Text" xml:space="preserve">
-    <value>Min read time before adding to history</value>
-    <comment>label</comment>
-  </data>
-  <data name="NavigatorSheet_introBox.Text" xml:space="preserve">
-    <value>Customize advanced options for the Navigator Service</value>
-    <comment>label</comment>
-  </data>
-  <data name="NavigatorSheet_quickBox.Text" xml:space="preserve">
-    <value>Track Quick Notes</value>
-    <comment>checkbox</comment>
-  </data>
-  <data name="NavigatorWindow_confirmDelete" xml:space="preserve">
-    <value>Are you sure you want to delete the {0} selected records?</value>
-    <comment>messagebox</comment>
-  </data>
-  <data name="NavigatorWindow_copyTooltip" xml:space="preserve">
-    <value>Copy selected items to the clipboard</value>
-    <comment>button tooltip</comment>
-  </data>
-  <data name="NavigatorWindow_deleteHistoryButton_Tooltip" xml:space="preserve">
-    <value>Delete selected items from the History list</value>
-    <comment>tooltip</comment>
-  </data>
-  <data name="NavigatorWindow_disabled" xml:space="preserve">
-    <value>The navigation service is disabled. Open Settings to enable the service.</value>
-    <comment>message</comment>
-  </data>
-  <data name="NavigatorWindow_downButton_Tooltip" xml:space="preserve">
-    <value>Move selected items down</value>
-    <comment>tooltip</comment>
-  </data>
-  <data name="NavigatorWindow_pinButton_Tooltip" xml:space="preserve">
-    <value>Add selected items to My Reading List</value>
-    <comment>tooltip</comment>
-  </data>
-  <data name="NavigatorWindow_pinnedHeadLabel.Text" xml:space="preserve">
-    <value>My Reading List</value>
-  </data>
-  <data name="NavigatorWindow_refreshButton_Tooltip" xml:space="preserve">
-    <value>Refresh headings from current page (F5)</value>
-    <comment>tooltip</comment>
-  </data>
-  <data name="NavigatorWindow_Text" xml:space="preserve">
-    <value>Navigator Window</value>
-    <comment>window title</comment>
-  </data>
-  <data name="NavigatorWindow_unpinButton_Tooltip" xml:space="preserve">
-    <value>Remove selected items from My Reading List</value>
-    <comment>tooltip</comment>
-  </data>
-  <data name="NavigatorWindow_upButton_Tooltip" xml:space="preserve">
-    <value>Move selected items up</value>
-    <comment>tooltip</comment>
-  </data>
   <data name="NetwordConnectionUnavailable" xml:space="preserve">
     <value>Network connection is not available</value>
     <comment>error</comment>
-  </data>
-  <data name="NextUnreadPageCommand_nomore" xml:space="preserve">
-    <value>No unread pages found in that direction</value>
-    <comment>message</comment>
   </data>
   <data name="NumberingPage_Message" xml:space="preserve">
     <value>Numbering page {0}</value>
@@ -2058,16 +1975,6 @@ Yellow Highlight</value>
   <data name="RemoveDuplicatesDialog_simpleRadio.Text" xml:space="preserve">
     <value>Simple text (quick)</value>
     <comment>radio</comment>
-  </data>
-  <data name="RemoveDuplicatesNavigator_confirm1" xml:space="preserve">
-    <value>Are you sure you want to delete the selected page?</value>
-  </data>
-  <data name="RemoveDuplicatesNavigator_confirmAll" xml:space="preserve">
-    <value>Are you sure you want to delete the {0} selected pages?</value>
-  </data>
-  <data name="RemoveDuplicatesNavigator_pagesSimilarTo" xml:space="preserve">
-    <value>Pages similar to {0}</value>
-    <comment>listview group title</comment>
   </data>
   <data name="RemoveEmptyCommand_option" xml:space="preserve">
     <value>Remove all empty lines?
@@ -2873,14 +2780,6 @@ Help Tab</value>
     <value>Move selected pages to top of list</value>
     <comment>ribbon page</comment>
   </data>
-  <data name="ribNavigatorButton_Label" xml:space="preserve">
-    <value>Navigator</value>
-    <comment>ribbon main NODUP</comment>
-  </data>
-  <data name="ribNavigatorButton_Screentip" xml:space="preserve">
-    <value>Open the OneMore Navigator window</value>
-    <comment>ribbon main</comment>
-  </data>
   <data name="ribNewStyleButton_Label" xml:space="preserve">
     <value>Create New Style from Text</value>
     <comment>ribbon styles</comment>
@@ -2888,14 +2787,6 @@ Help Tab</value>
   <data name="ribNewStyleButton_Screentip" xml:space="preserve">
     <value>Create a new style from the current selection</value>
     <comment>ribbon styles</comment>
-  </data>
-  <data name="ribNextUnreadPageButton_Label" xml:space="preserve">
-    <value>Next Unread Page</value>
-    <comment>ribbon search</comment>
-  </data>
-  <data name="ribNextUnreadPageButton_Screentip" xml:space="preserve">
-    <value>Move to the next unread page</value>
-    <comment>ribbon search</comment>
   </data>
   <data name="ribNoSpellCheckButton_Screentip" xml:space="preserve">
     <value>Disable spell check for entire page (F4)</value>
@@ -3033,10 +2924,6 @@ Help Tab</value>
     <value>Paste and Keep Text Only (Ctrl + Shift + V)</value>
     <comment>ribbon edit</comment>
   </data>
-  <data name="ribPinPageButton_Label" xml:space="preserve">
-    <value>Add Page To My Reading List</value>
-    <comment>navigator</comment>
-  </data>
   <data name="ribPlantUmlButton_Label" xml:space="preserve">
     <value>Draw PlantUML</value>
     <comment>ribbon images</comment>
@@ -3064,14 +2951,6 @@ Help Tab</value>
   <data name="ribPreviewMarkdownButton_Screentip" xml:space="preserve">
     <value>Preview page or selected text as markdown</value>
     <comment>ribbon edit</comment>
-  </data>
-  <data name="ribPreviousUnreadPageButton_Label" xml:space="preserve">
-    <value>Previous Unread Page</value>
-    <comment>ribbon search</comment>
-  </data>
-  <data name="ribPreviousUnreadPageButton_Screentip" xml:space="preserve">
-    <value>Move to the previous unread page</value>
-    <comment>ribbon search</comment>
   </data>
   <data name="ribProofingMenu_Label" xml:space="preserve">
     <value>Proofing Language</value>
@@ -4377,9 +4256,6 @@ Invert</value>
   <data name="word_Name" xml:space="preserve">
     <value>Name</value>
   </data>
-  <data name="word_Navigator" xml:space="preserve">
-    <value>Navigator</value>
-  </data>
   <data name="word_No" xml:space="preserve">
     <value>No</value>
   </data>
@@ -4532,9 +4408,6 @@ Invert</value>
   </data>
   <data name="ribInsertWarnBoxButton" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\ribbon\images\ribinsertwarnboxbutton.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="ribNavigatorButton" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\ribbon\images\ribnavigatorbutton.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="e_Architecture" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>Emoji\e_Architecture.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>

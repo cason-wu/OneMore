@@ -1486,92 +1486,9 @@ OneNote 文件 (*.one)</value>
     <value>重命名风格</value>
     <comment>dialog title</comment>
   </data>
-  <data name="NavigatorSheet_corrallBox.Text" xml:space="preserve">
-    <value>将导航器窗口限制为活动屏幕</value>
-    <comment>checkbox</comment>
-  </data>
-  <data name="NavigatorSheet_corrallBox_disabled" xml:space="preserve">
-    <value>无法使用</value>
-    <comment>tooltip</comment>
-  </data>
-  <data name="NavigatorSheet_depthLabel.Text" xml:space="preserve">
-    <value>存储历史的最大长度</value>
-    <comment>label</comment>
-  </data>
-  <data name="NavigatorSheet_disabledBox.Text" xml:space="preserve">
-    <value>禁用导航服务。这将使导航器窗口无法操作。</value>
-    <comment>checkbox</comment>
-  </data>
-  <data name="NavigatorSheet_elevateBox.Text" xml:space="preserve">
-    <value>升高时提升导航器</value>
-    <comment>checkbox</comment>
-  </data>
-  <data name="NavigatorSheet_hidePinnedBox.Text" xml:space="preserve">
-    <value>隐藏“我的阅读列表”面板</value>
-    <comment>checkbox</comment>
-  </data>
-  <data name="NavigatorSheet_intervalLabel.Text" xml:space="preserve">
-    <value>添加到历史记录之前的最小阅读时间</value>
-    <comment>label</comment>
-  </data>
-  <data name="NavigatorSheet_introBox.Text" xml:space="preserve">
-    <value>自定义 Navigator 服务的高级选项</value>
-    <comment>label</comment>
-  </data>
-  <data name="NavigatorSheet_quickBox.Text" xml:space="preserve">
-    <value>追踪快速笔记</value>
-    <comment>checkbox</comment>
-  </data>
-  <data name="NavigatorWindow_confirmDelete" xml:space="preserve">
-    <value>您确定要删除所选的 {0} 条记录吗？</value>
-    <comment>messagebox</comment>
-  </data>
-  <data name="NavigatorWindow_copyTooltip" xml:space="preserve">
-    <value>将所选项目复制到剪贴板</value>
-    <comment>button tooltip</comment>
-  </data>
-  <data name="NavigatorWindow_deleteHistoryButton_Tooltip" xml:space="preserve">
-    <value>从历史记录列表中删除选定的项目</value>
-    <comment>tooltip</comment>
-  </data>
-  <data name="NavigatorWindow_disabled" xml:space="preserve">
-    <value>导航服务被禁用。打开设置以启用该服务。</value>
-    <comment>message</comment>
-  </data>
-  <data name="NavigatorWindow_downButton_Tooltip" xml:space="preserve">
-    <value>向下移动所选项目</value>
-    <comment>tooltip</comment>
-  </data>
-  <data name="NavigatorWindow_pinButton_Tooltip" xml:space="preserve">
-    <value>将所选项目添加到我的阅读列表</value>
-    <comment>tooltip</comment>
-  </data>
-  <data name="NavigatorWindow_pinnedHeadLabel.Text" xml:space="preserve">
-    <value>我的阅读清单</value>
-  </data>
-  <data name="NavigatorWindow_refreshButton_Tooltip" xml:space="preserve">
-    <value>刷新当前页面的标题 (F5)</value>
-    <comment>tooltip</comment>
-  </data>
-  <data name="NavigatorWindow_Text" xml:space="preserve">
-    <value>导航窗口</value>
-    <comment>window title</comment>
-  </data>
-  <data name="NavigatorWindow_unpinButton_Tooltip" xml:space="preserve">
-    <value>从我的阅读列表中删除所选项目</value>
-    <comment>tooltip</comment>
-  </data>
-  <data name="NavigatorWindow_upButton_Tooltip" xml:space="preserve">
-    <value>上移所选项目</value>
-    <comment>tooltip</comment>
-  </data>
   <data name="NetwordConnectionUnavailable" xml:space="preserve">
     <value>网络连接不可用</value>
     <comment>error</comment>
-  </data>
-  <data name="NextUnreadPageCommand_nomore" xml:space="preserve">
-    <value>在该方向没有找到未读页面</value>
-    <comment>message</comment>
   </data>
   <data name="NumberingPage_Message" xml:space="preserve">
     <value>编号页{0}</value>
@@ -2052,16 +1969,6 @@ OneNote 文件 (*.one)</value>
   </data>
   <data name="RemoveDuplicatesDialog_simpleRadio.Text" xml:space="preserve">
     <value>简单文本（快速）</value>
-  </data>
-  <data name="RemoveDuplicatesNavigator_confirm1" xml:space="preserve">
-    <value>您确定要删除所选页面吗？</value>
-  </data>
-  <data name="RemoveDuplicatesNavigator_confirmAll" xml:space="preserve">
-    <value>您确定要删除{0}所选页面吗？</value>
-  </data>
-  <data name="RemoveDuplicatesNavigator_pagesSimilarTo" xml:space="preserve">
-    <value>类似于{0}的页面</value>
-    <comment>listview group title</comment>
   </data>
   <data name="RemoveEmptyCommand_option" xml:space="preserve">
     <value>删除所有空行？
@@ -2867,14 +2774,6 @@ OneNote 文件 (*.one)</value>
     <value>将选定的页面移至列表顶部</value>
     <comment>ribbon page</comment>
   </data>
-  <data name="ribNavigatorButton_Label" xml:space="preserve">
-    <value>导航</value>
-    <comment>ribbon main</comment>
-  </data>
-  <data name="ribNavigatorButton_Screentip" xml:space="preserve">
-    <value>打开 OneMore 导航器窗口</value>
-    <comment>ribbon main</comment>
-  </data>
   <data name="ribNewStyleButton_Label" xml:space="preserve">
     <value>从文本创建新样式</value>
     <comment>ribbon styles</comment>
@@ -2882,14 +2781,6 @@ OneNote 文件 (*.one)</value>
   <data name="ribNewStyleButton_Screentip" xml:space="preserve">
     <value>从当前选择创建新样式</value>
     <comment>ribbon styles</comment>
-  </data>
-  <data name="ribNextUnreadPageButton_Label" xml:space="preserve">
-    <value>下一个未读页</value>
-    <comment>ribbon search</comment>
-  </data>
-  <data name="ribNextUnreadPageButton_Screentip" xml:space="preserve">
-    <value>移至下一个未读页面</value>
-    <comment>ribbon search</comment>
   </data>
   <data name="ribNoSpellCheckButton_Screentip" xml:space="preserve">
     <value>禁用整个页面的拼写检查 (F4)</value>
@@ -3026,10 +2917,6 @@ OneNote 文件 (*.one)</value>
     <value>粘贴并只保留文本（Ctrl + Shift + V）</value>
     <comment>ribbon item</comment>
   </data>
-  <data name="ribPinPageButton_Label" xml:space="preserve">
-    <value>将页面添加到我的阅读列表</value>
-    <comment>navigator</comment>
-  </data>
   <data name="ribPlantUmlButton_Label" xml:space="preserve">
     <value>画PlantUML</value>
     <comment>ribbon images</comment>
@@ -3057,14 +2944,6 @@ OneNote 文件 (*.one)</value>
   <data name="ribPreviewMarkdownButton_Screentip" xml:space="preserve">
     <value>以 Markdown 形式预览页面或所选文本</value>
     <comment>ribbon edit</comment>
-  </data>
-  <data name="ribPreviousUnreadPageButton_Label" xml:space="preserve">
-    <value>上一页未读页</value>
-    <comment>ribbon search</comment>
-  </data>
-  <data name="ribPreviousUnreadPageButton_Screentip" xml:space="preserve">
-    <value>移至上一个未读页面</value>
-    <comment>ribbon search</comment>
   </data>
   <data name="ribProofingMenu_Label" xml:space="preserve">
     <value>校对语言</value>
@@ -4371,9 +4250,6 @@ OneNote 文件 (*.one)</value>
   </data>
   <data name="word_Name" xml:space="preserve">
     <value>名称</value>
-  </data>
-  <data name="word_Navigator" xml:space="preserve">
-    <value>导航</value>
   </data>
   <data name="word_No" xml:space="preserve">
     <value>否</value>
