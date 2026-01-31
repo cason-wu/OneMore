@@ -2118,14 +2118,6 @@ OneNote 文件 (*.one)</value>
     <value>为所选图像添加说明</value>
     <comment>ribbon images</comment>
   </data>
-  <data name="ribAddTagBankButton_Label" xml:space="preserve">
-    <value>添加标签库</value>
-    <comment>ribbon search</comment>
-  </data>
-  <data name="ribAddTagBankButton_Screentip" xml:space="preserve">
-    <value>添加页面顶部标签轮廓</value>
-    <comment>ribbon search</comment>
-  </data>
   <data name="ribAdjustImagesButton_Label" xml:space="preserve">
     <value>调整大小和调整</value>
     <comment>Ribbon OneMore menu item, Resize selected image(s)</comment>
@@ -3162,14 +3154,6 @@ OneNote 文件 (*.one)</value>
     <value>删除段落，标题和行间距</value>
     <comment>Ribbon OneMore menu item, Clean...</comment>
   </data>
-  <data name="ribRemoveTagBankButton_Label" xml:space="preserve">
-    <value>删除标签库</value>
-    <comment>ribbon search</comment>
-  </data>
-  <data name="ribRemoveTagBankButton_Screentip" xml:space="preserve">
-    <value>删除页面顶部标签轮廓</value>
-    <comment>ribbon search</comment>
-  </data>
   <data name="ribRemoveTagsButton_Label" xml:space="preserve">
     <value>移除标签</value>
     <comment>ribbon item</comment>
@@ -4132,10 +4116,6 @@ OneNote 文件 (*.one)</value>
   <data name="TabOneMore_Label" xml:space="preserve">
     <value>多一</value>
     <comment>ribbon</comment>
-  </data>
-  <data name="TagBankCommand_confirm" xml:space="preserve">
-    <value>标签库包含文本。您确定要删除它吗？</value>
-    <comment>messagebox</comment>
   </data>
   <data name="TextToTable_NoText" xml:space="preserve">
     <value>没有选择文字</value>
